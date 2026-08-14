@@ -1,0 +1,75 @@
+policy_name: "AdaptLab v0.0 Evaluation Precommitment"
+policy_version: "1"
+benchmark_version: "0.0.0"
+status: "PRECOMMITTED_BEFORE_MODEL_RESULTS"
+
+prompt_budget:
+  max_candidate_templates_per_task_family: 8
+  max_total_candidate_templates: 32
+  max_few_shot_examples: 5
+
+prompt_selection_procedure:
+  selection_split: "validation"
+  primary_objective: "overall_primary_metric"
+  tie_breakers:
+    - "lower_prompt_token_count"
+    - "lexicographically_smaller_prompt_id"
+  test_set_access_during_selection: false
+  sentinel_access_during_selection: false
+
+validation_set_usage_budget:
+  max_full_validation_passes_per_method: 20
+  max_validation_passes_per_candidate: 1
+  subgroup_analysis_during_selection: "predeclared_only"
+
+allowed_future_prompt_search_space:
+  system_instruction_variants: true
+  task_instruction_variants: true
+  output_format_instruction_variants: true
+  few_shot_counts: [0, 1, 3, 5]
+  example_order_variants: true
+  chain_of_thought_prompting: false
+  benchmark_answer_or_test_content_in_prompts: false
+
+allowed_future_lora_hyperparameter_search_space:
+  ranks: [4, 8, 16]
+  alphas: [8, 16, 32]
+  dropouts: [0.0, 0.05]
+  learning_rates: [0.00001, 0.00002, 0.00005, 0.0001]
+  epochs: [1, 2, 3]
+  target_modules: "architecture_supported_linear_modules_only"
+  quantization_choices: ["none"]
+
+generalization_guardrail:
+  artifact: "generalization_sentinel"
+  maximum_absolute_degradation_percentage_points: 2.0
+  selection_use: "guardrail_only"
+
+minimum_meaningful_improvement:
+  metric: "primary_metric"
+  absolute_percentage_points: 2.0
+
+subgroup_policy:
+  confirmatory:
+    - "task_family"
+    - "difficulty"
+    - "evidence_status"
+    - "knowledge_state"
+    - "split_type"
+  exploratory:
+    - "component_family"
+    - "fact_family"
+    - "behavior_type_x_difficulty"
+  multiplicity_note: "Exploratory subgroup findings do not override the primary confirmatory claim."
+
+architecture_sensitive_retention_rules:
+  compare_adaptation_methods_within_same_base_model: true
+  retain_prompt_choice_across_architectures: false
+  retain_lora_hyperparameters_across_architectures: false
+  retune_only_within_precommitted_search_space: true
+
+canonical_lora_seed_policy:
+  tuning_seed: 1729
+  confirmatory_seeds: [1729, 2718, 31415]
+  canonical_report: "mean_across_confirmatory_seeds"
+  single_seed_claims_allowed: false

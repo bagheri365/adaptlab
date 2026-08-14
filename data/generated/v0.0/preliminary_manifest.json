@@ -1,0 +1,37 @@
+{
+  "artifact_hashes": {
+    "audits/anti_confounding.json": "31ad3d5d4da62a75d13e6cd990ed53cd3d9f7563bf4ffb8e94125289dc1fdc97",
+    "audits/corpus_composition.json": "57907026eadaa04b73dc3e3bb2def24a9871247c4aa9d124c6c6d9d5244592c0",
+    "audits/leakage.json": "38f345c8c00e0729d8b9c1afb86acc712746f9e2fd51309a8242f130cfcfe1a0",
+    "audits/lexical_overlap.json": "18890161991f3a93fa72000e73ea3c6aaa1c38f99dc7f2b07808f649e18284ad",
+    "chunks.json": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+    "documents.json": "72a8a6f5d64684220bcc8dccdba749a7182c1bd7bcac2662d9e629bef2eed97b",
+    "holdout_policy.json": "087ceb7ce2fb3c60023c0ffc3b4aacb847ae4674bd2d3b9ea7a497ca9e538247",
+    "sentinel.json": "e8ad9190525b5cce9119d7bcefc916d342ac04648f449449ddfad650d29a13b2",
+    "test.json": "4b2eeab21498b8fa05c4d0c66f4559b266b162e009a20bbb3021c501e5ee01e9",
+    "train.json": "c2f49ea90cd171089fb7aa50b503d0d738c5471ea9cd8808d06fd0f02aec908f",
+    "training_subsets.json": "cc3a0b45bb9654c958b32d8f71c10d2e288362d2f2cd9771a0e63ec74e12a557",
+    "validation.json": "be0acc82a7592c5fccdfc9129dae028832907983e419b6689a2415eb3c92a8da",
+    "world.json": "cf17144583769c73cfa1162ea0ffe7b5f76ba074c1e438123b1a8de3ba00fc01"
+  },
+  "benchmark_name": "AdaptLab Nimbus Benchmark",
+  "benchmark_version": "0.0.0",
+  "blockers": [],
+  "blocking_issue_count": 0,
+  "candidate_status": "VALID_CANDIDATE",
+  "candidate_version": "0.0.0-candidate.1",
+  "config_hash": "dad728f5df78569d760c29200b84ef9c13074db6317cc0abff08fae60f422366",
+  "counts": {
+    "chunks": 180,
+    "documents": 48,
+    "sentinel": 100,
+    "test": 400,
+    "train": 300,
+    "validation": 150,
+    "world_logical_facts": 64,
+    "world_records": 122
+  },
+  "frozen": false,
+  "generation_seed": 1729,
+  "world_schema_version": "1"
+}

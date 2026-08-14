@@ -17,6 +17,21 @@ from adaptlab.domain.enums import (
 
 @dataclass(frozen=True)
 class BenchmarkExample:
+    """Canonical benchmark example.
+
+    Evidence-count conventions live in ``scoring_parameters`` for the full v0.0
+    generator:
+
+    * ``required_evidence_cardinality`` is the number of distinct gold chunks the
+      model is explicitly required to use for an evidence-present task. It must
+      equal ``len(gold_chunk_ids)`` for the current benchmark constructions.
+    * ``difficulty.retrieval_candidate_count`` is a separate construction metric:
+      the number of relevant or competing retrieval candidates used to create the
+      declared difficulty. It may be larger than the required gold cardinality.
+
+    ``gold_chunk_ids`` is provenance, not a synonym for retrieval-candidate count.
+    """
+
     example_id: str
     benchmark_version: str
     task_family: TaskFamily

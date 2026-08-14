@@ -1,0 +1,27 @@
+{
+  "artifact_type": "benchmark_freeze_decision",
+  "artifact_version": "2",
+  "benchmark_name": "AdaptLab Nimbus Benchmark",
+  "benchmark_version": "0.0.0",
+  "blocking_issue_count": 0,
+  "candidate_status": "VALID_CANDIDATE",
+  "candidate_version": "0.0.0-candidate.1",
+  "decision": "V0_0_BENCHMARK_READY",
+  "generation_seed": 1729,
+  "human_audit": {
+    "complete": true,
+    "correction_required": 0,
+    "failed": 0,
+    "passed": 50,
+    "pending_human_review": 0,
+    "sample_size": 50
+  },
+  "human_audit_path": "data/generated/v0.0/audits/human_audit.json",
+  "human_audit_sha256": "b520dd919109775ab9eeb470bc97f96a92c91b2a1b2e1acb87fbd5b1e6fed028",
+  "intended_git_tag": "v0.0-benchmark",
+  "pending_human_review": 0,
+  "preliminary_manifest_path": "data/generated/v0.0/preliminary_manifest.json",
+  "preliminary_manifest_sha256": "5d94ba352effdab694cf562629ea865a75ebe3cf11fdb2ab5e50b29e505edb46",
+  "ready": true,
+  "reasons": []
+}

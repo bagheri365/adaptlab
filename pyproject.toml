@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Deterministic synthetic benchmark foundation for AdaptLab Milestone 1"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["PyYAML>=6.0"]
 
 [project.scripts]
 adaptlab = "adaptlab.cli.main:main"
@@ -25,3 +25,6 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+markers = [
+    "full_reproducibility: full v0.0 byte-for-byte reproducibility integration tests",
+]

@@ -1,0 +1,48 @@
+benchmark_name: "AdaptLab Nimbus Benchmark"
+benchmark_version: "0.0.0"
+generation_seed: 1729
+world_schema_version: "1"
+
+splits:
+  train: 300
+  validation: 150
+  test: 400
+
+generalization_sentinel:
+  count: 100
+
+test_task_families:
+  behavior_only: 100
+  knowledge_only: 100
+  behavior_knowledge: 100
+  changed_knowledge: 100
+
+test_difficulty:
+  EASY: 120
+  MEDIUM: 160
+  HARD: 120
+
+changed_knowledge:
+  UNCHANGED: 30
+  UPDATED: 40
+  REMOVED: 30
+
+evidence_absent:
+  total: 40
+  knowledge_only: 15
+  behavior_knowledge: 15
+  changed_knowledge: 10
+
+corpus:
+  total_chunks: 180
+  current_authoritative: 90
+  obsolete_versioned: 30
+  competing_near_duplicate: 30
+  domain_distractor: 30
+
+behavior_only_test_behavior_types:
+  SCHEMA_ADHERENCE: 20
+  CONDITIONAL_DECISION_RULE: 20
+  TRANSFORMATION_EXTRACTION: 20
+  CLASSIFICATION_POLICY: 20
+  ABSTENTION_BEHAVIOR: 20

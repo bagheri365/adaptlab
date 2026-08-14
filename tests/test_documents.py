@@ -111,3 +111,97 @@ def test_document_and_chunk_serialization_round_trip() -> None:
 
     assert restored_document == document
     assert restored_chunk == chunk
+
+
+def test_full_corpus_matches_configured_composition() -> None:
+    from adaptlab.benchmark.config import load_benchmark_config
+    from adaptlab.benchmark.generate_docs import generate_full_documents, summarize_corpus
+    from adaptlab.benchmark.generate_world import generate_full_world
+
+    config = load_benchmark_config()
+    world = generate_full_world(config)
+    documents, chunks = generate_full_documents(world, config)
+    report = summarize_corpus(documents, chunks)
+
+    assert report.total_chunks == config.corpus.total_chunks == 180
+    assert report.current_authoritative == config.corpus.current_authoritative == 90
+    assert report.obsolete_versioned == config.corpus.obsolete_versioned == 30
+    assert report.competing_near_duplicate == config.corpus.competing_near_duplicate == 30
+    assert report.domain_distractor == config.corpus.domain_distractor == 30
+    assert [doc.document_id for doc in documents] == sorted(doc.document_id for doc in documents)
+    assert [chunk.chunk_id for chunk in chunks] == sorted(chunk.chunk_id for chunk in chunks)
+
+
+def test_full_corpus_provenance_and_category_semantics() -> None:
+    from adaptlab.benchmark.config import load_benchmark_config
+    from adaptlab.benchmark.generate_docs import generate_full_documents
+    from adaptlab.benchmark.generate_world import generate_full_world
+
+    config = load_benchmark_config()
+    world = generate_full_world(config)
+    documents, chunks = generate_full_documents(world, config)
+    record_ids = {fact.record_id for fact in world.facts}
+    logical_ids = {fact.logical_fact_id for fact in world.facts}
+    doc_ids = {doc.document_id for doc in documents}
+
+    assert {doc.document_style for doc in documents} == set(DocumentStyle)
+    for chunk in chunks:
+        assert chunk.document_id in doc_ids
+        assert set(chunk.record_ids) <= record_ids
+        assert set(chunk.logical_fact_ids) <= logical_ids
+        if chunk.chunk_id.startswith("CHK_CUR_"):
+            assert chunk.is_authoritative and not chunk.is_obsolete
+            assert chunk.version == "v2"
+            assert chunk.record_ids
+        elif chunk.chunk_id.startswith("CHK_OBS_"):
+            assert not chunk.is_authoritative and chunk.is_obsolete
+            assert chunk.version == "v1"
+            assert "OBSOLETE" in chunk.content
+        elif chunk.chunk_id.startswith("CHK_CMP_"):
+            assert not chunk.is_authoritative and not chunk.is_obsolete
+            assert chunk.version == "v2"
+            assert chunk.record_ids
+        elif chunk.chunk_id.startswith("CHK_DST_"):
+            assert not chunk.is_authoritative and not chunk.is_obsolete
+            assert chunk.record_ids == ()
+            assert chunk.logical_fact_ids == ()
+        else:
+            raise AssertionError(f"unexpected full-corpus chunk: {chunk.chunk_id}")
+
+
+def test_full_corpus_generation_is_deterministic_and_non_one_to_one() -> None:
+    from collections import Counter
+
+    from adaptlab.benchmark.config import load_benchmark_config
+    from adaptlab.benchmark.generate_docs import generate_full_documents
+    from adaptlab.benchmark.generate_world import generate_full_world
+
+    config = load_benchmark_config()
+    world = generate_full_world(config)
+    docs_a, chunks_a = generate_full_documents(world, config)
+    docs_b, chunks_b = generate_full_documents(world, config)
+
+    assert _serialized(docs_a) == _serialized(docs_b)
+    assert _serialized(chunks_a) == _serialized(chunks_b)
+
+    current_reference_counts = Counter(
+        record_id
+        for chunk in chunks_a
+        if chunk.chunk_id.startswith("CHK_CUR_")
+        for record_id in chunk.record_ids
+    )
+    assert max(current_reference_counts.values()) >= 2
+    assert any(len(chunk.record_ids) > 1 for chunk in chunks_a if chunk.chunk_id.startswith("CHK_CUR_"))
+
+
+def test_full_corpus_report_is_deterministic() -> None:
+    from adaptlab.benchmark.config import load_benchmark_config
+    from adaptlab.benchmark.generate_docs import generate_full_documents, summarize_corpus
+    from adaptlab.benchmark.generate_world import generate_full_world
+
+    config = load_benchmark_config()
+    world = generate_full_world(config)
+    docs, chunks = generate_full_documents(world, config)
+    first = summarize_corpus(docs, chunks).to_dict()
+    second = summarize_corpus(list(reversed(docs)), list(reversed(chunks))).to_dict()
+    assert first == second

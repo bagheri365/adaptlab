@@ -1,0 +1,1822 @@
+[
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_001",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=21. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 21
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_002",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=30. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 30
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_003",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=39. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 39
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_004",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=48. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 48
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_005",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=57. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 57
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_006",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=66. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 66
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_007",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=75. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 75
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_008",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=84. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 84
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_009",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=93. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 93
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_010",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=1. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 1
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_011",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=10. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 10
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_012",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=19. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 19
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_013",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=28. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 28
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_014",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=37. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 37
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_015",
+    "expected_output": "LOW",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=46. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 46
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_016",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=55. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 55
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_017",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=64. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 64
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_018",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=73. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 73
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_019",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=82. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 82
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_020",
+    "expected_output": "HIGH",
+    "generation_seed": 1729,
+    "question": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=91. Answer only HIGH or LOW.",
+    "scoring_parameters": {
+      "false_output": "LOW",
+      "operator": "gte",
+      "threshold": 50,
+      "true_output": "HIGH",
+      "value": 91
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_001",
+    "expected_output": [
+      "Q246",
+      "Q249",
+      "Q253"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q246, ignore note alpha, compare Q249, then close Q253.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q246",
+        "Q249",
+        "Q253"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_002",
+    "expected_output": [
+      "Q263",
+      "Q266",
+      "Q270"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q263, ignore note alpha, compare Q266, then close Q270.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q263",
+        "Q266",
+        "Q270"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_003",
+    "expected_output": [
+      "Q280",
+      "Q283",
+      "Q287"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q280, ignore note alpha, compare Q283, then close Q287.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q280",
+        "Q283",
+        "Q287"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_004",
+    "expected_output": [
+      "Q297",
+      "Q300",
+      "Q304"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q297, ignore note alpha, compare Q300, then close Q304.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q297",
+        "Q300",
+        "Q304"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_005",
+    "expected_output": [
+      "Q314",
+      "Q317",
+      "Q321"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q314, ignore note alpha, compare Q317, then close Q321.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q314",
+        "Q317",
+        "Q321"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_006",
+    "expected_output": [
+      "Q331",
+      "Q334",
+      "Q338"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q331, ignore note alpha, compare Q334, then close Q338.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q331",
+        "Q334",
+        "Q338"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_007",
+    "expected_output": [
+      "Q348",
+      "Q351",
+      "Q355"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q348, ignore note alpha, compare Q351, then close Q355.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q348",
+        "Q351",
+        "Q355"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_008",
+    "expected_output": [
+      "Q365",
+      "Q368",
+      "Q372"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q365, ignore note alpha, compare Q368, then close Q372.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q365",
+        "Q368",
+        "Q372"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_009",
+    "expected_output": [
+      "Q382",
+      "Q385",
+      "Q389"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q382, ignore note alpha, compare Q385, then close Q389.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q382",
+        "Q385",
+        "Q389"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_010",
+    "expected_output": [
+      "Q399",
+      "Q402",
+      "Q406"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q399, ignore note alpha, compare Q402, then close Q406.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q399",
+        "Q402",
+        "Q406"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_011",
+    "expected_output": [
+      "Q416",
+      "Q419",
+      "Q423"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q416, ignore note alpha, compare Q419, then close Q423.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q416",
+        "Q419",
+        "Q423"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_012",
+    "expected_output": [
+      "Q433",
+      "Q436",
+      "Q440"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q433, ignore note alpha, compare Q436, then close Q440.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q433",
+        "Q436",
+        "Q440"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_013",
+    "expected_output": [
+      "Q450",
+      "Q453",
+      "Q457"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q450, ignore note alpha, compare Q453, then close Q457.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q450",
+        "Q453",
+        "Q457"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_014",
+    "expected_output": [
+      "Q467",
+      "Q470",
+      "Q474"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q467, ignore note alpha, compare Q470, then close Q474.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q467",
+        "Q470",
+        "Q474"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_015",
+    "expected_output": [
+      "Q484",
+      "Q487",
+      "Q491"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q484, ignore note alpha, compare Q487, then close Q491.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q484",
+        "Q487",
+        "Q491"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_016",
+    "expected_output": [
+      "Q501",
+      "Q504",
+      "Q508"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q501, ignore note alpha, compare Q504, then close Q508.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q501",
+        "Q504",
+        "Q508"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_017",
+    "expected_output": [
+      "Q518",
+      "Q521",
+      "Q525"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q518, ignore note alpha, compare Q521, then close Q525.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q518",
+        "Q521",
+        "Q525"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_018",
+    "expected_output": [
+      "Q535",
+      "Q538",
+      "Q542"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q535, ignore note alpha, compare Q538, then close Q542.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q535",
+        "Q538",
+        "Q542"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_019",
+    "expected_output": [
+      "Q552",
+      "Q555",
+      "Q559"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q552, ignore note alpha, compare Q555, then close Q559.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q552",
+        "Q555",
+        "Q559"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_020",
+    "expected_output": [
+      "Q569",
+      "Q572",
+      "Q576"
+    ],
+    "generation_seed": 1729,
+    "question": "Extract the Q-codes from this sentence in appearance order: 'Archive Q569, ignore note alpha, compare Q572, then close Q576.' Return only the list of codes.",
+    "scoring_parameters": {
+      "items": [
+        "Q569",
+        "Q572",
+        "Q576"
+      ],
+      "mode": "literal_list"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_001",
+    "expected_output": {
+      "name": "Ada",
+      "score": 40
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ada; score=40' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ada",
+        "score": 40
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_002",
+    "expected_output": {
+      "name": "Lin",
+      "score": 51
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Lin; score=51' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Lin",
+        "score": 51
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_003",
+    "expected_output": {
+      "name": "Mira",
+      "score": 62
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Mira; score=62' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Mira",
+        "score": 62
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_004",
+    "expected_output": {
+      "name": "Owen",
+      "score": 73
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Owen; score=73' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Owen",
+        "score": 73
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_005",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 84
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ravi; score=84' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ravi",
+        "score": 84
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_006",
+    "expected_output": {
+      "name": "Ada",
+      "score": 95
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ada; score=95' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ada",
+        "score": 95
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_007",
+    "expected_output": {
+      "name": "Lin",
+      "score": 16
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Lin; score=16' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Lin",
+        "score": 16
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_008",
+    "expected_output": {
+      "name": "Mira",
+      "score": 27
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Mira; score=27' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Mira",
+        "score": 27
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_009",
+    "expected_output": {
+      "name": "Owen",
+      "score": 38
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Owen; score=38' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Owen",
+        "score": 38
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_010",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 49
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ravi; score=49' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ravi",
+        "score": 49
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_011",
+    "expected_output": {
+      "name": "Ada",
+      "score": 60
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ada; score=60' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ada",
+        "score": 60
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_012",
+    "expected_output": {
+      "name": "Lin",
+      "score": 71
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Lin; score=71' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Lin",
+        "score": 71
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_013",
+    "expected_output": {
+      "name": "Mira",
+      "score": 82
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Mira; score=82' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Mira",
+        "score": 82
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_014",
+    "expected_output": {
+      "name": "Owen",
+      "score": 93
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Owen; score=93' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Owen",
+        "score": 93
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_015",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 14
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ravi; score=14' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ravi",
+        "score": 14
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_016",
+    "expected_output": {
+      "name": "Ada",
+      "score": 25
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ada; score=25' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ada",
+        "score": 25
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_017",
+    "expected_output": {
+      "name": "Lin",
+      "score": 36
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Lin; score=36' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Lin",
+        "score": 36
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_018",
+    "expected_output": {
+      "name": "Mira",
+      "score": 47
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Mira; score=47' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Mira",
+        "score": 47
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_019",
+    "expected_output": {
+      "name": "Owen",
+      "score": 58
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Owen; score=58' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Owen",
+        "score": 58
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_020",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 69
+    },
+    "generation_seed": 1729,
+    "question": "Convert 'name=Ravi; score=69' to JSON with keys name and score, preserving score as an integer.",
+    "scoring_parameters": {
+      "mode": "literal_object",
+      "value": {
+        "name": "Ravi",
+        "score": 69
+      }
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_001",
+    "expected_output": "orbit,orbit,orbit",
+    "generation_seed": 1729,
+    "question": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "orbit"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_002",
+    "expected_output": "violet",
+    "generation_seed": 1729,
+    "question": "Return the word 'violet' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "violet"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_003",
+    "expected_output": "marble,marble",
+    "generation_seed": 1729,
+    "question": "Return the word 'marble' exactly 2 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 2,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "marble"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_004",
+    "expected_output": "copper,copper,copper",
+    "generation_seed": 1729,
+    "question": "Return the word 'copper' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "copper"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_005",
+    "expected_output": "cedar",
+    "generation_seed": 1729,
+    "question": "Return the word 'cedar' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "cedar"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_006",
+    "expected_output": "glass,glass",
+    "generation_seed": 1729,
+    "question": "Return the word 'glass' exactly 2 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 2,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "glass"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_007",
+    "expected_output": "orbit,orbit,orbit",
+    "generation_seed": 1729,
+    "question": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "orbit"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_008",
+    "expected_output": "violet",
+    "generation_seed": 1729,
+    "question": "Return the word 'violet' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "violet"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_009",
+    "expected_output": "marble,marble",
+    "generation_seed": 1729,
+    "question": "Return the word 'marble' exactly 2 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 2,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "marble"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_010",
+    "expected_output": "copper,copper,copper",
+    "generation_seed": 1729,
+    "question": "Return the word 'copper' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "copper"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_011",
+    "expected_output": "cedar",
+    "generation_seed": 1729,
+    "question": "Return the word 'cedar' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "cedar"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_012",
+    "expected_output": "glass,glass",
+    "generation_seed": 1729,
+    "question": "Return the word 'glass' exactly 2 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 2,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "glass"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_013",
+    "expected_output": "orbit,orbit,orbit",
+    "generation_seed": 1729,
+    "question": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "orbit"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_014",
+    "expected_output": "violet",
+    "generation_seed": 1729,
+    "question": "Return the word 'violet' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "violet"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_015",
+    "expected_output": "marble,marble",
+    "generation_seed": 1729,
+    "question": "Return the word 'marble' exactly 2 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 2,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "marble"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_016",
+    "expected_output": "copper,copper,copper",
+    "generation_seed": 1729,
+    "question": "Return the word 'copper' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "copper"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_017",
+    "expected_output": "cedar",
+    "generation_seed": 1729,
+    "question": "Return the word 'cedar' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "cedar"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_018",
+    "expected_output": "glass,glass",
+    "generation_seed": 1729,
+    "question": "Return the word 'glass' exactly 2 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 2,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "glass"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_019",
+    "expected_output": "orbit,orbit,orbit",
+    "generation_seed": 1729,
+    "question": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 3,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "orbit"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_020",
+    "expected_output": "violet",
+    "generation_seed": 1729,
+    "question": "Return the word 'violet' exactly 1 times, separated by commas and no spaces.",
+    "scoring_parameters": {
+      "count": 1,
+      "mode": "repeat_token",
+      "separator": ",",
+      "token": "violet"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_001",
+    "expected_output": 25,
+    "generation_seed": 1729,
+    "question": "Start with 16. Add 9, then subtract 0. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 9,
+      "mode": "arithmetic",
+      "start": 16,
+      "subtract": 0
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_002",
+    "expected_output": 27,
+    "generation_seed": 1729,
+    "question": "Start with 21. Add 7, then subtract 1. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 7,
+      "mode": "arithmetic",
+      "start": 21,
+      "subtract": 1
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_003",
+    "expected_output": 9,
+    "generation_seed": 1729,
+    "question": "Start with 6. Add 5, then subtract 2. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 5,
+      "mode": "arithmetic",
+      "start": 6,
+      "subtract": 2
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_004",
+    "expected_output": 11,
+    "generation_seed": 1729,
+    "question": "Start with 11. Add 3, then subtract 3. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 3,
+      "mode": "arithmetic",
+      "start": 11,
+      "subtract": 3
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_005",
+    "expected_output": 13,
+    "generation_seed": 1729,
+    "question": "Start with 16. Add 1, then subtract 4. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 1,
+      "mode": "arithmetic",
+      "start": 16,
+      "subtract": 4
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_006",
+    "expected_output": 29,
+    "generation_seed": 1729,
+    "question": "Start with 21. Add 8, then subtract 0. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 8,
+      "mode": "arithmetic",
+      "start": 21,
+      "subtract": 0
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_007",
+    "expected_output": 11,
+    "generation_seed": 1729,
+    "question": "Start with 6. Add 6, then subtract 1. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 6,
+      "mode": "arithmetic",
+      "start": 6,
+      "subtract": 1
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_008",
+    "expected_output": 13,
+    "generation_seed": 1729,
+    "question": "Start with 11. Add 4, then subtract 2. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 4,
+      "mode": "arithmetic",
+      "start": 11,
+      "subtract": 2
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_009",
+    "expected_output": 15,
+    "generation_seed": 1729,
+    "question": "Start with 16. Add 2, then subtract 3. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 2,
+      "mode": "arithmetic",
+      "start": 16,
+      "subtract": 3
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_010",
+    "expected_output": 26,
+    "generation_seed": 1729,
+    "question": "Start with 21. Add 9, then subtract 4. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 9,
+      "mode": "arithmetic",
+      "start": 21,
+      "subtract": 4
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_011",
+    "expected_output": 13,
+    "generation_seed": 1729,
+    "question": "Start with 6. Add 7, then subtract 0. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 7,
+      "mode": "arithmetic",
+      "start": 6,
+      "subtract": 0
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_012",
+    "expected_output": 15,
+    "generation_seed": 1729,
+    "question": "Start with 11. Add 5, then subtract 1. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 5,
+      "mode": "arithmetic",
+      "start": 11,
+      "subtract": 1
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_013",
+    "expected_output": 17,
+    "generation_seed": 1729,
+    "question": "Start with 16. Add 3, then subtract 2. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 3,
+      "mode": "arithmetic",
+      "start": 16,
+      "subtract": 2
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_014",
+    "expected_output": 19,
+    "generation_seed": 1729,
+    "question": "Start with 21. Add 1, then subtract 3. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 1,
+      "mode": "arithmetic",
+      "start": 21,
+      "subtract": 3
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_015",
+    "expected_output": 10,
+    "generation_seed": 1729,
+    "question": "Start with 6. Add 8, then subtract 4. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 8,
+      "mode": "arithmetic",
+      "start": 6,
+      "subtract": 4
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_016",
+    "expected_output": 17,
+    "generation_seed": 1729,
+    "question": "Start with 11. Add 6, then subtract 0. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 6,
+      "mode": "arithmetic",
+      "start": 11,
+      "subtract": 0
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_017",
+    "expected_output": 19,
+    "generation_seed": 1729,
+    "question": "Start with 16. Add 4, then subtract 1. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 4,
+      "mode": "arithmetic",
+      "start": 16,
+      "subtract": 1
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_018",
+    "expected_output": 21,
+    "generation_seed": 1729,
+    "question": "Start with 21. Add 2, then subtract 2. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 2,
+      "mode": "arithmetic",
+      "start": 21,
+      "subtract": 2
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_019",
+    "expected_output": 12,
+    "generation_seed": 1729,
+    "question": "Start with 6. Add 9, then subtract 3. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 9,
+      "mode": "arithmetic",
+      "start": 6,
+      "subtract": 3
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_020",
+    "expected_output": 14,
+    "generation_seed": 1729,
+    "question": "Start with 11. Add 7, then subtract 4. Return only the final integer.",
+    "scoring_parameters": {
+      "add": 7,
+      "mode": "arithmetic",
+      "start": 11,
+      "subtract": 4
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "sentinel_version": "0.0.0"
+  }
+]

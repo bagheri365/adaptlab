@@ -1,0 +1,1298 @@
+[
+  {
+    "component_family": "authentication",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus authentication configuration guide (v1).\nConfiguration values:\n- AUTH_CONFIGURATION_VALUE_05: authentication_configuration_value_05 = auth-alpha-5.\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = False.\n- AUTH_LIMIT_02: authentication_limit_02 = 77.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 14.",
+    "document_id": "DOC_AUTHENTICATION_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "AUTH_CONFIGURATION_VALUE_05",
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_CONFIGURATION_VALUE_05_V1",
+      "AUTH_ENDPOINT_BEHAVIOR_04_V1",
+      "AUTH_ERROR_CODE_01_V1",
+      "AUTH_FEATURE_AVAILABILITY_07_V1",
+      "AUTH_LIMIT_02_V1",
+      "AUTH_PERMISSION_03_V1",
+      "AUTH_POLICY_08_V1",
+      "AUTH_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Authentication Configuration Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "authentication",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus authentication reference documentation (v1).\nAuthoritative settings:\n- AUTH_CONFIGURATION_VALUE_05: authentication_configuration_value_05 = auth-alpha-5.\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = False.\n- AUTH_LIMIT_02: authentication_limit_02 = 77.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 14.",
+    "document_id": "DOC_AUTHENTICATION_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "AUTH_CONFIGURATION_VALUE_05",
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_CONFIGURATION_VALUE_05_V1",
+      "AUTH_ENDPOINT_BEHAVIOR_04_V1",
+      "AUTH_ERROR_CODE_01_V1",
+      "AUTH_FEATURE_AVAILABILITY_07_V1",
+      "AUTH_LIMIT_02_V1",
+      "AUTH_PERMISSION_03_V1",
+      "AUTH_POLICY_08_V1",
+      "AUTH_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Authentication Reference Documentation v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "authentication",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus authentication release note (v1).\nVersion facts recorded for this Nimbus release:\n- AUTH_CONFIGURATION_VALUE_05: authentication_configuration_value_05 = auth-alpha-5.\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = False.\n- AUTH_LIMIT_02: authentication_limit_02 = 77.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 14.",
+    "document_id": "DOC_AUTHENTICATION_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "AUTH_CONFIGURATION_VALUE_05",
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_CONFIGURATION_VALUE_05_V1",
+      "AUTH_ENDPOINT_BEHAVIOR_04_V1",
+      "AUTH_ERROR_CODE_01_V1",
+      "AUTH_FEATURE_AVAILABILITY_07_V1",
+      "AUTH_LIMIT_02_V1",
+      "AUTH_PERMISSION_03_V1",
+      "AUTH_POLICY_08_V1",
+      "AUTH_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Authentication Release Note v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "authentication",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus authentication troubleshooting guide (v1).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- AUTH_CONFIGURATION_VALUE_05: authentication_configuration_value_05 = auth-alpha-5.\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = False.\n- AUTH_LIMIT_02: authentication_limit_02 = 77.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 14.",
+    "document_id": "DOC_AUTHENTICATION_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "AUTH_CONFIGURATION_VALUE_05",
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_CONFIGURATION_VALUE_05_V1",
+      "AUTH_ENDPOINT_BEHAVIOR_04_V1",
+      "AUTH_ERROR_CODE_01_V1",
+      "AUTH_FEATURE_AVAILABILITY_07_V1",
+      "AUTH_LIMIT_02_V1",
+      "AUTH_PERMISSION_03_V1",
+      "AUTH_POLICY_08_V1",
+      "AUTH_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Authentication Troubleshooting Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication configuration guide (v2).\nConfiguration values:\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102-v2.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = True.\n- AUTH_LIMIT_02: authentication_limit_02 = 82.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+      "AUTH_ERROR_CODE_01_V2",
+      "AUTH_FEATURE_AVAILABILITY_07_V2",
+      "AUTH_LIMIT_02_V2",
+      "AUTH_PERMISSION_03_V2",
+      "AUTH_POLICY_08_V2",
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Authentication Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation (v2).\nAuthoritative settings:\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102-v2.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = True.\n- AUTH_LIMIT_02: authentication_limit_02 = 82.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+      "AUTH_ERROR_CODE_01_V2",
+      "AUTH_FEATURE_AVAILABILITY_07_V2",
+      "AUTH_LIMIT_02_V2",
+      "AUTH_PERMISSION_03_V2",
+      "AUTH_POLICY_08_V2",
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Authentication Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication release note (v2).\nVersion facts recorded for this Nimbus release:\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102-v2.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = True.\n- AUTH_LIMIT_02: authentication_limit_02 = 82.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+      "AUTH_ERROR_CODE_01_V2",
+      "AUTH_FEATURE_AVAILABILITY_07_V2",
+      "AUTH_LIMIT_02_V2",
+      "AUTH_PERMISSION_03_V2",
+      "AUTH_POLICY_08_V2",
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Authentication Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- AUTH_ENDPOINT_BEHAVIOR_04: authentication_endpoint_behavior_04 = queue.\n- AUTH_ERROR_CODE_01: authentication_error_code_01 = NMB-AUTH-102-v2.\n- AUTH_FEATURE_AVAILABILITY_07: authentication_feature_availability_07 = True.\n- AUTH_LIMIT_02: authentication_limit_02 = 82.\n- AUTH_PERMISSION_03: authentication_permission_03 = owner.\n- AUTH_POLICY_08: authentication_policy_08 = permissive.\n- AUTH_RETENTION_SETTING_06: authentication_retention_setting_06 = 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04",
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07",
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03",
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+      "AUTH_ERROR_CODE_01_V2",
+      "AUTH_FEATURE_AVAILABILITY_07_V2",
+      "AUTH_LIMIT_02_V2",
+      "AUTH_PERMISSION_03_V2",
+      "AUTH_POLICY_08_V2",
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Authentication Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "billing",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus billing configuration guide (v1).\nConfiguration values:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = accept_with_warning.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_PERMISSION_03: billing_permission_03 = owner.\n- BILL_POLICY_08: billing_policy_08 = permissive.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_PERMISSION_03",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V1",
+      "BILL_ENDPOINT_BEHAVIOR_04_V1",
+      "BILL_ERROR_CODE_01_V1",
+      "BILL_FEATURE_AVAILABILITY_07_V1",
+      "BILL_LIMIT_02_V1",
+      "BILL_PERMISSION_03_V1",
+      "BILL_POLICY_08_V1",
+      "BILL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Billing Configuration Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "billing",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus billing reference documentation (v1).\nAuthoritative settings:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = accept_with_warning.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_PERMISSION_03: billing_permission_03 = owner.\n- BILL_POLICY_08: billing_policy_08 = permissive.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_PERMISSION_03",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V1",
+      "BILL_ENDPOINT_BEHAVIOR_04_V1",
+      "BILL_ERROR_CODE_01_V1",
+      "BILL_FEATURE_AVAILABILITY_07_V1",
+      "BILL_LIMIT_02_V1",
+      "BILL_PERMISSION_03_V1",
+      "BILL_POLICY_08_V1",
+      "BILL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Billing Reference Documentation v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "billing",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus billing release note (v1).\nVersion facts recorded for this Nimbus release:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = accept_with_warning.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_PERMISSION_03: billing_permission_03 = owner.\n- BILL_POLICY_08: billing_policy_08 = permissive.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_PERMISSION_03",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V1",
+      "BILL_ENDPOINT_BEHAVIOR_04_V1",
+      "BILL_ERROR_CODE_01_V1",
+      "BILL_FEATURE_AVAILABILITY_07_V1",
+      "BILL_LIMIT_02_V1",
+      "BILL_PERMISSION_03_V1",
+      "BILL_POLICY_08_V1",
+      "BILL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Billing Release Note v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "billing",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus billing troubleshooting guide (v1).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = accept_with_warning.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_PERMISSION_03: billing_permission_03 = owner.\n- BILL_POLICY_08: billing_policy_08 = permissive.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_PERMISSION_03",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V1",
+      "BILL_ENDPOINT_BEHAVIOR_04_V1",
+      "BILL_ERROR_CODE_01_V1",
+      "BILL_FEATURE_AVAILABILITY_07_V1",
+      "BILL_LIMIT_02_V1",
+      "BILL_PERMISSION_03_V1",
+      "BILL_POLICY_08_V1",
+      "BILL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Billing Troubleshooting Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "billing",
+    "content": "Nimbus billing configuration guide (v2).\nConfiguration values:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37-v2.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = reject.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_POLICY_08: billing_policy_08 is retired.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V2",
+      "BILL_ENDPOINT_BEHAVIOR_04_V2",
+      "BILL_ERROR_CODE_01_V2",
+      "BILL_FEATURE_AVAILABILITY_07_V2",
+      "BILL_LIMIT_02_V2",
+      "BILL_POLICY_08_V2",
+      "BILL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Billing Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "billing",
+    "content": "Nimbus billing reference documentation (v2).\nAuthoritative settings:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37-v2.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = reject.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_POLICY_08: billing_policy_08 is retired.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V2",
+      "BILL_ENDPOINT_BEHAVIOR_04_V2",
+      "BILL_ERROR_CODE_01_V2",
+      "BILL_FEATURE_AVAILABILITY_07_V2",
+      "BILL_LIMIT_02_V2",
+      "BILL_POLICY_08_V2",
+      "BILL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Billing Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "billing",
+    "content": "Nimbus billing release note (v2).\nVersion facts recorded for this Nimbus release:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37-v2.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = reject.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_POLICY_08: billing_policy_08 is retired.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V2",
+      "BILL_ENDPOINT_BEHAVIOR_04_V2",
+      "BILL_ERROR_CODE_01_V2",
+      "BILL_FEATURE_AVAILABILITY_07_V2",
+      "BILL_LIMIT_02_V2",
+      "BILL_POLICY_08_V2",
+      "BILL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Billing Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "billing",
+    "content": "Nimbus billing troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- BILL_CONFIGURATION_VALUE_05: billing_configuration_value_05 = bill-delta-37-v2.\n- BILL_ENDPOINT_BEHAVIOR_04: billing_endpoint_behavior_04 = reject.\n- BILL_ERROR_CODE_01: billing_error_code_01 = NMB-BILL-151.\n- BILL_FEATURE_AVAILABILITY_07: billing_feature_availability_07 = True.\n- BILL_LIMIT_02: billing_limit_02 = 109.\n- BILL_POLICY_08: billing_policy_08 is retired.\n- BILL_RETENTION_SETTING_06: billing_retention_setting_06 = 14.",
+    "document_id": "DOC_BILLING_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04",
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07",
+      "BILL_LIMIT_02",
+      "BILL_POLICY_08",
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V2",
+      "BILL_ENDPOINT_BEHAVIOR_04_V2",
+      "BILL_ERROR_CODE_01_V2",
+      "BILL_FEATURE_AVAILABILITY_07_V2",
+      "BILL_LIMIT_02_V2",
+      "BILL_POLICY_08_V2",
+      "BILL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Billing Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "configuration",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus configuration configuration guide (v1).\nConfiguration values:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 = reject.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 21.",
+    "document_id": "DOC_CONFIGURATION_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V1",
+      "CONF_ENDPOINT_BEHAVIOR_04_V1",
+      "CONF_ERROR_CODE_01_V1",
+      "CONF_FEATURE_AVAILABILITY_07_V1",
+      "CONF_LIMIT_02_V1",
+      "CONF_PERMISSION_03_V1",
+      "CONF_POLICY_08_V1",
+      "CONF_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Configuration Configuration Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "configuration",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus configuration reference documentation (v1).\nAuthoritative settings:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 = reject.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 21.",
+    "document_id": "DOC_CONFIGURATION_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V1",
+      "CONF_ENDPOINT_BEHAVIOR_04_V1",
+      "CONF_ERROR_CODE_01_V1",
+      "CONF_FEATURE_AVAILABILITY_07_V1",
+      "CONF_LIMIT_02_V1",
+      "CONF_PERMISSION_03_V1",
+      "CONF_POLICY_08_V1",
+      "CONF_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Configuration Reference Documentation v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "configuration",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus configuration release note (v1).\nVersion facts recorded for this Nimbus release:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 = reject.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 21.",
+    "document_id": "DOC_CONFIGURATION_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V1",
+      "CONF_ENDPOINT_BEHAVIOR_04_V1",
+      "CONF_ERROR_CODE_01_V1",
+      "CONF_FEATURE_AVAILABILITY_07_V1",
+      "CONF_LIMIT_02_V1",
+      "CONF_PERMISSION_03_V1",
+      "CONF_POLICY_08_V1",
+      "CONF_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Configuration Release Note v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "configuration",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus configuration troubleshooting guide (v1).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 = reject.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 21.",
+    "document_id": "DOC_CONFIGURATION_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V1",
+      "CONF_ENDPOINT_BEHAVIOR_04_V1",
+      "CONF_ERROR_CODE_01_V1",
+      "CONF_FEATURE_AVAILABILITY_07_V1",
+      "CONF_LIMIT_02_V1",
+      "CONF_PERMISSION_03_V1",
+      "CONF_POLICY_08_V1",
+      "CONF_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Configuration Troubleshooting Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "configuration",
+    "content": "Nimbus configuration configuration guide (v2).\nConfiguration values:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61-v2.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 is retired.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160-v2.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 26.",
+    "document_id": "DOC_CONFIGURATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V2",
+      "CONF_ENDPOINT_BEHAVIOR_04_V2",
+      "CONF_ERROR_CODE_01_V2",
+      "CONF_FEATURE_AVAILABILITY_07_V2",
+      "CONF_LIMIT_02_V2",
+      "CONF_PERMISSION_03_V2",
+      "CONF_POLICY_08_V2",
+      "CONF_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Configuration Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "configuration",
+    "content": "Nimbus configuration reference documentation (v2).\nAuthoritative settings:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61-v2.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 is retired.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160-v2.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 26.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V2",
+      "CONF_ENDPOINT_BEHAVIOR_04_V2",
+      "CONF_ERROR_CODE_01_V2",
+      "CONF_FEATURE_AVAILABILITY_07_V2",
+      "CONF_LIMIT_02_V2",
+      "CONF_PERMISSION_03_V2",
+      "CONF_POLICY_08_V2",
+      "CONF_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Configuration Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "configuration",
+    "content": "Nimbus configuration release note (v2).\nVersion facts recorded for this Nimbus release:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61-v2.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 is retired.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160-v2.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 26.",
+    "document_id": "DOC_CONFIGURATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V2",
+      "CONF_ENDPOINT_BEHAVIOR_04_V2",
+      "CONF_ERROR_CODE_01_V2",
+      "CONF_FEATURE_AVAILABILITY_07_V2",
+      "CONF_LIMIT_02_V2",
+      "CONF_PERMISSION_03_V2",
+      "CONF_POLICY_08_V2",
+      "CONF_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Configuration Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "configuration",
+    "content": "Nimbus configuration troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- CONF_CONFIGURATION_VALUE_05: configuration_configuration_value_05 = conf-gamma-61-v2.\n- CONF_ENDPOINT_BEHAVIOR_04: configuration_endpoint_behavior_04 is retired.\n- CONF_ERROR_CODE_01: configuration_error_code_01 = NMB-CONF-160-v2.\n- CONF_FEATURE_AVAILABILITY_07: configuration_feature_availability_07 = False.\n- CONF_LIMIT_02: configuration_limit_02 = 83.\n- CONF_PERMISSION_03: configuration_permission_03 = owner.\n- CONF_POLICY_08: configuration_policy_08 = standard.\n- CONF_RETENTION_SETTING_06: configuration_retention_setting_06 = 26.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05",
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01",
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02",
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08",
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V2",
+      "CONF_ENDPOINT_BEHAVIOR_04_V2",
+      "CONF_ERROR_CODE_01_V2",
+      "CONF_FEATURE_AVAILABILITY_07_V2",
+      "CONF_LIMIT_02_V2",
+      "CONF_PERMISSION_03_V2",
+      "CONF_POLICY_08_V2",
+      "CONF_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Configuration Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus deployments configuration guide (v1).\nConfiguration values:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 = retry.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V1",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V1",
+      "DEPL_ERROR_CODE_01_V1",
+      "DEPL_FEATURE_AVAILABILITY_07_V1",
+      "DEPL_LIMIT_02_V1",
+      "DEPL_PERMISSION_03_V1",
+      "DEPL_POLICY_08_V1",
+      "DEPL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Deployments Configuration Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "deployments",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus deployments reference documentation (v1).\nAuthoritative settings:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 = retry.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V1",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V1",
+      "DEPL_ERROR_CODE_01_V1",
+      "DEPL_FEATURE_AVAILABILITY_07_V1",
+      "DEPL_LIMIT_02_V1",
+      "DEPL_PERMISSION_03_V1",
+      "DEPL_POLICY_08_V1",
+      "DEPL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Deployments Reference Documentation v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "deployments",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus deployments release note (v1).\nVersion facts recorded for this Nimbus release:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 = retry.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V1",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V1",
+      "DEPL_ERROR_CODE_01_V1",
+      "DEPL_FEATURE_AVAILABILITY_07_V1",
+      "DEPL_LIMIT_02_V1",
+      "DEPL_PERMISSION_03_V1",
+      "DEPL_POLICY_08_V1",
+      "DEPL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Deployments Release Note v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "deployments",
+    "content": "OBSOLETE NIMBUS v1 MATERIAL. Historical reference only.\nNimbus deployments troubleshooting guide (v1).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 = retry.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V1",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V1",
+      "DEPL_ERROR_CODE_01_V1",
+      "DEPL_FEATURE_AVAILABILITY_07_V1",
+      "DEPL_LIMIT_02_V1",
+      "DEPL_PERMISSION_03_V1",
+      "DEPL_POLICY_08_V1",
+      "DEPL_RETENTION_SETTING_06_V1"
+    ],
+    "title": "Nimbus Deployments Troubleshooting Guide v1 (Obsolete)",
+    "version": "v1"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments configuration guide (v2).\nConfiguration values:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21-v2.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 is retired.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129-v2.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 35.",
+    "document_id": "DOC_DEPLOYMENTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V2",
+      "DEPL_ERROR_CODE_01_V2",
+      "DEPL_FEATURE_AVAILABILITY_07_V2",
+      "DEPL_LIMIT_02_V2",
+      "DEPL_PERMISSION_03_V2",
+      "DEPL_POLICY_08_V2",
+      "DEPL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Deployments Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments reference documentation (v2).\nAuthoritative settings:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21-v2.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 is retired.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129-v2.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 35.",
+    "document_id": "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V2",
+      "DEPL_ERROR_CODE_01_V2",
+      "DEPL_FEATURE_AVAILABILITY_07_V2",
+      "DEPL_LIMIT_02_V2",
+      "DEPL_PERMISSION_03_V2",
+      "DEPL_POLICY_08_V2",
+      "DEPL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Deployments Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments release note (v2).\nVersion facts recorded for this Nimbus release:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21-v2.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 is retired.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129-v2.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 35.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V2",
+      "DEPL_ERROR_CODE_01_V2",
+      "DEPL_FEATURE_AVAILABILITY_07_V2",
+      "DEPL_LIMIT_02_V2",
+      "DEPL_PERMISSION_03_V2",
+      "DEPL_POLICY_08_V2",
+      "DEPL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Deployments Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- DEPL_CONFIGURATION_VALUE_05: deployments_configuration_value_05 = depl-beta-21-v2.\n- DEPL_ENDPOINT_BEHAVIOR_04: deployments_endpoint_behavior_04 is retired.\n- DEPL_ERROR_CODE_01: deployments_error_code_01 = NMB-DEPL-129-v2.\n- DEPL_FEATURE_AVAILABILITY_07: deployments_feature_availability_07 = True.\n- DEPL_LIMIT_02: deployments_limit_02 = 68.\n- DEPL_PERMISSION_03: deployments_permission_03 = owner.\n- DEPL_POLICY_08: deployments_policy_08 = strict.\n- DEPL_RETENTION_SETTING_06: deployments_retention_setting_06 = 35.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05",
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01",
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02",
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08",
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2",
+      "DEPL_ENDPOINT_BEHAVIOR_04_V2",
+      "DEPL_ERROR_CODE_01_V2",
+      "DEPL_FEATURE_AVAILABILITY_07_V2",
+      "DEPL_LIMIT_02_V2",
+      "DEPL_PERMISSION_03_V2",
+      "DEPL_POLICY_08_V2",
+      "DEPL_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Deployments Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "observability",
+    "content": "Nimbus observability configuration guide (v2).\nConfiguration values:\n- OBSE_ENDPOINT_BEHAVIOR_04: observability_endpoint_behavior_04 = queue.\n- OBSE_ERROR_CODE_01: observability_error_code_01 = NMB-OBSE-153-v2.\n- OBSE_FEATURE_AVAILABILITY_07: observability_feature_availability_07 = True.\n- OBSE_LIMIT_02: observability_limit_02 = 72.\n- OBSE_PERMISSION_03: observability_permission_03 = operator.\n- OBSE_POLICY_08: observability_policy_08 = strict.\n- OBSE_RETENTION_SETTING_06: observability_retention_setting_06 = 26.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04",
+      "OBSE_ERROR_CODE_01",
+      "OBSE_FEATURE_AVAILABILITY_07",
+      "OBSE_LIMIT_02",
+      "OBSE_PERMISSION_03",
+      "OBSE_POLICY_08",
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04_V2",
+      "OBSE_ERROR_CODE_01_V2",
+      "OBSE_FEATURE_AVAILABILITY_07_V2",
+      "OBSE_LIMIT_02_V2",
+      "OBSE_PERMISSION_03_V2",
+      "OBSE_POLICY_08_V2",
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Observability Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "observability",
+    "content": "Nimbus observability reference documentation (v2).\nAuthoritative settings:\n- OBSE_ENDPOINT_BEHAVIOR_04: observability_endpoint_behavior_04 = queue.\n- OBSE_ERROR_CODE_01: observability_error_code_01 = NMB-OBSE-153-v2.\n- OBSE_FEATURE_AVAILABILITY_07: observability_feature_availability_07 = True.\n- OBSE_LIMIT_02: observability_limit_02 = 72.\n- OBSE_PERMISSION_03: observability_permission_03 = operator.\n- OBSE_POLICY_08: observability_policy_08 = strict.\n- OBSE_RETENTION_SETTING_06: observability_retention_setting_06 = 26.",
+    "document_id": "DOC_OBSERVABILITY_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04",
+      "OBSE_ERROR_CODE_01",
+      "OBSE_FEATURE_AVAILABILITY_07",
+      "OBSE_LIMIT_02",
+      "OBSE_PERMISSION_03",
+      "OBSE_POLICY_08",
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04_V2",
+      "OBSE_ERROR_CODE_01_V2",
+      "OBSE_FEATURE_AVAILABILITY_07_V2",
+      "OBSE_LIMIT_02_V2",
+      "OBSE_PERMISSION_03_V2",
+      "OBSE_POLICY_08_V2",
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Observability Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "observability",
+    "content": "Nimbus observability release note (v2).\nVersion facts recorded for this Nimbus release:\n- OBSE_ENDPOINT_BEHAVIOR_04: observability_endpoint_behavior_04 = queue.\n- OBSE_ERROR_CODE_01: observability_error_code_01 = NMB-OBSE-153-v2.\n- OBSE_FEATURE_AVAILABILITY_07: observability_feature_availability_07 = True.\n- OBSE_LIMIT_02: observability_limit_02 = 72.\n- OBSE_PERMISSION_03: observability_permission_03 = operator.\n- OBSE_POLICY_08: observability_policy_08 = strict.\n- OBSE_RETENTION_SETTING_06: observability_retention_setting_06 = 26.",
+    "document_id": "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04",
+      "OBSE_ERROR_CODE_01",
+      "OBSE_FEATURE_AVAILABILITY_07",
+      "OBSE_LIMIT_02",
+      "OBSE_PERMISSION_03",
+      "OBSE_POLICY_08",
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04_V2",
+      "OBSE_ERROR_CODE_01_V2",
+      "OBSE_FEATURE_AVAILABILITY_07_V2",
+      "OBSE_LIMIT_02_V2",
+      "OBSE_PERMISSION_03_V2",
+      "OBSE_POLICY_08_V2",
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Observability Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "observability",
+    "content": "Nimbus observability troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- OBSE_ENDPOINT_BEHAVIOR_04: observability_endpoint_behavior_04 = queue.\n- OBSE_ERROR_CODE_01: observability_error_code_01 = NMB-OBSE-153-v2.\n- OBSE_FEATURE_AVAILABILITY_07: observability_feature_availability_07 = True.\n- OBSE_LIMIT_02: observability_limit_02 = 72.\n- OBSE_PERMISSION_03: observability_permission_03 = operator.\n- OBSE_POLICY_08: observability_policy_08 = strict.\n- OBSE_RETENTION_SETTING_06: observability_retention_setting_06 = 26.",
+    "document_id": "DOC_OBSERVABILITY_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04",
+      "OBSE_ERROR_CODE_01",
+      "OBSE_FEATURE_AVAILABILITY_07",
+      "OBSE_LIMIT_02",
+      "OBSE_PERMISSION_03",
+      "OBSE_POLICY_08",
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04_V2",
+      "OBSE_ERROR_CODE_01_V2",
+      "OBSE_FEATURE_AVAILABILITY_07_V2",
+      "OBSE_LIMIT_02_V2",
+      "OBSE_PERMISSION_03_V2",
+      "OBSE_POLICY_08_V2",
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Observability Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "permissions",
+    "content": "Nimbus permissions configuration guide (v2).\nConfiguration values:\n- PERM_CONFIGURATION_VALUE_05: permissions_configuration_value_05 = perm-delta-53.\n- PERM_ENDPOINT_BEHAVIOR_04: permissions_endpoint_behavior_04 = accept_with_warning.\n- PERM_ERROR_CODE_01: permissions_error_code_01 = NMB-PERM-163.\n- PERM_LIMIT_02: permissions_limit_02 is retired.\n- PERM_PERMISSION_03: permissions_permission_03 = owner.\n- PERM_POLICY_08: permissions_policy_08 = delegated.\n- PERM_RETENTION_SETTING_06: permissions_retention_setting_06 = 30.",
+    "document_id": "DOC_PERMISSIONS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "PERM_CONFIGURATION_VALUE_05",
+      "PERM_ENDPOINT_BEHAVIOR_04",
+      "PERM_ERROR_CODE_01",
+      "PERM_LIMIT_02",
+      "PERM_PERMISSION_03",
+      "PERM_POLICY_08",
+      "PERM_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PERM_CONFIGURATION_VALUE_05_V2",
+      "PERM_ENDPOINT_BEHAVIOR_04_V2",
+      "PERM_ERROR_CODE_01_V2",
+      "PERM_LIMIT_02_V2",
+      "PERM_PERMISSION_03_V2",
+      "PERM_POLICY_08_V2",
+      "PERM_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Permissions Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "permissions",
+    "content": "Nimbus permissions reference documentation (v2).\nAuthoritative settings:\n- PERM_CONFIGURATION_VALUE_05: permissions_configuration_value_05 = perm-delta-53.\n- PERM_ENDPOINT_BEHAVIOR_04: permissions_endpoint_behavior_04 = accept_with_warning.\n- PERM_ERROR_CODE_01: permissions_error_code_01 = NMB-PERM-163.\n- PERM_LIMIT_02: permissions_limit_02 is retired.\n- PERM_PERMISSION_03: permissions_permission_03 = owner.\n- PERM_POLICY_08: permissions_policy_08 = delegated.\n- PERM_RETENTION_SETTING_06: permissions_retention_setting_06 = 30.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "PERM_CONFIGURATION_VALUE_05",
+      "PERM_ENDPOINT_BEHAVIOR_04",
+      "PERM_ERROR_CODE_01",
+      "PERM_LIMIT_02",
+      "PERM_PERMISSION_03",
+      "PERM_POLICY_08",
+      "PERM_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PERM_CONFIGURATION_VALUE_05_V2",
+      "PERM_ENDPOINT_BEHAVIOR_04_V2",
+      "PERM_ERROR_CODE_01_V2",
+      "PERM_LIMIT_02_V2",
+      "PERM_PERMISSION_03_V2",
+      "PERM_POLICY_08_V2",
+      "PERM_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Permissions Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "permissions",
+    "content": "Nimbus permissions release note (v2).\nVersion facts recorded for this Nimbus release:\n- PERM_CONFIGURATION_VALUE_05: permissions_configuration_value_05 = perm-delta-53.\n- PERM_ENDPOINT_BEHAVIOR_04: permissions_endpoint_behavior_04 = accept_with_warning.\n- PERM_ERROR_CODE_01: permissions_error_code_01 = NMB-PERM-163.\n- PERM_LIMIT_02: permissions_limit_02 is retired.\n- PERM_PERMISSION_03: permissions_permission_03 = owner.\n- PERM_POLICY_08: permissions_policy_08 = delegated.\n- PERM_RETENTION_SETTING_06: permissions_retention_setting_06 = 30.",
+    "document_id": "DOC_PERMISSIONS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "PERM_CONFIGURATION_VALUE_05",
+      "PERM_ENDPOINT_BEHAVIOR_04",
+      "PERM_ERROR_CODE_01",
+      "PERM_LIMIT_02",
+      "PERM_PERMISSION_03",
+      "PERM_POLICY_08",
+      "PERM_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PERM_CONFIGURATION_VALUE_05_V2",
+      "PERM_ENDPOINT_BEHAVIOR_04_V2",
+      "PERM_ERROR_CODE_01_V2",
+      "PERM_LIMIT_02_V2",
+      "PERM_PERMISSION_03_V2",
+      "PERM_POLICY_08_V2",
+      "PERM_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Permissions Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "permissions",
+    "content": "Nimbus permissions troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- PERM_CONFIGURATION_VALUE_05: permissions_configuration_value_05 = perm-delta-53.\n- PERM_ENDPOINT_BEHAVIOR_04: permissions_endpoint_behavior_04 = accept_with_warning.\n- PERM_ERROR_CODE_01: permissions_error_code_01 = NMB-PERM-163.\n- PERM_LIMIT_02: permissions_limit_02 is retired.\n- PERM_PERMISSION_03: permissions_permission_03 = owner.\n- PERM_POLICY_08: permissions_policy_08 = delegated.\n- PERM_RETENTION_SETTING_06: permissions_retention_setting_06 = 30.",
+    "document_id": "DOC_PERMISSIONS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "PERM_CONFIGURATION_VALUE_05",
+      "PERM_ENDPOINT_BEHAVIOR_04",
+      "PERM_ERROR_CODE_01",
+      "PERM_LIMIT_02",
+      "PERM_PERMISSION_03",
+      "PERM_POLICY_08",
+      "PERM_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PERM_CONFIGURATION_VALUE_05_V2",
+      "PERM_ENDPOINT_BEHAVIOR_04_V2",
+      "PERM_ERROR_CODE_01_V2",
+      "PERM_LIMIT_02_V2",
+      "PERM_PERMISSION_03_V2",
+      "PERM_POLICY_08_V2",
+      "PERM_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Permissions Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects configuration guide (v2).\nConfiguration values:\n- PROJ_CONFIGURATION_VALUE_05: projects_configuration_value_05 = proj-alpha-13.\n- PROJ_ENDPOINT_BEHAVIOR_04: projects_endpoint_behavior_04 = reject.\n- PROJ_ERROR_CODE_01: projects_error_code_01 = NMB-PROJ-118.\n- PROJ_LIMIT_02: projects_limit_02 is retired.\n- PROJ_PERMISSION_03: projects_permission_03 = maintainer.\n- PROJ_POLICY_08: projects_policy_08 = delegated.\n- PROJ_RETENTION_SETTING_06: projects_retention_setting_06 = 45.",
+    "document_id": "DOC_PROJECTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "PROJ_CONFIGURATION_VALUE_05",
+      "PROJ_ENDPOINT_BEHAVIOR_04",
+      "PROJ_ERROR_CODE_01",
+      "PROJ_LIMIT_02",
+      "PROJ_PERMISSION_03",
+      "PROJ_POLICY_08",
+      "PROJ_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PROJ_CONFIGURATION_VALUE_05_V2",
+      "PROJ_ENDPOINT_BEHAVIOR_04_V2",
+      "PROJ_ERROR_CODE_01_V2",
+      "PROJ_LIMIT_02_V2",
+      "PROJ_PERMISSION_03_V2",
+      "PROJ_POLICY_08_V2",
+      "PROJ_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Projects Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects reference documentation (v2).\nAuthoritative settings:\n- PROJ_CONFIGURATION_VALUE_05: projects_configuration_value_05 = proj-alpha-13.\n- PROJ_ENDPOINT_BEHAVIOR_04: projects_endpoint_behavior_04 = reject.\n- PROJ_ERROR_CODE_01: projects_error_code_01 = NMB-PROJ-118.\n- PROJ_LIMIT_02: projects_limit_02 is retired.\n- PROJ_PERMISSION_03: projects_permission_03 = maintainer.\n- PROJ_POLICY_08: projects_policy_08 = delegated.\n- PROJ_RETENTION_SETTING_06: projects_retention_setting_06 = 45.",
+    "document_id": "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "PROJ_CONFIGURATION_VALUE_05",
+      "PROJ_ENDPOINT_BEHAVIOR_04",
+      "PROJ_ERROR_CODE_01",
+      "PROJ_LIMIT_02",
+      "PROJ_PERMISSION_03",
+      "PROJ_POLICY_08",
+      "PROJ_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PROJ_CONFIGURATION_VALUE_05_V2",
+      "PROJ_ENDPOINT_BEHAVIOR_04_V2",
+      "PROJ_ERROR_CODE_01_V2",
+      "PROJ_LIMIT_02_V2",
+      "PROJ_PERMISSION_03_V2",
+      "PROJ_POLICY_08_V2",
+      "PROJ_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Projects Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects release note (v2).\nVersion facts recorded for this Nimbus release:\n- PROJ_CONFIGURATION_VALUE_05: projects_configuration_value_05 = proj-alpha-13.\n- PROJ_ENDPOINT_BEHAVIOR_04: projects_endpoint_behavior_04 = reject.\n- PROJ_ERROR_CODE_01: projects_error_code_01 = NMB-PROJ-118.\n- PROJ_LIMIT_02: projects_limit_02 is retired.\n- PROJ_PERMISSION_03: projects_permission_03 = maintainer.\n- PROJ_POLICY_08: projects_policy_08 = delegated.\n- PROJ_RETENTION_SETTING_06: projects_retention_setting_06 = 45.",
+    "document_id": "DOC_PROJECTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "PROJ_CONFIGURATION_VALUE_05",
+      "PROJ_ENDPOINT_BEHAVIOR_04",
+      "PROJ_ERROR_CODE_01",
+      "PROJ_LIMIT_02",
+      "PROJ_PERMISSION_03",
+      "PROJ_POLICY_08",
+      "PROJ_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PROJ_CONFIGURATION_VALUE_05_V2",
+      "PROJ_ENDPOINT_BEHAVIOR_04_V2",
+      "PROJ_ERROR_CODE_01_V2",
+      "PROJ_LIMIT_02_V2",
+      "PROJ_PERMISSION_03_V2",
+      "PROJ_POLICY_08_V2",
+      "PROJ_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Projects Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- PROJ_CONFIGURATION_VALUE_05: projects_configuration_value_05 = proj-alpha-13.\n- PROJ_ENDPOINT_BEHAVIOR_04: projects_endpoint_behavior_04 = reject.\n- PROJ_ERROR_CODE_01: projects_error_code_01 = NMB-PROJ-118.\n- PROJ_LIMIT_02: projects_limit_02 is retired.\n- PROJ_PERMISSION_03: projects_permission_03 = maintainer.\n- PROJ_POLICY_08: projects_policy_08 = delegated.\n- PROJ_RETENTION_SETTING_06: projects_retention_setting_06 = 45.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "PROJ_CONFIGURATION_VALUE_05",
+      "PROJ_ENDPOINT_BEHAVIOR_04",
+      "PROJ_ERROR_CODE_01",
+      "PROJ_LIMIT_02",
+      "PROJ_PERMISSION_03",
+      "PROJ_POLICY_08",
+      "PROJ_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PROJ_CONFIGURATION_VALUE_05_V2",
+      "PROJ_ENDPOINT_BEHAVIOR_04_V2",
+      "PROJ_ERROR_CODE_01_V2",
+      "PROJ_LIMIT_02_V2",
+      "PROJ_PERMISSION_03_V2",
+      "PROJ_POLICY_08_V2",
+      "PROJ_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Projects Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "storage",
+    "content": "Nimbus storage configuration guide (v2).\nConfiguration values:\n- STOR_CONFIGURATION_VALUE_05: storage_configuration_value_05 = stor-gamma-29.\n- STOR_ENDPOINT_BEHAVIOR_04: storage_endpoint_behavior_04 = retry.\n- STOR_FEATURE_AVAILABILITY_07: storage_feature_availability_07 = True.\n- STOR_LIMIT_02: storage_limit_02 = 56.\n- STOR_PERMISSION_03: storage_permission_03 = viewer.\n- STOR_POLICY_08: storage_policy_08 = strict.\n- STOR_RETENTION_SETTING_06: storage_retention_setting_06 is retired.",
+    "document_id": "DOC_STORAGE_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "STOR_CONFIGURATION_VALUE_05",
+      "STOR_ENDPOINT_BEHAVIOR_04",
+      "STOR_FEATURE_AVAILABILITY_07",
+      "STOR_LIMIT_02",
+      "STOR_PERMISSION_03",
+      "STOR_POLICY_08",
+      "STOR_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "STOR_CONFIGURATION_VALUE_05_V2",
+      "STOR_ENDPOINT_BEHAVIOR_04_V2",
+      "STOR_FEATURE_AVAILABILITY_07_V2",
+      "STOR_LIMIT_02_V2",
+      "STOR_PERMISSION_03_V2",
+      "STOR_POLICY_08_V2",
+      "STOR_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Storage Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "storage",
+    "content": "Nimbus storage reference documentation (v2).\nAuthoritative settings:\n- STOR_CONFIGURATION_VALUE_05: storage_configuration_value_05 = stor-gamma-29.\n- STOR_ENDPOINT_BEHAVIOR_04: storage_endpoint_behavior_04 = retry.\n- STOR_FEATURE_AVAILABILITY_07: storage_feature_availability_07 = True.\n- STOR_LIMIT_02: storage_limit_02 = 56.\n- STOR_PERMISSION_03: storage_permission_03 = viewer.\n- STOR_POLICY_08: storage_policy_08 = strict.\n- STOR_RETENTION_SETTING_06: storage_retention_setting_06 is retired.",
+    "document_id": "DOC_STORAGE_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "STOR_CONFIGURATION_VALUE_05",
+      "STOR_ENDPOINT_BEHAVIOR_04",
+      "STOR_FEATURE_AVAILABILITY_07",
+      "STOR_LIMIT_02",
+      "STOR_PERMISSION_03",
+      "STOR_POLICY_08",
+      "STOR_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "STOR_CONFIGURATION_VALUE_05_V2",
+      "STOR_ENDPOINT_BEHAVIOR_04_V2",
+      "STOR_FEATURE_AVAILABILITY_07_V2",
+      "STOR_LIMIT_02_V2",
+      "STOR_PERMISSION_03_V2",
+      "STOR_POLICY_08_V2",
+      "STOR_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Storage Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "storage",
+    "content": "Nimbus storage release note (v2).\nVersion facts recorded for this Nimbus release:\n- STOR_CONFIGURATION_VALUE_05: storage_configuration_value_05 = stor-gamma-29.\n- STOR_ENDPOINT_BEHAVIOR_04: storage_endpoint_behavior_04 = retry.\n- STOR_FEATURE_AVAILABILITY_07: storage_feature_availability_07 = True.\n- STOR_LIMIT_02: storage_limit_02 = 56.\n- STOR_PERMISSION_03: storage_permission_03 = viewer.\n- STOR_POLICY_08: storage_policy_08 = strict.\n- STOR_RETENTION_SETTING_06: storage_retention_setting_06 is retired.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "STOR_CONFIGURATION_VALUE_05",
+      "STOR_ENDPOINT_BEHAVIOR_04",
+      "STOR_FEATURE_AVAILABILITY_07",
+      "STOR_LIMIT_02",
+      "STOR_PERMISSION_03",
+      "STOR_POLICY_08",
+      "STOR_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "STOR_CONFIGURATION_VALUE_05_V2",
+      "STOR_ENDPOINT_BEHAVIOR_04_V2",
+      "STOR_FEATURE_AVAILABILITY_07_V2",
+      "STOR_LIMIT_02_V2",
+      "STOR_PERMISSION_03_V2",
+      "STOR_POLICY_08_V2",
+      "STOR_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Storage Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "storage",
+    "content": "Nimbus storage troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- STOR_CONFIGURATION_VALUE_05: storage_configuration_value_05 = stor-gamma-29.\n- STOR_ENDPOINT_BEHAVIOR_04: storage_endpoint_behavior_04 = retry.\n- STOR_FEATURE_AVAILABILITY_07: storage_feature_availability_07 = True.\n- STOR_LIMIT_02: storage_limit_02 = 56.\n- STOR_PERMISSION_03: storage_permission_03 = viewer.\n- STOR_POLICY_08: storage_policy_08 = strict.\n- STOR_RETENTION_SETTING_06: storage_retention_setting_06 is retired.",
+    "document_id": "DOC_STORAGE_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "STOR_CONFIGURATION_VALUE_05",
+      "STOR_ENDPOINT_BEHAVIOR_04",
+      "STOR_FEATURE_AVAILABILITY_07",
+      "STOR_LIMIT_02",
+      "STOR_PERMISSION_03",
+      "STOR_POLICY_08",
+      "STOR_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "STOR_CONFIGURATION_VALUE_05_V2",
+      "STOR_ENDPOINT_BEHAVIOR_04_V2",
+      "STOR_FEATURE_AVAILABILITY_07_V2",
+      "STOR_LIMIT_02_V2",
+      "STOR_PERMISSION_03_V2",
+      "STOR_POLICY_08_V2",
+      "STOR_RETENTION_SETTING_06_V2"
+    ],
+    "title": "Nimbus Storage Troubleshooting Guide v2",
+    "version": "v2"
+  }
+]

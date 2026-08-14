@@ -1,0 +1,826 @@
+{
+  "material_imbalances": [
+    {
+      "count": 223,
+      "disposition": "EXCLUDED_FROM_CANONICAL_CLAIM",
+      "dominant_columns": [
+        "iid"
+      ],
+      "explanation": "Strong association is retained for review; no claim of independence is made for this factor pair unless corrected before freeze.",
+      "row": "EASY",
+      "share": 0.83209,
+      "table": "difficulty_x_split_type",
+      "total": 268
+    },
+    {
+      "count": 261,
+      "disposition": "EXCLUDED_FROM_CANONICAL_CLAIM",
+      "dominant_columns": [
+        "iid"
+      ],
+      "explanation": "Strong association is retained for review; no claim of independence is made for this factor pair unless corrected before freeze.",
+      "row": "MEDIUM",
+      "share": 0.836538,
+      "table": "difficulty_x_split_type",
+      "total": 312
+    },
+    {
+      "count": 231,
+      "disposition": "EXCLUDED_FROM_CANONICAL_CLAIM",
+      "dominant_columns": [
+        "iid"
+      ],
+      "explanation": "Strong association is retained for review; no claim of independence is made for this factor pair unless corrected before freeze.",
+      "row": "HARD",
+      "share": 0.855556,
+      "table": "difficulty_x_split_type",
+      "total": 270
+    },
+    {
+      "count": 213,
+      "disposition": "ACCEPTED_BY_DESIGN",
+      "dominant_columns": [
+        "NOT_APPLICABLE"
+      ],
+      "explanation": "Behavior-only tasks intentionally require no Nimbus world fact, so component_family is not applicable.",
+      "row": "behavior_only",
+      "share": 1.0,
+      "table": "task_family_x_component_family",
+      "total": 213
+    },
+    {
+      "count": 213,
+      "disposition": "EXCLUDED_FROM_CANONICAL_CLAIM",
+      "dominant_columns": [
+        "iid"
+      ],
+      "explanation": "Strong association is retained for review; no claim of independence is made for this factor pair unless corrected before freeze.",
+      "row": "behavior_only",
+      "share": 1.0,
+      "table": "task_family_x_split_type",
+      "total": 213
+    },
+    {
+      "count": 177,
+      "disposition": "EXCLUDED_FROM_CANONICAL_CLAIM",
+      "dominant_columns": [
+        "iid"
+      ],
+      "explanation": "Strong association is retained for review; no claim of independence is made for this factor pair unless corrected before freeze.",
+      "row": "changed_knowledge",
+      "share": 0.834906,
+      "table": "task_family_x_split_type",
+      "total": 212
+    }
+  ],
+  "summary": {
+    "concentration_warning_count": 12,
+    "document_count": 48,
+    "empty_cell_count": 48,
+    "example_count": 850,
+    "full_scale": true,
+    "material_imbalance_count": 6,
+    "material_imbalance_dispositions": {
+      "ACCEPTED_BY_DESIGN": 1,
+      "EXCLUDED_FROM_CANONICAL_CLAIM": 5
+    },
+    "prototype_balance_required": false,
+    "table_count": 10
+  },
+  "tables": {
+    "behavior_type_x_component_family": {
+      "columns": [
+        "authentication",
+        "billing",
+        "configuration",
+        "deployments",
+        "observability",
+        "permissions",
+        "projects",
+        "storage",
+        "NOT_APPLICABLE",
+        "MULTIPLE"
+      ],
+      "counts": {
+        "ABSTENTION_BEHAVIOR": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 57,
+          "authentication": 7,
+          "billing": 6,
+          "configuration": 7,
+          "deployments": 7,
+          "observability": 8,
+          "permissions": 2,
+          "projects": 1,
+          "storage": 2
+        },
+        "CLASSIFICATION_POLICY": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 42,
+          "authentication": 7,
+          "billing": 6,
+          "configuration": 7,
+          "deployments": 7,
+          "observability": 8,
+          "permissions": 2,
+          "projects": 1,
+          "storage": 2
+        },
+        "CONDITIONAL_DECISION_RULE": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 43,
+          "authentication": 7,
+          "billing": 6,
+          "configuration": 7,
+          "deployments": 7,
+          "observability": 7,
+          "permissions": 2,
+          "projects": 1,
+          "storage": 2
+        },
+        "NOT_APPLICABLE": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 25,
+          "authentication": 70,
+          "billing": 65,
+          "configuration": 75,
+          "deployments": 65,
+          "observability": 75,
+          "permissions": 35,
+          "projects": 5,
+          "storage": 10
+        },
+        "SCHEMA_ADHERENCE": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 43,
+          "authentication": 7,
+          "billing": 6,
+          "configuration": 7,
+          "deployments": 7,
+          "observability": 7,
+          "permissions": 2,
+          "projects": 1,
+          "storage": 2
+        },
+        "TRANSFORMATION_EXTRACTION": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 43,
+          "authentication": 7,
+          "billing": 6,
+          "configuration": 7,
+          "deployments": 7,
+          "observability": 7,
+          "permissions": 2,
+          "projects": 1,
+          "storage": 2
+        }
+      },
+      "empty_categories": [
+        {
+          "column": "MULTIPLE",
+          "row": "SCHEMA_ADHERENCE"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "CONDITIONAL_DECISION_RULE"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "TRANSFORMATION_EXTRACTION"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "CLASSIFICATION_POLICY"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "ABSTENTION_BEHAVIOR"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "NOT_APPLICABLE"
+        }
+      ],
+      "rows": [
+        "SCHEMA_ADHERENCE",
+        "CONDITIONAL_DECISION_RULE",
+        "TRANSFORMATION_EXTRACTION",
+        "CLASSIFICATION_POLICY",
+        "ABSTENTION_BEHAVIOR",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "behavior_type_x_difficulty": {
+      "columns": [
+        "EASY",
+        "MEDIUM",
+        "HARD"
+      ],
+      "counts": {
+        "ABSTENTION_BEHAVIOR": {
+          "EASY": 29,
+          "HARD": 32,
+          "MEDIUM": 36
+        },
+        "CLASSIFICATION_POLICY": {
+          "EASY": 23,
+          "HARD": 24,
+          "MEDIUM": 35
+        },
+        "CONDITIONAL_DECISION_RULE": {
+          "EASY": 24,
+          "HARD": 26,
+          "MEDIUM": 32
+        },
+        "NOT_APPLICABLE": {
+          "EASY": 140,
+          "HARD": 131,
+          "MEDIUM": 154
+        },
+        "SCHEMA_ADHERENCE": {
+          "EASY": 25,
+          "HARD": 31,
+          "MEDIUM": 26
+        },
+        "TRANSFORMATION_EXTRACTION": {
+          "EASY": 27,
+          "HARD": 26,
+          "MEDIUM": 29
+        }
+      },
+      "empty_categories": [],
+      "rows": [
+        "SCHEMA_ADHERENCE",
+        "CONDITIONAL_DECISION_RULE",
+        "TRANSFORMATION_EXTRACTION",
+        "CLASSIFICATION_POLICY",
+        "ABSTENTION_BEHAVIOR",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "difficulty_x_split_type": {
+      "columns": [
+        "iid",
+        "structural_holdout"
+      ],
+      "counts": {
+        "EASY": {
+          "iid": 223,
+          "structural_holdout": 45
+        },
+        "HARD": {
+          "iid": 231,
+          "structural_holdout": 39
+        },
+        "MEDIUM": {
+          "iid": 261,
+          "structural_holdout": 51
+        }
+      },
+      "empty_categories": [],
+      "rows": [
+        "EASY",
+        "MEDIUM",
+        "HARD"
+      ]
+    },
+    "document_style_x_task_family": {
+      "columns": [
+        "behavior_only",
+        "knowledge_only",
+        "behavior_knowledge",
+        "changed_knowledge"
+      ],
+      "counts": {
+        "configuration_guide": {
+          "behavior_knowledge": 90,
+          "behavior_only": 0,
+          "changed_knowledge": 85,
+          "knowledge_only": 90
+        },
+        "reference_documentation": {
+          "behavior_knowledge": 5,
+          "behavior_only": 0,
+          "changed_knowledge": 5,
+          "knowledge_only": 5
+        },
+        "release_note": {
+          "behavior_knowledge": 52,
+          "behavior_only": 0,
+          "changed_knowledge": 57,
+          "knowledge_only": 53
+        },
+        "troubleshooting_guide": {
+          "behavior_knowledge": 52,
+          "behavior_only": 0,
+          "changed_knowledge": 57,
+          "knowledge_only": 53
+        }
+      },
+      "empty_categories": [
+        {
+          "column": "behavior_only",
+          "row": "reference_documentation"
+        },
+        {
+          "column": "behavior_only",
+          "row": "troubleshooting_guide"
+        },
+        {
+          "column": "behavior_only",
+          "row": "release_note"
+        },
+        {
+          "column": "behavior_only",
+          "row": "configuration_guide"
+        }
+      ],
+      "rows": [
+        "reference_documentation",
+        "troubleshooting_guide",
+        "release_note",
+        "configuration_guide"
+      ]
+    },
+    "evidence_status_x_difficulty": {
+      "columns": [
+        "EASY",
+        "MEDIUM",
+        "HARD"
+      ],
+      "counts": {
+        "ABSENT": {
+          "EASY": 12,
+          "HARD": 10,
+          "MEDIUM": 18
+        },
+        "NOT_APPLICABLE": {
+          "EASY": 69,
+          "HARD": 67,
+          "MEDIUM": 77
+        },
+        "PRESENT": {
+          "EASY": 187,
+          "HARD": 193,
+          "MEDIUM": 217
+        }
+      },
+      "empty_categories": [],
+      "rows": [
+        "NOT_APPLICABLE",
+        "PRESENT",
+        "ABSENT"
+      ]
+    },
+    "knowledge_state_x_component_family": {
+      "columns": [
+        "authentication",
+        "billing",
+        "configuration",
+        "deployments",
+        "observability",
+        "permissions",
+        "projects",
+        "storage",
+        "NOT_APPLICABLE",
+        "MULTIPLE"
+      ],
+      "counts": {
+        "NOT_APPLICABLE": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 243,
+          "authentication": 70,
+          "billing": 60,
+          "configuration": 70,
+          "deployments": 70,
+          "observability": 75,
+          "permissions": 20,
+          "projects": 10,
+          "storage": 20
+        },
+        "REMOVED": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 10,
+          "authentication": 0,
+          "billing": 5,
+          "configuration": 5,
+          "deployments": 5,
+          "observability": 0,
+          "permissions": 5,
+          "projects": 0,
+          "storage": 0
+        },
+        "UNCHANGED": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 0,
+          "authentication": 15,
+          "billing": 20,
+          "configuration": 20,
+          "deployments": 10,
+          "observability": 17,
+          "permissions": 5,
+          "projects": 0,
+          "storage": 0
+        },
+        "UPDATED": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 0,
+          "authentication": 20,
+          "billing": 10,
+          "configuration": 15,
+          "deployments": 15,
+          "observability": 20,
+          "permissions": 15,
+          "projects": 0,
+          "storage": 0
+        }
+      },
+      "empty_categories": [
+        {
+          "column": "MULTIPLE",
+          "row": "NOT_APPLICABLE"
+        },
+        {
+          "column": "projects",
+          "row": "UNCHANGED"
+        },
+        {
+          "column": "storage",
+          "row": "UNCHANGED"
+        },
+        {
+          "column": "NOT_APPLICABLE",
+          "row": "UNCHANGED"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "UNCHANGED"
+        },
+        {
+          "column": "projects",
+          "row": "UPDATED"
+        },
+        {
+          "column": "storage",
+          "row": "UPDATED"
+        },
+        {
+          "column": "NOT_APPLICABLE",
+          "row": "UPDATED"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "UPDATED"
+        },
+        {
+          "column": "authentication",
+          "row": "REMOVED"
+        },
+        {
+          "column": "observability",
+          "row": "REMOVED"
+        },
+        {
+          "column": "projects",
+          "row": "REMOVED"
+        },
+        {
+          "column": "storage",
+          "row": "REMOVED"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "REMOVED"
+        }
+      ],
+      "rows": [
+        "NOT_APPLICABLE",
+        "UNCHANGED",
+        "UPDATED",
+        "REMOVED"
+      ]
+    },
+    "knowledge_state_x_fact_family": {
+      "columns": [
+        "configuration_value",
+        "endpoint_behavior",
+        "error_code",
+        "feature_availability",
+        "limit",
+        "permission",
+        "policy",
+        "retention_setting",
+        "NOT_APPLICABLE",
+        "MULTIPLE"
+      ],
+      "counts": {
+        "NOT_APPLICABLE": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 243,
+          "configuration_value": 50,
+          "endpoint_behavior": 45,
+          "error_code": 70,
+          "feature_availability": 50,
+          "limit": 50,
+          "permission": 40,
+          "policy": 40,
+          "retention_setting": 50
+        },
+        "REMOVED": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 0,
+          "configuration_value": 4,
+          "endpoint_behavior": 10,
+          "error_code": 0,
+          "feature_availability": 4,
+          "limit": 5,
+          "permission": 2,
+          "policy": 5,
+          "retention_setting": 0
+        },
+        "UNCHANGED": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 0,
+          "configuration_value": 5,
+          "endpoint_behavior": 12,
+          "error_code": 5,
+          "feature_availability": 15,
+          "limit": 15,
+          "permission": 15,
+          "policy": 15,
+          "retention_setting": 5
+        },
+        "UPDATED": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 0,
+          "configuration_value": 15,
+          "endpoint_behavior": 10,
+          "error_code": 20,
+          "feature_availability": 10,
+          "limit": 10,
+          "permission": 5,
+          "policy": 5,
+          "retention_setting": 20
+        }
+      },
+      "empty_categories": [
+        {
+          "column": "MULTIPLE",
+          "row": "NOT_APPLICABLE"
+        },
+        {
+          "column": "NOT_APPLICABLE",
+          "row": "UNCHANGED"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "UNCHANGED"
+        },
+        {
+          "column": "NOT_APPLICABLE",
+          "row": "UPDATED"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "UPDATED"
+        },
+        {
+          "column": "error_code",
+          "row": "REMOVED"
+        },
+        {
+          "column": "retention_setting",
+          "row": "REMOVED"
+        },
+        {
+          "column": "NOT_APPLICABLE",
+          "row": "REMOVED"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "REMOVED"
+        }
+      ],
+      "rows": [
+        "NOT_APPLICABLE",
+        "UNCHANGED",
+        "UPDATED",
+        "REMOVED"
+      ]
+    },
+    "task_family_x_component_family": {
+      "columns": [
+        "authentication",
+        "billing",
+        "configuration",
+        "deployments",
+        "observability",
+        "permissions",
+        "projects",
+        "storage",
+        "NOT_APPLICABLE",
+        "MULTIPLE"
+      ],
+      "counts": {
+        "behavior_knowledge": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 15,
+          "authentication": 35,
+          "billing": 30,
+          "configuration": 35,
+          "deployments": 35,
+          "observability": 37,
+          "permissions": 10,
+          "projects": 5,
+          "storage": 10
+        },
+        "behavior_only": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 213,
+          "authentication": 0,
+          "billing": 0,
+          "configuration": 0,
+          "deployments": 0,
+          "observability": 0,
+          "permissions": 0,
+          "projects": 0,
+          "storage": 0
+        },
+        "changed_knowledge": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 10,
+          "authentication": 35,
+          "billing": 35,
+          "configuration": 40,
+          "deployments": 30,
+          "observability": 37,
+          "permissions": 25,
+          "projects": 0,
+          "storage": 0
+        },
+        "knowledge_only": {
+          "MULTIPLE": 0,
+          "NOT_APPLICABLE": 15,
+          "authentication": 35,
+          "billing": 30,
+          "configuration": 35,
+          "deployments": 35,
+          "observability": 38,
+          "permissions": 10,
+          "projects": 5,
+          "storage": 10
+        }
+      },
+      "empty_categories": [
+        {
+          "column": "authentication",
+          "row": "behavior_only"
+        },
+        {
+          "column": "billing",
+          "row": "behavior_only"
+        },
+        {
+          "column": "configuration",
+          "row": "behavior_only"
+        },
+        {
+          "column": "deployments",
+          "row": "behavior_only"
+        },
+        {
+          "column": "observability",
+          "row": "behavior_only"
+        },
+        {
+          "column": "permissions",
+          "row": "behavior_only"
+        },
+        {
+          "column": "projects",
+          "row": "behavior_only"
+        },
+        {
+          "column": "storage",
+          "row": "behavior_only"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "behavior_only"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "knowledge_only"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "behavior_knowledge"
+        },
+        {
+          "column": "projects",
+          "row": "changed_knowledge"
+        },
+        {
+          "column": "storage",
+          "row": "changed_knowledge"
+        },
+        {
+          "column": "MULTIPLE",
+          "row": "changed_knowledge"
+        }
+      ],
+      "rows": [
+        "behavior_only",
+        "knowledge_only",
+        "behavior_knowledge",
+        "changed_knowledge"
+      ]
+    },
+    "task_family_x_difficulty": {
+      "columns": [
+        "EASY",
+        "MEDIUM",
+        "HARD"
+      ],
+      "counts": {
+        "behavior_knowledge": {
+          "EASY": 59,
+          "HARD": 72,
+          "MEDIUM": 81
+        },
+        "behavior_only": {
+          "EASY": 69,
+          "HARD": 67,
+          "MEDIUM": 77
+        },
+        "changed_knowledge": {
+          "EASY": 68,
+          "HARD": 71,
+          "MEDIUM": 73
+        },
+        "knowledge_only": {
+          "EASY": 72,
+          "HARD": 60,
+          "MEDIUM": 81
+        }
+      },
+      "empty_categories": [],
+      "rows": [
+        "behavior_only",
+        "knowledge_only",
+        "behavior_knowledge",
+        "changed_knowledge"
+      ]
+    },
+    "task_family_x_split_type": {
+      "columns": [
+        "iid",
+        "structural_holdout"
+      ],
+      "counts": {
+        "behavior_knowledge": {
+          "iid": 162,
+          "structural_holdout": 50
+        },
+        "behavior_only": {
+          "iid": 213,
+          "structural_holdout": 0
+        },
+        "changed_knowledge": {
+          "iid": 177,
+          "structural_holdout": 35
+        },
+        "knowledge_only": {
+          "iid": 163,
+          "structural_holdout": 50
+        }
+      },
+      "empty_categories": [
+        {
+          "column": "structural_holdout",
+          "row": "behavior_only"
+        }
+      ],
+      "rows": [
+        "behavior_only",
+        "knowledge_only",
+        "behavior_knowledge",
+        "changed_knowledge"
+      ]
+    }
+  },
+  "warnings": [
+    "difficulty_x_split_type: material association for row 'EASY' (223/268, 83%); disposition=EXCLUDED_FROM_CANONICAL_CLAIM",
+    "difficulty_x_split_type: material association for row 'HARD' (231/270, 86%); disposition=EXCLUDED_FROM_CANONICAL_CLAIM",
+    "difficulty_x_split_type: material association for row 'MEDIUM' (261/312, 84%); disposition=EXCLUDED_FROM_CANONICAL_CLAIM",
+    "difficulty_x_split_type: row 'EASY' is severely concentrated in 'iid' (223/268, 83%)",
+    "difficulty_x_split_type: row 'HARD' is severely concentrated in 'iid' (231/270, 86%)",
+    "difficulty_x_split_type: row 'MEDIUM' is severely concentrated in 'iid' (261/312, 84%)",
+    "task_family_x_component_family: material association for row 'behavior_only' (213/213, 100%); disposition=ACCEPTED_BY_DESIGN",
+    "task_family_x_component_family: row 'behavior_only' is severely concentrated in 'NOT_APPLICABLE' (213/213, 100%)",
+    "task_family_x_split_type: material association for row 'behavior_only' (213/213, 100%); disposition=EXCLUDED_FROM_CANONICAL_CLAIM",
+    "task_family_x_split_type: material association for row 'changed_knowledge' (177/212, 83%); disposition=EXCLUDED_FROM_CANONICAL_CLAIM",
+    "task_family_x_split_type: row 'behavior_only' is severely concentrated in 'iid' (213/213, 100%)",
+    "task_family_x_split_type: row 'changed_knowledge' is severely concentrated in 'iid' (177/212, 83%)"
+  ]
+}

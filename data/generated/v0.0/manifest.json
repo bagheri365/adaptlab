@@ -1,0 +1,54 @@
+{
+  "audit_artifact_hashes": {
+    "anti_confounding.json": "31ad3d5d4da62a75d13e6cd990ed53cd3d9f7563bf4ffb8e94125289dc1fdc97",
+    "corpus_composition.json": "57907026eadaa04b73dc3e3bb2def24a9871247c4aa9d124c6c6d9d5244592c0",
+    "human_audit.json": "b520dd919109775ab9eeb470bc97f96a92c91b2a1b2e1acb87fbd5b1e6fed028",
+    "leakage.json": "38f345c8c00e0729d8b9c1afb86acc712746f9e2fd51309a8242f130cfcfe1a0",
+    "lexical_overlap.json": "18890161991f3a93fa72000e73ea3c6aaa1c38f99dc7f2b07808f649e18284ad"
+  },
+  "benchmark_name": "AdaptLab Nimbus Benchmark",
+  "benchmark_version": "0.0.0",
+  "candidate_version": "0.0.0-candidate.1",
+  "config_hash": "dad728f5df78569d760c29200b84ef9c13074db6317cc0abff08fae60f422366",
+  "corpus_chunk_count": 180,
+  "corpus_hash": "5c89b65b8b92e56a8d5501e4fe54a4d9e85fc2ea7c4ebe7ddf8d4f96042bf36d",
+  "generalization_sentinel_count": 100,
+  "generation_seed": 1729,
+  "generator_versions": {
+    "corpus_generator": "full-v0.0-corpus-v1",
+    "manifest_generator": "1",
+    "sentinel_generator": "v0.0.0",
+    "task_generator": "full-v0.0-tasks-v1",
+    "training_subset_generator": "1",
+    "world_generator": "full-v0.0-world-v1"
+  },
+  "human_audit_artifact_hash": "b520dd919109775ab9eeb470bc97f96a92c91b2a1b2e1acb87fbd5b1e6fed028",
+  "manifest_schema_version": "1",
+  "policy_hashes": {
+    "evaluation_policy_v0.0.yaml": "20e009cb3a9485deec0bae7e0e72c59d1034268bdd38aeb2d8ae4280594484c2",
+    "external_validity_v0.0.yaml": "3545c47caae97fc4f3fd679bd9a1001c8fd29fc6c711632802007eb14322fbe0"
+  },
+  "preliminary_manifest_hash": "5d94ba352effdab694cf562629ea865a75ebe3cf11fdb2ab5e50b29e505edb46",
+  "provenance": {
+    "evaluation_policy": "configs/evaluation_policy_v0.0.yaml",
+    "external_validity_policy": "configs/external_validity_v0.0.yaml",
+    "holdout_policy": "data/generated/v0.0/holdout_policy.json",
+    "human_audit": "data/generated/v0.0/audits/human_audit.json"
+  },
+  "sentinel_hash": "e8ad9190525b5cce9119d7bcefc916d342ac04648f449449ddfad650d29a13b2",
+  "split_policy_version": "full-v0.0-structural-holdout-v1",
+  "test_count": 400,
+  "test_hash": "4b2eeab21498b8fa05c4d0c66f4559b266b162e009a20bbb3021c501e5ee01e9",
+  "train_count": 300,
+  "train_hash": "c2f49ea90cd171089fb7aa50b503d0d738c5471ea9cd8808d06fd0f02aec908f",
+  "training_subset_hashes": {
+    "train_050": "48e22ea76eba84ada23e6443c90b725c96dafa8c282decf7b0c278e527c6121d",
+    "train_100": "b80cf3b8a6ed51360577c5182cb269d29452cb5b9629d308414469a2a39c02ea",
+    "train_200": "93275d6dd0c6b04c493ebfdececa661a18b141d9d2ce711dea9fcaca4a02c1f9",
+    "train_300": "c2f49ea90cd171089fb7aa50b503d0d738c5471ea9cd8808d06fd0f02aec908f"
+  },
+  "validation_count": 150,
+  "validation_hash": "be0acc82a7592c5fccdfc9129dae028832907983e419b6689a2415eb3c92a8da",
+  "world_hash": "cf17144583769c73cfa1162ea0ffe7b5f76ba074c1e438123b1a8de3ba00fc01",
+  "world_schema_version": "1"
+}

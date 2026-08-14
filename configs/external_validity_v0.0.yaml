@@ -1,0 +1,88 @@
+policy_name: "AdaptLab v0.0 External Validity Precommitment"
+policy_version: "1"
+benchmark_version: "0.0.0"
+status: "PRECOMMITTED_BEFORE_CANONICAL_MODEL_RESULTS"
+
+candidate_benchmarks:
+  - benchmark_id: "IFEval"
+    public_reference: "google/IFEval"
+    capability_focus:
+      - "instruction_following"
+      - "format_and_constraint_adherence"
+  - benchmark_id: "MMLU-Pro"
+    public_reference: "TIGER-Lab/MMLU-Pro"
+    capability_focus:
+      - "knowledge_reasoning"
+      - "multiple_choice_reasoning"
+  - benchmark_id: "BBH"
+    public_reference: "BIG-bench hard"
+    capability_focus:
+      - "deterministic_reasoning"
+      - "instruction_following"
+
+selection_rule:
+  timing: "before_canonical_adaptlab_model_results"
+  eligible_only_if_all:
+    - "publicly_accessible_with_fixed_items_or_versioned_snapshot"
+    - "redistribution_or_evaluation_use_is_compatible_with_project_constraints"
+    - "has_deterministic_or_officially_specified_scoring"
+    - "contains_no_nimbus_specific_facts"
+    - "is_not_used_for_adaptlab_prompt_selection_or_hyperparameter_tuning"
+    - "supports_at_least_one_predeclared_directional_transfer_capability"
+  rank_eligible_candidates_by:
+    - "lowest_documented_contamination_risk"
+    - "strongest_overlap_with_predeclared_transfer_capabilities"
+    - "smallest_required_evaluation_sample_at_or_above_sample_size_target"
+    - "lexicographically_smaller_benchmark_id"
+  no_eligible_candidate_action: "record_failure_to_select_and_do_not_substitute_post_hoc"
+
+inclusion_criteria:
+  - "public benchmark with stable or snapshot-pinnable items"
+  - "mechanically or officially scorable"
+  - "does not require Nimbus knowledge"
+  - "evaluates instruction following, reasoning, or knowledge use relevant to AdaptLab generalization claims"
+
+exclusion_criteria:
+  - "benchmark was used to select AdaptLab prompts, retrieval settings, or LoRA hyperparameters"
+  - "benchmark items materially overlap AdaptLab training or validation artifacts"
+  - "benchmark cannot be pinned to a reproducible version or snapshot"
+  - "license or access terms prevent the planned evaluation"
+  - "contamination review identifies direct item exposure in AdaptLab benchmark-generation inputs"
+
+sample_size_target:
+  target_examples: 300
+  minimum_examples: 200
+  maximum_examples: 500
+  sampling_rule: "use the full eligible benchmark when it contains at most 500 items; otherwise select 300 items with a deterministic hash-ranked sample"
+  sampling_seed: 1729
+
+scoring_approach:
+  primary_metric: "benchmark_official_metric"
+  fallback_metric: "exact_match_or_deterministic_task_accuracy"
+  aggregation: "macro_average_over_evaluated_items"
+  report_absolute_change_from_same_base_model_baseline: true
+  no_prompt_or_hyperparameter_selection_on_external_benchmark: true
+
+contamination_review:
+  timing: "after_model_identity_is_fixed_but_before_external_evaluation"
+  checks:
+    - "review model card and training-data disclosures for benchmark mentions"
+    - "review benchmark publication date relative to model training cutoff when known"
+    - "search AdaptLab repository artifacts for exact benchmark item text or identifiers"
+    - "record known or suspected contamination evidence without changing the selection rule based on Nimbus results"
+  dispositions:
+    - "LOW_RISK"
+    - "KNOWN_OR_SUSPECTED_CONTAMINATION"
+    - "INSUFFICIENT_INFORMATION"
+  exclusion_on_direct_project_leakage: true
+
+predeclared_directional_transfer_claim:
+  claim_id: "GENERALIZATION_PRESERVATION"
+  statement: "An adaptation method that improves the primary Nimbus benchmark relative to the same base-model baseline while satisfying the frozen AdaptLab generalization-sentinel guardrail should show non-negative external general-capability change relative to that same baseline."
+  direction_test: "non_negative_change"
+  magnitude_equivalence_claimed: false
+  subgroup_transfer_is_exploratory: true
+
+provenance:
+  include_in_final_benchmark_manifest: true
+  policy_artifact: "configs/external_validity_v0.0.yaml"

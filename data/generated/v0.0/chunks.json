@@ -1,0 +1,2806 @@
+[
+  {
+    "chunk_id": "CHK_CMP_001_AUTH_LIMIT_02",
+    "component_family": "authentication",
+    "content": "Nimbus field note for AUTH_LIMIT_02 / authentication_limit_02: current setting is 82. Nearby similarly named settings may differ.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_LIMIT_02"
+    ],
+    "record_ids": [
+      "AUTH_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+    "component_family": "billing",
+    "content": "Nimbus field note for BILL_FEATURE_AVAILABILITY_07 / billing_feature_availability_07: current setting is True. Nearby similarly named settings may differ.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "BILL_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+    "component_family": "configuration",
+    "content": "Nimbus field note for CONF_FEATURE_AVAILABILITY_07 / configuration_feature_availability_07: current setting is False. Nearby similarly named settings may differ.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "CONF_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_004_DEPL_ERROR_CODE_01",
+    "component_family": "deployments",
+    "content": "Nimbus field note for DEPL_ERROR_CODE_01 / deployments_error_code_01: current setting is NMB-DEPL-129-v2. Nearby similarly named settings may differ.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "DEPL_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_005_OBSE_ERROR_CODE_01",
+    "component_family": "observability",
+    "content": "Nimbus field note for OBSE_ERROR_CODE_01 / observability_error_code_01: current setting is NMB-OBSE-153-v2. Nearby similarly named settings may differ.",
+    "document_id": "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "OBSE_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+    "component_family": "permissions",
+    "content": "Nimbus field note for PERM_ENDPOINT_BEHAVIOR_04 / permissions_endpoint_behavior_04: current setting is accept_with_warning. Nearby similarly named settings may differ.",
+    "document_id": "DOC_PERMISSIONS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "PERM_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+    "component_family": "projects",
+    "content": "Nimbus field note for PROJ_ENDPOINT_BEHAVIOR_04 / projects_endpoint_behavior_04: current setting is reject. Nearby similarly named settings may differ.",
+    "document_id": "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "PROJ_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+    "component_family": "storage",
+    "content": "Nimbus field note for STOR_ENDPOINT_BEHAVIOR_04 / storage_endpoint_behavior_04: current setting is retry. Nearby similarly named settings may differ.",
+    "document_id": "DOC_STORAGE_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "STOR_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_009_AUTH_ERROR_CODE_01",
+    "component_family": "authentication",
+    "content": "Nimbus field note for AUTH_ERROR_CODE_01 / authentication_error_code_01: current setting is NMB-AUTH-102-v2. Nearby similarly named settings may differ.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "AUTH_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+    "component_family": "billing",
+    "content": "Nimbus field note for BILL_ENDPOINT_BEHAVIOR_04 / billing_endpoint_behavior_04: current setting is reject. Nearby similarly named settings may differ.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+    "component_family": "configuration",
+    "content": "Nimbus field note for CONF_ENDPOINT_BEHAVIOR_04 / configuration_endpoint_behavior_04: current setting is retired. Nearby similarly named settings may differ.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_012_DEPL_CONFIGURATION_VALUE_05",
+    "component_family": "deployments",
+    "content": "Nimbus field note for DEPL_CONFIGURATION_VALUE_05 / deployments_configuration_value_05: current setting is depl-beta-21-v2. Nearby similarly named settings may differ.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+    "component_family": "deployments",
+    "content": "Nimbus field note for DEPL_RETENTION_SETTING_06 / deployments_retention_setting_06: current setting is 35. Nearby similarly named settings may differ.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+    "component_family": "observability",
+    "content": "Nimbus field note for OBSE_RETENTION_SETTING_06 / observability_retention_setting_06: current setting is 26. Nearby similarly named settings may differ.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+    "component_family": "permissions",
+    "content": "Nimbus field note for PERM_RETENTION_SETTING_06 / permissions_retention_setting_06: current setting is 30. Nearby similarly named settings may differ.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PERM_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+    "component_family": "projects",
+    "content": "Nimbus field note for PROJ_RETENTION_SETTING_06 / projects_retention_setting_06: current setting is 45. Nearby similarly named settings may differ.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PROJ_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+    "component_family": "storage",
+    "content": "Nimbus field note for STOR_RETENTION_SETTING_06 / storage_retention_setting_06: current setting is retired. Nearby similarly named settings may differ.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "STOR_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+    "component_family": "authentication",
+    "content": "Nimbus field note for AUTH_RETENTION_SETTING_06 / authentication_retention_setting_06: current setting is 19. Nearby similarly named settings may differ.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+    "component_family": "billing",
+    "content": "Nimbus field note for BILL_RETENTION_SETTING_06 / billing_retention_setting_06: current setting is 14. Nearby similarly named settings may differ.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_020_CONF_POLICY_08",
+    "component_family": "configuration",
+    "content": "Nimbus field note for CONF_POLICY_08 / configuration_policy_08: current setting is standard. Nearby similarly named settings may differ.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_POLICY_08"
+    ],
+    "record_ids": [
+      "CONF_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_021_DEPL_PERMISSION_03",
+    "component_family": "deployments",
+    "content": "Nimbus field note for DEPL_PERMISSION_03 / deployments_permission_03: current setting is owner. Nearby similarly named settings may differ.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_PERMISSION_03"
+    ],
+    "record_ids": [
+      "DEPL_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_022_OBSE_PERMISSION_03",
+    "component_family": "observability",
+    "content": "Nimbus field note for OBSE_PERMISSION_03 / observability_permission_03: current setting is operator. Nearby similarly named settings may differ.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_PERMISSION_03"
+    ],
+    "record_ids": [
+      "OBSE_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_023_PERM_PERMISSION_03",
+    "component_family": "permissions",
+    "content": "Nimbus field note for PERM_PERMISSION_03 / permissions_permission_03: current setting is owner. Nearby similarly named settings may differ.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_PERMISSION_03"
+    ],
+    "record_ids": [
+      "PERM_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_024_PROJ_PERMISSION_03",
+    "component_family": "projects",
+    "content": "Nimbus field note for PROJ_PERMISSION_03 / projects_permission_03: current setting is maintainer. Nearby similarly named settings may differ.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_PERMISSION_03"
+    ],
+    "record_ids": [
+      "PROJ_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_025_STOR_PERMISSION_03",
+    "component_family": "storage",
+    "content": "Nimbus field note for STOR_PERMISSION_03 / storage_permission_03: current setting is viewer. Nearby similarly named settings may differ.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_PERMISSION_03"
+    ],
+    "record_ids": [
+      "STOR_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_026_AUTH_PERMISSION_03",
+    "component_family": "authentication",
+    "content": "Nimbus field note for AUTH_PERMISSION_03 / authentication_permission_03: current setting is owner. Nearby similarly named settings may differ.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_PERMISSION_03"
+    ],
+    "record_ids": [
+      "AUTH_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_027_BILL_LIMIT_02",
+    "component_family": "billing",
+    "content": "Nimbus field note for BILL_LIMIT_02 / billing_limit_02: current setting is 109. Nearby similarly named settings may differ.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_LIMIT_02"
+    ],
+    "record_ids": [
+      "BILL_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_028_CONF_LIMIT_02",
+    "component_family": "configuration",
+    "content": "Nimbus field note for CONF_LIMIT_02 / configuration_limit_02: current setting is 83. Nearby similarly named settings may differ.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_LIMIT_02"
+    ],
+    "record_ids": [
+      "CONF_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+    "component_family": "deployments",
+    "content": "Nimbus field note for DEPL_FEATURE_AVAILABILITY_07 / deployments_feature_availability_07: current setting is True. Nearby similarly named settings may differ.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+    "component_family": "observability",
+    "content": "Nimbus field note for OBSE_FEATURE_AVAILABILITY_07 / observability_feature_availability_07: current setting is True. Nearby similarly named settings may differ.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "OBSE_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue.",
+    "document_id": "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2.",
+    "document_id": "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "AUTH_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication release note excerpt.\nFor authentication_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "AUTH_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_004_AUTH_LIMIT_02_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication configuration guide excerpt.\nFor authentication_limit_02, the Nimbus v2 value is 82. For authentication_permission_03, the Nimbus v2 value is owner.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_LIMIT_02",
+      "AUTH_PERMISSION_03"
+    ],
+    "record_ids": [
+      "AUTH_LIMIT_02_V2",
+      "AUTH_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_005_AUTH_PERMISSION_03_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation excerpt.\nFor authentication_permission_03, the Nimbus v2 value is owner.",
+    "document_id": "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_PERMISSION_03"
+    ],
+    "record_ids": [
+      "AUTH_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_006_AUTH_POLICY_08_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_policy_08, the Nimbus v2 value is permissive.",
+    "document_id": "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_POLICY_08"
+    ],
+    "record_ids": [
+      "AUTH_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication release note excerpt.\nFor authentication_retention_setting_06, the Nimbus v2 value is 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05",
+      "BILL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V2",
+      "BILL_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing reference documentation excerpt.\nFor billing_endpoint_behavior_04, the Nimbus v2 value is reject.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing troubleshooting guide excerpt.\nFor billing_error_code_01, the Nimbus v2 value is NMB-BILL-151.",
+    "document_id": "DOC_BILLING_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "BILL_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing release note excerpt.\nFor billing_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_BILLING_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "BILL_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_012_BILL_LIMIT_02_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing configuration guide excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109. billing_policy_08 is retired in Nimbus v2.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_LIMIT_02",
+      "BILL_POLICY_08"
+    ],
+    "record_ids": [
+      "BILL_LIMIT_02_V2",
+      "BILL_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_013_BILL_POLICY_08_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing reference documentation excerpt.\nbilling_policy_08 is retired in Nimbus v2.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_POLICY_08"
+    ],
+    "record_ids": [
+      "BILL_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_014_BILL_RETENTION_SETTING_06_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing troubleshooting guide excerpt.\nFor billing_retention_setting_06, the Nimbus v2 value is 14.",
+    "document_id": "DOC_BILLING_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_015_CONF_CONFIGURATION_VALUE_05_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration release note excerpt.\nFor configuration_configuration_value_05, the Nimbus v2 value is conf-gamma-61-v2.",
+    "document_id": "DOC_CONFIGURATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_016_CONF_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration configuration guide excerpt.\nconfiguration_endpoint_behavior_04 is retired in Nimbus v2. For configuration_error_code_01, the Nimbus v2 value is NMB-CONF-160-v2.",
+    "document_id": "DOC_CONFIGURATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04",
+      "CONF_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04_V2",
+      "CONF_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration reference documentation excerpt.\nFor configuration_error_code_01, the Nimbus v2 value is NMB-CONF-160-v2.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "CONF_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration troubleshooting guide excerpt.\nFor configuration_feature_availability_07, the Nimbus v2 value is False.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "CONF_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_019_CONF_LIMIT_02_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration release note excerpt.\nFor configuration_limit_02, the Nimbus v2 value is 83.",
+    "document_id": "DOC_CONFIGURATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_LIMIT_02"
+    ],
+    "record_ids": [
+      "CONF_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_020_CONF_PERMISSION_03_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration configuration guide excerpt.\nFor configuration_permission_03, the Nimbus v2 value is owner. For configuration_policy_08, the Nimbus v2 value is standard.",
+    "document_id": "DOC_CONFIGURATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_PERMISSION_03",
+      "CONF_POLICY_08"
+    ],
+    "record_ids": [
+      "CONF_PERMISSION_03_V2",
+      "CONF_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_021_CONF_POLICY_08_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration reference documentation excerpt.\nFor configuration_policy_08, the Nimbus v2 value is standard.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_POLICY_08"
+    ],
+    "record_ids": [
+      "CONF_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_022_CONF_RETENTION_SETTING_06_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration troubleshooting guide excerpt.\nFor configuration_retention_setting_06, the Nimbus v2 value is 26.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_023_DEPL_CONFIGURATION_VALUE_05_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments release note excerpt.\nFor deployments_configuration_value_05, the Nimbus v2 value is depl-beta-21-v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_024_DEPL_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments configuration guide excerpt.\ndeployments_endpoint_behavior_04 is retired in Nimbus v2. For deployments_error_code_01, the Nimbus v2 value is NMB-DEPL-129-v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_ENDPOINT_BEHAVIOR_04",
+      "DEPL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "DEPL_ENDPOINT_BEHAVIOR_04_V2",
+      "DEPL_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_025_DEPL_ERROR_CODE_01_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments reference documentation excerpt.\nFor deployments_error_code_01, the Nimbus v2 value is NMB-DEPL-129-v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "DEPL_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments troubleshooting guide excerpt.\nFor deployments_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_027_DEPL_LIMIT_02_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments release note excerpt.\nFor deployments_limit_02, the Nimbus v2 value is 68.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_LIMIT_02"
+    ],
+    "record_ids": [
+      "DEPL_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_028_DEPL_PERMISSION_03_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments configuration guide excerpt.\nFor deployments_permission_03, the Nimbus v2 value is owner. For deployments_policy_08, the Nimbus v2 value is strict.",
+    "document_id": "DOC_DEPLOYMENTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_PERMISSION_03",
+      "DEPL_POLICY_08"
+    ],
+    "record_ids": [
+      "DEPL_PERMISSION_03_V2",
+      "DEPL_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_029_DEPL_POLICY_08_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments reference documentation excerpt.\nFor deployments_policy_08, the Nimbus v2 value is strict.",
+    "document_id": "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_POLICY_08"
+    ],
+    "record_ids": [
+      "DEPL_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_030_DEPL_RETENTION_SETTING_06_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments troubleshooting guide excerpt.\nFor deployments_retention_setting_06, the Nimbus v2 value is 35.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "DEPL_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability release note excerpt.\nFor observability_endpoint_behavior_04, the Nimbus v2 value is queue.",
+    "document_id": "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability configuration guide excerpt.\nFor observability_error_code_01, the Nimbus v2 value is NMB-OBSE-153-v2. For observability_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_ERROR_CODE_01",
+      "OBSE_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "OBSE_ERROR_CODE_01_V2",
+      "OBSE_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability reference documentation excerpt.\nFor observability_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_OBSERVABILITY_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "OBSE_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_034_OBSE_LIMIT_02_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability troubleshooting guide excerpt.\nFor observability_limit_02, the Nimbus v2 value is 72.",
+    "document_id": "DOC_OBSERVABILITY_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_LIMIT_02"
+    ],
+    "record_ids": [
+      "OBSE_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability release note excerpt.\nFor observability_permission_03, the Nimbus v2 value is operator.",
+    "document_id": "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_PERMISSION_03"
+    ],
+    "record_ids": [
+      "OBSE_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_036_OBSE_POLICY_08_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability configuration guide excerpt.\nFor observability_policy_08, the Nimbus v2 value is strict. For observability_retention_setting_06, the Nimbus v2 value is 26.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_POLICY_08",
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_POLICY_08_V2",
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability reference documentation excerpt.\nFor observability_retention_setting_06, the Nimbus v2 value is 26.",
+    "document_id": "DOC_OBSERVABILITY_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "OBSE_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_038_PERM_CONFIGURATION_VALUE_05_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions troubleshooting guide excerpt.\nFor permissions_configuration_value_05, the Nimbus v2 value is perm-delta-53.",
+    "document_id": "DOC_PERMISSIONS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "PERM_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_039_PERM_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions release note excerpt.\nFor permissions_endpoint_behavior_04, the Nimbus v2 value is accept_with_warning.",
+    "document_id": "DOC_PERMISSIONS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "PERM_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_040_PERM_ERROR_CODE_01_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions configuration guide excerpt.\nFor permissions_error_code_01, the Nimbus v2 value is NMB-PERM-163. permissions_limit_02 is retired in Nimbus v2.",
+    "document_id": "DOC_PERMISSIONS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_ERROR_CODE_01",
+      "PERM_LIMIT_02"
+    ],
+    "record_ids": [
+      "PERM_ERROR_CODE_01_V2",
+      "PERM_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_041_PERM_LIMIT_02_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions reference documentation excerpt.\npermissions_limit_02 is retired in Nimbus v2.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_LIMIT_02"
+    ],
+    "record_ids": [
+      "PERM_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_042_PERM_PERMISSION_03_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions troubleshooting guide excerpt.\nFor permissions_permission_03, the Nimbus v2 value is owner.",
+    "document_id": "DOC_PERMISSIONS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_PERMISSION_03"
+    ],
+    "record_ids": [
+      "PERM_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_043_PERM_POLICY_08_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions release note excerpt.\nFor permissions_policy_08, the Nimbus v2 value is delegated.",
+    "document_id": "DOC_PERMISSIONS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_POLICY_08"
+    ],
+    "record_ids": [
+      "PERM_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_044_PERM_RETENTION_SETTING_06_V2",
+    "component_family": "permissions",
+    "content": "Nimbus permissions configuration guide excerpt.\nFor permissions_retention_setting_06, the Nimbus v2 value is 30. For permissions_configuration_value_05, the Nimbus v2 value is perm-delta-53.",
+    "document_id": "DOC_PERMISSIONS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PERM_RETENTION_SETTING_06",
+      "PERM_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "PERM_RETENTION_SETTING_06_V2",
+      "PERM_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_045_PROJ_CONFIGURATION_VALUE_05_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects reference documentation excerpt.\nFor projects_configuration_value_05, the Nimbus v2 value is proj-alpha-13.",
+    "document_id": "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "PROJ_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects troubleshooting guide excerpt.\nFor projects_endpoint_behavior_04, the Nimbus v2 value is reject.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "PROJ_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects release note excerpt.\nFor projects_error_code_01, the Nimbus v2 value is NMB-PROJ-118.",
+    "document_id": "DOC_PROJECTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "PROJ_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_048_PROJ_LIMIT_02_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects configuration guide excerpt.\nprojects_limit_02 is retired in Nimbus v2. For projects_permission_03, the Nimbus v2 value is maintainer.",
+    "document_id": "DOC_PROJECTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_LIMIT_02",
+      "PROJ_PERMISSION_03"
+    ],
+    "record_ids": [
+      "PROJ_LIMIT_02_V2",
+      "PROJ_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_049_PROJ_PERMISSION_03_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects reference documentation excerpt.\nFor projects_permission_03, the Nimbus v2 value is maintainer.",
+    "document_id": "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_PERMISSION_03"
+    ],
+    "record_ids": [
+      "PROJ_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_050_PROJ_POLICY_08_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects troubleshooting guide excerpt.\nFor projects_policy_08, the Nimbus v2 value is delegated.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_POLICY_08"
+    ],
+    "record_ids": [
+      "PROJ_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_051_PROJ_RETENTION_SETTING_06_V2",
+    "component_family": "projects",
+    "content": "Nimbus projects release note excerpt.\nFor projects_retention_setting_06, the Nimbus v2 value is 45.",
+    "document_id": "DOC_PROJECTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "PROJ_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "PROJ_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_052_STOR_CONFIGURATION_VALUE_05_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage configuration guide excerpt.\nFor storage_configuration_value_05, the Nimbus v2 value is stor-gamma-29. For storage_endpoint_behavior_04, the Nimbus v2 value is retry.",
+    "document_id": "DOC_STORAGE_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_CONFIGURATION_VALUE_05",
+      "STOR_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "STOR_CONFIGURATION_VALUE_05_V2",
+      "STOR_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_053_STOR_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage reference documentation excerpt.\nFor storage_endpoint_behavior_04, the Nimbus v2 value is retry.",
+    "document_id": "DOC_STORAGE_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "STOR_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_054_STOR_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage troubleshooting guide excerpt.\nFor storage_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_STORAGE_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "STOR_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_055_STOR_LIMIT_02_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage release note excerpt.\nFor storage_limit_02, the Nimbus v2 value is 56.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_LIMIT_02"
+    ],
+    "record_ids": [
+      "STOR_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_056_STOR_PERMISSION_03_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage configuration guide excerpt.\nFor storage_permission_03, the Nimbus v2 value is viewer. For storage_policy_08, the Nimbus v2 value is strict.",
+    "document_id": "DOC_STORAGE_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_PERMISSION_03",
+      "STOR_POLICY_08"
+    ],
+    "record_ids": [
+      "STOR_PERMISSION_03_V2",
+      "STOR_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_057_STOR_POLICY_08_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage reference documentation excerpt.\nFor storage_policy_08, the Nimbus v2 value is strict.",
+    "document_id": "DOC_STORAGE_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_POLICY_08"
+    ],
+    "record_ids": [
+      "STOR_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_058_STOR_RETENTION_SETTING_06_V2",
+    "component_family": "storage",
+    "content": "Nimbus storage troubleshooting guide excerpt.\nstorage_retention_setting_06 is retired in Nimbus v2.",
+    "document_id": "DOC_STORAGE_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "STOR_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "STOR_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_059_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication configuration guide excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_060_AUTH_ERROR_CODE_01_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2. For authentication_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_ERROR_CODE_01",
+      "AUTH_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "AUTH_ERROR_CODE_01_V2",
+      "AUTH_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_061_AUTH_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "AUTH_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_062_AUTH_LIMIT_02_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication release note excerpt.\nFor authentication_limit_02, the Nimbus v2 value is 82.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_LIMIT_02"
+    ],
+    "record_ids": [
+      "AUTH_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_063_AUTH_PERMISSION_03_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication configuration guide excerpt.\nFor authentication_permission_03, the Nimbus v2 value is owner.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_PERMISSION_03"
+    ],
+    "record_ids": [
+      "AUTH_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_064_AUTH_POLICY_08_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation excerpt.\nFor authentication_policy_08, the Nimbus v2 value is permissive. For authentication_retention_setting_06, the Nimbus v2 value is 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_POLICY_08",
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_POLICY_08_V2",
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_065_AUTH_RETENTION_SETTING_06_V2",
+    "component_family": "authentication",
+    "content": "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_retention_setting_06, the Nimbus v2 value is 19.",
+    "document_id": "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_RETENTION_SETTING_06_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_066_BILL_CONFIGURATION_VALUE_05_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing release note excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2.",
+    "document_id": "DOC_BILLING_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_067_BILL_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing configuration guide excerpt.\nFor billing_endpoint_behavior_04, the Nimbus v2 value is reject.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_068_BILL_ERROR_CODE_01_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing reference documentation excerpt.\nFor billing_error_code_01, the Nimbus v2 value is NMB-BILL-151. For billing_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_ERROR_CODE_01",
+      "BILL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "BILL_ERROR_CODE_01_V2",
+      "BILL_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_069_BILL_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing troubleshooting guide excerpt.\nFor billing_feature_availability_07, the Nimbus v2 value is True.",
+    "document_id": "DOC_BILLING_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "BILL_FEATURE_AVAILABILITY_07_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_070_BILL_LIMIT_02_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing release note excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109.",
+    "document_id": "DOC_BILLING_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_LIMIT_02"
+    ],
+    "record_ids": [
+      "BILL_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_071_BILL_POLICY_08_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing configuration guide excerpt.\nbilling_policy_08 is retired in Nimbus v2.",
+    "document_id": "DOC_BILLING_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_POLICY_08"
+    ],
+    "record_ids": [
+      "BILL_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_072_BILL_RETENTION_SETTING_06_V2",
+    "component_family": "billing",
+    "content": "Nimbus billing reference documentation excerpt.\nFor billing_retention_setting_06, the Nimbus v2 value is 14. For billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "BILL_RETENTION_SETTING_06",
+      "BILL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "BILL_RETENTION_SETTING_06_V2",
+      "BILL_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_073_CONF_CONFIGURATION_VALUE_05_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration troubleshooting guide excerpt.\nFor configuration_configuration_value_05, the Nimbus v2 value is conf-gamma-61-v2.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_074_CONF_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration release note excerpt.\nconfiguration_endpoint_behavior_04 is retired in Nimbus v2.",
+    "document_id": "DOC_CONFIGURATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_075_CONF_ERROR_CODE_01_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration configuration guide excerpt.\nFor configuration_error_code_01, the Nimbus v2 value is NMB-CONF-160-v2.",
+    "document_id": "DOC_CONFIGURATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "CONF_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_076_CONF_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration reference documentation excerpt.\nFor configuration_feature_availability_07, the Nimbus v2 value is False. For configuration_limit_02, the Nimbus v2 value is 83.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_FEATURE_AVAILABILITY_07",
+      "CONF_LIMIT_02"
+    ],
+    "record_ids": [
+      "CONF_FEATURE_AVAILABILITY_07_V2",
+      "CONF_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_077_CONF_LIMIT_02_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration troubleshooting guide excerpt.\nFor configuration_limit_02, the Nimbus v2 value is 83.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_LIMIT_02"
+    ],
+    "record_ids": [
+      "CONF_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_078_CONF_PERMISSION_03_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration release note excerpt.\nFor configuration_permission_03, the Nimbus v2 value is owner.",
+    "document_id": "DOC_CONFIGURATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_PERMISSION_03"
+    ],
+    "record_ids": [
+      "CONF_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_079_CONF_POLICY_08_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration configuration guide excerpt.\nFor configuration_policy_08, the Nimbus v2 value is standard.",
+    "document_id": "DOC_CONFIGURATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_POLICY_08"
+    ],
+    "record_ids": [
+      "CONF_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_080_CONF_RETENTION_SETTING_06_V2",
+    "component_family": "configuration",
+    "content": "Nimbus configuration reference documentation excerpt.\nFor configuration_retention_setting_06, the Nimbus v2 value is 26. For configuration_configuration_value_05, the Nimbus v2 value is conf-gamma-61-v2.",
+    "document_id": "DOC_CONFIGURATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "CONF_RETENTION_SETTING_06",
+      "CONF_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "CONF_RETENTION_SETTING_06_V2",
+      "CONF_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_081_DEPL_CONFIGURATION_VALUE_05_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments troubleshooting guide excerpt.\nFor deployments_configuration_value_05, the Nimbus v2 value is depl-beta-21-v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_082_DEPL_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments release note excerpt.\ndeployments_endpoint_behavior_04 is retired in Nimbus v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "DEPL_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_083_DEPL_ERROR_CODE_01_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments configuration guide excerpt.\nFor deployments_error_code_01, the Nimbus v2 value is NMB-DEPL-129-v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "DEPL_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_084_DEPL_FEATURE_AVAILABILITY_07_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments reference documentation excerpt.\nFor deployments_feature_availability_07, the Nimbus v2 value is True. For deployments_limit_02, the Nimbus v2 value is 68.",
+    "document_id": "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07",
+      "DEPL_LIMIT_02"
+    ],
+    "record_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07_V2",
+      "DEPL_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_085_DEPL_LIMIT_02_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments troubleshooting guide excerpt.\nFor deployments_limit_02, the Nimbus v2 value is 68.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_LIMIT_02"
+    ],
+    "record_ids": [
+      "DEPL_LIMIT_02_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_086_DEPL_PERMISSION_03_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments release note excerpt.\nFor deployments_permission_03, the Nimbus v2 value is owner.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_PERMISSION_03"
+    ],
+    "record_ids": [
+      "DEPL_PERMISSION_03_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_087_DEPL_POLICY_08_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments configuration guide excerpt.\nFor deployments_policy_08, the Nimbus v2 value is strict.",
+    "document_id": "DOC_DEPLOYMENTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_POLICY_08"
+    ],
+    "record_ids": [
+      "DEPL_POLICY_08_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_088_DEPL_RETENTION_SETTING_06_V2",
+    "component_family": "deployments",
+    "content": "Nimbus deployments reference documentation excerpt.\nFor deployments_retention_setting_06, the Nimbus v2 value is 35. For deployments_configuration_value_05, the Nimbus v2 value is depl-beta-21-v2.",
+    "document_id": "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "DEPL_RETENTION_SETTING_06",
+      "DEPL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "DEPL_RETENTION_SETTING_06_V2",
+      "DEPL_CONFIGURATION_VALUE_05_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability troubleshooting guide excerpt.\nFor observability_endpoint_behavior_04, the Nimbus v2 value is queue.",
+    "document_id": "DOC_OBSERVABILITY_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "OBSE_ENDPOINT_BEHAVIOR_04_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+    "component_family": "observability",
+    "content": "Nimbus observability release note excerpt.\nFor observability_error_code_01, the Nimbus v2 value is NMB-OBSE-153-v2.",
+    "document_id": "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": true,
+    "is_obsolete": false,
+    "logical_fact_ids": [
+      "OBSE_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "OBSE_ERROR_CODE_01_V2"
+    ],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_001_AUTHENTICATION",
+    "component_family": "authentication",
+    "content": "Nimbus authentication operator note 1: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_002_BILLING",
+    "component_family": "billing",
+    "content": "Nimbus billing operator note 2: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_003_CONFIGURATION",
+    "component_family": "configuration",
+    "content": "Nimbus configuration operator note 3: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_004_DEPLOYMENTS",
+    "component_family": "deployments",
+    "content": "Nimbus deployments operator note 4: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_005_OBSERVABILITY",
+    "component_family": "observability",
+    "content": "Nimbus observability operator note 5: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_006_PERMISSIONS",
+    "component_family": "permissions",
+    "content": "Nimbus permissions operator note 6: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_007_PROJECTS",
+    "component_family": "projects",
+    "content": "Nimbus projects operator note 7: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_008_STORAGE",
+    "component_family": "storage",
+    "content": "Nimbus storage operator note 8: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_009_AUTHENTICATION",
+    "component_family": "authentication",
+    "content": "Nimbus authentication operator note 9: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_010_BILLING",
+    "component_family": "billing",
+    "content": "Nimbus billing operator note 10: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_011_CONFIGURATION",
+    "component_family": "configuration",
+    "content": "Nimbus configuration operator note 11: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_012_DEPLOYMENTS",
+    "component_family": "deployments",
+    "content": "Nimbus deployments operator note 12: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_013_OBSERVABILITY",
+    "component_family": "observability",
+    "content": "Nimbus observability operator note 13: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_014_PERMISSIONS",
+    "component_family": "permissions",
+    "content": "Nimbus permissions operator note 14: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_015_PROJECTS",
+    "component_family": "projects",
+    "content": "Nimbus projects operator note 15: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_016_STORAGE",
+    "component_family": "storage",
+    "content": "Nimbus storage operator note 16: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_017_AUTHENTICATION",
+    "component_family": "authentication",
+    "content": "Nimbus authentication operator note 17: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_018_BILLING",
+    "component_family": "billing",
+    "content": "Nimbus billing operator note 18: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_019_CONFIGURATION",
+    "component_family": "configuration",
+    "content": "Nimbus configuration operator note 19: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_020_DEPLOYMENTS",
+    "component_family": "deployments",
+    "content": "Nimbus deployments operator note 20: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_021_OBSERVABILITY",
+    "component_family": "observability",
+    "content": "Nimbus observability operator note 21: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_022_PERMISSIONS",
+    "component_family": "permissions",
+    "content": "Nimbus permissions operator note 22: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_023_PROJECTS",
+    "component_family": "projects",
+    "content": "Nimbus projects operator note 23: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_024_STORAGE",
+    "component_family": "storage",
+    "content": "Nimbus storage operator note 24: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_STORAGE_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_025_AUTHENTICATION",
+    "component_family": "authentication",
+    "content": "Nimbus authentication operator note 25: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_026_BILLING",
+    "component_family": "billing",
+    "content": "Nimbus billing operator note 26: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_BILLING_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_027_CONFIGURATION",
+    "component_family": "configuration",
+    "content": "Nimbus configuration operator note 27: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_CONFIGURATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_028_DEPLOYMENTS",
+    "component_family": "deployments",
+    "content": "Nimbus deployments operator note 28: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_029_OBSERVABILITY",
+    "component_family": "observability",
+    "content": "Nimbus observability operator note 29: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_DST_030_PERMISSIONS",
+    "component_family": "permissions",
+    "content": "Nimbus permissions operator note 30: the console groups related controls together for easier navigation during routine maintenance.",
+    "document_id": "DOC_PERMISSIONS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": false,
+    "logical_fact_ids": [],
+    "record_ids": [],
+    "version": "v2"
+  },
+  {
+    "chunk_id": "CHK_OBS_001_AUTH_CONFIGURATION_VALUE_05_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_configuration_value_05, the Nimbus v1 value is auth-alpha-5. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "AUTH_CONFIGURATION_VALUE_05_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_endpoint_behavior_04, the Nimbus v1 value is queue. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "AUTH_ENDPOINT_BEHAVIOR_04_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_003_AUTH_ERROR_CODE_01_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_error_code_01, the Nimbus v1 value is NMB-AUTH-102. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "AUTH_ERROR_CODE_01_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_004_AUTH_FEATURE_AVAILABILITY_07_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_feature_availability_07, the Nimbus v1 value is False. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "AUTH_FEATURE_AVAILABILITY_07_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_005_AUTH_LIMIT_02_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_limit_02, the Nimbus v1 value is 77. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_LIMIT_02"
+    ],
+    "record_ids": [
+      "AUTH_LIMIT_02_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_permission_03, the Nimbus v1 value is owner. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_PERMISSION_03"
+    ],
+    "record_ids": [
+      "AUTH_PERMISSION_03_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_007_AUTH_POLICY_08_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_policy_08, the Nimbus v1 value is permissive. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_POLICY_08"
+    ],
+    "record_ids": [
+      "AUTH_POLICY_08_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_008_AUTH_RETENTION_SETTING_06_V1",
+    "component_family": "authentication",
+    "content": "OBSOLETE Nimbus v1 excerpt. For authentication_retention_setting_06, the Nimbus v1 value is 14. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_AUTHENTICATION_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "AUTH_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "AUTH_RETENTION_SETTING_06_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_009_BILL_CONFIGURATION_VALUE_05_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_configuration_value_05, the Nimbus v1 value is bill-delta-37. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "BILL_CONFIGURATION_VALUE_05_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_endpoint_behavior_04, the Nimbus v1 value is accept_with_warning. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "BILL_ENDPOINT_BEHAVIOR_04_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_011_BILL_ERROR_CODE_01_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_error_code_01, the Nimbus v1 value is NMB-BILL-151. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "BILL_ERROR_CODE_01_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_012_BILL_FEATURE_AVAILABILITY_07_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_feature_availability_07, the Nimbus v1 value is True. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "BILL_FEATURE_AVAILABILITY_07_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_013_BILL_LIMIT_02_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_limit_02, the Nimbus v1 value is 109. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_LIMIT_02"
+    ],
+    "record_ids": [
+      "BILL_LIMIT_02_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_014_BILL_PERMISSION_03_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_permission_03, the Nimbus v1 value is owner. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_PERMISSION_03"
+    ],
+    "record_ids": [
+      "BILL_PERMISSION_03_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_015_BILL_POLICY_08_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_policy_08, the Nimbus v1 value is permissive. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_POLICY_08"
+    ],
+    "record_ids": [
+      "BILL_POLICY_08_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_016_BILL_RETENTION_SETTING_06_V1",
+    "component_family": "billing",
+    "content": "OBSOLETE Nimbus v1 excerpt. For billing_retention_setting_06, the Nimbus v1 value is 14. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_BILLING_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "BILL_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "BILL_RETENTION_SETTING_06_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_017_CONF_CONFIGURATION_VALUE_05_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_configuration_value_05, the Nimbus v1 value is conf-gamma-61. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "CONF_CONFIGURATION_VALUE_05_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_endpoint_behavior_04, the Nimbus v1 value is reject. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "CONF_ENDPOINT_BEHAVIOR_04_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_019_CONF_ERROR_CODE_01_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_error_code_01, the Nimbus v1 value is NMB-CONF-160. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "CONF_ERROR_CODE_01_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_020_CONF_FEATURE_AVAILABILITY_07_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_feature_availability_07, the Nimbus v1 value is False. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "CONF_FEATURE_AVAILABILITY_07_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_021_CONF_LIMIT_02_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_limit_02, the Nimbus v1 value is 83. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_LIMIT_02"
+    ],
+    "record_ids": [
+      "CONF_LIMIT_02_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_022_CONF_PERMISSION_03_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_permission_03, the Nimbus v1 value is owner. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_PERMISSION_03"
+    ],
+    "record_ids": [
+      "CONF_PERMISSION_03_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_023_CONF_POLICY_08_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_policy_08, the Nimbus v1 value is standard. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_POLICY_08"
+    ],
+    "record_ids": [
+      "CONF_POLICY_08_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_024_CONF_RETENTION_SETTING_06_V1",
+    "component_family": "configuration",
+    "content": "OBSOLETE Nimbus v1 excerpt. For configuration_retention_setting_06, the Nimbus v1 value is 21. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_CONFIGURATION_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "CONF_RETENTION_SETTING_06"
+    ],
+    "record_ids": [
+      "CONF_RETENTION_SETTING_06_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_025_DEPL_CONFIGURATION_VALUE_05_V1",
+    "component_family": "deployments",
+    "content": "OBSOLETE Nimbus v1 excerpt. For deployments_configuration_value_05, the Nimbus v1 value is depl-beta-21. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_DEPLOYMENTS_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "DEPL_CONFIGURATION_VALUE_05"
+    ],
+    "record_ids": [
+      "DEPL_CONFIGURATION_VALUE_05_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+    "component_family": "deployments",
+    "content": "OBSOLETE Nimbus v1 excerpt. For deployments_endpoint_behavior_04, the Nimbus v1 value is retry. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_DEPLOYMENTS_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "DEPL_ENDPOINT_BEHAVIOR_04"
+    ],
+    "record_ids": [
+      "DEPL_ENDPOINT_BEHAVIOR_04_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_027_DEPL_ERROR_CODE_01_V1",
+    "component_family": "deployments",
+    "content": "OBSOLETE Nimbus v1 excerpt. For deployments_error_code_01, the Nimbus v1 value is NMB-DEPL-129. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_DEPLOYMENTS_V1_CONFIGURATION_GUIDE_OBSOLETE",
+    "document_style": "configuration_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "DEPL_ERROR_CODE_01"
+    ],
+    "record_ids": [
+      "DEPL_ERROR_CODE_01_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_028_DEPL_FEATURE_AVAILABILITY_07_V1",
+    "component_family": "deployments",
+    "content": "OBSOLETE Nimbus v1 excerpt. For deployments_feature_availability_07, the Nimbus v1 value is True. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_DEPLOYMENTS_V1_REFERENCE_DOCUMENTATION_OBSOLETE",
+    "document_style": "reference_documentation",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07"
+    ],
+    "record_ids": [
+      "DEPL_FEATURE_AVAILABILITY_07_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_029_DEPL_LIMIT_02_V1",
+    "component_family": "deployments",
+    "content": "OBSOLETE Nimbus v1 excerpt. For deployments_limit_02, the Nimbus v1 value is 68. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_DEPLOYMENTS_V1_TROUBLESHOOTING_GUIDE_OBSOLETE",
+    "document_style": "troubleshooting_guide",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "DEPL_LIMIT_02"
+    ],
+    "record_ids": [
+      "DEPL_LIMIT_02_V1"
+    ],
+    "version": "v1"
+  },
+  {
+    "chunk_id": "CHK_OBS_030_DEPL_PERMISSION_03_V1",
+    "component_family": "deployments",
+    "content": "OBSOLETE Nimbus v1 excerpt. For deployments_permission_03, the Nimbus v1 value is owner. Do not treat this historical text as current v2 authority.",
+    "document_id": "DOC_DEPLOYMENTS_V1_RELEASE_NOTE_OBSOLETE",
+    "document_style": "release_note",
+    "is_authoritative": false,
+    "is_obsolete": true,
+    "logical_fact_ids": [
+      "DEPL_PERMISSION_03"
+    ],
+    "record_ids": [
+      "DEPL_PERMISSION_03_V1"
+    ],
+    "version": "v1"
+  }
+]

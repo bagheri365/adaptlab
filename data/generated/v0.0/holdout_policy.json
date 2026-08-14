@@ -1,0 +1,42 @@
+{
+  "component_family": {
+    "dimension": "component_family",
+    "iid_test_groups": [
+      "deployments"
+    ],
+    "structural_test_groups": [
+      "billing",
+      "storage"
+    ],
+    "train_groups": [
+      "authentication",
+      "configuration",
+      "permissions",
+      "projects"
+    ],
+    "validation_groups": [
+      "observability"
+    ]
+  },
+  "error_family": {
+    "dimension": "error_family",
+    "iid_test_groups": [
+      "observability_errors"
+    ],
+    "structural_test_groups": [
+      "permissions_errors",
+      "projects_errors"
+    ],
+    "train_groups": [
+      "authentication_errors",
+      "configuration_errors",
+      "deployments_errors",
+      "storage_errors"
+    ],
+    "validation_groups": [
+      "billing_errors"
+    ]
+  },
+  "generation_seed": 1729,
+  "policy_version": "full-v0.0-structural-holdout-v1"
+}

@@ -1,0 +1,2496 @@
+{
+  "audit_version": "2",
+  "complete": true,
+  "coverage": {
+    "behavior_type": {
+      "ABSTENTION_BEHAVIOR": 5,
+      "CLASSIFICATION_POLICY": 4,
+      "CONDITIONAL_DECISION_RULE": 5,
+      "NONE": 27,
+      "SCHEMA_ADHERENCE": 5,
+      "TRANSFORMATION_EXTRACTION": 4
+    },
+    "difficulty": {
+      "EASY": 16,
+      "HARD": 17,
+      "MEDIUM": 17
+    },
+    "evidence_status": {
+      "ABSENT": 1,
+      "NOT_APPLICABLE": 11,
+      "PRESENT": 38
+    },
+    "knowledge_state": {
+      "NOT_APPLICABLE": 35,
+      "REMOVED": 5,
+      "UNCHANGED": 5,
+      "UPDATED": 5
+    },
+    "split_type": {
+      "iid": 25,
+      "structural_holdout": 25
+    },
+    "task_family": {
+      "behavior_knowledge": 12,
+      "behavior_only": 11,
+      "changed_knowledge": 15,
+      "knowledge_only": 12
+    }
+  },
+  "reviews": [
+    {
+      "behavior_type": "SCHEMA_ADHERENCE",
+      "difficulty": "MEDIUM",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_001",
+      "expected_output": {
+        "value": 811548
+      },
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Value: 811548. Return exactly a JSON object with key value and that integer.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "MEDIUM",
+              "multi_hop": false,
+              "relevant_fact_count": 2,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "paraphrased_wording",
+                "semantic_distractors"
+              ]
+            },
+            "output_key": "value",
+            "source_value": 811548
+          },
+          "scoring_rule": "STRUCTURED_EXTRACTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "CONDITIONAL_DECISION_RULE",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_002",
+      "expected_output": "FAIL",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Rule: PASS when candidate <= 819464, otherwise FAIL. Candidate=819467. Return only PASS or FAIL.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "candidate": 819467,
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "false_output": "FAIL",
+            "operator": "lte",
+            "threshold": 819464,
+            "true_output": "PASS"
+          },
+          "scoring_rule": "CONDITIONAL_RULE",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "TRANSFORMATION_EXTRACTION",
+      "difficulty": "HARD",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_003",
+      "expected_output": "NMB-827386",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Extract the identifier from 'ticket NMB-827386 accepted'. Return only the identifier.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "HARD",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "obsolete_conflicting_documentation",
+                "version_discrimination"
+              ]
+            },
+            "literal_value": "NMB-827386",
+            "mode": "literal_scalar"
+          },
+          "scoring_rule": "STRUCTURED_EXTRACTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "ABSTENTION_BEHAVIOR",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_005",
+      "expected_output": "INSUFFICIENT_INFORMATION",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Use only these supplied facts: identifier=NMB-843224. What is its owner? If the owner is not supplied, answer INSUFFICIENT_INFORMATION.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "abstention_output": "INSUFFICIENT_INFORMATION",
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "identifier": "NMB-843224",
+            "prompt_only": true
+          },
+          "scoring_rule": "ABSTENTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "TRANSFORMATION_EXTRACTION",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_008",
+      "expected_output": "NMB-866981",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Extract the identifier from 'ticket NMB-866981 accepted'. Return only the identifier.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "literal_value": "NMB-866981",
+            "mode": "literal_scalar"
+          },
+          "scoring_rule": "STRUCTURED_EXTRACTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "SCHEMA_ADHERENCE",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_011",
+      "expected_output": {
+        "value": 890738
+      },
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Value: 890738. Return exactly a JSON object with key value and that integer.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "output_key": "value",
+            "source_value": 890738
+          },
+          "scoring_rule": "STRUCTURED_EXTRACTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "CLASSIFICATION_POLICY",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_014",
+      "expected_output": "HIGH",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Classify HIGH when severity >= 14493, otherwise LOW. severity=14495. Return only the class.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "false_output": "LOW",
+            "operator": "gte",
+            "threshold": 14493,
+            "true_output": "HIGH",
+            "value": 14495
+          },
+          "scoring_rule": "CLASSIFICATION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "CONDITIONAL_DECISION_RULE",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_017",
+      "expected_output": "PASS",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Rule: PASS when candidate <= 38255, otherwise FAIL. Candidate=38252. Return only PASS or FAIL.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "candidate": 38252,
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "false_output": "FAIL",
+            "operator": "lte",
+            "threshold": 38255,
+            "true_output": "PASS"
+          },
+          "scoring_rule": "CONDITIONAL_RULE",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "ABSTENTION_BEHAVIOR",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_TR_BHV_020",
+      "expected_output": "INSUFFICIENT_INFORMATION",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Use only these supplied facts: identifier=NMB-62009. What is its owner? If the owner is not supplied, answer INSUFFICIENT_INFORMATION.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "abstention_output": "INSUFFICIENT_INFORMATION",
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "identifier": "NMB-62009",
+            "prompt_only": true
+          },
+          "scoring_rule": "ABSTENTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_001",
+      "expected_output": "queue",
+      "gold_chunks": [
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication reference documentation excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "UNCHANGED",
+      "question": "Using the current authoritative Nimbus source for Nimbus authentication, after accounting for v1-to-v2 changes, what current value is assigned to authentication_endpoint_behavior_04?",
+      "required_records": [
+        "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "AUTH_ENDPOINT_BEHAVIOR_04",
+          "record_id": "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_002",
+      "expected_output": "queue",
+      "gold_chunks": [
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication reference documentation excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "UNCHANGED",
+      "question": "Using the current authoritative Nimbus source, after any Nimbus v1-to-v2 change, what is the current value for authentication_endpoint_behavior_04?",
+      "required_records": [
+        "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "AUTH_ENDPOINT_BEHAVIOR_04",
+          "record_id": "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_003",
+      "expected_output": "queue",
+      "gold_chunks": [
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication reference documentation excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "UNCHANGED",
+      "question": "Using the current authoritative Nimbus source, for the current Nimbus v2 state after any prior-version change, what endpoint behavior value applies to authentication_endpoint_behavior_04?",
+      "required_records": [
+        "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "AUTH_ENDPOINT_BEHAVIOR_04",
+          "record_id": "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_004",
+      "expected_output": "queue",
+      "gold_chunks": [
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication reference documentation excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "UNCHANGED",
+      "question": "Using the current authoritative Nimbus source, inspect the current Nimbus v2 record for authentication_endpoint_behavior_04. Return RETIRED if the current record is retired; otherwise return its current value.",
+      "required_records": [
+        "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "AUTH_ENDPOINT_BEHAVIOR_04",
+          "record_id": "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_005",
+      "expected_output": "queue",
+      "gold_chunks": [
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication reference documentation excerpt.\nFor authentication_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "UNCHANGED",
+      "question": "Using the current authoritative Nimbus source, after accounting for Nimbus v1 history, what authoritative value does Nimbus v2 record for authentication_endpoint_behavior_04?",
+      "required_records": [
+        "AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "AUTH_ENDPOINT_BEHAVIOR_04",
+          "record_id": "AUTH_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_006",
+      "expected_output": "NMB-AUTH-102-v2",
+      "gold_chunks": [
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2."
+      ],
+      "knowledge_state": "UPDATED",
+      "question": "Using the current authoritative Nimbus source for Nimbus authentication, after accounting for v1-to-v2 changes, what current value is assigned to authentication_error_code_01?",
+      "required_records": [
+        "AUTH_ERROR_CODE_01_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "error_code",
+          "logical_fact_id": "AUTH_ERROR_CODE_01",
+          "record_id": "AUTH_ERROR_CODE_01_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "NMB-AUTH-102-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_007",
+      "expected_output": "NMB-AUTH-102-v2",
+      "gold_chunks": [
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2."
+      ],
+      "knowledge_state": "UPDATED",
+      "question": "Using the current authoritative Nimbus source, after any Nimbus v1-to-v2 change, what is the current value for authentication_error_code_01?",
+      "required_records": [
+        "AUTH_ERROR_CODE_01_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "error_code",
+          "logical_fact_id": "AUTH_ERROR_CODE_01",
+          "record_id": "AUTH_ERROR_CODE_01_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "NMB-AUTH-102-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_008",
+      "expected_output": "NMB-AUTH-102-v2",
+      "gold_chunks": [
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2."
+      ],
+      "knowledge_state": "UPDATED",
+      "question": "Using the current authoritative Nimbus source, for the current Nimbus v2 state after any prior-version change, what error code value applies to authentication_error_code_01?",
+      "required_records": [
+        "AUTH_ERROR_CODE_01_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "error_code",
+          "logical_fact_id": "AUTH_ERROR_CODE_01",
+          "record_id": "AUTH_ERROR_CODE_01_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "NMB-AUTH-102-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_009",
+      "expected_output": "NMB-AUTH-102-v2",
+      "gold_chunks": [
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2."
+      ],
+      "knowledge_state": "UPDATED",
+      "question": "Using the current authoritative Nimbus source, inspect the current Nimbus v2 record for authentication_error_code_01. Return RETIRED if the current record is retired; otherwise return its current value.",
+      "required_records": [
+        "AUTH_ERROR_CODE_01_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "error_code",
+          "logical_fact_id": "AUTH_ERROR_CODE_01",
+          "record_id": "AUTH_ERROR_CODE_01_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "NMB-AUTH-102-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_TR_CHG_010",
+      "expected_output": "NMB-AUTH-102-v2",
+      "gold_chunks": [
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2"
+      ],
+      "gold_documents": [
+        "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus authentication troubleshooting guide excerpt.\nFor authentication_error_code_01, the Nimbus v2 value is NMB-AUTH-102-v2."
+      ],
+      "knowledge_state": "UPDATED",
+      "question": "Using the current authoritative Nimbus source, after accounting for Nimbus v1 history, what authoritative value does Nimbus v2 record for authentication_error_code_01?",
+      "required_records": [
+        "AUTH_ERROR_CODE_01_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "authentication",
+          "fact_type": "error_code",
+          "logical_fact_id": "AUTH_ERROR_CODE_01",
+          "record_id": "AUTH_ERROR_CODE_01_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "NMB-AUTH-102-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": "ABSTENTION_BEHAVIOR",
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_001",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Consult one current authoritative Nimbus source for billing_configuration_value_05. If a current value is explicitly supported, return only that value; otherwise return INSUFFICIENT_EVIDENCE.",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "CLASSIFICATION_POLICY",
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_002",
+      "expected_output": "TEXT",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, classify the value for billing_configuration_value_05 as NUMERIC if it is a number and TEXT otherwise. Return only the class.",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "CONDITIONAL_DECISION_RULE",
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_003",
+      "expected_output": "OTHER",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, inspect the value for billing_configuration_value_05. Return MATCH only if the documented value is exactly 'enabled'; otherwise return OTHER.",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "SCHEMA_ADHERENCE",
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_004",
+      "expected_output": {
+        "value": "bill-delta-37-v2"
+      },
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, return the value for billing_configuration_value_05 as exactly {\"value\": <value>} with no extra keys.",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "TRANSFORMATION_EXTRACTION",
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_005",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "From one current authoritative Nimbus source, extract the value for billing_configuration_value_05 and return only that value, with no label or explanation.",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "ABSTENTION_BEHAVIOR",
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_006",
+      "expected_output": "reject",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Consult one current authoritative Nimbus source for billing_endpoint_behavior_04. If a current value is explicitly supported, return only that value; otherwise return INSUFFICIENT_EVIDENCE.",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "CLASSIFICATION_POLICY",
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_007",
+      "expected_output": "TEXT",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, classify the value for billing_endpoint_behavior_04 as NUMERIC if it is a number and TEXT otherwise. Return only the class.",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "CONDITIONAL_DECISION_RULE",
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_008",
+      "expected_output": "OTHER",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, inspect the value for billing_endpoint_behavior_04. Return MATCH only if the documented value is exactly 'enabled'; otherwise return OTHER.",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "SCHEMA_ADHERENCE",
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_009",
+      "expected_output": {
+        "value": "reject"
+      },
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, return the value for billing_endpoint_behavior_04 as exactly {\"value\": <value>} with no extra keys.",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "ABSTENTION_BEHAVIOR",
+      "difficulty": "MEDIUM",
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_015",
+      "expected_output": "INSUFFICIENT_EVIDENCE",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Consult current Nimbus documentation for unpublished_control_300. If a current value is explicitly supported, return only that value; otherwise return INSUFFICIENT_EVIDENCE.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "MEDIUM",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "paraphrased_wording",
+                "multiple_plausible_candidates"
+              ]
+            },
+            "question_intent": "current_value_lookup",
+            "required_evidence_cardinality": 0,
+            "semantic_target": "unpublished_control_300"
+          },
+          "scoring_rule": "ABSTENTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_001",
+      "expected_output": "RETIRED",
+      "gold_chunks": [
+        "CHK_CUR_012_BILL_LIMIT_02_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109. billing_policy_08 is retired in Nimbus v2."
+      ],
+      "knowledge_state": "REMOVED",
+      "question": "Using the current authoritative Nimbus source for Nimbus billing, after accounting for v1-to-v2 changes, what current value is assigned to billing_policy_08?",
+      "required_records": [
+        "BILL_POLICY_08_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "policy",
+          "logical_fact_id": "BILL_POLICY_08",
+          "record_id": "BILL_POLICY_08_V2",
+          "source": "world_record",
+          "status": "retired",
+          "value": "retired",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_002",
+      "expected_output": "RETIRED",
+      "gold_chunks": [
+        "CHK_CUR_012_BILL_LIMIT_02_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109. billing_policy_08 is retired in Nimbus v2."
+      ],
+      "knowledge_state": "REMOVED",
+      "question": "Using the current authoritative Nimbus source, after any Nimbus v1-to-v2 change, what is the current value for billing_policy_08?",
+      "required_records": [
+        "BILL_POLICY_08_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "policy",
+          "logical_fact_id": "BILL_POLICY_08",
+          "record_id": "BILL_POLICY_08_V2",
+          "source": "world_record",
+          "status": "retired",
+          "value": "retired",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_003",
+      "expected_output": "RETIRED",
+      "gold_chunks": [
+        "CHK_CUR_012_BILL_LIMIT_02_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109. billing_policy_08 is retired in Nimbus v2."
+      ],
+      "knowledge_state": "REMOVED",
+      "question": "Using the current authoritative Nimbus source, for the current Nimbus v2 state after any prior-version change, what policy value applies to billing_policy_08?",
+      "required_records": [
+        "BILL_POLICY_08_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "policy",
+          "logical_fact_id": "BILL_POLICY_08",
+          "record_id": "BILL_POLICY_08_V2",
+          "source": "world_record",
+          "status": "retired",
+          "value": "retired",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_004",
+      "expected_output": "RETIRED",
+      "gold_chunks": [
+        "CHK_CUR_012_BILL_LIMIT_02_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109. billing_policy_08 is retired in Nimbus v2."
+      ],
+      "knowledge_state": "REMOVED",
+      "question": "Using the current authoritative Nimbus source, inspect the current Nimbus v2 record for billing_policy_08. Return RETIRED if the current record is retired; otherwise return its current value.",
+      "required_records": [
+        "BILL_POLICY_08_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "policy",
+          "logical_fact_id": "BILL_POLICY_08",
+          "record_id": "BILL_POLICY_08_V2",
+          "source": "world_record",
+          "status": "retired",
+          "value": "retired",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_005",
+      "expected_output": "RETIRED",
+      "gold_chunks": [
+        "CHK_CUR_012_BILL_LIMIT_02_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_limit_02, the Nimbus v2 value is 109. billing_policy_08 is retired in Nimbus v2."
+      ],
+      "knowledge_state": "REMOVED",
+      "question": "Using the current authoritative Nimbus source, after accounting for Nimbus v1 history, what authoritative value does Nimbus v2 record for billing_policy_08?",
+      "required_records": [
+        "BILL_POLICY_08_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "policy",
+          "logical_fact_id": "BILL_POLICY_08",
+          "record_id": "BILL_POLICY_08_V2",
+          "source": "world_record",
+          "status": "retired",
+          "value": "retired",
+          "version": "v2"
+        }
+      ],
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_001",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, within Nimbus billing, what current configuration value value applies to billing_configuration_value_05?",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_002",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source within Nimbus billing, what current value is assigned to billing_configuration_value_05?",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_003",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, what is the current Nimbus value for billing_configuration_value_05?",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_004",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, what current Nimbus configuration value value applies to billing_configuration_value_05?",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_005",
+      "expected_output": "bill-delta-37-v2",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, what current authoritative value does Nimbus v2 record for billing_configuration_value_05?",
+      "required_records": [
+        "BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "configuration_value",
+          "logical_fact_id": "BILL_CONFIGURATION_VALUE_05",
+          "record_id": "BILL_CONFIGURATION_VALUE_05_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "bill-delta-37-v2",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "EASY",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_006",
+      "expected_output": "reject",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, within Nimbus billing, what current endpoint behavior value applies to billing_endpoint_behavior_04?",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_007",
+      "expected_output": "reject",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source within Nimbus billing, what current value is assigned to billing_endpoint_behavior_04?",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_008",
+      "expected_output": "reject",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, what is the current Nimbus value for billing_endpoint_behavior_04?",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_009",
+      "expected_output": "reject",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, what current Nimbus endpoint behavior value applies to billing_endpoint_behavior_04?",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "MEDIUM",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_010",
+      "expected_output": "reject",
+      "gold_chunks": [
+        "CHK_CUR_008_BILL_CONFIGURATION_VALUE_05_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing configuration guide excerpt.\nFor billing_configuration_value_05, the Nimbus v2 value is bill-delta-37-v2. For billing_endpoint_behavior_04, the Nimbus v2 value is reject."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, what current authoritative value does Nimbus v2 record for billing_endpoint_behavior_04?",
+      "required_records": [
+        "BILL_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "BILL_ENDPOINT_BEHAVIOR_04",
+          "record_id": "BILL_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "reject",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_011",
+      "expected_output": "NMB-BILL-151",
+      "gold_chunks": [
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2"
+      ],
+      "gold_documents": [
+        "DOC_BILLING_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus billing troubleshooting guide excerpt.\nFor billing_error_code_01, the Nimbus v2 value is NMB-BILL-151."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, within Nimbus billing, what current error code value applies to billing_error_code_01?",
+      "required_records": [
+        "BILL_ERROR_CODE_01_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "billing",
+          "fact_type": "error_code",
+          "logical_fact_id": "BILL_ERROR_CODE_01",
+          "record_id": "BILL_ERROR_CODE_01_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "NMB-BILL-151",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_type": "CONDITIONAL_DECISION_RULE",
+      "difficulty": "MEDIUM",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_VA_BHV_037",
+      "expected_output": "FAIL",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Rule: PASS when candidate <= 790554, otherwise FAIL. Candidate=790557. Return only PASS or FAIL.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "candidate": 790557,
+            "difficulty": {
+              "difficulty": "MEDIUM",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "paraphrased_wording",
+                "multiple_plausible_candidates"
+              ]
+            },
+            "false_output": "FAIL",
+            "operator": "lte",
+            "threshold": 790554,
+            "true_output": "PASS"
+          },
+          "scoring_rule": "CONDITIONAL_RULE",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "TRANSFORMATION_EXTRACTION",
+      "difficulty": "EASY",
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_VA_BHV_038",
+      "expected_output": "NMB-798476",
+      "gold_chunks": [],
+      "gold_documents": [],
+      "gold_evidence_text": [],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Extract the identifier from 'ticket NMB-798476 accepted'. Return only the identifier.",
+      "required_records": [],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "scoring_parameters": {
+            "difficulty": {
+              "difficulty": "EASY",
+              "multi_hop": false,
+              "relevant_fact_count": 1,
+              "required_evidence_cardinality": 0,
+              "retrieval_applicable": false,
+              "retrieval_candidate_count": 0,
+              "sources": [
+                "direct_wording"
+              ]
+            },
+            "literal_value": "NMB-798476",
+            "mode": "literal_scalar"
+          },
+          "scoring_rule": "STRUCTURED_EXTRACTION",
+          "source": "scoring_contract"
+        }
+      ],
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_type": "SCHEMA_ADHERENCE",
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_VA_BKN_034",
+      "expected_output": {
+        "value": 26
+      },
+      "gold_chunks": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2"
+      ],
+      "gold_documents": [
+        "DOC_OBSERVABILITY_V2_CONFIGURATION_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus observability configuration guide excerpt.\nFor observability_policy_08, the Nimbus v2 value is strict. For observability_retention_setting_06, the Nimbus v2 value is 26."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using one current authoritative Nimbus source, return the value for observability_retention_setting_06 as exactly {\"value\": <value>} with no extra keys.",
+      "required_records": [
+        "OBSE_RETENTION_SETTING_06_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "observability",
+          "fact_type": "retention_setting",
+          "logical_fact_id": "OBSE_RETENTION_SETTING_06",
+          "record_id": "OBSE_RETENTION_SETTING_06_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": 26,
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": "CLASSIFICATION_POLICY",
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_VA_BKN_037",
+      "expected_output": "TEXT",
+      "gold_chunks": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+        "DOC_OBSERVABILITY_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus observability release note excerpt.\nFor observability_endpoint_behavior_04, the Nimbus v2 value is queue.",
+        "Nimbus observability troubleshooting guide excerpt.\nFor observability_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using exactly 2 current authoritative Nimbus sources, classify the value for observability_endpoint_behavior_04 as NUMERIC if it is a number and TEXT otherwise. Return only the class.",
+      "required_records": [
+        "OBSE_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "observability",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "OBSE_ENDPOINT_BEHAVIOR_04",
+          "record_id": "OBSE_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_type": null,
+      "difficulty": "HARD",
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_VA_KNW_038",
+      "expected_output": "queue",
+      "gold_chunks": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "gold_documents": [
+        "DOC_OBSERVABILITY_V2_RELEASE_NOTE",
+        "DOC_OBSERVABILITY_V2_TROUBLESHOOTING_GUIDE"
+      ],
+      "gold_evidence_text": [
+        "Nimbus observability release note excerpt.\nFor observability_endpoint_behavior_04, the Nimbus v2 value is queue.",
+        "Nimbus observability troubleshooting guide excerpt.\nFor observability_endpoint_behavior_04, the Nimbus v2 value is queue."
+      ],
+      "knowledge_state": "NOT_APPLICABLE",
+      "question": "Using exactly 2 current authoritative Nimbus sources, what is the current Nimbus value for observability_endpoint_behavior_04?",
+      "required_records": [
+        "OBSE_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "review_checks": {
+        "answer_follows_structured_truth": "PENDING_HUMAN_REVIEW",
+        "behavior_type_label_correct": "PENDING_HUMAN_REVIEW",
+        "changed_knowledge_semantics_correct": "PENDING_HUMAN_REVIEW",
+        "difficulty_construction_reasonable": "PENDING_HUMAN_REVIEW",
+        "evidence_genuinely_absent_when_absent": "PENDING_HUMAN_REVIEW",
+        "evidence_sufficient_when_present": "PENDING_HUMAN_REVIEW",
+        "expected_output_is_correct": "PENDING_HUMAN_REVIEW",
+        "no_accidental_shortcut_invalidates_task": "PENDING_HUMAN_REVIEW",
+        "question_is_clear": "PENDING_HUMAN_REVIEW",
+        "task_family_label_correct": "PENDING_HUMAN_REVIEW"
+      },
+      "review_notes": "",
+      "review_status": "PASS",
+      "structured_truth": [
+        {
+          "component_family": "observability",
+          "fact_type": "endpoint_behavior",
+          "logical_fact_id": "OBSE_ENDPOINT_BEHAVIOR_04",
+          "record_id": "OBSE_ENDPOINT_BEHAVIOR_04_V2",
+          "source": "world_record",
+          "status": "active",
+          "value": "queue",
+          "version": "v2"
+        }
+      ],
+      "task_family": "knowledge_only"
+    }
+  ],
+  "sample_size": 50,
+  "summary": {
+    "correction_required": 0,
+    "failed": 0,
+    "passed": 50,
+    "pending_human_review": 0
+  }
+}

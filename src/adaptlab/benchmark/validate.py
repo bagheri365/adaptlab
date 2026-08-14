@@ -63,7 +63,11 @@ def _derive_scoring_output(
     records_by_id: dict[str, object],
     facts_by_logical_id: dict[str, dict[str, object]],
 ) -> tuple[bool, Any]:
-    """Mechanically derive supported gold answers from structured truth/typed metadata."""
+    """Mechanically derive supported gold answers from structured truth/typed metadata.
+
+    World-backed rules derive from authoritative records. Prompt-only behavior rules
+    derive from explicit deterministic operands stored in scoring_parameters.
+    """
 
     rule = example.scoring_rule
     if rule is None:
@@ -74,6 +78,7 @@ def _derive_scoring_output(
         for record_id in example.required_record_ids
         if record_id in records_by_id
     ]
+    params = example.scoring_parameters or {}
 
     if rule is ScoringRule.FACT_VALUE:
         if len(required_records) != 1:
@@ -99,47 +104,98 @@ def _derive_scoring_output(
             example.gold_chunk_ids,
         )):
             return True, "INSUFFICIENT_EVIDENCE"
+        if (
+            example.task_family is TaskFamily.behavior_only
+            and example.evidence_status is EvidenceStatus.NOT_APPLICABLE
+            and params.get("prompt_only") is True
+            and isinstance(params.get("abstention_output"), str)
+        ):
+            return True, params["abstention_output"]
         return False, None
-
-    if len(required_records) != 1:
-        return False, None
-    record = required_records[0]
-    params = example.scoring_parameters or {}
 
     if rule is ScoringRule.STRUCTURED_EXTRACTION:
-        if params.get("mode") == "scalar":
-            return True, record.value
-        output_key = params.get("output_key")
-        if isinstance(output_key, str):
-            value = record.value
-            if params.get("coerce") == "int":
-                try:
-                    value = int(value)
-                except (TypeError, ValueError):
-                    return False, None
-            return True, {output_key: value}
+        # World-backed extraction.
+        if len(required_records) == 1:
+            record = required_records[0]
+            if params.get("mode") == "scalar":
+                return True, record.value
+            output_key = params.get("output_key")
+            if isinstance(output_key, str):
+                value = record.value
+                if params.get("coerce") == "int":
+                    try:
+                        value = int(value)
+                    except (TypeError, ValueError):
+                        return False, None
+                return True, {output_key: value}
+        # Prompt-only extraction with deterministic operands.
+        if params.get("mode") == "literal_scalar" and "literal_value" in params:
+            return True, params["literal_value"]
+        if isinstance(params.get("output_key"), str) and "source_value" in params:
+            return True, {params["output_key"]: params["source_value"]}
         return False, None
 
     if rule is ScoringRule.CONDITIONAL_RULE:
         candidate = params.get("candidate")
+        threshold = params.get("threshold")
         operator = params.get("operator")
-        if candidate is None or operator != "lte":
+        # World-backed forms may use the required record as either the candidate
+        # (equality policy) or threshold (numeric policy).
+        if candidate is None and len(required_records) == 1 and operator == "eq":
+            candidate = required_records[0].value
+        if threshold is None and len(required_records) == 1 and operator != "eq":
+            threshold = required_records[0].value
+        if candidate is None or threshold is None:
             return False, None
-        try:
-            condition = float(candidate) <= float(record.value)
-        except (TypeError, ValueError):
-            return False, None
+        if operator == "eq":
+            condition = str(candidate) == str(threshold)
+        else:
+            try:
+                left = float(candidate)
+                right = float(threshold)
+            except (TypeError, ValueError):
+                return False, None
+            if operator == "lte":
+                condition = left <= right
+            elif operator == "gte":
+                condition = left >= right
+            else:
+                return False, None
         return True, params.get("true_output") if condition else params.get("false_output")
 
     if rule is ScoringRule.CLASSIFICATION:
         threshold = params.get("threshold")
         operator = params.get("operator")
-        if threshold is None or operator != "gt":
-            return False, None
-        try:
-            condition = float(record.value) > float(threshold)
-        except (TypeError, ValueError):
-            return False, None
+        value = params.get("value")
+        # World-backed form uses the required record as the classified value.
+        if value is None and len(required_records) == 1:
+            value = required_records[0].value
+        if value is None and len(required_records) == 1 and operator == "is_numeric":
+            value = required_records[0].value
+        if operator == "is_numeric":
+            if value is None:
+                return False, None
+            try:
+                float(value)
+                condition = True
+            except (TypeError, ValueError):
+                condition = False
+        else:
+            if threshold is None or value is None:
+                return False, None
+            try:
+                left = float(value)
+                right = float(threshold)
+            except (TypeError, ValueError):
+                return False, None
+            if operator == "gt":
+                condition = left > right
+            elif operator == "gte":
+                condition = left >= right
+            elif operator == "lte":
+                condition = left <= right
+            else:
+                return False, None
         return True, params.get("true_output") if condition else params.get("false_output")
 
     return False, None
@@ -523,7 +579,12 @@ def validate_fixture(
             can_check, derived_output = _derive_scoring_output(
                 example, records_by_id, facts_by_logical_id
             )
-            if can_check and example.expected_output != derived_output:
+            if not can_check:
+                errors.append(
+                    f"{prefix} scoring_rule {example.scoring_rule.value} cannot be mechanically derived "
+                    "from structured truth/scoring metadata"
+                )
+            elif example.expected_output != derived_output:
                 errors.append(
                     f"{prefix} expected_output does not match scoring_rule "
                     f"{example.scoring_rule.value}: derived {derived_output!r}"
@@ -574,4 +635,148 @@ def validate_fixture(
         errors=tuple(errors),
         warnings=tuple(warnings),
         statistics=statistics,
+    )
+
+
+def validate_answer_integrity(
+    world: NimbusWorld,
+    documents: Iterable[Document],
+    chunks: Iterable[DocumentChunk],
+    examples: Iterable[BenchmarkExample],
+) -> ValidationResult:
+    """Validate full-benchmark gold-answer integrity without applying split policy.
+
+    This focused validator is suitable for both prototype and full-v0.0 data. It
+    independently derives every supported expected output, checks evidence
+    sufficiency/absence, and enforces current-version/reference agreement.
+    Structural leakage remains the responsibility of the holdout validator.
+    """
+
+    documents = list(documents)
+    chunks = list(chunks)
+    examples = list(examples)
+    errors: list[str] = []
+
+    records_by_id = {fact.record_id: fact for fact in world.facts}
+    facts_by_logical_id: dict[str, dict[str, object]] = {}
+    for fact in world.facts:
+        facts_by_logical_id.setdefault(fact.logical_fact_id, {})[fact.version] = fact
+    documents_by_id = {document.document_id: document for document in documents}
+    chunks_by_id = {chunk.chunk_id: chunk for chunk in chunks}
+
+    for example in examples:
+        prefix = f"example {example.example_id}"
+        required_records = [records_by_id.get(record_id) for record_id in example.required_record_ids]
+        required_records = [record for record in required_records if record is not None]
+        gold_chunks = [chunks_by_id.get(chunk_id) for chunk_id in example.gold_chunk_ids]
+        gold_chunks = [chunk for chunk in gold_chunks if chunk is not None]
+
+        scoring_parameters = example.scoring_parameters or {}
+        difficulty_metadata = scoring_parameters.get("difficulty") or {}
+        declared_cardinality = scoring_parameters.get("required_evidence_cardinality")
+        difficulty_cardinality = difficulty_metadata.get("required_evidence_cardinality")
+        retrieval_candidate_count = difficulty_metadata.get("retrieval_candidate_count")
+
+        if example.evidence_status is EvidenceStatus.ABSENT:
+            if any((example.required_record_ids, example.required_logical_fact_ids,
+                    example.gold_document_ids, example.gold_chunk_ids)):
+                errors.append(f"{prefix} evidence_status=ABSENT contains gold/required evidence")
+            if declared_cardinality not in (None, 0):
+                errors.append(f"{prefix} evidence_status=ABSENT requires required_evidence_cardinality=0")
+            if difficulty_cardinality not in (None, 0):
+                errors.append(f"{prefix} evidence_status=ABSENT difficulty metadata requires required_evidence_cardinality=0")
+        elif example.evidence_status is EvidenceStatus.PRESENT:
+            if not example.required_record_ids or not example.required_logical_fact_ids:
+                errors.append(f"{prefix} evidence_status=PRESENT lacks required truth references")
+            if not example.gold_document_ids or not example.gold_chunk_ids:
+                errors.append(f"{prefix} evidence_status=PRESENT lacks gold evidence")
+
+            actual_cardinality = len(example.gold_chunk_ids)
+            if declared_cardinality != actual_cardinality:
+                errors.append(
+                    f"{prefix} required_evidence_cardinality={declared_cardinality!r} does not match "
+                    f"the {actual_cardinality} required gold chunks"
+                )
+            if difficulty_cardinality != actual_cardinality:
+                errors.append(
+                    f"{prefix} difficulty required_evidence_cardinality={difficulty_cardinality!r} does not "
+                    f"match the {actual_cardinality} required gold chunks"
+                )
+            if retrieval_candidate_count is not None and retrieval_candidate_count < actual_cardinality:
+                errors.append(
+                    f"{prefix} retrieval_candidate_count={retrieval_candidate_count} cannot be smaller than "
+                    f"required_evidence_cardinality={actual_cardinality}"
+                )
+
+            covered_records = {rid for chunk in gold_chunks for rid in chunk.record_ids}
+            covered_logical = {lid for chunk in gold_chunks for lid in chunk.logical_fact_ids}
+            missing_records = sorted(set(example.required_record_ids) - covered_records)
+            missing_logical = sorted(set(example.required_logical_fact_ids) - covered_logical)
+            if missing_records:
+                errors.append(f"{prefix} gold chunks do not cover required records: {', '.join(missing_records)}")
+            if missing_logical:
+                errors.append(f"{prefix} gold chunks do not cover required logical facts: {', '.join(missing_logical)}")
+
+            for chunk in gold_chunks:
+                parent = documents_by_id.get(chunk.document_id)
+                if parent is None or chunk.document_id not in example.gold_document_ids:
+                    errors.append(f"{prefix} gold chunk {chunk.chunk_id} is not linked to a listed gold document")
+                if not chunk.is_authoritative or chunk.is_obsolete:
+                    errors.append(f"{prefix} gold chunk {chunk.chunk_id} is not current authoritative evidence")
+                if example.knowledge_version == "v2" and chunk.version != "v2":
+                    errors.append(f"{prefix} knowledge_version=v2 uses non-v2 gold chunk {chunk.chunk_id}")
+
+            if example.knowledge_version == "v2":
+                for record in required_records:
+                    if record.version != "v2":
+                        errors.append(f"{prefix} knowledge_version=v2 uses non-v2 record {record.record_id}")
+                for document_id in example.gold_document_ids:
+                    document = documents_by_id.get(document_id)
+                    if document is not None and document.version != "v2":
+                        errors.append(f"{prefix} knowledge_version=v2 uses non-v2 gold document {document_id}")
+
+        required_logical = set(example.required_logical_fact_ids)
+        for record in required_records:
+            if record.logical_fact_id not in required_logical:
+                errors.append(
+                    f"{prefix} required record {record.record_id} is inconsistent with required_logical_fact_ids"
+                )
+
+        if example.task_family is TaskFamily.changed_knowledge:
+            lifecycle_id = example.lifecycle_logical_fact_id
+            if lifecycle_id is None and len(example.required_logical_fact_ids) == 1:
+                lifecycle_id = example.required_logical_fact_ids[0]
+            versions = facts_by_logical_id.get(lifecycle_id or "", {})
+            v1 = versions.get("v1")
+            if v1 is None:
+                errors.append(f"{prefix} changed_knowledge lifecycle cannot be verified")
+            else:
+                actual = classify_knowledge_state(v1, versions.get("v2"))
+                if actual is not example.knowledge_state:
+                    errors.append(
+                        f"{prefix} knowledge_state={example.knowledge_state.value} does not match world lifecycle {actual.value}"
+                    )
+
+        if example.scoring_rule is None:
+            errors.append(f"{prefix} is missing scoring_rule")
+        else:
+            can_check, derived = _derive_scoring_output(example, records_by_id, facts_by_logical_id)
+            if not can_check:
+                errors.append(
+                    f"{prefix} scoring_rule {example.scoring_rule.value} cannot be mechanically derived"
+                )
+            elif example.expected_output != derived:
+                errors.append(
+                    f"{prefix} expected_output does not match scoring_rule {example.scoring_rule.value}: derived {derived!r}"
+                )
+
+    return ValidationResult(
+        passed=not errors,
+        errors=tuple(errors),
+        warnings=(),
+        statistics={
+            "example_count": len(examples),
+            "error_count": len(errors),
+            "scoring_rule_count": len({example.scoring_rule for example in examples if example.scoring_rule is not None}),
+        },
     )

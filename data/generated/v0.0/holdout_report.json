@@ -1,0 +1,4 @@
+{
+  "policy_version": "full-v0.0-structural-holdout-v1",
+  "report": "AdaptLab Nimbus Full Benchmark Holdout Report\nPolicy version: full-v0.0-structural-holdout-v1\nGeneration seed: 1729\n\n[component_family]\ntrain groups: authentication, configuration, permissions, projects\nvalidation groups: observability\nIID test groups: deployments\nstructural test groups: billing, storage\n\n[error_family]\ntrain groups: authentication_errors, configuration_errors, deployments_errors, storage_errors\nvalidation groups: billing_errors\nIID test groups: observability_errors\nstructural test groups: permissions_errors, projects_errors\n"
+}
