@@ -1,0 +1,609 @@
+[
+  {
+    "behavior_type": "SCHEMA_ADHERENCE",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "EASY",
+    "evidence_status": "NOT_APPLICABLE",
+    "example_id": "BHV_001_SCHEMA",
+    "expected_output": {
+      "code": "E17",
+      "severity": "high"
+    },
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": null,
+    "lifecycle_logical_fact_id": null,
+    "question": "The Nimbus incident has code E17 and severity high. Return exactly a JSON object with keys code and severity.",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_only"
+  },
+  {
+    "behavior_type": "CONDITIONAL_DECISION_RULE",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "NOT_APPLICABLE",
+    "example_id": "BHV_002_DECISION",
+    "expected_output": "DENY",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": null,
+    "lifecycle_logical_fact_id": null,
+    "question": "Policy: approve a deployment only when tests_passed=true and rollback_ready=true. Candidate: tests_passed=true, rollback_ready=false. Answer APPROVE or DENY.",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "CONDITIONAL_RULE",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_only"
+  },
+  {
+    "behavior_type": "TRANSFORMATION_EXTRACTION",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "EASY",
+    "evidence_status": "NOT_APPLICABLE",
+    "example_id": "BHV_003_EXTRACT",
+    "expected_output": [
+      "PRJ-104",
+      "PRJ-208"
+    ],
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": null,
+    "lifecycle_logical_fact_id": null,
+    "question": "Extract the Nimbus project IDs from this text in appearance order: 'Reviewed PRJ-104, ignored a note, then opened PRJ-208.' Return only a list of IDs.",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_only"
+  },
+  {
+    "behavior_type": "CLASSIFICATION_POLICY",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "NOT_APPLICABLE",
+    "example_id": "BHV_004_CLASSIFY",
+    "expected_output": "URGENT",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": null,
+    "lifecycle_logical_fact_id": null,
+    "question": "Classification rule: URGENT if severity=critical or customer_blocked=true; otherwise ROUTINE. Case: severity=medium, customer_blocked=true. Answer only the class.",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "CLASSIFICATION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_only"
+  },
+  {
+    "behavior_type": "ABSTENTION_BEHAVIOR",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "NOT_APPLICABLE",
+    "example_id": "BHV_005_ABSTAIN",
+    "expected_output": "INSUFFICIENT_INFORMATION",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": null,
+    "lifecycle_logical_fact_id": null,
+    "question": "Use only the supplied facts. Facts: component=projects; owner=team-iris. Question: What is the project's retention period? If the answer is not supplied, answer INSUFFICIENT_INFORMATION.",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "ABSTENTION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_only"
+  },
+  {
+    "behavior_type": "SCHEMA_ADHERENCE",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "PRESENT",
+    "example_id": "BKN_001_SCHEMA",
+    "expected_output": {
+      "ttl_minutes": 75
+    },
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "Using Nimbus v2 documentation, return the access-token TTL as exactly {\"ttl_minutes\": <integer>}.",
+    "required_logical_fact_ids": [
+      "AUTH_TOKEN_TTL"
+    ],
+    "required_record_ids": [
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "scoring_parameters": {
+      "coerce": "int",
+      "output_key": "ttl_minutes"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_knowledge"
+  },
+  {
+    "behavior_type": "CONDITIONAL_DECISION_RULE",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "PRESENT",
+    "example_id": "BKN_002_DECISION",
+    "expected_output": "DENY",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "A project requests 55 members. Using the documented Nimbus v2 member limit, answer ALLOW if 55 is at or below the limit; otherwise DENY.",
+    "required_logical_fact_ids": [
+      "PROJ_MEMBER_LIMIT"
+    ],
+    "required_record_ids": [
+      "PROJ_MEMBER_LIMIT_V2"
+    ],
+    "scoring_parameters": {
+      "candidate": 55,
+      "false_output": "DENY",
+      "operator": "lte",
+      "true_output": "ALLOW"
+    },
+    "scoring_rule": "CONDITIONAL_RULE",
+    "split": "validation",
+    "split_type": "iid",
+    "task_family": "behavior_knowledge"
+  },
+  {
+    "behavior_type": "TRANSFORMATION_EXTRACTION",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "PRESENT",
+    "example_id": "BKN_003_EXTRACT",
+    "expected_output": "nimbus-central",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "From Nimbus v2 evidence, extract the default project region and return only the region string.",
+    "required_logical_fact_ids": [
+      "PROJ_DEFAULT_REGION"
+    ],
+    "required_record_ids": [
+      "PROJ_DEFAULT_REGION_V2"
+    ],
+    "scoring_parameters": {
+      "mode": "scalar"
+    },
+    "scoring_rule": "STRUCTURED_EXTRACTION",
+    "split": "validation",
+    "split_type": "iid",
+    "task_family": "behavior_knowledge"
+  },
+  {
+    "behavior_type": "CLASSIFICATION_POLICY",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "PRESENT",
+    "example_id": "BKN_004_CLASSIFY",
+    "expected_output": "EXTENDED",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": "component_family",
+    "holdout_group": "deployments",
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "Classify the Nimbus v2 rollback window as SHORT when <=20 minutes and EXTENDED when >20 minutes. Use external Nimbus evidence and answer only the class.",
+    "required_logical_fact_ids": [
+      "DEPLOY_ROLLBACK_WINDOW"
+    ],
+    "required_record_ids": [
+      "DEPLOY_ROLLBACK_WINDOW_V2"
+    ],
+    "scoring_parameters": {
+      "false_output": "SHORT",
+      "operator": "gt",
+      "threshold": 20,
+      "true_output": "EXTENDED"
+    },
+    "scoring_rule": "CLASSIFICATION",
+    "split": "test",
+    "split_type": "structural_holdout",
+    "task_family": "behavior_knowledge"
+  },
+  {
+    "behavior_type": "ABSTENTION_BEHAVIOR",
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "PRESENT",
+    "example_id": "BKN_005_ABSTAIN",
+    "expected_output": "RETIRED",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "Using Nimbus v2 evidence, state ACTIVE if legacy keys remain active or RETIRED if the authoritative record explicitly retires them. Abstain only if the evidence cannot decide.",
+    "required_logical_fact_ids": [
+      "AUTH_LEGACY_KEY"
+    ],
+    "required_record_ids": [
+      "AUTH_LEGACY_KEY_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "RETIRED_STATUS",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "behavior_knowledge"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "EASY",
+    "evidence_status": "PRESENT",
+    "example_id": "CHG_001_UNCHANGED",
+    "expected_output": "totp",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "UNCHANGED",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": "AUTH_MFA_METHOD",
+    "question": "What is the current Nimbus MFA method?",
+    "required_logical_fact_ids": [
+      "AUTH_MFA_METHOD"
+    ],
+    "required_record_ids": [
+      "AUTH_MFA_METHOD_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "changed_knowledge"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "PRESENT",
+    "example_id": "CHG_002_UPDATED",
+    "expected_output": 75,
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "UPDATED",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": "AUTH_TOKEN_TTL",
+    "question": "What is the current Nimbus access-token TTL?",
+    "required_logical_fact_ids": [
+      "AUTH_TOKEN_TTL"
+    ],
+    "required_record_ids": [
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "changed_knowledge"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "PRESENT",
+    "example_id": "CHG_003_REMOVED",
+    "expected_output": "RETIRED",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "REMOVED",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": "AUTH_LEGACY_KEY",
+    "question": "What is the current Nimbus status of legacy authentication keys?",
+    "required_logical_fact_ids": [
+      "AUTH_LEGACY_KEY"
+    ],
+    "required_record_ids": [
+      "AUTH_LEGACY_KEY_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "RETIRED_STATUS",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "changed_knowledge"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "PRESENT",
+    "example_id": "CHG_004_UNCHANGED",
+    "expected_output": 2,
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": "component_family",
+    "holdout_group": "deployments",
+    "knowledge_state": "UNCHANGED",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": "DEPLOY_RETRY_LIMIT",
+    "question": "What is the current Nimbus deployment retry limit?",
+    "required_logical_fact_ids": [
+      "DEPLOY_RETRY_LIMIT"
+    ],
+    "required_record_ids": [
+      "DEPLOY_RETRY_LIMIT_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "test",
+    "split_type": "structural_holdout",
+    "task_family": "changed_knowledge"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "ABSENT",
+    "example_id": "CHG_005_ABSENT",
+    "expected_output": "INSUFFICIENT_EVIDENCE",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "REMOVED",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": "DEPLOY_CLASSIC_MODE",
+    "question": "Is Nimbus classic deployment mode currently available?",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "ABSTENTION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "changed_knowledge"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "EASY",
+    "evidence_status": "PRESENT",
+    "example_id": "KNW_001_TOKEN_TTL",
+    "expected_output": 75,
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "What is the Nimbus v2 access-token TTL?",
+    "required_logical_fact_ids": [
+      "AUTH_TOKEN_TTL"
+    ],
+    "required_record_ids": [
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "knowledge_only"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "EASY",
+    "evidence_status": "PRESENT",
+    "example_id": "KNW_002_MEMBER_LIMIT",
+    "expected_output": 50,
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "What is the Nimbus v2 project member limit?",
+    "required_logical_fact_ids": [
+      "PROJ_MEMBER_LIMIT"
+    ],
+    "required_record_ids": [
+      "PROJ_MEMBER_LIMIT_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "validation",
+    "split_type": "iid",
+    "task_family": "knowledge_only"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "PRESENT",
+    "example_id": "KNW_003_REGION",
+    "expected_output": "nimbus-central",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "Which region is the Nimbus v2 default for new projects?",
+    "required_logical_fact_ids": [
+      "PROJ_DEFAULT_REGION"
+    ],
+    "required_record_ids": [
+      "PROJ_DEFAULT_REGION_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "validation",
+    "split_type": "iid",
+    "task_family": "knowledge_only"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "MEDIUM",
+    "evidence_status": "PRESENT",
+    "example_id": "KNW_004_RETRY",
+    "expected_output": 2,
+    "generation_seed": 1729,
+    "gold_chunk_ids": [
+      "CHK_DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION_001"
+    ],
+    "gold_document_ids": [
+      "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION"
+    ],
+    "holdout_dimension": "component_family",
+    "holdout_group": "deployments",
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "What retry limit does Nimbus v2 use for deployments?",
+    "required_logical_fact_ids": [
+      "DEPLOY_RETRY_LIMIT"
+    ],
+    "required_record_ids": [
+      "DEPLOY_RETRY_LIMIT_V2"
+    ],
+    "scoring_parameters": null,
+    "scoring_rule": "FACT_VALUE",
+    "split": "test",
+    "split_type": "structural_holdout",
+    "task_family": "knowledge_only"
+  },
+  {
+    "behavior_type": null,
+    "benchmark_version": "0.1-prototype",
+    "difficulty": "HARD",
+    "evidence_status": "ABSENT",
+    "example_id": "KNW_005_ABSENT",
+    "expected_output": "INSUFFICIENT_EVIDENCE",
+    "generation_seed": 1729,
+    "gold_chunk_ids": [],
+    "gold_document_ids": [],
+    "holdout_dimension": null,
+    "holdout_group": null,
+    "knowledge_state": "NOT_APPLICABLE",
+    "knowledge_version": "v2",
+    "lifecycle_logical_fact_id": null,
+    "question": "What is the Nimbus v2 billing export retention period?",
+    "required_logical_fact_ids": [],
+    "required_record_ids": [],
+    "scoring_parameters": null,
+    "scoring_rule": "ABSTENTION",
+    "split": "train",
+    "split_type": "iid",
+    "task_family": "knowledge_only"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "benchmark_name": "AdaptLab Nimbus",
+  "benchmark_version": "0.1-prototype",
+  "chunk_count": 15,
+  "document_count": 13,
+  "example_count": 20,
+  "fact_count": 19,
+  "generation_seed": 1729,
+  "hashes": {
+    "chunks.json": "42ae19f9f62972325005b409dd9cac01bb3cdcebfc0bd43380c31d44f538b943",
+    "documents.json": "952078eabfb34ce2004ffd7a3a565eb843e168585bb423a6fb5bcb546bb58a0b",
+    "examples.json": "bc9e4d9497e85874b124625d218722cd4c3335b85d23b983700483aa947c7a08",
+    "world.json": "1d483366bb2f9f8f05878de6111c167486f01dce62d7f04186edb4de91a9234f"
+  },
+  "world_schema_version": "1.0"
+}

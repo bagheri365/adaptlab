@@ -1,0 +1,236 @@
+[
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation (v1).\nAuthoritative settings:\n- AUTH_LEGACY_KEY: legacy_key = enabled.\n- AUTH_MFA_METHOD: mfa = totp.\n- AUTH_TOKEN_TTL: access_token = 60.",
+    "document_id": "DOC_AUTHENTICATION_V1_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "AUTH_LEGACY_KEY",
+      "AUTH_MFA_METHOD",
+      "AUTH_TOKEN_TTL"
+    ],
+    "record_ids": [
+      "AUTH_LEGACY_KEY_V1",
+      "AUTH_MFA_METHOD_V1",
+      "AUTH_TOKEN_TTL_V1"
+    ],
+    "title": "Nimbus Authentication Reference Documentation v1",
+    "version": "v1"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication configuration guide (v2).\nConfiguration values:\n- AUTH_LEGACY_KEY: legacy_key is retired.\n- AUTH_MFA_METHOD: mfa = totp.\n- AUTH_TOKEN_TTL: access_token = 75.",
+    "document_id": "DOC_AUTHENTICATION_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "AUTH_LEGACY_KEY",
+      "AUTH_MFA_METHOD",
+      "AUTH_TOKEN_TTL"
+    ],
+    "record_ids": [
+      "AUTH_LEGACY_KEY_V2",
+      "AUTH_MFA_METHOD_V2",
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "title": "Nimbus Authentication Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication reference documentation (v2).\nAuthoritative settings:\n- AUTH_LEGACY_KEY: legacy_key is retired.\n- AUTH_MFA_METHOD: mfa = totp.\n- AUTH_TOKEN_TTL: access_token = 75.",
+    "document_id": "DOC_AUTHENTICATION_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "AUTH_LEGACY_KEY",
+      "AUTH_MFA_METHOD",
+      "AUTH_TOKEN_TTL"
+    ],
+    "record_ids": [
+      "AUTH_LEGACY_KEY_V2",
+      "AUTH_MFA_METHOD_V2",
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "title": "Nimbus Authentication Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication release note (v2).\nVersion facts recorded for this Nimbus release:\n- AUTH_LEGACY_KEY: legacy_key is retired.\n- AUTH_MFA_METHOD: mfa = totp.\n- AUTH_TOKEN_TTL: access_token = 75.",
+    "document_id": "DOC_AUTHENTICATION_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "AUTH_LEGACY_KEY",
+      "AUTH_MFA_METHOD",
+      "AUTH_TOKEN_TTL"
+    ],
+    "record_ids": [
+      "AUTH_LEGACY_KEY_V2",
+      "AUTH_MFA_METHOD_V2",
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "title": "Nimbus Authentication Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "authentication",
+    "content": "Nimbus authentication troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- AUTH_LEGACY_KEY: legacy_key is retired.\n- AUTH_MFA_METHOD: mfa = totp.\n- AUTH_TOKEN_TTL: access_token = 75.",
+    "document_id": "DOC_AUTHENTICATION_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "AUTH_LEGACY_KEY",
+      "AUTH_MFA_METHOD",
+      "AUTH_TOKEN_TTL"
+    ],
+    "record_ids": [
+      "AUTH_LEGACY_KEY_V2",
+      "AUTH_MFA_METHOD_V2",
+      "AUTH_TOKEN_TTL_V2"
+    ],
+    "title": "Nimbus Authentication Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments configuration guide (v2).\nConfiguration values:\n- DEPLOY_HEALTH_PATH: health_check = /nimbus/health.\n- DEPLOY_RETRY_LIMIT: retry = 2.\n- DEPLOY_ROLLBACK_WINDOW: rollback = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "DEPLOY_HEALTH_PATH",
+      "DEPLOY_RETRY_LIMIT",
+      "DEPLOY_ROLLBACK_WINDOW"
+    ],
+    "record_ids": [
+      "DEPLOY_HEALTH_PATH_V2",
+      "DEPLOY_RETRY_LIMIT_V2",
+      "DEPLOY_ROLLBACK_WINDOW_V2"
+    ],
+    "title": "Nimbus Deployments Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments reference documentation (v2).\nAuthoritative settings:\n- DEPLOY_HEALTH_PATH: health_check = /nimbus/health.\n- DEPLOY_RETRY_LIMIT: retry = 2.\n- DEPLOY_ROLLBACK_WINDOW: rollback = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "DEPLOY_HEALTH_PATH",
+      "DEPLOY_RETRY_LIMIT",
+      "DEPLOY_ROLLBACK_WINDOW"
+    ],
+    "record_ids": [
+      "DEPLOY_HEALTH_PATH_V2",
+      "DEPLOY_RETRY_LIMIT_V2",
+      "DEPLOY_ROLLBACK_WINDOW_V2"
+    ],
+    "title": "Nimbus Deployments Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments release note (v2).\nVersion facts recorded for this Nimbus release:\n- DEPLOY_HEALTH_PATH: health_check = /nimbus/health.\n- DEPLOY_RETRY_LIMIT: retry = 2.\n- DEPLOY_ROLLBACK_WINDOW: rollback = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "DEPLOY_HEALTH_PATH",
+      "DEPLOY_RETRY_LIMIT",
+      "DEPLOY_ROLLBACK_WINDOW"
+    ],
+    "record_ids": [
+      "DEPLOY_HEALTH_PATH_V2",
+      "DEPLOY_RETRY_LIMIT_V2",
+      "DEPLOY_ROLLBACK_WINDOW_V2"
+    ],
+    "title": "Nimbus Deployments Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "deployments",
+    "content": "Nimbus deployments troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- DEPLOY_HEALTH_PATH: health_check = /nimbus/health.\n- DEPLOY_RETRY_LIMIT: retry = 2.\n- DEPLOY_ROLLBACK_WINDOW: rollback = 30.",
+    "document_id": "DOC_DEPLOYMENTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "DEPLOY_HEALTH_PATH",
+      "DEPLOY_RETRY_LIMIT",
+      "DEPLOY_ROLLBACK_WINDOW"
+    ],
+    "record_ids": [
+      "DEPLOY_HEALTH_PATH_V2",
+      "DEPLOY_RETRY_LIMIT_V2",
+      "DEPLOY_ROLLBACK_WINDOW_V2"
+    ],
+    "title": "Nimbus Deployments Troubleshooting Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects configuration guide (v2).\nConfiguration values:\n- PROJ_ARCHIVE_DELAY: archive = 7.\n- PROJ_DEFAULT_REGION: project_region = nimbus-central.\n- PROJ_MEMBER_LIMIT: project_members = 50.",
+    "document_id": "DOC_PROJECTS_V2_CONFIGURATION_GUIDE",
+    "document_style": "configuration_guide",
+    "logical_fact_ids": [
+      "PROJ_ARCHIVE_DELAY",
+      "PROJ_DEFAULT_REGION",
+      "PROJ_MEMBER_LIMIT"
+    ],
+    "record_ids": [
+      "PROJ_ARCHIVE_DELAY_V2",
+      "PROJ_DEFAULT_REGION_V2",
+      "PROJ_MEMBER_LIMIT_V2"
+    ],
+    "title": "Nimbus Projects Configuration Guide v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects reference documentation (v2).\nAuthoritative settings:\n- PROJ_ARCHIVE_DELAY: archive = 7.\n- PROJ_DEFAULT_REGION: project_region = nimbus-central.\n- PROJ_MEMBER_LIMIT: project_members = 50.",
+    "document_id": "DOC_PROJECTS_V2_REFERENCE_DOCUMENTATION",
+    "document_style": "reference_documentation",
+    "logical_fact_ids": [
+      "PROJ_ARCHIVE_DELAY",
+      "PROJ_DEFAULT_REGION",
+      "PROJ_MEMBER_LIMIT"
+    ],
+    "record_ids": [
+      "PROJ_ARCHIVE_DELAY_V2",
+      "PROJ_DEFAULT_REGION_V2",
+      "PROJ_MEMBER_LIMIT_V2"
+    ],
+    "title": "Nimbus Projects Reference Documentation v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects release note (v2).\nVersion facts recorded for this Nimbus release:\n- PROJ_ARCHIVE_DELAY: archive = 7.\n- PROJ_DEFAULT_REGION: project_region = nimbus-central.\n- PROJ_MEMBER_LIMIT: project_members = 50.",
+    "document_id": "DOC_PROJECTS_V2_RELEASE_NOTE",
+    "document_style": "release_note",
+    "logical_fact_ids": [
+      "PROJ_ARCHIVE_DELAY",
+      "PROJ_DEFAULT_REGION",
+      "PROJ_MEMBER_LIMIT"
+    ],
+    "record_ids": [
+      "PROJ_ARCHIVE_DELAY_V2",
+      "PROJ_DEFAULT_REGION_V2",
+      "PROJ_MEMBER_LIMIT_V2"
+    ],
+    "title": "Nimbus Projects Release Note v2",
+    "version": "v2"
+  },
+  {
+    "component_family": "projects",
+    "content": "Nimbus projects troubleshooting guide (v2).\nUse these authoritative Nimbus facts when diagnosing behavior:\n- PROJ_ARCHIVE_DELAY: archive = 7.\n- PROJ_DEFAULT_REGION: project_region = nimbus-central.\n- PROJ_MEMBER_LIMIT: project_members = 50.",
+    "document_id": "DOC_PROJECTS_V2_TROUBLESHOOTING_GUIDE",
+    "document_style": "troubleshooting_guide",
+    "logical_fact_ids": [
+      "PROJ_ARCHIVE_DELAY",
+      "PROJ_DEFAULT_REGION",
+      "PROJ_MEMBER_LIMIT"
+    ],
+    "record_ids": [
+      "PROJ_ARCHIVE_DELAY_V2",
+      "PROJ_DEFAULT_REGION_V2",
+      "PROJ_MEMBER_LIMIT_V2"
+    ],
+    "title": "Nimbus Projects Troubleshooting Guide v2",
+    "version": "v2"
+  }
+]
