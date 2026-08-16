@@ -14,6 +14,10 @@ from adaptlab.benchmark.human_audit import load_human_review_queue, update_human
 from adaptlab.benchmark.schemas import BenchmarkExample
 from adaptlab.benchmark.validate import validate_fixture
 from adaptlab.domain.world import NimbusWorld
+from adaptlab.domain.enums import Split
+from adaptlab.evaluation.providers import FakeModelProvider, OllamaModelProvider
+from adaptlab.evaluation.runner import run_evaluation
+from adaptlab.evaluation.schemas import AdaptationMethod
 
 DEFAULT_FIXTURE_DIR = Path("data/fixtures/prototype")
 DEFAULT_FULL_CONFIG = Path("configs/benchmark_v0.0.yaml")
@@ -203,6 +207,47 @@ def _review_human_audit(args: argparse.Namespace) -> int:
         print(f"Human audit review failed: {exc}")
         return 1
 
+def _evaluate_run(args: argparse.Namespace) -> int:
+    method_name = args.method.upper().replace("-", "_")
+    try:
+        method = AdaptationMethod(method_name)
+        if args.provider == "fake":
+            provider = FakeModelProvider([], provider_name="fake")
+        elif args.provider == "ollama":
+            provider = OllamaModelProvider(
+                model_id=args.model,
+                base_url=args.base_url,
+                context_length=args.context_length,
+                think=args.think,
+                stream=False,
+            )
+        else:
+            raise ValueError(f"unsupported provider: {args.provider}")
+        runner_max_retries = 0 if args.provider == "ollama" else 2
+        run = run_evaluation(
+            benchmark_dir=args.benchmark,
+            method=method,
+            model_id=args.model,
+            provider=provider,
+            prompt_config=args.prompt_config,
+            output_dir=args.output,
+            split=Split(args.split),
+            limit=args.limit,
+            resume=args.resume,
+            temperature=args.temperature,
+            max_tokens=args.max_tokens,
+            seed=args.seed,
+            canonical=args.canonical,
+            allow_dirty_git=args.allow_dirty_git,
+            max_retries=runner_max_retries,
+        )
+    except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
+        print(f"Evaluation failed: {exc}")
+        return 1
+    print(f"Evaluation {run.status.value.lower()}: {run.run_id} -> {args.output}")
+    return 0 if run.status.value == "COMPLETED" else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="adaptlab")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -248,6 +293,28 @@ def build_parser() -> argparse.ArgumentParser:
         help="hide expected output until the reviewer explicitly reveals it",
     )
     review.set_defaults(handler=_review_human_audit)
+
+    evaluate = subparsers.add_parser("evaluate", help="evaluation harness utilities")
+    evaluate_subparsers = evaluate.add_subparsers(dest="evaluate_command", required=True)
+    evaluate_run = evaluate_subparsers.add_parser("run", help="run a frozen benchmark evaluation")
+    evaluate_run.add_argument("--benchmark", type=Path, required=True)
+    evaluate_run.add_argument("--method", choices=("prompt", "oracle_context", "oracle-context"), required=True)
+    evaluate_run.add_argument("--model", required=True)
+    evaluate_run.add_argument("--provider", choices=("fake", "ollama"), default="fake")
+    evaluate_run.add_argument("--prompt-config", type=Path, required=True)
+    evaluate_run.add_argument("--output", type=Path, required=True)
+    evaluate_run.add_argument("--split", choices=tuple(item.value for item in Split), default=Split.test.value)
+    evaluate_run.add_argument("--limit", type=int)
+    evaluate_run.add_argument("--resume", action="store_true")
+    evaluate_run.add_argument("--temperature", type=float, default=0.0)
+    evaluate_run.add_argument("--max-tokens", type=int, default=256)
+    evaluate_run.add_argument("--seed", type=int)
+    evaluate_run.add_argument("--base-url", type=str, default="http://localhost:11434")
+    evaluate_run.add_argument("--context-length", type=int, default=40960)
+    evaluate_run.add_argument("--think", action="store_true", help="send think=true when using Ollama")
+    evaluate_run.add_argument("--canonical", action="store_true", help="enforce canonical clean-Git provenance")
+    evaluate_run.add_argument("--allow-dirty-git", action="store_true", help="explicitly override dirty-tree refusal for a canonical run")
+    evaluate_run.set_defaults(handler=_evaluate_run)
 
     return parser
 

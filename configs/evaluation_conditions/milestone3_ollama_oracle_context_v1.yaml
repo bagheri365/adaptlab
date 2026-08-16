@@ -1,0 +1,82 @@
+schema_version: "1"
+condition_version: "1"
+condition_id: "milestone3_ollama_oracle_context_v1"
+canonical_milestone: "3"
+adaptation_method: "ORACLE_CONTEXT"
+
+benchmark:
+  benchmark_version: "0.0.0"
+  benchmark_manifest_hash: "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85"
+
+prompt:
+  prompt_version: "prompt_v1"
+  prompt_hash: "e509292bdbbd7cd1ef56e601858bde22312ac4f4b8317663742e177e6e654b60"
+
+provider:
+  name: "ollama"
+  base_url_policy: "http://localhost:11434"
+  model_tag: "qwen3:8b"
+  ollama_version: "0.32.6"
+  ollama_model_digest: "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41"
+  ollama_metadata_policy: "record the local tag and digest; do not claim immutable weights from the tag alone"
+
+request:
+  temperature: 0
+  seed: 1729
+  context_length: 40960
+  max_tokens: 256
+  stream: false
+  think: false
+
+retry_policy:
+  runner_max_retries: 0
+  provider_max_retries: 2
+  retryable_http_statuses: [408, 409, 429, 500, 502, 503, 504]
+
+cache_policy:
+  type: "exact_request"
+  storage: "successful_raw_responses_only"
+  read_mode: "fail_closed"
+  identity_fields:
+    - "benchmark_manifest_hash"
+    - "example_id"
+    - "model_id"
+    - "model_revision"
+    - "provider"
+    - "prompt_hash"
+    - "method"
+    - "temperature"
+    - "max_tokens"
+    - "seed"
+    - "input_hash"
+
+scoring:
+  scorer_version: "1"
+  normalizer_version: "1"
+  evidence_format_version: "1"
+
+input_construction:
+  prompt: "benchmark question only"
+  oracle_context:
+    enabled_when_evidence_status: "PRESENT"
+    evidence_ordering: "deterministic ascending chunk_id"
+    delimiters:
+      begin: "--- BEGIN CONTEXT ---"
+      separator: "---"
+      end: "--- END CONTEXT ---"
+    content_constraints:
+      - "only permitted evidence text"
+      - "do not expose expected_output"
+      - "do not expose task_family"
+      - "do not expose difficulty"
+      - "do not expose knowledge_state"
+      - "do not expose scoring_rule"
+      - "do not use labels such as gold answer or correct evidence"
+    absent_evidence_behavior: "byte-identical to PROMPT; do not add an empty evidence section"
+
+selection_controls:
+  validation_split_only: true
+  test_set_access_during_selection: false
+  sentinel_access_during_selection: false
+  repeated_prompt_search: false
+
