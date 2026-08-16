@@ -1,5 +1,15 @@
 """Evaluation harness contracts for AdaptLab Milestone 3."""
 
+from adaptlab.evaluation.causal_controls import (
+    CAUSAL_CONTROL_SCHEMA_VERSION,
+    CausalControlReport,
+    CausalControlValidationError,
+    derive_rag_control_condition,
+    load_condition_config,
+    require_causal_controls,
+    validate_causal_controls,
+    write_causal_control_artifact,
+)
 from adaptlab.evaluation.cache import (
     CACHE_SCHEMA_VERSION,
     ExactRequestCache,
@@ -15,9 +25,30 @@ from adaptlab.evaluation.errors import (
 from adaptlab.evaluation.providers import ModelProvider, ModelRequest, ModelResponse
 from adaptlab.evaluation.inputs import (
     EVIDENCE_FORMAT_VERSION,
+    EVIDENCE_RENDERER_VERSION,
+    evidence_renderer_contract,
+    evidence_renderer_hash,
     ConstructedModelInput,
+    ConstructedRAGInput,
     canonical_model_input_bytes,
     construct_model_input,
+    construct_rag_model_input,
+)
+from adaptlab.evaluation.rag_completeness import (
+    RAG_COMPLETENESS_SCHEMA_VERSION,
+    CANONICAL_RAG_EXPECTED_COUNT,
+    RAGExampleCompletion,
+    RAGRunIdentity,
+    RAGCompletenessRecord,
+    canonical_rag_completeness,
+    require_canonical_rag_complete,
+    resume_identity_matches,
+)
+from adaptlab.evaluation.rag_config import (
+    CANONICAL_RAG_CONFIG_VERSION,
+    CanonicalRAGConfig,
+    build_canonical_rag_config,
+    load_canonical_rag_config,
 )
 from adaptlab.evaluation.provenance import GitState, capture_git_state, require_canonical_git_state
 from adaptlab.evaluation.prompts import (
@@ -56,6 +87,14 @@ from adaptlab.evaluation.schemas import (
 
 __all__ = [
     "AdaptationMethod",
+    "CAUSAL_CONTROL_SCHEMA_VERSION",
+    "CausalControlReport",
+    "CausalControlValidationError",
+    "derive_rag_control_condition",
+    "load_condition_config",
+    "require_causal_controls",
+    "validate_causal_controls",
+    "write_causal_control_artifact",
     "GitState",
     "capture_git_state",
     "require_canonical_git_state",
@@ -75,7 +114,23 @@ __all__ = [
     "AggregateMetrics",
     "AccuracyMetric",
     "ConstructedModelInput",
+    "ConstructedRAGInput",
     "EVIDENCE_FORMAT_VERSION",
+    "EVIDENCE_RENDERER_VERSION",
+    "evidence_renderer_contract",
+    "evidence_renderer_hash",
+    "CANONICAL_RAG_CONFIG_VERSION",
+    "CanonicalRAGConfig",
+    "build_canonical_rag_config",
+    "load_canonical_rag_config",
+    "RAG_COMPLETENESS_SCHEMA_VERSION",
+    "CANONICAL_RAG_EXPECTED_COUNT",
+    "RAGExampleCompletion",
+    "RAGRunIdentity",
+    "RAGCompletenessRecord",
+    "canonical_rag_completeness",
+    "require_canonical_rag_complete",
+    "resume_identity_matches",
     "EVALUATION_RESULT_SCHEMA_VERSION",
     "EVALUATION_RUN_SCHEMA_VERSION",
     "EvaluationError",
@@ -98,7 +153,16 @@ __all__ = [
     "TransientProviderError",
     "canonical_model_input_bytes",
     "construct_model_input",
+    "construct_rag_model_input",
     "normalize_output",
     "score_output",
     "load_prompt_contract",
 ]
+
+from .rag_primary_run import CanonicalRAGRunSummary, canonical_rag_run_id, run_canonical_primary_rag
+from .rag_comparison import (
+    RAG_COMPARISON_SCHEMA_VERSION,
+    RAGComparisonBlockedError,
+    analyze_prompt_rag_oracle,
+    write_blocked_comparison_artifact,
+)

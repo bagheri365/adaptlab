@@ -1,0 +1,109 @@
+{
+  "confirmatory": {
+    "difficulty": {
+      "EASY": {
+        "accuracy": 0.875,
+        "n": 120
+      },
+      "HARD": {
+        "accuracy": 0.875,
+        "n": 120
+      },
+      "MEDIUM": {
+        "accuracy": 0.8625,
+        "n": 160
+      }
+    },
+    "task_family": {
+      "behavior_knowledge": {
+        "accuracy": 0.91,
+        "n": 100
+      },
+      "behavior_only": {
+        "accuracy": 1.0,
+        "n": 100
+      },
+      "changed_knowledge": {
+        "accuracy": 0.67,
+        "n": 100
+      },
+      "knowledge_only": {
+        "accuracy": 0.9,
+        "n": 100
+      }
+    }
+  },
+  "exploratory": {
+    "behavior_type": {
+      "ABSTENTION_BEHAVIOR": {
+        "accuracy": 0.9615384615384616,
+        "n": 52
+      },
+      "CLASSIFICATION_POLICY": {
+        "accuracy": 0.918918918918919,
+        "n": 37
+      },
+      "CONDITIONAL_DECISION_RULE": {
+        "accuracy": 1.0,
+        "n": 37
+      },
+      "SCHEMA_ADHERENCE": {
+        "accuracy": 0.9459459459459459,
+        "n": 37
+      },
+      "TRANSFORMATION_EXTRACTION": {
+        "accuracy": 0.9459459459459459,
+        "n": 37
+      }
+    },
+    "evidence_status": {
+      "ABSENT": {
+        "accuracy": 1.0,
+        "n": 40
+      },
+      "NOT_APPLICABLE": {
+        "accuracy": 1.0,
+        "n": 100
+      },
+      "PRESENT": {
+        "accuracy": 0.8,
+        "n": 260
+      }
+    },
+    "knowledge_state": {
+      "NOT_APPLICABLE": {
+        "accuracy": 0.9366666666666666,
+        "n": 300
+      },
+      "REMOVED": {
+        "accuracy": 0.4666666666666667,
+        "n": 30
+      },
+      "UNCHANGED": {
+        "accuracy": 0.6,
+        "n": 30
+      },
+      "UPDATED": {
+        "accuracy": 0.875,
+        "n": 40
+      }
+    },
+    "split_type": {
+      "IID": {
+        "accuracy": 0.879245283018868,
+        "n": 265
+      },
+      "STRUCTURAL_HOLDOUT": {
+        "accuracy": 0.8518518518518519,
+        "n": 135
+      }
+    }
+  },
+  "primary": {
+    "overall_accuracy": {
+      "accuracy": 0.87,
+      "n": 400
+    }
+  },
+  "schema_version": "1"
+}

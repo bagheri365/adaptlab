@@ -1,0 +1,9 @@
+{
+  "schema_version": "canonical-primary-completion-v1",
+  "run_id": "oracle_v2",
+  "status": "COMPLETED",
+  "expected_count": 400,
+  "completed_successful_responses": 400,
+  "unresolved_provider_failures": 0,
+  "valid": true
+}

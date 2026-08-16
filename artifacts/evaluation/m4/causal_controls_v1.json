@@ -1,0 +1,4060 @@
+{
+  "condition_checks": {
+    "adaptation_methods": true,
+    "benchmark_manifest_hash": true,
+    "context_length": true,
+    "max_tokens": true,
+    "model": true,
+    "model_runtime_policy": true,
+    "normalizer_version": true,
+    "prompt_contract_hash_matches": true,
+    "prompt_hash": true,
+    "prompt_version": true,
+    "scorer_version": true,
+    "seed": true,
+    "stream": true,
+    "temperature": true,
+    "think": true
+  },
+  "evidence_renderer_version": "1",
+  "example_count": 400,
+  "passed": true,
+  "per_example_checks": [
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_016",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_017",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_018",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_019",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_020",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_021",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_022",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_023",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_024",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_025",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_026",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_027",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_028",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_029",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_030",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_031",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_032",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_033",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_034",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_035",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_036",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_037",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_038",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_039",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_040",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_041",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_042",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_043",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_044",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_045",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_046",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_047",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_048",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_049",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_050",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_051",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_052",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_053",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_054",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_055",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_056",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_057",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_058",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_059",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_060",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_061",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_062",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_063",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_064",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_065",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_066",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_067",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_068",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_069",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_070",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_071",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_072",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_073",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_074",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_075",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_076",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_077",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_078",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_079",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_080",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_081",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_082",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_083",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_084",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_085",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_086",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_087",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_088",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_089",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_090",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_091",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_092",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_093",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_094",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_095",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_096",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_097",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_098",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_099",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "NOT_APPLICABLE",
+      "example_id": "FULL_T_BHV_100",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_016",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_017",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_018",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_019",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_020",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_021",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_022",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_023",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_024",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_025",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_026",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_027",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_028",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_029",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_030",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_031",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_032",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_033",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_034",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_035",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_036",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_037",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_038",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_039",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_040",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_041",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_042",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_043",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_044",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_045",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_046",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_047",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_048",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_049",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_050",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_051",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_052",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_053",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_054",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_055",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_056",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_057",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_058",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_059",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_060",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_061",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_062",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_063",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_064",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_065",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_066",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_067",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_068",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_069",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_070",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_071",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_072",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_073",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_074",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_075",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_076",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_077",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_078",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_079",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_080",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_081",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_082",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_083",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_084",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_BKN_085",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_BKN_ABS_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "behavior_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_016",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_017",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_018",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_019",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_REMOVED_020",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_CHG_REMOVED_ABS_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_016",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_017",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_018",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_019",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_020",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_021",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_022",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_023",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_024",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_025",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_026",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_027",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_028",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_029",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UNCHANGED_030",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_016",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_017",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_018",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_019",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_020",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_021",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_022",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_023",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_024",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_025",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_026",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_027",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_028",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_029",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_030",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_031",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_032",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_033",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_034",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_035",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_036",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_037",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_038",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_039",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_CHG_UPDATED_040",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "changed_knowledge"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_016",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_017",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_018",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_019",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_020",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_021",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_022",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_023",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_024",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_025",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_026",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_027",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_028",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_029",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_030",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_031",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_032",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_033",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_034",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_035",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_036",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_037",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_038",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_039",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_040",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_041",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_042",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_043",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_044",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_045",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_046",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_047",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_048",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_049",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_050",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_051",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_052",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_053",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_054",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_055",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_056",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_057",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_058",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_059",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_060",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_061",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_062",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_063",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_064",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_065",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_066",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_067",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_068",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_069",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_070",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_071",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_072",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_073",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_074",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_075",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_076",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_077",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_078",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_079",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_080",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_081",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_082",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_083",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_084",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "PRESENT",
+      "example_id": "FULL_T_KNW_085",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_001",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_002",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_003",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_004",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_005",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_006",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_007",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_008",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_009",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_010",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_011",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_012",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_013",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_014",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    },
+    {
+      "behavior_only_byte_identical": true,
+      "evidence_status": "ABSENT",
+      "example_id": "FULL_T_KNW_ABS_015",
+      "oracle_chunks_match_permitted_gold": true,
+      "oracle_rag_shared_renderer": true,
+      "passed": true,
+      "rag_chunks_match_frozen_artifact": true,
+      "task_family": "knowledge_only"
+    }
+  ],
+  "retrieval_artifact_hash": "ae118a673508b33bf19799666ee8d97b958add832721f8b97e5e2f4401349c84",
+  "retrieval_run_id": "m4-primary-test-bm25-2c08bcdf03384d0b",
+  "schema_version": "1",
+  "shared_condition_values": {
+    "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+    "context_length": 40960,
+    "max_tokens": 256,
+    "model": "qwen3:8b",
+    "model_runtime_policy": {
+      "base_url_policy": "http://localhost:11434",
+      "ollama_model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "ollama_version": "0.32.6",
+      "provider": "ollama",
+      "retry_policy": {
+        "provider_max_retries": 2,
+        "retryable_http_statuses": [
+          408,
+          409,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "runner_max_retries": 0
+      }
+    },
+    "normalizer_version": "1",
+    "prompt_hash": "e509292bdbbd7cd1ef56e601858bde22312ac4f4b8317663742e177e6e654b60",
+    "prompt_version": "prompt_v1",
+    "scorer_version": "1",
+    "seed": 1729,
+    "stream": false,
+    "temperature": 0,
+    "think": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "absolute_tolerance": 0.02,
+  "candidate_top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "generation_metrics_allowed": false,
+  "primary_metric": "ALL_REQUIRED_GOLD@k",
+  "primary_test_metrics_allowed": false,
+  "secondary_tie_break": "smallest_k_context_budget",
+  "selection_rule": "choose_smallest_k_within_absolute_tolerance_of_best_validation_all_required_gold",
+  "version": "top-k-selection-v1"
+}

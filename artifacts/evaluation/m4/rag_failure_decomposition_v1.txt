@@ -1,0 +1,16 @@
+OBSERVATION
+- RAG was incorrect on 50/400 examples.
+- Primary mechanically supported buckets were: all-gold-plus-distractors=45, wrong-version=4, evidence-absent false-context=1; all-gold-only, partial-retrieval, obsolete-only, and pure retrieval-miss primary buckets were 0.
+- Retrieval-condition counts among RAG failures: all-required-gold retrieved=251 with 45 wrong; no-gold retrieved=9 with 4 wrong; wrong-version retrieval=39 with 24 correct / 15 wrong; obsolete-only retrieval=7 with 3 correct / 4 wrong; evidence-ABSENT=40 with 1 wrong.
+- RAG was wrong while ORACLE_CONTEXT was correct in 5 cases; both were wrong in 45 cases.
+- The explicit all-required-gold-retrieved-and-wrong set contained 45 examples, with 4 Oracle-correct and 41 Oracle-wrong; all 45 contained extra distractor chunks, with 5 UPDATED, 12 REMOVED, 19 structural holdout, and 12 HARD.
+- Slice totals: knowledge_only 11 wrong, behavior_knowledge 7 wrong, changed_knowledge 32 wrong; UNCHANGED 10 wrong, UPDATED 5 wrong, REMOVED 17 wrong.
+
+INTERPRETATION
+- The frozen artifacts support a mix of knowledge-access gain and residual generation/reasoning gap: the dominant failure mode is all-required-gold retrieved plus distractors, while a smaller wrong-version slice and one evidence-ABSENT false-context case remain.
+- Evidence-ABSENT failures should be read as false-context susceptibility rather than retrieval misses, because there is no gold retrieval target in that slice.
+- The DISTRACTOR_DOMINANCE tag is reported only as a mechanical tag from the retrieval audit; presence of distractors is not treated as proof of causality.
+
+LIMITATION
+- This decomposition is bounded by the frozen benchmark, frozen prompt/oracle/RAG outputs, and the frozen BM25 artifact; it does not rerun inference, retrieval, scorer, or normalization.
+- The artifacts do not establish model intent, and they do not support claims about dense retrieval performance, universal RAG performance, LoRA benefit, or cross-model generality.

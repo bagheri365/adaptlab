@@ -16,7 +16,7 @@ from adaptlab.benchmark.io import canonical_json_bytes
 from adaptlab.evaluation.providers import ModelResponse
 from adaptlab.evaluation.schemas import AdaptationMethod
 
-CACHE_SCHEMA_VERSION = "2"
+CACHE_SCHEMA_VERSION = "3"
 
 
 def _sha256_bytes(data: bytes) -> str:
@@ -50,11 +50,31 @@ class InferenceCacheKey:
     stream: bool | None
     think: bool | None
     input_hash: str
+    retrieval_run_id: str | None = None
+    retrieval_artifact_hash: str | None = None
+    retriever_config_hash: str | None = None
+    retrieved_context_hash: str | None = None
 
     def __post_init__(self) -> None:
         _require_hash("benchmark_manifest_hash", self.benchmark_manifest_hash)
         _require_hash("prompt_hash", self.prompt_hash)
         _require_hash("input_hash", self.input_hash)
+        retrieval_fields = (
+            self.retrieval_run_id,
+            self.retrieval_artifact_hash,
+            self.retriever_config_hash,
+            self.retrieved_context_hash,
+        )
+        if self.method is AdaptationMethod.RAG:
+            if any(value is None for value in retrieval_fields):
+                raise ValueError("RAG cache identity requires retrieval run/artifact/config/context provenance")
+            if not isinstance(self.retrieval_run_id, str) or not self.retrieval_run_id.strip():
+                raise ValueError("retrieval_run_id must be a non-empty string for RAG")
+            _require_hash("retrieval_artifact_hash", self.retrieval_artifact_hash)
+            _require_hash("retriever_config_hash", self.retriever_config_hash)
+            _require_hash("retrieved_context_hash", self.retrieved_context_hash)
+        elif any(value is not None for value in retrieval_fields):
+            raise ValueError("retrieval provenance fields are only valid for RAG cache identities")
         for name in ("example_id", "model_id", "provider"):
             value = getattr(self, name)
             if not isinstance(value, str) or not value.strip():
@@ -73,8 +93,8 @@ class InferenceCacheKey:
             _require_hash("model_digest", self.model_digest)
         if self.model_revision is not None and (not isinstance(self.model_revision, str) or not self.model_revision.strip()):
             raise ValueError("model_revision must be a non-empty string or None")
-        if self.method not in {AdaptationMethod.PROMPT, AdaptationMethod.ORACLE_CONTEXT}:
-            raise ValueError("cache only supports implemented Milestone 3 methods")
+        if self.method not in {AdaptationMethod.PROMPT, AdaptationMethod.ORACLE_CONTEXT, AdaptationMethod.RAG}:
+            raise ValueError("cache only supports PROMPT, ORACLE_CONTEXT, and RAG")
         if not isinstance(self.temperature, (int, float)) or isinstance(self.temperature, bool) or self.temperature < 0:
             raise ValueError("temperature must be non-negative")
         if self.context_length is not None and (
@@ -125,6 +145,10 @@ class InferenceCacheKey:
             stream=data.get("stream"),
             think=data.get("think"),
             input_hash=data["input_hash"],
+            retrieval_run_id=data.get("retrieval_run_id"),
+            retrieval_artifact_hash=data.get("retrieval_artifact_hash"),
+            retriever_config_hash=data.get("retriever_config_hash"),
+            retrieved_context_hash=data.get("retrieved_context_hash"),
         )
 
 

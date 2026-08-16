@@ -1,0 +1,28 @@
+{
+  "best_all_required_gold": 1.0,
+  "candidate_metrics": [
+    {
+      "all_required_gold": 0.4107142857142857,
+      "top_k": 1
+    },
+    {
+      "all_required_gold": 0.8482142857142857,
+      "top_k": 3
+    },
+    {
+      "all_required_gold": 0.8928571428571429,
+      "top_k": 5
+    },
+    {
+      "all_required_gold": 1.0,
+      "top_k": 10
+    }
+  ],
+  "policy_hash": "c01c903f4221c04057fbd1be65525c91a3d0b5fe9c7a77d66156694e204e5596",
+  "policy_version": "top-k-selection-v1",
+  "run_id": "m4-validation-bm25-a0dc02c922ae487f",
+  "selected_top_k": 10,
+  "selection_input": "validation_retrieval_metrics_only",
+  "threshold": 0.98,
+  "top_k_selection_policy_hash": "c01c903f4221c04057fbd1be65525c91a3d0b5fe9c7a77d66156694e204e5596"
+}

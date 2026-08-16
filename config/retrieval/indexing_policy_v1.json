@@ -1,0 +1,18 @@
+{
+  "document_representation": "chunk_content_only",
+  "excluded_metadata": [
+    "component_family",
+    "difficulty",
+    "expected_output",
+    "gold_annotations",
+    "knowledge_state",
+    "logical_fact_id",
+    "record_id",
+    "task_family"
+  ],
+  "included_fields": [
+    "content"
+  ],
+  "title_or_heading_policy": "not_indexed",
+  "version": "retrieval-indexing-v1"
+}

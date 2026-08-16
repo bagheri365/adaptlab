@@ -1,0 +1,306 @@
+{
+  "explicit_45_all_required_gold_retrieved_and_rag_wrong": {
+    "count": 45,
+    "example_ids": [
+      "FULL_T_BKN_016",
+      "FULL_T_BKN_017",
+      "FULL_T_BKN_020",
+      "FULL_T_BKN_041",
+      "FULL_T_BKN_042",
+      "FULL_T_BKN_045",
+      "FULL_T_BKN_072",
+      "FULL_T_CHG_REMOVED_001",
+      "FULL_T_CHG_REMOVED_002",
+      "FULL_T_CHG_REMOVED_003",
+      "FULL_T_CHG_REMOVED_005",
+      "FULL_T_CHG_REMOVED_008",
+      "FULL_T_CHG_REMOVED_011",
+      "FULL_T_CHG_REMOVED_012",
+      "FULL_T_CHG_REMOVED_013",
+      "FULL_T_CHG_REMOVED_016",
+      "FULL_T_CHG_REMOVED_017",
+      "FULL_T_CHG_REMOVED_018",
+      "FULL_T_CHG_REMOVED_020",
+      "FULL_T_CHG_UNCHANGED_006",
+      "FULL_T_CHG_UNCHANGED_007",
+      "FULL_T_CHG_UNCHANGED_008",
+      "FULL_T_CHG_UNCHANGED_009",
+      "FULL_T_CHG_UNCHANGED_010",
+      "FULL_T_CHG_UNCHANGED_021",
+      "FULL_T_CHG_UNCHANGED_022",
+      "FULL_T_CHG_UNCHANGED_023",
+      "FULL_T_CHG_UNCHANGED_024",
+      "FULL_T_CHG_UNCHANGED_025",
+      "FULL_T_CHG_UPDATED_036",
+      "FULL_T_CHG_UPDATED_037",
+      "FULL_T_CHG_UPDATED_038",
+      "FULL_T_CHG_UPDATED_039",
+      "FULL_T_CHG_UPDATED_040",
+      "FULL_T_KNW_016",
+      "FULL_T_KNW_017",
+      "FULL_T_KNW_018",
+      "FULL_T_KNW_019",
+      "FULL_T_KNW_020",
+      "FULL_T_KNW_041",
+      "FULL_T_KNW_042",
+      "FULL_T_KNW_043",
+      "FULL_T_KNW_044",
+      "FULL_T_KNW_045",
+      "FULL_T_KNW_074"
+    ],
+    "hard": 12,
+    "oracle_correct": 4,
+    "oracle_wrong": 41,
+    "removed": 12,
+    "structural_holdout": 19,
+    "updated": 5,
+    "with_extra_distractors": 45
+  },
+  "inputs": {
+    "benchmark": "data/generated/v0.0/test.json",
+    "chunks": "data/generated/v0.0/chunks.json",
+    "comparison_readiness": "artifacts/evaluation/m4/comparison_readiness_v1.json",
+    "oracle_results": "artifacts/evaluation/m3/oracle_context/results.json",
+    "prompt_results": "artifacts/evaluation/m3/prompt/results.json",
+    "rag_results": "artifacts/evaluation/m4/rag/results.json",
+    "retrieval_artifact": "artifacts/retrieval/m4/primary_test_bm25_v1/frozen/canonical_retrieval_artifact_v1.json",
+    "retrieval_results": "artifacts/retrieval/m4/primary_test_bm25_v1/results.json"
+  },
+  "primary_category_counts": {
+    "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": {
+      "n": 45,
+      "pct_of_rag_failures": 0.9,
+      "pct_within_relevant_condition": 0.17928286852589642
+    },
+    "ALL_GOLD_RETRIEVED_MODEL_FAILED": {
+      "n": 0,
+      "pct_of_rag_failures": 0.0,
+      "pct_within_relevant_condition": 0.0
+    },
+    "EVIDENCE_ABSENT_FALSE_CONTEXT": {
+      "n": 1,
+      "pct_of_rag_failures": 0.02,
+      "pct_within_relevant_condition": 0.025
+    },
+    "FORMAT_OR_SCORING_FAILURE": {
+      "n": 0,
+      "pct_of_rag_failures": 0.0,
+      "pct_within_relevant_condition": 0.0
+    },
+    "OBSOLETE_ONLY": {
+      "n": 0,
+      "pct_of_rag_failures": 0.0,
+      "pct_within_relevant_condition": 0.0
+    },
+    "PARTIAL_RETRIEVAL": {
+      "n": 0,
+      "pct_of_rag_failures": 0.0,
+      "pct_within_relevant_condition": null
+    },
+    "RETRIEVAL_MISS": {
+      "n": 0,
+      "pct_of_rag_failures": 0.0,
+      "pct_within_relevant_condition": 0.0
+    },
+    "UNCLASSIFIED": {
+      "n": 0,
+      "pct_of_rag_failures": 0.0,
+      "pct_within_relevant_condition": 0.0
+    },
+    "WRONG_VERSION": {
+      "n": 4,
+      "pct_of_rag_failures": 0.08,
+      "pct_within_relevant_condition": 0.10256410256410256
+    }
+  },
+  "primary_examples": {
+    "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": {
+      "example_ids": [
+        "FULL_T_BKN_016",
+        "FULL_T_BKN_017",
+        "FULL_T_BKN_020",
+        "FULL_T_BKN_041",
+        "FULL_T_BKN_042",
+        "FULL_T_BKN_045",
+        "FULL_T_BKN_072",
+        "FULL_T_CHG_REMOVED_001",
+        "FULL_T_CHG_REMOVED_002",
+        "FULL_T_CHG_REMOVED_003",
+        "FULL_T_CHG_REMOVED_005",
+        "FULL_T_CHG_REMOVED_008",
+        "FULL_T_CHG_REMOVED_011",
+        "FULL_T_CHG_REMOVED_012",
+        "FULL_T_CHG_REMOVED_013",
+        "FULL_T_CHG_REMOVED_016",
+        "FULL_T_CHG_REMOVED_017",
+        "FULL_T_CHG_REMOVED_018",
+        "FULL_T_CHG_REMOVED_020",
+        "FULL_T_CHG_UNCHANGED_006",
+        "FULL_T_CHG_UNCHANGED_007",
+        "FULL_T_CHG_UNCHANGED_008",
+        "FULL_T_CHG_UNCHANGED_009",
+        "FULL_T_CHG_UNCHANGED_010",
+        "FULL_T_CHG_UNCHANGED_021",
+        "FULL_T_CHG_UNCHANGED_022",
+        "FULL_T_CHG_UNCHANGED_023",
+        "FULL_T_CHG_UNCHANGED_024",
+        "FULL_T_CHG_UNCHANGED_025",
+        "FULL_T_CHG_UPDATED_036",
+        "FULL_T_CHG_UPDATED_037",
+        "FULL_T_CHG_UPDATED_038",
+        "FULL_T_CHG_UPDATED_039",
+        "FULL_T_CHG_UPDATED_040",
+        "FULL_T_KNW_016",
+        "FULL_T_KNW_017",
+        "FULL_T_KNW_018",
+        "FULL_T_KNW_019",
+        "FULL_T_KNW_020",
+        "FULL_T_KNW_041",
+        "FULL_T_KNW_042",
+        "FULL_T_KNW_043",
+        "FULL_T_KNW_044",
+        "FULL_T_KNW_045",
+        "FULL_T_KNW_074"
+      ]
+    },
+    "ALL_GOLD_RETRIEVED_MODEL_FAILED": {
+      "example_ids": []
+    },
+    "EVIDENCE_ABSENT_FALSE_CONTEXT": {
+      "example_ids": [
+        "FULL_T_CHG_REMOVED_ABS_003"
+      ]
+    },
+    "FORMAT_OR_SCORING_FAILURE": {
+      "example_ids": []
+    },
+    "OBSOLETE_ONLY": {
+      "example_ids": []
+    },
+    "PARTIAL_RETRIEVAL": {
+      "example_ids": []
+    },
+    "RETRIEVAL_MISS": {
+      "example_ids": []
+    },
+    "UNCLASSIFIED": {
+      "example_ids": []
+    },
+    "WRONG_VERSION": {
+      "example_ids": [
+        "FULL_T_CHG_REMOVED_006",
+        "FULL_T_CHG_REMOVED_007",
+        "FULL_T_CHG_REMOVED_010",
+        "FULL_T_CHG_REMOVED_015"
+      ]
+    }
+  },
+  "retrieval_condition_summary": {
+    "all_required_gold_retrieved": {
+      "n": 251,
+      "rag_wrong": 45
+    },
+    "evidence_absent": {
+      "n": 40,
+      "rag_wrong": 1
+    },
+    "exact_gold_retrieved": {
+      "n": 0,
+      "rag_wrong": 0
+    },
+    "no_gold_retrieved": {
+      "n": 9,
+      "rag_wrong": 4
+    },
+    "obsolete_only_retrieval": {
+      "count": 7,
+      "rag_correct": 3,
+      "rag_wrong": 4
+    },
+    "partial_gold_retrieved": {
+      "n": 0,
+      "rag_wrong": 0
+    },
+    "wrong_version_retrieval": {
+      "count": 39,
+      "rag_correct": 24,
+      "rag_wrong": 15
+    }
+  },
+  "schema_version": "m4-rag-failure-decomposition-v1",
+  "secondary_tags": {
+    "DISTRACTOR_DOMINANCE": {
+      "n": 4,
+      "note": "secondary mechanical tag; not asserted causal",
+      "pct_of_rag_failures": 0.08,
+      "pct_within_relevant_condition": 0.08163265306122448
+    }
+  },
+  "slice_breakdown": {
+    "knowledge_state": {
+      "REMOVED": {
+        "n": 30,
+        "primary_category_counts": {
+          "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": 12,
+          "EVIDENCE_ABSENT_FALSE_CONTEXT": 1,
+          "WRONG_VERSION": 4
+        },
+        "rag_incorrect": 17
+      },
+      "UNCHANGED": {
+        "n": 30,
+        "primary_category_counts": {
+          "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": 10
+        },
+        "rag_incorrect": 10
+      },
+      "UPDATED": {
+        "n": 40,
+        "primary_category_counts": {
+          "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": 5
+        },
+        "rag_incorrect": 5
+      }
+    },
+    "task_family": {
+      "behavior_knowledge": {
+        "n": 100,
+        "primary_category_counts": {
+          "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": 7
+        },
+        "rag_incorrect": 7
+      },
+      "behavior_only": {
+        "n": 100,
+        "primary_category_counts": {},
+        "rag_incorrect": 0
+      },
+      "changed_knowledge": {
+        "n": 100,
+        "primary_category_counts": {
+          "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": 27,
+          "EVIDENCE_ABSENT_FALSE_CONTEXT": 1,
+          "WRONG_VERSION": 4
+        },
+        "rag_incorrect": 32
+      },
+      "knowledge_only": {
+        "n": 100,
+        "primary_category_counts": {
+          "ALL_GOLD_PLUS_DISTRACTORS_MODEL_FAILED": 11
+        },
+        "rag_incorrect": 11
+      }
+    }
+  },
+  "status": "complete",
+  "totals": {
+    "n_examples": 400,
+    "oracle_correct": 348,
+    "prompt_correct": 161,
+    "rag_correct": 350,
+    "rag_incorrect": 50,
+    "rag_wrong_oracle_correct": 5,
+    "rag_wrong_oracle_wrong": 45
+  }
+}

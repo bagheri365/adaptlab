@@ -1,0 +1,2802 @@
+[
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_001",
+    "expected_output": "LOW",
+    "input_hash": "faf530ced6518dfcdb3103f9f8591a9b6254686e11f68695a0a84dd8dbc93f09",
+    "input_tokens": 87,
+    "latency_ms": 3807.444167032372,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=21. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_002",
+    "expected_output": "LOW",
+    "input_hash": "9b65d7d562e7bbd95c91a673b4aa55a07e0fc761518fe48c3b22db8a67242f26",
+    "input_tokens": 87,
+    "latency_ms": 357.6542920200154,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=30. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_003",
+    "expected_output": "LOW",
+    "input_hash": "1e9cb56b36b82988586456e6cae693ec09ad45363de207b7aa3e4c738ffe7231",
+    "input_tokens": 87,
+    "latency_ms": 332.14204100659117,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=39. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_004",
+    "expected_output": "LOW",
+    "input_hash": "6e8f59c43c80e3134ce840a53046355b06615a0699c690dcc2ac2d0f0d062322",
+    "input_tokens": 87,
+    "latency_ms": 305.5202920222655,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=48. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_005",
+    "expected_output": "HIGH",
+    "input_hash": "880ca5a5263ea5c8dabec5c172a380289fedd3d8ac64af02ece2593282775f77",
+    "input_tokens": 87,
+    "latency_ms": 297.3472499870695,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=57. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_006",
+    "expected_output": "HIGH",
+    "input_hash": "96be806d5746adb7be9d8244eb258bf7cf67a3d45f3632a71dc764fb72a83b25",
+    "input_tokens": 87,
+    "latency_ms": 299.5157080003992,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=66. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_007",
+    "expected_output": "HIGH",
+    "input_hash": "9f1cd6d88cfb3cc8bcb4de546a72cdcff86c3dea67c216379b22f8a50410d6bc",
+    "input_tokens": 87,
+    "latency_ms": 298.95345895783976,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=75. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_008",
+    "expected_output": "HIGH",
+    "input_hash": "9fcfdcd3051c855eb03469ed598d29f0149e352f92e15f5a6499480e8b25441e",
+    "input_tokens": 87,
+    "latency_ms": 295.3160830074921,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=84. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_009",
+    "expected_output": "HIGH",
+    "input_hash": "f7872d7fa103d1f218a50b73d9a98abc7f1dfad881d9e8925308ba087cc973b7",
+    "input_tokens": 87,
+    "latency_ms": 294.53791701234877,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=93. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_010",
+    "expected_output": "LOW",
+    "input_hash": "1c24fae84dd1dafe92d52d9cb811c93175632da2961bcb808b9c9082387f0487",
+    "input_tokens": 86,
+    "latency_ms": 295.190708944574,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=1. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_011",
+    "expected_output": "LOW",
+    "input_hash": "32038b7166d762c46d263d2abcc4ab83e5cb345c5f3d7ac7f6a2fd222d394f1e",
+    "input_tokens": 87,
+    "latency_ms": 295.1644170098007,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=10. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_012",
+    "expected_output": "LOW",
+    "input_hash": "356ee979817875f0254a4b021c9e1ef190a64f000181424fdf99a14cb912357e",
+    "input_tokens": 87,
+    "latency_ms": 296.1471660528332,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=19. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_013",
+    "expected_output": "LOW",
+    "input_hash": "787c5dd8390df25c3e3d297bb432a623d1db68870e5ec6a511f3c22753ffd4e8",
+    "input_tokens": 87,
+    "latency_ms": 295.2413749881089,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=28. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_014",
+    "expected_output": "LOW",
+    "input_hash": "cf5111883ebe34fc63073f4102b38cd262bed953f950f66fe4d05f22a242ad0c",
+    "input_tokens": 87,
+    "latency_ms": 294.9782499927096,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=37. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_015",
+    "expected_output": "LOW",
+    "input_hash": "c72c6a16ac69b2a02b82907688058369ed0202b0605d1aa4bbca5689b324ff2f",
+    "input_tokens": 87,
+    "latency_ms": 293.44241600483656,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=46. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "LOW",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "LOW",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_016",
+    "expected_output": "HIGH",
+    "input_hash": "242bd5d417fb99064c1a0a6a9995f20c3872a96505f09cf552059eff56b97f4e",
+    "input_tokens": 87,
+    "latency_ms": 296.72058299183846,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=55. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_017",
+    "expected_output": "HIGH",
+    "input_hash": "f30228c2cc5ba918b19725301e40764a80af9571c364c199ddf77213e6ebe142",
+    "input_tokens": 87,
+    "latency_ms": 296.2543750181794,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=64. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "EASY",
+    "example_id": "SENT_CLS_018",
+    "expected_output": "HIGH",
+    "input_hash": "70bdec3a9a90a0b1b099d21bd84a9ea988178174db66bce450b32881d401dec6",
+    "input_tokens": 87,
+    "latency_ms": 294.7695410111919,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=73. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_CLS_019",
+    "expected_output": "HIGH",
+    "input_hash": "fa393516d7fcd7b27abef3bcb91cef7d342e292202c1b60d67356e1ad6001e60",
+    "input_tokens": 87,
+    "latency_ms": 295.21162499440834,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=82. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "basic_classification",
+    "difficulty": "HARD",
+    "example_id": "SENT_CLS_020",
+    "expected_output": "HIGH",
+    "input_hash": "7c1d79853542c8ea4d3d7a19fcbae8005deb3d8bbfa9ca634b67bb4a01b0aa99",
+    "input_tokens": 87,
+    "latency_ms": 295.5366670503281,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Classification rule: HIGH when value >= 50, otherwise LOW. Value=91. Answer only HIGH or LOW."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "HIGH",
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "HIGH",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CLASSIFICATION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_001",
+    "expected_output": [
+      "Q246",
+      "Q249",
+      "Q253"
+    ],
+    "input_hash": "3d65c121d6c8bcb64c4207b2983dfe57b63300cd83a8db81f0d68640c23ba1cf",
+    "input_tokens": 105,
+    "latency_ms": 866.6331660351716,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q246, ignore note alpha, compare Q249, then close Q253.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q246, Q249, Q253",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_002",
+    "expected_output": [
+      "Q263",
+      "Q266",
+      "Q270"
+    ],
+    "input_hash": "02719035f8bb1174aa047f729517f6d42a8abcc6795046e8bc83749227c02af4",
+    "input_tokens": 105,
+    "latency_ms": 838.7799999909475,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q263, ignore note alpha, compare Q266, then close Q270.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q263, Q266, Q270",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_003",
+    "expected_output": [
+      "Q280",
+      "Q283",
+      "Q287"
+    ],
+    "input_hash": "30d13d27da37d923ea4256b7143d8492d3f7711bf7e3c1dc291a2cebc914b4ad",
+    "input_tokens": 105,
+    "latency_ms": 827.0960419904441,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q280, ignore note alpha, compare Q283, then close Q287.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q280, Q283, Q287",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_004",
+    "expected_output": [
+      "Q297",
+      "Q300",
+      "Q304"
+    ],
+    "input_hash": "484b81668d6e2ee14347bee12fb7ca6e771173e40c4c554fb53445873b05d7c3",
+    "input_tokens": 105,
+    "latency_ms": 826.8790419679135,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q297, ignore note alpha, compare Q300, then close Q304.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q297, Q300, Q304",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_005",
+    "expected_output": [
+      "Q314",
+      "Q317",
+      "Q321"
+    ],
+    "input_hash": "7072b2bde3e84d31f20ecbf549a2a24cd86abbfa3fb56e652d3893ef29f3aadc",
+    "input_tokens": 105,
+    "latency_ms": 825.3873329958878,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q314, ignore note alpha, compare Q317, then close Q321.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q314, Q317, Q321",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_006",
+    "expected_output": [
+      "Q331",
+      "Q334",
+      "Q338"
+    ],
+    "input_hash": "e20e91a1b47dae87fa04c7df5920fa3f4f60a7c25807676ee1ca65036c5455fe",
+    "input_tokens": 105,
+    "latency_ms": 825.1591669977643,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q331, ignore note alpha, compare Q334, then close Q338.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q331, Q334, Q338",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_007",
+    "expected_output": [
+      "Q348",
+      "Q351",
+      "Q355"
+    ],
+    "input_hash": "f22bb72af112344e476e57605edf4472801ea1423de446e323929808bdeaaa52",
+    "input_tokens": 105,
+    "latency_ms": 830.4088750155643,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q348, ignore note alpha, compare Q351, then close Q355.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q348, Q351, Q355",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_008",
+    "expected_output": [
+      "Q365",
+      "Q368",
+      "Q372"
+    ],
+    "input_hash": "5ba2b78d5447c19639f6a16237fb787d7366b6fd58452b7120ab80b801d7fc4d",
+    "input_tokens": 105,
+    "latency_ms": 822.5139579735696,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q365, ignore note alpha, compare Q368, then close Q372.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q365, Q368, Q372",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_009",
+    "expected_output": [
+      "Q382",
+      "Q385",
+      "Q389"
+    ],
+    "input_hash": "8629629636cbf2114a7ea5f765c85f9068329ce1501ac42b17e91cf71867407d",
+    "input_tokens": 105,
+    "latency_ms": 818.596167024225,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q382, ignore note alpha, compare Q385, then close Q389.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q382, Q385, Q389",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_010",
+    "expected_output": [
+      "Q399",
+      "Q402",
+      "Q406"
+    ],
+    "input_hash": "31fd529e130603a1b891a370a35127fd0350e96ad38e0637562fa2b6c44fd8fc",
+    "input_tokens": 105,
+    "latency_ms": 815.794707974419,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q399, ignore note alpha, compare Q402, then close Q406.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q399, Q402, Q406",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_011",
+    "expected_output": [
+      "Q416",
+      "Q419",
+      "Q423"
+    ],
+    "input_hash": "4d30d3b19b5a0129d520b16685d40872b157dc3482ff38c1b5f3575bb073a8a9",
+    "input_tokens": 105,
+    "latency_ms": 817.6946659805253,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q416, ignore note alpha, compare Q419, then close Q423.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q416, Q419, Q423",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_012",
+    "expected_output": [
+      "Q433",
+      "Q436",
+      "Q440"
+    ],
+    "input_hash": "86879682806f33ec2d100d16c5f13dc532d12729819cd379600599c23a462dfc",
+    "input_tokens": 105,
+    "latency_ms": 821.5692919911817,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q433, ignore note alpha, compare Q436, then close Q440.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q433, Q436, Q440",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_013",
+    "expected_output": [
+      "Q450",
+      "Q453",
+      "Q457"
+    ],
+    "input_hash": "0e8e72673d0336b48ff638bdfdce57d966dbc79005e4080eed9b7d6548c218d4",
+    "input_tokens": 105,
+    "latency_ms": 824.5775839895941,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q450, ignore note alpha, compare Q453, then close Q457.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q450, Q453, Q457",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_014",
+    "expected_output": [
+      "Q467",
+      "Q470",
+      "Q474"
+    ],
+    "input_hash": "5a401fc004795865963db6bd4ef7069cef16bcadf52e013167206ad435a7708b",
+    "input_tokens": 105,
+    "latency_ms": 845.8749169949442,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q467, ignore note alpha, compare Q470, then close Q474.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q467, Q470, Q474",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_015",
+    "expected_output": [
+      "Q484",
+      "Q487",
+      "Q491"
+    ],
+    "input_hash": "46e911370706c23a12340f2bf60ce8fe3db8af36812963fd51d01b9a0d887eb4",
+    "input_tokens": 105,
+    "latency_ms": 845.9417090052739,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q484, ignore note alpha, compare Q487, then close Q491.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q484, Q487, Q491",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_016",
+    "expected_output": [
+      "Q501",
+      "Q504",
+      "Q508"
+    ],
+    "input_hash": "530e5d499b8ef1c7b5c8d1a6997ea96560e2d999a6aa7885fbcef92b3738965a",
+    "input_tokens": 105,
+    "latency_ms": 869.1612500115298,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q501, ignore note alpha, compare Q504, then close Q508.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q501, Q504, Q508",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_017",
+    "expected_output": [
+      "Q518",
+      "Q521",
+      "Q525"
+    ],
+    "input_hash": "2eb5cba3796b7e418644593a056ba92a6a1bb674003d30c4354cec498a698481",
+    "input_tokens": 105,
+    "latency_ms": 841.1200830014423,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q518, ignore note alpha, compare Q521, then close Q525.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q518, Q521, Q525",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_EX_018",
+    "expected_output": [
+      "Q535",
+      "Q538",
+      "Q542"
+    ],
+    "input_hash": "717367069e91b947bf55cd9f21cf18143ecd21e9fb254d04406193715b33167b",
+    "input_tokens": 105,
+    "latency_ms": 829.7558749909513,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q535, ignore note alpha, compare Q538, then close Q542.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q535, Q538, Q542",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "HARD",
+    "example_id": "SENT_EX_019",
+    "expected_output": [
+      "Q552",
+      "Q555",
+      "Q559"
+    ],
+    "input_hash": "effddf5040db57890296fc41d284221d67dd3f4cb0cd0b5b762db9b6bfe47e9f",
+    "input_tokens": 105,
+    "latency_ms": 825.8516250061803,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q552, ignore note alpha, compare Q555, then close Q559.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q552, Q555, Q559",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "simple_extraction",
+    "difficulty": "EASY",
+    "example_id": "SENT_EX_020",
+    "expected_output": [
+      "Q569",
+      "Q572",
+      "Q576"
+    ],
+    "input_hash": "4d7dc6d8507af5bfac5e8764471217cc45bbcbc1ba1b46b2487f0c8a04a6321c",
+    "input_tokens": 105,
+    "latency_ms": 827.6140000089072,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Extract the Q-codes from this sentence in appearance order: 'Archive Q569, ignore note alpha, compare Q572, then close Q576.' Return only the list of codes."
+    },
+    "model_revision": null,
+    "normalize_error": "malformed JSON",
+    "normalized_output": null,
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "Q569, Q572, Q576",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_001",
+    "expected_output": {
+      "name": "Ada",
+      "score": 40
+    },
+    "input_hash": "d6b1529897969ad683d41ce4cc4145a305b9dd6b88728735deef38c825543cdb",
+    "input_tokens": 87,
+    "latency_ms": 795.3557079890743,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ada; score=40' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ada",
+      "score": 40
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ada\", \"score\": 40}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_002",
+    "expected_output": {
+      "name": "Lin",
+      "score": 51
+    },
+    "input_hash": "d9b83f27e81ef0f435048a4a3b96e98fceae5fa0ca369e2ff4fcfecd0e88f02d",
+    "input_tokens": 87,
+    "latency_ms": 791.745833994355,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Lin; score=51' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Lin",
+      "score": 51
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Lin\", \"score\": 51}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_003",
+    "expected_output": {
+      "name": "Mira",
+      "score": 62
+    },
+    "input_hash": "fbae0e566553a5f701a2c4d910738c260f3ef50c0e701d6098d5cf6f819c3f46",
+    "input_tokens": 87,
+    "latency_ms": 822.968291991856,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Mira; score=62' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Mira",
+      "score": 62
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Mira\", \"score\": 62}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_004",
+    "expected_output": {
+      "name": "Owen",
+      "score": 73
+    },
+    "input_hash": "07c990fa5ffb25b5f87401a37045c5ada6ad8ac8b0ed8d11e5f4b280348788a4",
+    "input_tokens": 88,
+    "latency_ms": 825.4729999462143,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Owen; score=73' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Owen",
+      "score": 73
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Owen\", \"score\": 73}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_005",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 84
+    },
+    "input_hash": "cf1372af0907b872101abbd38d5a4d5acff9c8f8cc0824535063fa6624d5a02a",
+    "input_tokens": 87,
+    "latency_ms": 832.6311249984428,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ravi; score=84' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ravi",
+      "score": 84
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ravi\", \"score\": 84}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_006",
+    "expected_output": {
+      "name": "Ada",
+      "score": 95
+    },
+    "input_hash": "d2412458f3b47941669b5f6a5396ad7e9868a9ce8373e8418bcbc321a0720d24",
+    "input_tokens": 87,
+    "latency_ms": 791.1997920018621,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ada; score=95' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ada",
+      "score": 95
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ada\", \"score\": 95}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_007",
+    "expected_output": {
+      "name": "Lin",
+      "score": 16
+    },
+    "input_hash": "7d36a8398dd35cfb80e51627a04c5c7f6427da454aba70ffedafe2bd476d6b6f",
+    "input_tokens": 87,
+    "latency_ms": 787.3507080366835,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Lin; score=16' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Lin",
+      "score": 16
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Lin\", \"score\": 16}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_008",
+    "expected_output": {
+      "name": "Mira",
+      "score": 27
+    },
+    "input_hash": "e9cdbb67b747d8fa68c4a6fe6f34b6f1be30e6857d877d5e7c3806203e89cfab",
+    "input_tokens": 87,
+    "latency_ms": 823.3821669709869,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Mira; score=27' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Mira",
+      "score": 27
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Mira\", \"score\": 27}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_009",
+    "expected_output": {
+      "name": "Owen",
+      "score": 38
+    },
+    "input_hash": "dc37c1be04bb3edf1f9bc93a38c04c732c64b4e607efe9ffd6c748b04c169641",
+    "input_tokens": 88,
+    "latency_ms": 822.5848750444129,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Owen; score=38' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Owen",
+      "score": 38
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Owen\", \"score\": 38}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_010",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 49
+    },
+    "input_hash": "fe9d02274c54ef97fa7345f01272d211c584b51c187533b173265f6b160ebdd0",
+    "input_tokens": 87,
+    "latency_ms": 823.8132920232601,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ravi; score=49' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ravi",
+      "score": 49
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ravi\", \"score\": 49}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_011",
+    "expected_output": {
+      "name": "Ada",
+      "score": 60
+    },
+    "input_hash": "d6949f81671ba5b5f70791f9c7105eadc6d0305359f1defb205c40a6a3c973bf",
+    "input_tokens": 87,
+    "latency_ms": 784.0305420104414,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ada; score=60' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ada",
+      "score": 60
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ada\", \"score\": 60}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_012",
+    "expected_output": {
+      "name": "Lin",
+      "score": 71
+    },
+    "input_hash": "24365cc5cc2ca244550685f19029f48ee8920e3012ada5af7a3534790484bc4e",
+    "input_tokens": 87,
+    "latency_ms": 786.8632079917006,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Lin; score=71' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Lin",
+      "score": 71
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Lin\", \"score\": 71}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_013",
+    "expected_output": {
+      "name": "Mira",
+      "score": 82
+    },
+    "input_hash": "2a65f5f470c6fd1fc2dd653cfa290f22c9b1ef8c8d387a2c8db832e34bc9481e",
+    "input_tokens": 87,
+    "latency_ms": 824.1287920391187,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Mira; score=82' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Mira",
+      "score": 82
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Mira\", \"score\": 82}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_014",
+    "expected_output": {
+      "name": "Owen",
+      "score": 93
+    },
+    "input_hash": "b7953c2376eb52aad517aba03b95b437f366cbca950cbffc24bedbe1c3ae5f72",
+    "input_tokens": 88,
+    "latency_ms": 837.7609580056742,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Owen; score=93' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Owen",
+      "score": 93
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Owen\", \"score\": 93}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_015",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 14
+    },
+    "input_hash": "33f82cb4415d258586d80d8755ecce1daa95da0dbac196e5ba8f1134d9ec1b9f",
+    "input_tokens": 87,
+    "latency_ms": 845.205541991163,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ravi; score=14' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ravi",
+      "score": 14
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ravi\", \"score\": 14}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_016",
+    "expected_output": {
+      "name": "Ada",
+      "score": 25
+    },
+    "input_hash": "c4b8fddb79ac5327fa281439779284b69a4287d88a39cd785ec4cf408fbd3e33",
+    "input_tokens": 87,
+    "latency_ms": 786.3578340038657,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ada; score=25' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ada",
+      "score": 25
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ada\", \"score\": 25}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_017",
+    "expected_output": {
+      "name": "Lin",
+      "score": 36
+    },
+    "input_hash": "77f9b8f8571ac9de308d004983e95dfef0ebb4329883138ff90fcbc8286ddfff",
+    "input_tokens": 87,
+    "latency_ms": 781.3004160416313,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Lin; score=36' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Lin",
+      "score": 36
+    },
+    "output_tokens": 14,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Lin\", \"score\": 36}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "HARD",
+    "example_id": "SENT_FMT_018",
+    "expected_output": {
+      "name": "Mira",
+      "score": 47
+    },
+    "input_hash": "7dacc669445925060e953c88f350d6bed27cec989cc92ba4a382584dfc39e259",
+    "input_tokens": 87,
+    "latency_ms": 824.0443749818951,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Mira; score=47' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Mira",
+      "score": 47
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Mira\", \"score\": 47}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "EASY",
+    "example_id": "SENT_FMT_019",
+    "expected_output": {
+      "name": "Owen",
+      "score": 58
+    },
+    "input_hash": "1727ad07c5fe7f1ce4f0dccaebfaa72a2d243ca1599aca79161accd567477eb5",
+    "input_tokens": 88,
+    "latency_ms": 823.2910830411129,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Owen; score=58' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Owen",
+      "score": 58
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Owen\", \"score\": 58}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "format_transformation",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_FMT_020",
+    "expected_output": {
+      "name": "Ravi",
+      "score": 69
+    },
+    "input_hash": "81eb2ca2175423453f419fe94e780e92d41316a77165fb3c7dad15cba59f37f5",
+    "input_tokens": 87,
+    "latency_ms": 826.4324580086395,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Convert 'name=Ravi; score=69' to JSON with keys name and score, preserving score as an integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": {
+      "name": "Ravi",
+      "score": 69
+    },
+    "output_tokens": 15,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "{\"name\": \"Ravi\", \"score\": 69}",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_001",
+    "expected_output": "orbit,orbit,orbit",
+    "input_hash": "49cdc3c0e285fda8f3668e3a2600833fce8a452ed5e270581720ac3de25703e0",
+    "input_tokens": 80,
+    "latency_ms": 471.24895901652053,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "orbit,orbit,orbit",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "orbit,orbit,orbit",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_002",
+    "expected_output": "violet",
+    "input_hash": "90c3b56a54be36eccfab37d39a7fdd131a181246b599dae4c63838b54726c536",
+    "input_tokens": 81,
+    "latency_ms": 341.129667009227,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'violet' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "violet",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "violet",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_003",
+    "expected_output": "marble,marble",
+    "input_hash": "fa660a0f721eaf2c97cf3cfc9fba6d3dcb3fc89f70cddb967949dd20c6ed090b",
+    "input_tokens": 81,
+    "latency_ms": 462.19362498959526,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'marble' exactly 2 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "marble,marble",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "marble,marble",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_004",
+    "expected_output": "copper,copper,copper",
+    "input_hash": "20523b0a8818aaa6f1ec213d7aedd9cdc3e8b04e385a7b4ff0bafafcde24d8f4",
+    "input_tokens": 81,
+    "latency_ms": 498.6627920297906,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'copper' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "copper,copper,copper",
+    "output_tokens": 7,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "copper,copper,copper",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_005",
+    "expected_output": "cedar",
+    "input_hash": "5358fb7dba65b302ca5942e680286d614ff61f48c40f68b518af1098915169a6",
+    "input_tokens": 81,
+    "latency_ms": 339.96133296750486,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'cedar' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "cedar",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "cedar",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_006",
+    "expected_output": "glass,glass",
+    "input_hash": "40acc06d39bf9299982a19f069e2a6186eebc595add0615b3deff657794d06e1",
+    "input_tokens": 80,
+    "latency_ms": 382.7327089966275,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'glass' exactly 2 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "glass,glass",
+    "output_tokens": 4,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "glass,glass",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_007",
+    "expected_output": "orbit,orbit,orbit",
+    "input_hash": "49cdc3c0e285fda8f3668e3a2600833fce8a452ed5e270581720ac3de25703e0",
+    "input_tokens": 80,
+    "latency_ms": 457.8778750146739,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "orbit,orbit,orbit",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "orbit,orbit,orbit",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_008",
+    "expected_output": "violet",
+    "input_hash": "90c3b56a54be36eccfab37d39a7fdd131a181246b599dae4c63838b54726c536",
+    "input_tokens": 81,
+    "latency_ms": 336.9679580209777,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'violet' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "violet",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "violet",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_009",
+    "expected_output": "marble,marble",
+    "input_hash": "fa660a0f721eaf2c97cf3cfc9fba6d3dcb3fc89f70cddb967949dd20c6ed090b",
+    "input_tokens": 81,
+    "latency_ms": 457.7892089728266,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'marble' exactly 2 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "marble,marble",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "marble,marble",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_010",
+    "expected_output": "copper,copper,copper",
+    "input_hash": "20523b0a8818aaa6f1ec213d7aedd9cdc3e8b04e385a7b4ff0bafafcde24d8f4",
+    "input_tokens": 81,
+    "latency_ms": 497.42041603894904,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'copper' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "copper,copper,copper",
+    "output_tokens": 7,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "copper,copper,copper",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_011",
+    "expected_output": "cedar",
+    "input_hash": "5358fb7dba65b302ca5942e680286d614ff61f48c40f68b518af1098915169a6",
+    "input_tokens": 81,
+    "latency_ms": 340.46604100149125,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'cedar' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "cedar",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "cedar",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_012",
+    "expected_output": "glass,glass",
+    "input_hash": "40acc06d39bf9299982a19f069e2a6186eebc595add0615b3deff657794d06e1",
+    "input_tokens": 80,
+    "latency_ms": 378.1345000024885,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'glass' exactly 2 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "glass,glass",
+    "output_tokens": 4,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "glass,glass",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_013",
+    "expected_output": "orbit,orbit,orbit",
+    "input_hash": "49cdc3c0e285fda8f3668e3a2600833fce8a452ed5e270581720ac3de25703e0",
+    "input_tokens": 80,
+    "latency_ms": 459.02666595065966,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "orbit,orbit,orbit",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "orbit,orbit,orbit",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_014",
+    "expected_output": "violet",
+    "input_hash": "90c3b56a54be36eccfab37d39a7fdd131a181246b599dae4c63838b54726c536",
+    "input_tokens": 81,
+    "latency_ms": 339.6010419819504,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'violet' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "violet",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "violet",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_015",
+    "expected_output": "marble,marble",
+    "input_hash": "fa660a0f721eaf2c97cf3cfc9fba6d3dcb3fc89f70cddb967949dd20c6ed090b",
+    "input_tokens": 81,
+    "latency_ms": 460.96841600956395,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'marble' exactly 2 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "marble,marble",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "marble,marble",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_016",
+    "expected_output": "copper,copper,copper",
+    "input_hash": "20523b0a8818aaa6f1ec213d7aedd9cdc3e8b04e385a7b4ff0bafafcde24d8f4",
+    "input_tokens": 81,
+    "latency_ms": 498.3384590013884,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'copper' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "copper,copper,copper",
+    "output_tokens": 7,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "copper,copper,copper",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_017",
+    "expected_output": "cedar",
+    "input_hash": "5358fb7dba65b302ca5942e680286d614ff61f48c40f68b518af1098915169a6",
+    "input_tokens": 81,
+    "latency_ms": 337.0210420107469,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'cedar' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "cedar",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "cedar",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "EASY",
+    "example_id": "SENT_IF_018",
+    "expected_output": "glass,glass",
+    "input_hash": "40acc06d39bf9299982a19f069e2a6186eebc595add0615b3deff657794d06e1",
+    "input_tokens": 80,
+    "latency_ms": 377.7092920499854,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'glass' exactly 2 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "glass,glass",
+    "output_tokens": 4,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "glass,glass",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_IF_019",
+    "expected_output": "orbit,orbit,orbit",
+    "input_hash": "49cdc3c0e285fda8f3668e3a2600833fce8a452ed5e270581720ac3de25703e0",
+    "input_tokens": 80,
+    "latency_ms": 455.1890419679694,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'orbit' exactly 3 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "orbit,orbit,orbit",
+    "output_tokens": 6,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "orbit,orbit,orbit",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "instruction_following",
+    "difficulty": "HARD",
+    "example_id": "SENT_IF_020",
+    "expected_output": "violet",
+    "input_hash": "90c3b56a54be36eccfab37d39a7fdd131a181246b599dae4c63838b54726c536",
+    "input_tokens": 81,
+    "latency_ms": 335.9331249957904,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Return the word 'violet' exactly 1 times, separated by commas and no spaces."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": "violet",
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "violet",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "STRUCTURED_EXTRACTION"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_001",
+    "expected_output": 25,
+    "input_hash": "edeb9b1dc18a59580c1f35a1ad5cca6d9f7927b06559d1017e61fb060d028927",
+    "input_tokens": 83,
+    "latency_ms": 349.48612499283627,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 16. Add 9, then subtract 0. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 25,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "25",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_002",
+    "expected_output": 27,
+    "input_hash": "f1367ce2e31406c592b00f0d39addefea91df6a37c0030d79fd75b0e16acc583",
+    "input_tokens": 83,
+    "latency_ms": 339.4377500517294,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 21. Add 7, then subtract 1. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 27,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "27",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_003",
+    "expected_output": 9,
+    "input_hash": "e5f88e4440fc72f76ad1caaa2abcf8cef0e3e1bab5385cbdfe2e8fc7e689dfd4",
+    "input_tokens": 82,
+    "latency_ms": 337.15616597328335,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 6. Add 5, then subtract 2. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 10,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "10",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_004",
+    "expected_output": 11,
+    "input_hash": "16293fffb55265a099712334f80b83bb17c51395257727857fc534e27d60a7cc",
+    "input_tokens": 83,
+    "latency_ms": 297.8265839628875,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 11. Add 3, then subtract 3. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 8,
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "8",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_005",
+    "expected_output": 13,
+    "input_hash": "014b706143b5f584d7533fbb023260d80c92196692a865413c054f58e63fb3be",
+    "input_tokens": 83,
+    "latency_ms": 335.8346250024624,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 16. Add 1, then subtract 4. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 13,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "13",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_006",
+    "expected_output": 29,
+    "input_hash": "c31aa9edc1008bc452c58a550a705391e642e318b027d40197ec97c950e90fa6",
+    "input_tokens": 83,
+    "latency_ms": 338.29020895063877,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 21. Add 8, then subtract 0. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 29,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "29",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_007",
+    "expected_output": 11,
+    "input_hash": "11965e0cd034bd876f0c92f04ce08262e7ad7644c14043814bcf2fe2b22c9f44",
+    "input_tokens": 82,
+    "latency_ms": 337.35679101664573,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 6. Add 6, then subtract 1. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 11,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "11",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_008",
+    "expected_output": 13,
+    "input_hash": "8e95d7969f4b474ceeeb0ef93e8134b6d4c13dc8e410d60f0a65726d0c2fb3f5",
+    "input_tokens": 83,
+    "latency_ms": 296.7594580259174,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 11. Add 4, then subtract 2. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 9,
+    "output_tokens": 2,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "9",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_009",
+    "expected_output": 15,
+    "input_hash": "019f86b2c188ec23e88a85aaa211c627e9f20b0c86863338cc995a2a81e2b2e9",
+    "input_tokens": 83,
+    "latency_ms": 342.17954199993983,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 16. Add 2, then subtract 3. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 15,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "15",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_010",
+    "expected_output": 26,
+    "input_hash": "c21f8638c726c9786c4a8456c3992aad0c96d1381ab080f759f93c8776d491f3",
+    "input_tokens": 83,
+    "latency_ms": 339.0377910109237,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 21. Add 9, then subtract 4. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 36,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "36",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_011",
+    "expected_output": 13,
+    "input_hash": "bd0ca56d6d0245285208c024807dad0b338e7b796aaf06811759d8dd4349e391",
+    "input_tokens": 82,
+    "latency_ms": 338.53466698201373,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 6. Add 7, then subtract 0. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 13,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "13",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_012",
+    "expected_output": 15,
+    "input_hash": "e6cb11d166165ced13ef7338a8d42f66b7707730310fc9fc435eee2fa5d81878",
+    "input_tokens": 83,
+    "latency_ms": 339.9989999597892,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 11. Add 5, then subtract 1. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 15,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "15",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_013",
+    "expected_output": 17,
+    "input_hash": "6f69f4096e8b1e1089c71bdcb096cbd1f104b7fe2eb00a5f9c813058c57c77b7",
+    "input_tokens": 83,
+    "latency_ms": 340.20212502218783,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 16. Add 3, then subtract 2. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 17,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "17",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_014",
+    "expected_output": 19,
+    "input_hash": "2a7c2c0e3c77f99a735e1c7b7af2f09cbbb0929011b08d7ae2585b5191709f29",
+    "input_tokens": 83,
+    "latency_ms": 1168.8872500089929,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 21. Add 1, then subtract 3. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": "output is not the required JSON primitive type",
+    "normalized_output": null,
+    "output_tokens": 23,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "21 + 1 = 22  \n22 - 3 = 19  \n19",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_015",
+    "expected_output": 10,
+    "input_hash": "bad07374981b20271c494fa7bbac2eca032a8dfe2af02dcca27eb8d362328380",
+    "input_tokens": 82,
+    "latency_ms": 352.9844169970602,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 6. Add 8, then subtract 4. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 10,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "10",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_016",
+    "expected_output": 17,
+    "input_hash": "901311d469d2323b04be3aa4fd46bf1fa5ca2c831c30cd8af33219eff165b4a8",
+    "input_tokens": 83,
+    "latency_ms": 344.91562499897555,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 11. Add 6, then subtract 0. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 17,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "17",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_017",
+    "expected_output": 19,
+    "input_hash": "81bfc9d31786511f258b039c0a9b732313bf5155bea46065e6fa112b2fdd09b8",
+    "input_tokens": 83,
+    "latency_ms": 336.7685829871334,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 16. Add 4, then subtract 1. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 19,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "19",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "MEDIUM",
+    "example_id": "SENT_RSN_018",
+    "expected_output": 21,
+    "input_hash": "613fac9d1b88e84988b4bf20e1e7620df099b9d57d1e2cd0d96ffae77d92177e",
+    "input_tokens": 83,
+    "latency_ms": 338.0815830314532,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 21. Add 2, then subtract 2. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 21,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "21",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "HARD",
+    "example_id": "SENT_RSN_019",
+    "expected_output": 12,
+    "input_hash": "ef101881b8b072ec17daea2648c338adb6b3c9b72dd9f9dfd83be8bfaed3a97f",
+    "input_tokens": 82,
+    "latency_ms": 338.5075840051286,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 6. Add 9, then subtract 3. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": null,
+    "normalized_output": 12,
+    "output_tokens": 3,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "12",
+    "retry_count": 0,
+    "score": 1.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  },
+  {
+    "capability": "short_deterministic_reasoning",
+    "difficulty": "EASY",
+    "example_id": "SENT_RSN_020",
+    "expected_output": 14,
+    "input_hash": "7bf0496f3c43f449ee30cf60eca7132ab087a671efa91c2be75904332244e069",
+    "input_tokens": 83,
+    "latency_ms": 1140.327833010815,
+    "model_input": {
+      "system": "Follow the requested format precisely.\nReturn only the requested output, without extra commentary.\nDo not invent unsupported information.\nWhen supplied information is insufficient to determine the requested answer, return INSUFFICIENT_EVIDENCE.",
+      "user": "Start with 11. Add 7, then subtract 4. Return only the final integer."
+    },
+    "model_revision": null,
+    "normalize_error": "output is not the required JSON primitive type",
+    "normalized_output": null,
+    "output_tokens": 23,
+    "provider_error": null,
+    "provider_metadata": {
+      "done_reason": "stop",
+      "model": "qwen3:8b"
+    },
+    "raw_output": "11 + 7 = 18  \n18 - 4 = 14  \n14",
+    "retry_count": 0,
+    "score": 0.0,
+    "scoring_rule": "CONDITIONAL_RULE"
+  }
+]

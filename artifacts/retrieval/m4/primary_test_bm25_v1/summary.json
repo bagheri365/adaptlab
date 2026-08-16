@@ -1,0 +1,12 @@
+{
+  "canonical_config_hash": "5e2304cf13c3f78462f9af5f32503ce9baa313f48618c6d32035deda1cdd8cd9",
+  "corpus_hash": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+  "eligible_retrieval_count": 300,
+  "example_count": 400,
+  "represented_count": 400,
+  "results_hash": "1effa939b8035399ae411e23b941578d959ccc330f4fb5391ef8b9e490d03477",
+  "retrieval_errors": 0,
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "run_id": "m4-primary-test-bm25-2c08bcdf03384d0b",
+  "split": "test"
+}

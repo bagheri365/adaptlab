@@ -1,0 +1,41 @@
+{
+  "confirmatory": {
+    "capability": {
+      "basic_classification": {
+        "accuracy": 1.0,
+        "n": 20
+      }
+    },
+    "difficulty": {
+      "EASY": {
+        "accuracy": 0.696969696969697,
+        "n": 33
+      },
+      "HARD": {
+        "accuracy": 0.7352941176470589,
+        "n": 34
+      },
+      "MEDIUM": {
+        "accuracy": 0.7878787878787878,
+        "n": 33
+      }
+    }
+  },
+  "exploratory": {
+    "latency_ms": {
+      "count": 100,
+      "mean": 590.0036366918357
+    },
+    "provider_error": {
+      "n": 0
+    },
+    "retry_total": 0
+  },
+  "primary": {
+    "overall_accuracy": {
+      "accuracy": 0.74,
+      "n": 100
+    }
+  },
+  "schema_version": "1"
+}

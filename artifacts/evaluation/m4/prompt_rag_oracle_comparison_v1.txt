@@ -1,0 +1,34 @@
+OBSERVATION
+Canonical Prompt, Oracle, and RAG bundles passed the readiness gate and were compared without rerunning inference.
+
+INTERPRETATION
+RAG shows knowledge-access gain on several evidence-present slices, but the Oracle-minus-RAG gap remains a residual retrieval and generation/reasoning gap rather than proof of a universal RAG benefit.
+
+LIMITATION
+This comparison is bounded to the frozen canonical bundles and does not claim dense retrieval performance, universal RAG performance, LoRA benefit, or cross-model generality.
+
+Behavior-only inputs byte-identical: True; output disagreements: 0
+
+Overall:
+- PROMPT 161/400 (0.403)
+- RAG 350/400 (0.875)
+- ORACLE_CONTEXT 348/400 (0.870)
+- gold-evidence gap recovery: 1.0106951871657754
+
+Slices:
+- overall=overall: P 161/400 (0.403), R 350/400 (0.875), O 348/400 (0.870)
+- task_family=behavior_only: P 100/100 (1.000), R 100/100 (1.000), O 100/100 (1.000)
+- task_family=knowledge_only: P 15/100 (0.150), R 89/100 (0.890), O 90/100 (0.900)
+- task_family=behavior_knowledge: P 36/100 (0.360), R 93/100 (0.930), O 91/100 (0.910)
+- task_family=changed_knowledge: P 10/100 (0.100), R 68/100 (0.680), O 67/100 (0.670)
+- difficulty=EASY: P 46/120 (0.383), R 105/120 (0.875), O 105/120 (0.875)
+- difficulty=MEDIUM: P 67/160 (0.419), R 138/160 (0.863), O 138/160 (0.863)
+- difficulty=HARD: P 48/120 (0.400), R 107/120 (0.892), O 105/120 (0.875)
+- split_type=IID: P 148/265 (0.558), R 234/265 (0.883), O 233/265 (0.879)
+- split_type=STRUCTURAL_HOLDOUT: P 13/135 (0.096), R 116/135 (0.859), O 115/135 (0.852)
+- knowledge_state=UNCHANGED: P 0/30 (0.000), R 20/30 (0.667), O 18/30 (0.600)
+- knowledge_state=UPDATED: P 0/40 (0.000), R 35/40 (0.875), O 35/40 (0.875)
+- knowledge_state=REMOVED: P 10/30 (0.333), R 13/30 (0.433), O 14/30 (0.467)
+- evidence_status=PRESENT: P 21/260 (0.081), R 211/260 (0.812), O 208/260 (0.800)
+- evidence_status=ABSENT: P 40/40 (1.000), R 39/40 (0.975), O 40/40 (1.000)
+- evidence_status=NOT_APPLICABLE: P 100/100 (1.000), R 100/100 (1.000), O 100/100 (1.000)

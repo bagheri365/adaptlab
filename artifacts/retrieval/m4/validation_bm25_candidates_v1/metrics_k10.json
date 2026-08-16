@@ -1,0 +1,219 @@
+{
+  "retrieval_metrics": {
+    "denominator_policy": "retrieval_eligible AND evidence_status=PRESENT; behavior_only excluded",
+    "rows": [
+      {
+        "ALL_REQUIRED_GOLD@1": 0.4107142857142857,
+        "ALL_REQUIRED_GOLD@3": 0.8482142857142857,
+        "ALL_REQUIRED_GOLD@5": 0.8928571428571429,
+        "ANY_GOLD@1": 0.4732142857142857,
+        "ANY_GOLD@3": 0.8482142857142857,
+        "ANY_GOLD@5": 0.8928571428571429,
+        "GOLD_RECALL@1": 0.4419642857142857,
+        "GOLD_RECALL@3": 0.8482142857142857,
+        "GOLD_RECALL@5": 0.8928571428571429,
+        "MRR_FIRST_GOLD": 0.641687925170068,
+        "dimension": "overall",
+        "n": 112,
+        "value": "ALL"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.32432432432432434,
+        "ALL_REQUIRED_GOLD@3": 0.7567567567567568,
+        "ALL_REQUIRED_GOLD@5": 0.8108108108108109,
+        "ANY_GOLD@1": 0.3783783783783784,
+        "ANY_GOLD@3": 0.7567567567567568,
+        "ANY_GOLD@5": 0.8108108108108109,
+        "GOLD_RECALL@1": 0.35135135135135137,
+        "GOLD_RECALL@3": 0.7567567567567568,
+        "GOLD_RECALL@5": 0.8108108108108109,
+        "MRR_FIRST_GOLD": 0.5696267696267696,
+        "dimension": "task_family",
+        "n": 37,
+        "value": "behavior_knowledge"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.5135135135135135,
+        "ALL_REQUIRED_GOLD@3": 0.9459459459459459,
+        "ALL_REQUIRED_GOLD@5": 0.972972972972973,
+        "ANY_GOLD@1": 0.5675675675675675,
+        "ANY_GOLD@3": 0.9459459459459459,
+        "ANY_GOLD@5": 0.972972972972973,
+        "GOLD_RECALL@1": 0.5405405405405406,
+        "GOLD_RECALL@3": 0.9459459459459459,
+        "GOLD_RECALL@5": 0.972972972972973,
+        "MRR_FIRST_GOLD": 0.7088159588159588,
+        "dimension": "task_family",
+        "n": 37,
+        "value": "changed_knowledge"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.39473684210526316,
+        "ALL_REQUIRED_GOLD@3": 0.8421052631578947,
+        "ALL_REQUIRED_GOLD@5": 0.8947368421052632,
+        "ANY_GOLD@1": 0.47368421052631576,
+        "ANY_GOLD@3": 0.8421052631578947,
+        "ANY_GOLD@5": 0.8947368421052632,
+        "GOLD_RECALL@1": 0.4342105263157895,
+        "GOLD_RECALL@3": 0.8421052631578947,
+        "GOLD_RECALL@5": 0.8947368421052632,
+        "MRR_FIRST_GOLD": 0.6464912280701754,
+        "dimension": "task_family",
+        "n": 38,
+        "value": "knowledge_only"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.4,
+        "ALL_REQUIRED_GOLD@3": 0.8571428571428571,
+        "ALL_REQUIRED_GOLD@5": 0.9142857142857143,
+        "ANY_GOLD@1": 0.4,
+        "ANY_GOLD@3": 0.8571428571428571,
+        "ANY_GOLD@5": 0.9142857142857143,
+        "GOLD_RECALL@1": 0.4,
+        "GOLD_RECALL@3": 0.8571428571428571,
+        "GOLD_RECALL@5": 0.9142857142857143,
+        "MRR_FIRST_GOLD": 0.6028571428571429,
+        "dimension": "difficulty",
+        "n": 35,
+        "value": "EASY"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.4473684210526316,
+        "ALL_REQUIRED_GOLD@3": 0.868421052631579,
+        "ALL_REQUIRED_GOLD@5": 0.8947368421052632,
+        "ANY_GOLD@1": 0.5,
+        "ANY_GOLD@3": 0.868421052631579,
+        "ANY_GOLD@5": 0.8947368421052632,
+        "GOLD_RECALL@1": 0.47368421052631576,
+        "GOLD_RECALL@3": 0.868421052631579,
+        "GOLD_RECALL@5": 0.8947368421052632,
+        "MRR_FIRST_GOLD": 0.6594611528822055,
+        "dimension": "difficulty",
+        "n": 38,
+        "value": "HARD"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.38461538461538464,
+        "ALL_REQUIRED_GOLD@3": 0.8205128205128205,
+        "ALL_REQUIRED_GOLD@5": 0.8717948717948718,
+        "ANY_GOLD@1": 0.5128205128205128,
+        "ANY_GOLD@3": 0.8205128205128205,
+        "ANY_GOLD@5": 0.8717948717948718,
+        "GOLD_RECALL@1": 0.44871794871794873,
+        "GOLD_RECALL@3": 0.8205128205128205,
+        "GOLD_RECALL@5": 0.8717948717948718,
+        "MRR_FIRST_GOLD": 0.6592185592185592,
+        "dimension": "difficulty",
+        "n": 39,
+        "value": "MEDIUM"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.36,
+        "ALL_REQUIRED_GOLD@3": 0.8,
+        "ALL_REQUIRED_GOLD@5": 0.8533333333333334,
+        "ANY_GOLD@1": 0.4266666666666667,
+        "ANY_GOLD@3": 0.8,
+        "ANY_GOLD@5": 0.8533333333333334,
+        "GOLD_RECALL@1": 0.3933333333333333,
+        "GOLD_RECALL@3": 0.8,
+        "GOLD_RECALL@5": 0.8533333333333334,
+        "MRR_FIRST_GOLD": 0.6085714285714287,
+        "dimension": "knowledge_state",
+        "n": 75,
+        "value": "NOT_APPLICABLE"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.8235294117647058,
+        "ALL_REQUIRED_GOLD@3": 1.0,
+        "ALL_REQUIRED_GOLD@5": 1.0,
+        "ANY_GOLD@1": 0.9411764705882353,
+        "ANY_GOLD@3": 1.0,
+        "ANY_GOLD@5": 1.0,
+        "GOLD_RECALL@1": 0.8823529411764706,
+        "GOLD_RECALL@3": 1.0,
+        "GOLD_RECALL@5": 1.0,
+        "MRR_FIRST_GOLD": 0.9705882352941176,
+        "dimension": "knowledge_state",
+        "n": 17,
+        "value": "UNCHANGED"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.25,
+        "ALL_REQUIRED_GOLD@3": 0.9,
+        "ALL_REQUIRED_GOLD@5": 0.95,
+        "ANY_GOLD@1": 0.25,
+        "ANY_GOLD@3": 0.9,
+        "ANY_GOLD@5": 0.95,
+        "GOLD_RECALL@1": 0.25,
+        "GOLD_RECALL@3": 0.9,
+        "GOLD_RECALL@5": 0.95,
+        "MRR_FIRST_GOLD": 0.4863095238095238,
+        "dimension": "knowledge_state",
+        "n": 20,
+        "value": "UPDATED"
+      },
+      {
+        "ALL_REQUIRED_GOLD@1": 0.4107142857142857,
+        "ALL_REQUIRED_GOLD@3": 0.8482142857142857,
+        "ALL_REQUIRED_GOLD@5": 0.8928571428571429,
+        "ANY_GOLD@1": 0.4732142857142857,
+        "ANY_GOLD@3": 0.8482142857142857,
+        "ANY_GOLD@5": 0.8928571428571429,
+        "GOLD_RECALL@1": 0.4419642857142857,
+        "GOLD_RECALL@3": 0.8482142857142857,
+        "GOLD_RECALL@5": 0.8928571428571429,
+        "MRR_FIRST_GOLD": 0.641687925170068,
+        "dimension": "split_type",
+        "n": 112,
+        "value": "iid"
+      }
+    ],
+    "schema_version": "1"
+  },
+  "top_k": 10,
+  "version_diagnostics": {
+    "rows": [
+      {
+        "CURRENT_AND_OBSOLETE_RETRIEVED": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "CURRENT_GOLD_RETRIEVED": {
+          "count": 17,
+          "rate": 1.0
+        },
+        "OBSOLETE_ONLY_RETRIEVED": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "WRONG_VERSION_TOP1": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "knowledge_state": "UNCHANGED",
+        "n": 17
+      },
+      {
+        "CURRENT_AND_OBSOLETE_RETRIEVED": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "CURRENT_GOLD_RETRIEVED": {
+          "count": 20,
+          "rate": 1.0
+        },
+        "OBSOLETE_ONLY_RETRIEVED": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "WRONG_VERSION_TOP1": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "knowledge_state": "UPDATED",
+        "n": 20
+      }
+    ],
+    "schema_version": "1"
+  }
+}

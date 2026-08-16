@@ -1,0 +1,14 @@
+OBSERVATION
+- Confirmatory slices: overall 350/400 for RAG vs 161/400 for Prompt; knowledge_only 89/100 vs 15/100; behavior_knowledge 93/100 vs 36/100; changed_knowledge 68/100 vs 10/100.
+- The paired bootstrap seed was 1729 with 20000 replicates.
+- Behavior_only input hashes matched pairwise across Prompt and RAG on 100 examples; paired outcomes were {'prompt_wrong_rag_correct': 0, 'prompt_correct_rag_wrong': 0, 'both_correct': 100, 'both_wrong': 0}.
+
+INTERPRETATION
+- The confirmatory paired comparison estimates the frozen RAG condition relative to the frozen Prompt condition; the observed gains are large in the knowledge-bearing slices, but statistical significance alone does not establish retrieval quality.
+- The behavior_only control shows no paired disagreement, so there is no evidence here for a retrieval-driven explanation in that control slice.
+- Exploratory slices should be read as slice-specific paired effects only; they do not support universal RAG benefit, LoRA benefit, or cross-model generality.
+
+LIMITATION
+- This analysis uses only the persisted canonical result bundles and the frozen benchmark partitioning; it does not rerun inference, retrieval, scoring, or normalization.
+- Exact McNemar tests are only reported when discordant pairs exist; slices with no discordance have no exact test result.
+- Bootstrap confidence intervals are deterministic for the stated seed and replicate count, but they remain sample-based estimates of the paired accuracy difference.

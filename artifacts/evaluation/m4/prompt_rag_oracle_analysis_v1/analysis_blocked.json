@@ -1,0 +1,30 @@
+{
+  "artifact_hash": "b0542ac99dd62cee9ac55c28a96b76459c6b14cf61869320047f16bb098163d4",
+  "rag_execution_integrity": {
+    "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+    "cache_hit_count": 0,
+    "canonical_rag_config_hash": "b04ea1a8a18456724bb194264cfdce0807f9336995c622794b0002128fb98511",
+    "completed_successful_model_responses": 0,
+    "expected_count": 400,
+    "represented_count": 400,
+    "results_hash": "38b3246fd99d4901c5ed3250b86c09c777189d8f140bf48723ab1dcbf166e370",
+    "retrieval_artifact_hash": "ae118a673508b33bf19799666ee8d97b958add832721f8b97e5e2f4401349c84",
+    "retrieval_run_id": "m4-primary-test-bm25-2c08bcdf03384d0b",
+    "run_id": "m4-primary-test-rag-f4d97a380dfed1ac",
+    "schema_version": "canonical-primary-rag-v1",
+    "unresolved_provider_failures": 400,
+    "valid": false
+  },
+  "reasons": [
+    "canonical RAG successful responses = 0/400",
+    "canonical RAG unresolved provider failures = 400",
+    "canonical Prompt/Oracle primary-test result artifacts are not present in this unpacked repository"
+  ],
+  "schema_version": "m4-rag-comparison-v1",
+  "sections": {
+    "INTERPRETATION": "No RAG accuracy or gain can be inferred from provider-failure rows.",
+    "LIMITATION": "The missing successful qwen3:8b responses prevent the requested Prompt/RAG/Oracle comparison.",
+    "OBSERVATION": "Canonical three-condition performance analysis was not run because required canonical model outputs are incomplete."
+  },
+  "status": "BLOCKED"
+}

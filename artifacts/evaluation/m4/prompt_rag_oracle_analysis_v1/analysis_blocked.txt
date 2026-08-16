@@ -1,0 +1,13 @@
+OBSERVATION
+Canonical three-condition performance analysis was not run because required canonical model outputs are incomplete.
+
+INTERPRETATION
+No RAG accuracy or gain can be inferred from provider-failure rows.
+
+LIMITATION
+The missing successful qwen3:8b responses prevent the requested Prompt/RAG/Oracle comparison.
+
+Reasons:
+- canonical RAG successful responses = 0/400
+- canonical RAG unresolved provider failures = 400
+- canonical Prompt/Oracle primary-test result artifacts are not present in this unpacked repository

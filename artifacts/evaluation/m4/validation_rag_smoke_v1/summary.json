@@ -1,0 +1,11 @@
+{
+  "cache_hit_count": 0,
+  "provider_failure_count": 24,
+  "retrieval_artifact_hash": "50314ae20a94935c75546d0f4d90a8828ae7deaf6a880331a1bed88f2ef09dba",
+  "retrieval_run_id": "m4-validation-bm25-a0dc02c922ae487f",
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "sample_hash": "472358f1924a01bcbdf7c3f89087ba10195e72b753a0a34b47ca4c305a8db62e",
+  "schema_version": "1",
+  "selected_count": 24,
+  "successful_count": 0
+}

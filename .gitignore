@@ -11,3 +11,6 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Local evaluation caches
+artifacts/evaluation/**/cache/

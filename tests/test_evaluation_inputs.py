@@ -238,3 +238,47 @@ def test_unsupported_methods_are_not_constructed() -> None:
             method=AdaptationMethod.RAG,
             prompt_contract=contract,
         )
+
+
+def test_shared_renderer_is_identical_for_oracle_and_rag_selected_chunks() -> None:
+    """Identical selected chunks must render byte-identically for Oracle and RAG."""
+    from adaptlab.evaluation.inputs import render_evidence, render_selected_evidence
+
+    example = _example(evidence_status=EvidenceStatus.PRESENT)
+    chunks = _chunks()
+    chunk_index = {chunk.chunk_id: chunk for chunk in chunks}
+    selected_ids = tuple(sorted(example.gold_chunk_ids))
+
+    oracle_selected = tuple(chunk_index[chunk_id] for chunk_id in selected_ids)
+    oracle_rendered = render_evidence(oracle_selected)
+    rag_rendered = render_selected_evidence(selected_ids, list(reversed(chunks)))
+
+    assert oracle_rendered == rag_rendered
+    assert oracle_rendered.encode("utf-8") == rag_rendered.encode("utf-8")
+
+
+def test_shared_renderer_preserves_supplied_selection_order() -> None:
+    from adaptlab.evaluation.inputs import render_selected_evidence
+
+    chunks = _chunks()
+    selected = tuple(chunk.chunk_id for chunk in chunks[:2])
+    forward = render_selected_evidence(selected, chunks)
+    reverse = render_selected_evidence(tuple(reversed(selected)), chunks)
+
+    assert forward != reverse
+    assert forward.index(next(c.content for c in chunks if c.chunk_id == selected[0])) < forward.index(
+        next(c.content for c in chunks if c.chunk_id == selected[1])
+    )
+
+
+def test_shared_renderer_emits_no_chunk_metadata() -> None:
+    from adaptlab.evaluation.inputs import render_selected_evidence
+
+    chunk = _chunks()[0]
+    rendered = render_selected_evidence((chunk.chunk_id,), (chunk,))
+
+    # Renderer output is exactly the raw frozen chunk text plus neutral delimiters.
+    # If an identifier genuinely occurs inside chunk.content, preserving it is correct;
+    # the renderer must not append any metadata beyond that source text.
+    assert rendered == f"--- BEGIN CONTEXT ---\n{chunk.content}\n--- END CONTEXT ---"
+    assert rendered.removeprefix("--- BEGIN CONTEXT ---\n").removesuffix("\n--- END CONTEXT ---") == chunk.content

@@ -1,0 +1,12 @@
+{
+  "eligible_task_families": [
+    "behavior_knowledge",
+    "changed_knowledge",
+    "knowledge_only"
+  ],
+  "ineligible_task_families": [
+    "behavior_only"
+  ],
+  "query_source": "question_only",
+  "version": "retrieval-query-v1"
+}

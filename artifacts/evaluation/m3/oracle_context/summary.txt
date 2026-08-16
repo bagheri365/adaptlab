@@ -1,0 +1,7 @@
+overall: n=400 accuracy=0.870
+confirmatory task_family: behavior_only n=100 accuracy=1.000, knowledge_only n=100 accuracy=0.900, behavior_knowledge n=100 accuracy=0.910, changed_knowledge n=100 accuracy=0.670
+confirmatory difficulty: EASY n=120 accuracy=0.875, MEDIUM n=160 accuracy=0.863, HARD n=120 accuracy=0.875
+exploratory behavior_type: SCHEMA_ADHERENCE n=37 accuracy=0.946, CONDITIONAL_DECISION_RULE n=37 accuracy=1.000, TRANSFORMATION_EXTRACTION n=37 accuracy=0.946, CLASSIFICATION_POLICY n=37 accuracy=0.919, ABSTENTION_BEHAVIOR n=52 accuracy=0.962
+exploratory knowledge_state: NOT_APPLICABLE n=300 accuracy=0.937, UNCHANGED n=30 accuracy=0.600, UPDATED n=40 accuracy=0.875, REMOVED n=30 accuracy=0.467
+exploratory evidence_status: NOT_APPLICABLE n=100 accuracy=1.000, PRESENT n=260 accuracy=0.800, ABSENT n=40 accuracy=1.000
+exploratory split_type: IID n=265 accuracy=0.879, STRUCTURAL_HOLDOUT n=135 accuracy=0.852

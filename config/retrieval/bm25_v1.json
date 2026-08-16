@@ -1,0 +1,8 @@
+{
+  "b": 0.75,
+  "idf": "ln(1 + (N - df + 0.5) / (df + 0.5))",
+  "k1": 1.2,
+  "retriever_name": "BM25",
+  "retriever_version": "bm25-v1",
+  "tie_break_policy": "equal_bm25_score_then_chunk_id_ascending"
+}

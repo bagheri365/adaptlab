@@ -1,0 +1,21 @@
+OBSERVATION
+- overall: n=400; P=0.402500 (161/400), R=0.875000 (350/400), O=0.870000 (348/400), R-P=0.472500, O-P=0.467500, O-R=-0.005000, gap_recovery=1.010695187166.
+- knowledge_only: n=100; P=0.150000 (15/100), R=0.890000 (89/100), O=0.900000 (90/100), R-P=0.740000, O-P=0.750000, O-R=0.010000, gap_recovery=0.986666666667.
+- behavior_knowledge: n=100; P=0.360000 (36/100), R=0.930000 (93/100), O=0.910000 (91/100), R-P=0.570000, O-P=0.550000, O-R=-0.020000, gap_recovery=1.036363636364.
+- changed_knowledge: n=100; P=0.100000 (10/100), R=0.680000 (68/100), O=0.670000 (67/100), R-P=0.580000, O-P=0.570000, O-R=-0.010000, gap_recovery=1.017543859649.
+- UPDATED: n=40; P=0.000000 (0/40), R=0.875000 (35/40), O=0.875000 (35/40), R-P=0.875000, O-P=0.875000, O-R=0.000000, gap_recovery=1.000000000000.
+- REMOVED: n=30; P=0.333333 (10/30), R=0.433333 (13/30), O=0.466667 (14/30), R-P=0.100000, O-P=0.133333, O-R=0.033333, gap_recovery=0.750000000000.
+- evidence ABSENT: n=40; P=1.000000 (40/40), R=0.975000 (39/40), O=1.000000 (40/40), R-P=-0.025000, O-P=0.000000, O-R=0.025000, gap_recovery=NOT_APPLICABLE.
+
+INTERPRETATION
+- Overall gold-evidence gap recovery is just above 1.0, which means RAG closes slightly more than the raw Prompt-to-Oracle gap on this frozen bundle; that is descriptive only, not proof that RAG is universally better than Oracle.
+- knowledge_only is slightly below 1.0, so RAG recovers most but not all of the Prompt-to-Oracle gap there.
+- behavior_knowledge is above 1.0, and RAG slightly exceeds Oracle in raw accuracy; this should be read as a slice-level descriptive surplus, not as a causal claim.
+- changed_knowledge is also slightly above 1.0, again indicating near-full gap closure relative to the Prompt baseline on this slice.
+- UPDATED has gap recovery of 1.0 because Prompt and Oracle are both 0.0 while RAG reaches 0.875; REMOVED is 0.75, so RAG closes only three quarters of the Prompt-to-Oracle gap and the paired Prompt-vs-RAG effect there is small and uncertain.
+- evidence ABSENT is NOT_APPLICABLE because Prompt and Oracle are both 1.0, so the denominator is zero; raw accuracies should be used directly for that slice.
+
+LIMITATION
+- This is a descriptive diagnostic derived only from the frozen canonical PROMPT, RAG, and ORACLE_CONTEXT artifacts; it does not rerun inference, retrieval, scoring, or normalization.
+- Values above 1.0 do not prove RAG is superior to Oracle, and values near 1.0 do not prove retrieval is perfect.
+- The ratio is sensitive to sample size and to small raw-accuracy differences, so the raw accuracies and deltas should be read alongside the recovery value.

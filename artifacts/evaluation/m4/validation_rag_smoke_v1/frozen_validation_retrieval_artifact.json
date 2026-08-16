@@ -1,0 +1,4757 @@
+{
+  "artifact_version": "canonical-retrieval-artifact-v1",
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "corpus_hash": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+  "entries": [
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_001",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_002",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_003",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_004",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_005",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_006",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_007",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_008",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_009",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_010",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_011",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_012",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_013",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_014",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_015",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_016",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_017",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_018",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_019",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_020",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_021",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_022",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_023",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_024",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_025",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_026",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_027",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_028",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_029",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_030",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_031",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_032",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_033",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_034",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_035",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_036",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_037",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [],
+      "example_id": "FULL_VA_BHV_038",
+      "ranks": [],
+      "retrieval_eligible": false,
+      "scores": []
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_BKN_001",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.684303101808357,
+        10.684303101808357,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.040862639548742,
+        7.277505464595839,
+        7.277505464595839,
+        7.277505464595839
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_BKN_002",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.929904496941758,
+        10.929904496941758,
+        10.50162430008078,
+        10.50162430008078,
+        10.50162430008078,
+        10.12655700714388,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_BKN_003",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.929904496941758,
+        10.929904496941758,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.040862639548742,
+        7.523106859729239,
+        7.523106859729239,
+        7.523106859729239
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CUR_039_PERM_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1"
+      ],
+      "example_id": "FULL_VA_BKN_004",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.523288205321418,
+        11.861957469529257,
+        11.130038416555841,
+        10.728668846605574,
+        10.728668846605574,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        8.715686685944828
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_039_PERM_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_BKN_005",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.523288205321418,
+        11.130038416555841,
+        10.728668846605574,
+        10.728668846605574,
+        10.301513501968117,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        7.321871209393056
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_BKN_006",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.542827638843459,
+        10.48469832658961,
+        9.448335922113689,
+        9.419757341873838,
+        9.419757341873838,
+        7.376974997529075,
+        7.376974997529075,
+        7.223292170834192,
+        7.223292170834192,
+        7.223292170834192
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_003_AUTH_ERROR_CODE_01_V1",
+        "CHK_OBS_011_BILL_ERROR_CODE_01_V1",
+        "CHK_OBS_019_CONF_ERROR_CODE_01_V1",
+        "CHK_OBS_027_DEPL_ERROR_CODE_01_V1",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_BKN_007",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.542827638843459,
+        10.714947462782725,
+        10.469934483015166,
+        10.469934483015166,
+        10.469934483015166,
+        10.469934483015166,
+        9.720192809256012,
+        9.419757341873838,
+        9.419757341873838,
+        7.612123759365937
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_BKN_008",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.542827638843459,
+        10.714947462782725,
+        9.720192809256012,
+        9.419757341873838,
+        9.419757341873838,
+        7.612123759365937,
+        7.612123759365937,
+        7.453541307027305,
+        7.453541307027305,
+        7.453541307027305
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_OBS_003_AUTH_ERROR_CODE_01_V1",
+        "CHK_OBS_011_BILL_ERROR_CODE_01_V1",
+        "CHK_OBS_019_CONF_ERROR_CODE_01_V1",
+        "CHK_OBS_027_DEPL_ERROR_CODE_01_V1",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_BKN_009",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.37513548142364,
+        10.526290820030354,
+        9.497444491996896,
+        9.25206518445402,
+        9.25206518445402,
+        8.74778808992454,
+        8.74778808992454,
+        8.74778808992454,
+        8.74778808992454,
+        7.419452565506118
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_BKN_010",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.37513548142364,
+        10.526290820030354,
+        9.497444491996896,
+        9.25206518445402,
+        9.25206518445402,
+        7.419452565506118,
+        7.419452565506118,
+        7.264884664274934,
+        7.264884664274934,
+        7.264884664274934
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_BKN_011",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.111629961263258,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268,
+        9.448335922113689,
+        7.7048323240507415,
+        7.7048323240507415,
+        7.7048323240507415,
+        7.7048323240507415
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_OBS_004_AUTH_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_012_BILL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_020_CONF_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_028_DEPL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_BKN_012",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.357231356396658,
+        10.85772105960482,
+        10.85772105960482,
+        10.85772105960482,
+        10.85772105960482,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268,
+        9.720192809256012
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_BKN_013",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.357231356396658,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268,
+        9.720192809256012,
+        7.950433719184142,
+        7.950433719184142,
+        7.950433719184142,
+        7.950433719184142
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_004_AUTH_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_012_BILL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_020_CONF_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_028_DEPL_FEATURE_AVAILABILITY_07_V1"
+      ],
+      "example_id": "FULL_VA_BKN_014",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.897193321837364,
+        11.155995706060475,
+        9.649219907250144,
+        9.649219907250144,
+        9.649219907250144,
+        9.497444491996896,
+        9.071783445468869,
+        9.071783445468869,
+        9.071783445468869,
+        9.071783445468869
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_BKN_015",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.897193321837364,
+        11.155995706060475,
+        9.649219907250144,
+        9.649219907250144,
+        9.649219907250144,
+        9.497444491996896,
+        7.749198068847958,
+        7.749198068847958,
+        7.749198068847958,
+        7.749198068847958
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_BKN_016",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.860641065376532,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.499776448938445,
+        5.499776448938445,
+        5.499776448938445,
+        5.499776448938445,
+        5.402455499297971,
+        5.402455499297971
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_BKN_017",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.111825171928869,
+        9.005865789488542,
+        9.005865789488542,
+        9.005865789488542,
+        9.005865789488542,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.653639605850308,
+        5.653639605850308
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_BKN_018",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.111825171928869,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.708301185276416,
+        5.708301185276416,
+        5.708301185276416,
+        5.708301185276416,
+        5.653639605850308,
+        5.653639605850308
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_BKN_019",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.906015278183284,
+        7.186226921582597,
+        7.186226921582597,
+        7.186226921582597,
+        7.186226921582597,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.604772285956669,
+        5.447829712104722
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_BKN_020",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.906015278183284,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.537444619476534,
+        5.537444619476534,
+        5.537444619476534,
+        5.537444619476534,
+        5.447829712104722,
+        5.447829712104722
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_BKN_021",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.400919697913352,
+        8.860641065376532,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.499776448938445,
+        5.499776448938445,
+        5.499776448938445
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1",
+        "CHK_OBS_030_DEPL_PERMISSION_03_V1",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03"
+      ],
+      "example_id": "FULL_VA_BKN_022",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.400919697913352,
+        9.111825171928869,
+        9.005865789488542,
+        9.005865789488542,
+        9.005865789488542,
+        9.005865789488542,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_BKN_023",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.400919697913352,
+        9.111825171928869,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.708301185276416,
+        5.708301185276416,
+        5.708301185276416
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1",
+        "CHK_OBS_030_DEPL_PERMISSION_03_V1",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03"
+      ],
+      "example_id": "FULL_VA_BKN_024",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.216113724329785,
+        8.906015278183284,
+        7.186226921582597,
+        7.186226921582597,
+        7.186226921582597,
+        7.186226921582597,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_BKN_025",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.216113724329785,
+        8.906015278183284,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.537444619476534,
+        5.537444619476534,
+        5.537444619476534
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_BKN_026",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.194517729587256,
+        7.317437538923826,
+        5.672157848088697,
+        5.672157848088697,
+        5.672157848088697,
+        5.610102172264479,
+        5.610102172264479,
+        5.610102172264479,
+        5.610102172264479,
+        5.610102172264479
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_BKN_027",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.178247188638794,
+        9.178247188638794,
+        9.178247188638794,
+        8.480443029899163,
+        7.317437538923826,
+        5.861286278816816,
+        5.861286278816816,
+        5.861286278816816,
+        5.861286278816816,
+        5.861286278816816
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_BKN_028",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.480443029899163,
+        7.317437538923826,
+        5.880682584426668,
+        5.880682584426668,
+        5.880682584426668,
+        5.861286278816816,
+        5.861286278816816,
+        5.861286278816816,
+        5.861286278816816,
+        5.861286278816816
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_BKN_029",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.246167635312814,
+        7.358608320732849,
+        7.358608320732849,
+        7.358608320732849,
+        7.13263156534026,
+        6.604772285956669,
+        5.65547638507123,
+        5.65547638507123,
+        5.65547638507123,
+        5.65547638507123
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_BKN_030",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.246167635312814,
+        7.13263156534026,
+        5.709826018626786,
+        5.709826018626786,
+        5.709826018626786,
+        5.65547638507123,
+        5.65547638507123,
+        5.65547638507123,
+        5.65547638507123,
+        5.65547638507123
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_BKN_031",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.932492648165509,
+        9.962325431787649,
+        9.070016336287267,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        6.5555277945751325
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_OBS_008_AUTH_RETENTION_SETTING_06_V1",
+        "CHK_OBS_016_BILL_RETENTION_SETTING_06_V1",
+        "CHK_OBS_024_CONF_RETENTION_SETTING_06_V1",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06"
+      ],
+      "example_id": "FULL_VA_BKN_032",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.932492648165509,
+        10.20792682692105,
+        9.899991374242605,
+        9.899991374242605,
+        9.899991374242605,
+        9.355941636599175,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_BKN_033",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.932492648165509,
+        10.20792682692105,
+        9.355941636599175,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        6.801129189708533
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_OBS_008_AUTH_RETENTION_SETTING_06_V1"
+      ],
+      "example_id": "FULL_VA_BKN_034",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.754934932694384,
+        10.006691176584866,
+        9.121666242012825,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.114053760106653
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_BKN_035",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.754934932694384,
+        10.006691176584866,
+        9.121666242012825,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        6.599893539372349
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_BKN_036",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.684303101808357,
+        10.684303101808357,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.040862639548742,
+        7.277505464595839,
+        7.277505464595839,
+        7.277505464595839
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_BKN_037",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.929904496941758,
+        10.929904496941758,
+        10.50162430008078,
+        10.50162430008078,
+        10.50162430008078,
+        10.12655700714388,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_CHG_001",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.33796292678425,
+        11.33796292678425,
+        9.895585451886696,
+        9.895585451886696,
+        9.895585451886696,
+        9.565468647710938,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_CHG_002",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.33796292678425,
+        11.33796292678425,
+        9.895585451886696,
+        9.895585451886696,
+        9.895585451886696,
+        9.565468647710938,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_CHG_003",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.136727276448067,
+        11.136727276448067,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        8.87000607374886,
+        7.72992963923555,
+        7.72992963923555,
+        7.72992963923555
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_074_CONF_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_082_DEPL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_016_CONF_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_CHG_004",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.799814666607823,
+        11.33796292678425,
+        11.33796292678425,
+        10.451043700535813,
+        10.451043700535813,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.040862639548742,
+        8.786292022437928
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_CHG_005",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.136727276448067,
+        11.136727276448067,
+        9.727893294466877,
+        9.727893294466877,
+        9.727893294466877,
+        9.403766222181453,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_003_AUTH_ERROR_CODE_01_V1",
+        "CHK_OBS_011_BILL_ERROR_CODE_01_V1",
+        "CHK_OBS_019_CONF_ERROR_CODE_01_V1",
+        "CHK_OBS_027_DEPL_ERROR_CODE_01_V1",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_CHG_006",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.882867777553054,
+        11.237308405411119,
+        10.251858449153577,
+        9.908846123582222,
+        9.908846123582222,
+        9.908846123582222,
+        9.908846123582222,
+        9.759797480583433,
+        9.759797480583433,
+        8.002815491725347
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_003_AUTH_ERROR_CODE_01_V1",
+        "CHK_OBS_011_BILL_ERROR_CODE_01_V1",
+        "CHK_OBS_019_CONF_ERROR_CODE_01_V1",
+        "CHK_OBS_027_DEPL_ERROR_CODE_01_V1",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_CHG_007",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.882867777553054,
+        11.237308405411119,
+        10.251858449153577,
+        9.908846123582222,
+        9.908846123582222,
+        9.908846123582222,
+        9.908846123582222,
+        9.759797480583433,
+        9.759797480583433,
+        8.002815491725347
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_CHG_008",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.715175620133236,
+        11.048651762658748,
+        10.029110131894463,
+        9.592105323163615,
+        9.592105323163615,
+        7.810144297865527,
+        7.810144297865527,
+        7.78724560690333,
+        7.78724560690333,
+        7.78724560690333
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_040_PERM_ERROR_CODE_01_V2",
+        "CHK_CUR_016_CONF_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_024_DEPL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_CHG_009",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.882867777553052,
+        11.23730840541112,
+        10.251858449153577,
+        9.759797480583432,
+        9.759797480583432,
+        9.366200077033163,
+        9.123644614351717,
+        9.123644614351717,
+        8.002815491725347,
+        8.002815491725347
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_003_AUTH_ERROR_CODE_01_V1",
+        "CHK_OBS_011_BILL_ERROR_CODE_01_V1",
+        "CHK_OBS_019_CONF_ERROR_CODE_01_V1",
+        "CHK_OBS_027_DEPL_ERROR_CODE_01_V1",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_CHG_010",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.715175620133234,
+        11.048651762658748,
+        10.02911013189446,
+        9.747143698052737,
+        9.747143698052737,
+        9.747143698052737,
+        9.747143698052737,
+        9.592105323163615,
+        9.592105323163615,
+        7.810144297865527
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_004_AUTH_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_012_BILL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_020_CONF_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_028_DEPL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07"
+      ],
+      "example_id": "FULL_VA_CHG_011",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.765289786239151,
+        10.251858449153577,
+        10.251682211410735,
+        10.251682211410735,
+        10.251682211410735,
+        10.251682211410735,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_OBS_004_AUTH_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_012_BILL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_020_CONF_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_028_DEPL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07"
+      ],
+      "example_id": "FULL_VA_CHG_012",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.765289786239151,
+        10.251858449153577,
+        10.251682211410735,
+        10.251682211410735,
+        10.251682211410735,
+        10.251682211410735,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_CHG_013",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.897193321837365,
+        11.564054135902968,
+        10.029110131894463,
+        9.649219907250144,
+        9.649219907250144,
+        9.649219907250144,
+        8.157256498690451,
+        8.157256498690451,
+        8.157256498690451,
+        8.157256498690451
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_CHG_014",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.765289786239151,
+        10.251858449153577,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268,
+        8.358492149026635,
+        8.358492149026635,
+        8.358492149026635,
+        8.358492149026635
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_OBS_004_AUTH_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_012_BILL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_020_CONF_FEATURE_AVAILABILITY_07_V1",
+        "CHK_OBS_028_DEPL_FEATURE_AVAILABILITY_07_V1",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07"
+      ],
+      "example_id": "FULL_VA_CHG_015",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.897193321837364,
+        11.564054135902968,
+        10.083990053990917,
+        10.083990053990917,
+        10.083990053990917,
+        10.083990053990917,
+        10.02911013189446,
+        9.649219907250144,
+        9.649219907250144,
+        9.649219907250144
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_CHG_016",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.529159088397313,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        6.07097352231875,
+        6.07097352231875
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_CHG_017",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.529159088397313,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        6.07097352231875,
+        6.07097352231875
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_CHG_018",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.323349194651726,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.883901431935496,
+        5.883901431935496,
+        5.883901431935496,
+        5.883901431935496,
+        5.865163628573165,
+        5.865163628573165
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CUR_041_PERM_LIMIT_02_V2",
+        "CHK_CUR_012_BILL_LIMIT_02_V2",
+        "CHK_CUR_048_PROJ_LIMIT_02_V2",
+        "CHK_CUR_040_PERM_ERROR_CODE_01_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_CHG_019",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.52915908839731,
+        8.5622618303669,
+        7.797951504884151,
+        7.797951504884151,
+        7.384274991367202,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        6.07097352231875,
+        6.07097352231875
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_CHG_020",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.323349194651726,
+        8.204732261070076,
+        8.204732261070076,
+        8.204732261070076,
+        8.204732261070076,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.865163628573165,
+        5.865163628573165
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1",
+        "CHK_OBS_030_DEPL_PERMISSION_03_V1",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03"
+      ],
+      "example_id": "FULL_VA_CHG_021",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.529159088397313,
+        9.400919697913352,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1",
+        "CHK_OBS_030_DEPL_PERMISSION_03_V1",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03"
+      ],
+      "example_id": "FULL_VA_CHG_022",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.529159088397313,
+        9.400919697913352,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        8.375588826869958,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_CHG_023",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.323349194651726,
+        9.216113724329785,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.883901431935496,
+        5.883901431935496,
+        5.883901431935496
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_048_PROJ_LIMIT_02_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_CUR_005_AUTH_PERMISSION_03_V2",
+        "CHK_CUR_042_PERM_PERMISSION_03_V2"
+      ],
+      "example_id": "FULL_VA_CHG_024",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.52915908839731,
+        9.400919697913352,
+        7.797951504884151,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        6.07097352231875,
+        6.07097352231875
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1",
+        "CHK_OBS_030_DEPL_PERMISSION_03_V1",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03"
+      ],
+      "example_id": "FULL_VA_CHG_025",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.323349194651726,
+        9.216113724329785,
+        8.204732261070076,
+        8.204732261070076,
+        8.204732261070076,
+        8.204732261070076,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_CHG_026",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.95549826740768,
+        8.54797022602021,
+        8.54797022602021,
+        8.54797022602021,
+        7.317437538923826,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_CHG_027",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.95549826740768,
+        8.54797022602021,
+        8.54797022602021,
+        8.54797022602021,
+        7.317437538923826,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2",
+        "CHK_CUR_057_STOR_POLICY_08_V2",
+        "CHK_CUR_079_CONF_POLICY_08_V2",
+        "CHK_CUR_087_DEPL_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_CHG_028",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.72122287282133,
+        7.13263156534026,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CUR_013_BILL_POLICY_08_V2",
+        "CHK_CUR_071_BILL_POLICY_08_V2",
+        "CHK_CUR_012_BILL_LIMIT_02_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_CHG_029",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.95549826740768,
+        8.779798038978669,
+        8.779798038978669,
+        7.973648363871555,
+        7.317437538923826,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258,
+        6.278620195285258
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_CHG_030",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.72122287282133,
+        8.377113660220328,
+        8.377113660220328,
+        8.377113660220328,
+        7.13263156534026,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673,
+        6.072810301539673
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_008_AUTH_RETENTION_SETTING_06_V1",
+        "CHK_OBS_016_BILL_RETENTION_SETTING_06_V1",
+        "CHK_OBS_024_CONF_RETENTION_SETTING_06_V1",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06"
+      ],
+      "example_id": "FULL_VA_CHG_031",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.932492648165509,
+        10.615985256763544,
+        9.830996874107694,
+        9.293952526048521,
+        9.293952526048521,
+        9.293952526048521,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_008_AUTH_RETENTION_SETTING_06_V1",
+        "CHK_OBS_016_BILL_RETENTION_SETTING_06_V1",
+        "CHK_OBS_024_CONF_RETENTION_SETTING_06_V1",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06"
+      ],
+      "example_id": "FULL_VA_CHG_032",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.932492648165509,
+        10.615985256763544,
+        9.830996874107694,
+        9.293952526048521,
+        9.293952526048521,
+        9.293952526048521,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_CHG_033",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.754934932694386,
+        10.41474960642736,
+        9.596721479521342,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        7.007951969214842
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CUR_058_STOR_RETENTION_SETTING_06_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06"
+      ],
+      "example_id": "FULL_VA_CHG_034",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.182193127342444,
+        10.932492648165509,
+        10.615985256763542,
+        9.830996874107692,
+        9.695480370263457,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_OBS_008_AUTH_RETENTION_SETTING_06_V1",
+        "CHK_OBS_016_BILL_RETENTION_SETTING_06_V1",
+        "CHK_OBS_024_CONF_RETENTION_SETTING_06_V1",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06"
+      ],
+      "example_id": "FULL_VA_CHG_035",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.754934932694384,
+        10.41474960642736,
+        9.596721479521342,
+        9.126260368628703,
+        9.126260368628703,
+        9.126260368628703,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_CHG_036",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.09236153165085,
+        11.09236153165085,
+        9.690922770366631,
+        9.690922770366631,
+        9.690922770366631,
+        9.368116234059828,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_OBS_002_AUTH_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_018_CONF_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_026_DEPL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_OBS_010_BILL_ENDPOINT_BEHAVIOR_04_V1",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04"
+      ],
+      "example_id": "FULL_VA_CHG_037",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.33796292678425,
+        11.33796292678425,
+        9.895585451886697,
+        9.895585451886697,
+        9.895585451886697,
+        9.565468647710938,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_001",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.443185095931542,
+        10.443185095931542,
+        9.08939336844033,
+        9.08939336844033,
+        9.08939336844033,
+        9.08939336844033,
+        8.8361444677546,
+        7.036387458719023,
+        7.036387458719023,
+        7.036387458719023
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_002",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.644420746267725,
+        10.644420746267725,
+        9.266951083911454,
+        9.266951083911454,
+        9.266951083911454,
+        9.266951083911454,
+        9.007001033554484,
+        7.237623109055207,
+        7.237623109055207,
+        7.237623109055207
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_003",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.929904496941758,
+        10.929904496941758,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.040862639548742,
+        7.523106859729241,
+        7.523106859729241,
+        7.523106859729241
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_004",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.443185095931542,
+        10.443185095931542,
+        9.08939336844033,
+        9.08939336844033,
+        9.08939336844033,
+        9.08939336844033,
+        8.8361444677546,
+        7.036387458719023,
+        7.036387458719023,
+        7.036387458719023
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_005",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.891125881314666,
+        10.891125881314666,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        9.124583057372542,
+        8.87000607374886,
+        7.484328244102148,
+        7.484328244102148,
+        7.484328244102148
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_KNW_006",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.341901021066244,
+        10.258652328179918,
+        9.218830724096623,
+        9.218830724096623,
+        9.181441711370171,
+        7.146118814860771,
+        7.146118814860771,
+        6.997246172424498,
+        6.997246172424498,
+        6.997246172424498
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_KNW_007",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.509593178486062,
+        10.447308970932289,
+        9.404190028629285,
+        9.386522881516443,
+        9.386522881516443,
+        7.33879000872059,
+        7.33879000872059,
+        7.185902815176869,
+        7.185902815176869,
+        7.185902815176869
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_KNW_008",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.542827638843459,
+        10.714947462782725,
+        9.720192809256012,
+        9.419757341873838,
+        9.419757341873838,
+        7.612123759365936,
+        7.612123759365936,
+        7.453541307027306,
+        7.453541307027306,
+        7.453541307027306
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_KNW_009",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.341901021066244,
+        10.258652328179917,
+        9.218830724096623,
+        9.218830724096623,
+        9.181441711370171,
+        7.146118814860771,
+        7.146118814860771,
+        6.997246172424498,
+        6.997246172424498,
+        6.997246172424498
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_005_OBSE_ERROR_CODE_01",
+        "CHK_CUR_090_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_004_DEPL_ERROR_CODE_01",
+        "CHK_CMP_009_AUTH_ERROR_CODE_01",
+        "CHK_CUR_010_BILL_ERROR_CODE_01_V2",
+        "CHK_CUR_047_PROJ_ERROR_CODE_01_V2",
+        "CHK_CUR_002_AUTH_ERROR_CODE_01_V2",
+        "CHK_CUR_017_CONF_ERROR_CODE_01_V2",
+        "CHK_CUR_025_DEPL_ERROR_CODE_01_V2"
+      ],
+      "example_id": "FULL_VA_KNW_010",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.715175620133234,
+        10.818402626465634,
+        9.757253244752137,
+        9.592105323163613,
+        9.592105323163613,
+        7.574995536028665,
+        7.574995536028665,
+        7.5569964707102155,
+        7.5569964707102155,
+        7.5569964707102155
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_KNW_011",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.862003632905152,
+        10.870511955386442,
+        9.614030218317932,
+        9.614030218317932,
+        9.614030218317932,
+        9.181441711370171,
+        7.463714318173926,
+        7.463714318173926,
+        7.463714318173926,
+        7.463714318173926
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_KNW_012",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.039561348376276,
+        11.071747605722626,
+        9.791587933789057,
+        9.791587933789057,
+        9.791587933789057,
+        9.404190028629285,
+        7.6649499685101095,
+        7.6649499685101095,
+        7.6649499685101095,
+        7.6649499685101095
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_KNW_013",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        12.074751037308488,
+        11.357231356396658,
+        9.826777622721268,
+        9.826777622721268,
+        9.826777622721268,
+        9.720192809256012,
+        7.950433719184142,
+        7.950433719184142,
+        7.950433719184142,
+        7.950433719184142
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_KNW_014",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.862003632905154,
+        10.870511955386442,
+        9.614030218317932,
+        9.614030218317932,
+        9.614030218317932,
+        9.181441711370171,
+        7.463714318173926,
+        7.463714318173926,
+        7.463714318173926,
+        7.463714318173926
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_030_OBSE_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_033_OBSE_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_032_OBSE_ERROR_CODE_01_V2",
+        "CHK_CMP_002_BILL_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_003_CONF_FEATURE_AVAILABILITY_07",
+        "CHK_CMP_029_DEPL_FEATURE_AVAILABILITY_07",
+        "CHK_CUR_003_AUTH_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_011_BILL_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_018_CONF_FEATURE_AVAILABILITY_07_V2",
+        "CHK_CUR_026_DEPL_FEATURE_AVAILABILITY_07_V2"
+      ],
+      "example_id": "FULL_VA_KNW_015",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        11.897193321837364,
+        11.318452740769565,
+        9.757253244752137,
+        9.649219907250144,
+        9.649219907250144,
+        9.649219907250144,
+        7.911655103557051,
+        7.911655103557051,
+        7.911655103557051,
+        7.911655103557051
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_KNW_016",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.614042259018156,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        5.295058277144304,
+        5.295058277144304,
+        5.295058277144304,
+        5.295058277144304,
+        5.155856692939593,
+        5.155856692939593
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_KNW_017",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.81985215276374,
+        7.024553348096209,
+        7.024553348096209,
+        7.024553348096209,
+        5.465914842944187,
+        5.465914842944187,
+        5.465914842944187,
+        5.465914842944187,
+        5.361666586685178,
+        5.361666586685178
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_KNW_018",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.111825171928869,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.708301185276416,
+        5.708301185276416,
+        5.708301185276416,
+        5.708301185276416,
+        5.653639605850307,
+        5.653639605850307
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_KNW_019",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.614042259018156,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        5.295058277144304,
+        5.295058277144304,
+        5.295058277144304,
+        5.295058277144304,
+        5.155856692939593,
+        5.155856692939593
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_034_OBSE_LIMIT_02_V2",
+        "CHK_CMP_001_AUTH_LIMIT_02",
+        "CHK_CMP_027_BILL_LIMIT_02",
+        "CHK_CMP_028_CONF_LIMIT_02",
+        "CHK_OBS_005_AUTH_LIMIT_02_V1",
+        "CHK_OBS_013_BILL_LIMIT_02_V1",
+        "CHK_OBS_021_CONF_LIMIT_02_V1",
+        "CHK_OBS_029_DEPL_LIMIT_02_V1",
+        "CHK_CUR_019_CONF_LIMIT_02_V2",
+        "CHK_CUR_027_DEPL_LIMIT_02_V2"
+      ],
+      "example_id": "FULL_VA_KNW_020",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.072165088099391,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.675376695597525,
+        5.675376695597525,
+        5.675376695597525,
+        5.675376695597525,
+        5.613979522020829,
+        5.613979522020829
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_KNW_021",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.179487522500342,
+        8.614042259018156,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        5.295058277144304,
+        5.295058277144304,
+        5.295058277144304
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_KNW_022",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.364293496083908,
+        8.81985215276374,
+        7.024553348096209,
+        7.024553348096209,
+        7.024553348096209,
+        7.024553348096209,
+        7.024553348096209,
+        5.465914842944187,
+        5.465914842944187,
+        5.465914842944187
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_KNW_023",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.400919697913352,
+        9.111825171928869,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        7.061179549925653,
+        5.708301185276416,
+        5.708301185276416,
+        5.708301185276416
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_KNW_024",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.179487522500342,
+        8.614042259018156,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        6.839747374512642,
+        5.295058277144304,
+        5.295058277144304,
+        5.295058277144304
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_022_OBSE_PERMISSION_03",
+        "CHK_CUR_035_OBSE_PERMISSION_03_V2",
+        "CHK_CMP_021_DEPL_PERMISSION_03",
+        "CHK_CMP_023_PERM_PERMISSION_03",
+        "CHK_CMP_024_PROJ_PERMISSION_03",
+        "CHK_CMP_025_STOR_PERMISSION_03",
+        "CHK_CMP_026_AUTH_PERMISSION_03",
+        "CHK_OBS_006_AUTH_PERMISSION_03_V1",
+        "CHK_OBS_014_BILL_PERMISSION_03_V1",
+        "CHK_OBS_022_CONF_PERMISSION_03_V1"
+      ],
+      "example_id": "FULL_VA_KNW_025",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        9.216113724329785,
+        9.072165088099391,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        6.876373576342086,
+        5.675376695597525,
+        5.675376695597525,
+        5.675376695597525
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_KNW_026",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        7.913811920878429,
+        7.096005363510816,
+        5.467439676294556,
+        5.467439676294556,
+        5.467439676294556,
+        5.363503365906101,
+        5.363503365906101,
+        5.363503365906101,
+        5.363503365906101,
+        5.363503365906101
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_KNW_027",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.14808731546478,
+        7.280811337094384,
+        5.638296242094439,
+        5.638296242094439,
+        5.638296242094439,
+        5.569313259651686,
+        5.569313259651686,
+        5.569313259651686,
+        5.569313259651686,
+        5.569313259651686
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_KNW_028",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.480443029899163,
+        7.317437538923826,
+        5.880682584426668,
+        5.880682584426668,
+        5.880682584426668,
+        5.861286278816815,
+        5.861286278816815,
+        5.861286278816815,
+        5.861286278816815,
+        5.861286278816815
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_KNW_029",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        7.913811920878429,
+        7.096005363510816,
+        5.467439676294556,
+        5.467439676294556,
+        5.467439676294556,
+        5.363503365906101,
+        5.363503365906101,
+        5.363503365906101,
+        5.363503365906101,
+        5.363503365906101
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_020_CONF_POLICY_08",
+        "CHK_OBS_007_AUTH_POLICY_08_V1",
+        "CHK_OBS_015_BILL_POLICY_08_V1",
+        "CHK_OBS_023_CONF_POLICY_08_V1",
+        "CHK_CUR_006_AUTH_POLICY_08_V2",
+        "CHK_CUR_021_CONF_POLICY_08_V2",
+        "CHK_CUR_029_DEPL_POLICY_08_V2",
+        "CHK_CUR_043_PERM_POLICY_08_V2",
+        "CHK_CUR_050_PROJ_POLICY_08_V2"
+      ],
+      "example_id": "FULL_VA_KNW_030",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        8.435297572509421,
+        7.13263156534026,
+        5.847758094747777,
+        5.847758094747777,
+        5.847758094747777,
+        5.821626194987337,
+        5.821626194987337,
+        5.821626194987337,
+        5.821626194987337,
+        5.821626194987337
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_KNW_031",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.719745243762175,
+        9.721207425910833,
+        8.789310527578442,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        6.314409788698317
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_KNW_032",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.897302959233299,
+        9.922443076247017,
+        9.023585922164791,
+        8.649329544646077,
+        8.649329544646077,
+        8.649329544646077,
+        8.649329544646077,
+        8.649329544646077,
+        8.649329544646077,
+        6.5156454390345
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_KNW_033",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.932492648165509,
+        10.20792682692105,
+        9.355941636599177,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        8.684519233578289,
+        6.801129189708533
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_KNW_034",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.719745243762175,
+        9.721207425910833,
+        8.789310527578442,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        8.471771829174953,
+        6.314409788698317
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CMP_014_OBSE_RETENTION_SETTING_06",
+        "CHK_CUR_037_OBSE_RETENTION_SETTING_06_V2",
+        "CHK_CUR_036_OBSE_POLICY_08_V2",
+        "CHK_CMP_013_DEPL_RETENTION_SETTING_06",
+        "CHK_CMP_015_PERM_RETENTION_SETTING_06",
+        "CHK_CMP_016_PROJ_RETENTION_SETTING_06",
+        "CHK_CMP_017_STOR_RETENTION_SETTING_06",
+        "CHK_CMP_018_AUTH_RETENTION_SETTING_06",
+        "CHK_CMP_019_BILL_RETENTION_SETTING_06",
+        "CHK_CUR_007_AUTH_RETENTION_SETTING_06_V2"
+      ],
+      "example_id": "FULL_VA_KNW_035",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.754934932694384,
+        10.169148211293958,
+        9.310796179209433,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        8.506961518107165,
+        6.762350574081442
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_036",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.443185095931542,
+        10.443185095931542,
+        9.08939336844033,
+        9.08939336844033,
+        9.08939336844033,
+        9.08939336844033,
+        8.8361444677546,
+        7.036387458719023,
+        7.036387458719023,
+        7.036387458719023
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_037",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.644420746267725,
+        10.644420746267725,
+        9.266951083911454,
+        9.266951083911454,
+        9.266951083911454,
+        9.266951083911454,
+        9.007001033554484,
+        7.237623109055207,
+        7.237623109055207,
+        7.237623109055207
+      ]
+    },
+    {
+      "chunk_ids": [
+        "CHK_CUR_031_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_089_OBSE_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CMP_007_PROJ_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_008_STOR_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_010_BILL_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_011_CONF_ENDPOINT_BEHAVIOR_04",
+        "CHK_CMP_006_PERM_ENDPOINT_BEHAVIOR_04",
+        "CHK_CUR_001_AUTH_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_009_BILL_ENDPOINT_BEHAVIOR_04_V2",
+        "CHK_CUR_046_PROJ_ENDPOINT_BEHAVIOR_04_V2"
+      ],
+      "example_id": "FULL_VA_KNW_038",
+      "ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_eligible": true,
+      "scores": [
+        10.929904496941758,
+        10.929904496941758,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.302140772843666,
+        9.040862639548742,
+        7.523106859729241,
+        7.523106859729241,
+        7.523106859729241
+      ]
+    }
+  ],
+  "retrieval_artifact_hash": "50314ae20a94935c75546d0f4d90a8828ae7deaf6a880331a1bed88f2ef09dba",
+  "retrieval_run_id": "m4-validation-bm25-a0dc02c922ae487f",
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "source_results_hash": "c34eb20757c162998c121d332508ab70ee3d2c00e24e83ff4b3a5c7887a29ada"
+}

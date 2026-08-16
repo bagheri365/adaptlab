@@ -1,0 +1,15 @@
+{
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "cache_hit_count": 0,
+  "canonical_rag_config_hash": "b04ea1a8a18456724bb194264cfdce0807f9336995c622794b0002128fb98511",
+  "completed_successful_model_responses": 400,
+  "expected_count": 400,
+  "represented_count": 400,
+  "results_hash": "f63ea9803f9add33cb895ddb62a02b92ee47d90696355f8f0f11a537735728f0",
+  "retrieval_artifact_hash": "ae118a673508b33bf19799666ee8d97b958add832721f8b97e5e2f4401349c84",
+  "retrieval_run_id": "m4-primary-test-bm25-2c08bcdf03384d0b",
+  "run_id": "m4-primary-test-rag-f4d97a380dfed1ac",
+  "schema_version": "canonical-primary-rag-v1",
+  "unresolved_provider_failures": 0,
+  "valid": true
+}

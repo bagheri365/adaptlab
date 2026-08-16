@@ -228,3 +228,56 @@ def test_corrupted_cache_does_not_fall_back_to_provider(tmp_path):
             provider=second, prompt_config=PROMPT, output_dir=out, split=Split.validation, limit=1,
         )
     assert second.requests == []
+
+
+def make_rag_key(**overrides) -> InferenceCacheKey:
+    values = dict(
+        method=AdaptationMethod.RAG,
+        retrieval_run_id="m4-primary-test-bm25-test",
+        retrieval_artifact_hash="1" * 64,
+        retriever_config_hash="2" * 64,
+        retrieved_context_hash="3" * 64,
+    )
+    values.update(overrides)
+    return make_key(**values)
+
+
+def test_rag_cache_key_requires_retrieval_provenance():
+    with pytest.raises(ValueError, match="requires retrieval"):
+        make_key(method=AdaptationMethod.RAG)
+
+
+def test_same_rag_input_and_same_retrieval_artifact_hits_cache(tmp_path):
+    cache = ExactRequestCache(tmp_path / "cache")
+    key = make_rag_key()
+    response = ModelResponse(text="ALLOW")
+    cache.put(key, response)
+    assert cache.get(make_rag_key()) == response
+
+
+def test_changed_rag_retrieved_chunk_set_causes_cache_miss():
+    base = make_rag_key()
+    changed = make_rag_key(input_hash="4" * 64, retrieved_context_hash="5" * 64)
+    assert changed.request_hash != base.request_hash
+
+
+def test_changed_rag_retrieval_artifact_hash_causes_cache_miss():
+    base = make_rag_key()
+    changed = make_rag_key(retrieval_artifact_hash="6" * 64)
+    assert changed.request_hash != base.request_hash
+
+
+def test_corrected_rag_input_cannot_reuse_stale_rag_response(tmp_path):
+    cache = ExactRequestCache(tmp_path / "cache")
+    stale = make_rag_key(input_hash="7" * 64, retrieved_context_hash="8" * 64)
+    corrected = make_rag_key(input_hash="9" * 64, retrieved_context_hash="a" * 64)
+    cache.put(stale, ModelResponse(text="STALE"))
+    assert cache.get(corrected) is None
+
+
+def test_rag_scorer_only_change_preserves_raw_inference_identity():
+    key = make_rag_key()
+    first = ResultArtifactIdentity(key, "scorer-1", "normalizer-1")
+    rescored = ResultArtifactIdentity(key, "scorer-2", "normalizer-1")
+    assert first.inference == rescored.inference
+    assert first != rescored

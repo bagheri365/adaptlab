@@ -1,0 +1,17 @@
+{
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "candidate_all_required_gold_at_k": {
+    "1": 0.4107142857142857,
+    "10": 1.0,
+    "3": 0.8482142857142857,
+    "5": 0.8928571428571429
+  },
+  "corpus_hash": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+  "eligible_count": 112,
+  "example_count": 150,
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "run_id": "m4-validation-bm25-a0dc02c922ae487f",
+  "selected_top_k": 10,
+  "selection_decision_hash": "6778a51cd8929de375df587be79826f878f4b5ff095a6f2e536ddc7a06cdbdb8",
+  "split": "validation"
+}

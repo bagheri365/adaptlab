@@ -1,0 +1,27 @@
+{
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "benchmark_version": "0.0.0",
+  "completed_count": 400,
+  "corpus_hash": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+  "example_count": 400,
+  "git_commit_sha": "UNAVAILABLE_NO_GIT_METADATA",
+  "git_dirty": true,
+  "indexing_policy_hash": "4eaaa937d2fdc6bcb2e1ef945d2a22897b0c000b3f8e3f6467db75d1b44d3c04",
+  "indexing_policy_version": "retrieval-indexing-v1",
+  "metric_hashes": {},
+  "query_policy_hash": "e66900a5e743bcd9674f05c4e03fc6e6fa759466539fb949dd5ed65913f87216",
+  "query_policy_version": "retrieval-query-v1",
+  "result_hashes": {
+    "canonical": "1effa939b8035399ae411e23b941578d959ccc330f4fb5391ef8b9e490d03477"
+  },
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "retriever_name": "BM25",
+  "retriever_version": "bm25-v1",
+  "run_id": "m4-primary-test-bm25-2c08bcdf03384d0b",
+  "schema_version": "1",
+  "tokenization_policy_hash": "e51666ac6c82ccad95121bbb9474baadb87187e659ef632697c8aed5e94c7f03",
+  "tokenization_policy_version": "retrieval-tokenization-v1",
+  "top_k_values": [
+    10
+  ]
+}

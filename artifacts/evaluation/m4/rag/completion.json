@@ -1,0 +1,11 @@
+{
+  "completed_successful_model_responses": 400,
+  "expected_count": 400,
+  "represented_count": 400,
+  "run_id": "m4-primary-test-rag-f4d97a380dfed1ac",
+  "schema_version": "canonical-primary-rag-v1",
+  "status": "COMPLETED",
+  "timestamp": "2026-08-16T05:03:31.601766+00:00",
+  "unresolved_provider_failures": 0,
+  "valid": true
+}

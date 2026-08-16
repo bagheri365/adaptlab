@@ -1,0 +1,10 @@
+{
+  "case_normalization": "unicode_casefold",
+  "identifier_handling": "split_on_non_alphanumeric_boundaries; preserve contiguous unicode alphanumeric runs",
+  "punctuation_handling": "treat_as_token_boundary",
+  "stemming": "none",
+  "stopword_policy": "none",
+  "tie_break_policy": "equal_bm25_score_then_chunk_id_ascending",
+  "token_splitting": "maximal_unicode_alphanumeric_runs",
+  "version": "retrieval-tokenization-v1"
+}

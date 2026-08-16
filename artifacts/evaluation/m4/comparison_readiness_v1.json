@@ -1,0 +1,50 @@
+{
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "causal_controls": {
+    "artifact_path": "artifacts/evaluation/m4/causal_controls_v1.json",
+    "example_count": 400,
+    "passed": true
+  },
+  "conditions": {
+    "ORACLE_CONTEXT": {
+      "artifact_path": "artifacts/evaluation/m3/oracle_context",
+      "completed_successful_responses": 400,
+      "provider_error_count": 0,
+      "results_hash": "4aeeeab92cf229c58daea0c9dfad7ec9782242e81dd3e604d397714886788e53",
+      "run_id": "oracle_v2",
+      "status": "COMPLETED"
+    },
+    "PROMPT": {
+      "artifact_path": "artifacts/evaluation/m3/prompt",
+      "completed_successful_responses": 400,
+      "provider_error_count": 0,
+      "results_hash": "5055eb291ced4c8a039cb5eacebfee28c1138479a2e91d66e298bbfea5631e4e",
+      "run_id": "prompt",
+      "status": "COMPLETED"
+    },
+    "RAG": {
+      "artifact_path": "artifacts/evaluation/m4/rag",
+      "completed_successful_responses": 400,
+      "provider_error_count": 0,
+      "results_hash": "f63ea9803f9add33cb895ddb62a02b92ee47d90696355f8f0f11a537735728f0",
+      "run_id": "m4-primary-test-rag-f4d97a380dfed1ac",
+      "status": "COMPLETED"
+    },
+    "SENTINEL": {
+      "artifact_path": "artifacts/evaluation/m3/sentinel",
+      "completed_successful_responses": 100,
+      "provider_error_count": 0,
+      "results_hash": "b1de55611193e83d2ee2bcac9d7817f93ed395e487bc24b3eb999a38bedc17e3",
+      "run_id": "sentinel",
+      "status": "COMPLETED"
+    }
+  },
+  "generated_at": "2026-08-16T05:05:00+00:00",
+  "schema_version": "m4-comparison-readiness-v1",
+  "status": "M4_CANONICAL_COMPARISON_READY",
+  "validation": {
+    "all_conditions_complete": true,
+    "behavior_only_byte_identical": true,
+    "no_unresolved_provider_failures": true
+  }
+}

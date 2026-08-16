@@ -1,0 +1,22 @@
+{
+  "b": 0.75,
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "config_version": "canonical-bm25-v1",
+  "corpus_hash": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+  "indexing_policy_hash": "4eaaa937d2fdc6bcb2e1ef945d2a22897b0c000b3f8e3f6467db75d1b44d3c04",
+  "indexing_policy_version": "retrieval-indexing-v1",
+  "k1": 1.2,
+  "query_policy_hash": "e66900a5e743bcd9674f05c4e03fc6e6fa759466539fb949dd5ed65913f87216",
+  "query_policy_version": "retrieval-query-v1",
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "retriever_name": "BM25",
+  "retriever_version": "bm25-v1",
+  "selection_policy_hash": "c01c903f4221c04057fbd1be65525c91a3d0b5fe9c7a77d66156694e204e5596",
+  "selection_policy_version": "top-k-selection-v1",
+  "tie_break_policy": "equal_bm25_score_then_chunk_id_ascending",
+  "tokenization_policy_hash": "e51666ac6c82ccad95121bbb9474baadb87187e659ef632697c8aed5e94c7f03",
+  "tokenization_policy_version": "retrieval-tokenization-v1",
+  "top_k": 10,
+  "validation_retrieval_run_id": "m4-validation-bm25-a0dc02c922ae487f",
+  "validation_selection_decision_hash": "6778a51cd8929de375df587be79826f878f4b5ff095a6f2e536ddc7a06cdbdb8"
+}

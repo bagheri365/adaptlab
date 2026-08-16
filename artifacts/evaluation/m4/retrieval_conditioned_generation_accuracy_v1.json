@@ -1,0 +1,243 @@
+{
+  "answers": {
+    "primary_question_1": "When BM25 retrieves all required evidence, RAG is very close to Oracle: on the all-required-gold-plus-extra bucket, RAG is 206/251 (82.1%) and Oracle is 203/251 (80.9%), a +1.2 pp gap in RAG's favor.",
+    "primary_question_2": "Extra retrieved chunks do not show a mechanically established degradation signal here. All 251 all-required-gold-plus-extra cases had 9 extra chunks, and RAG is slightly above Oracle in aggregate on that bucket.",
+    "primary_question_3": "When BM25 retrieves no gold evidence, RAG is correct 5/9 times (55.6%). In the separate evidence-ABSENT slice, RAG is correct 39/40 times (97.5%) because the benchmark does not require a gold retrieval target there.",
+    "primary_question_4": "UPDATED looks dominated by shared residual behavior: RAG and Oracle are identical on the observed retrieval-conditioned subgroups. REMOVED is also mostly shared behavior, with only a small overall Oracle edge of 1 example and identical subgroup accuracies on the non-empty retrieval-conditioned buckets."
+  },
+  "groups": [
+    {
+      "category": "EXACT_ORACLE_GOLD_SET",
+      "n": 0,
+      "note": "Empty in the retrieval-eligible slice.",
+      "oracle_context_accuracy": null,
+      "oracle_context_correct": 0,
+      "oracle_wrong": 0,
+      "rag_accuracy": null,
+      "rag_correct": 0,
+      "rag_correct_oracle_wrong": 0,
+      "rag_minus_oracle_context": null,
+      "rag_wrong": 0,
+      "rag_wrong_oracle_correct": 0
+    },
+    {
+      "accuracy_by_extra_chunk_count": {
+        "9": {
+          "n": 251,
+          "oracle_context_accuracy": 0.8087649402390438,
+          "rag_accuracy": 0.8207171314741036,
+          "rag_minus_oracle_context": 0.011952191235059861
+        }
+      },
+      "category": "ALL_REQUIRED_GOLD_PLUS_EXTRA",
+      "exactly_1_extra_chunk": 0,
+      "extra_chunk_histogram": {
+        "9": 251
+      },
+      "gt_1_extra_chunk": 251,
+      "n": 251,
+      "oracle_context_accuracy": 0.8087649402390438,
+      "oracle_context_correct": 203,
+      "oracle_wrong": 48,
+      "rag_accuracy": 0.8207171314741036,
+      "rag_correct": 206,
+      "rag_correct_oracle_wrong": 7,
+      "rag_minus_oracle_context": 0.011952191235059861,
+      "rag_wrong": 45,
+      "rag_wrong_oracle_correct": 4
+    },
+    {
+      "category": "PARTIAL_GOLD",
+      "n": 0,
+      "note": "No partial-gold cases in the frozen canonical retrieval artifact.",
+      "oracle_context_accuracy": null,
+      "oracle_context_correct": 0,
+      "oracle_wrong": 0,
+      "rag_accuracy": null,
+      "rag_correct": 0,
+      "rag_correct_oracle_wrong": 0,
+      "rag_minus_oracle_context": null,
+      "rag_wrong": 0,
+      "rag_wrong_oracle_correct": 0
+    },
+    {
+      "category": "NO_GOLD",
+      "n": 9,
+      "oracle_context_accuracy": 0.5555555555555556,
+      "oracle_context_correct": 5,
+      "oracle_wrong": 4,
+      "rag_accuracy": 0.5555555555555556,
+      "rag_correct": 5,
+      "rag_correct_oracle_wrong": 0,
+      "rag_minus_oracle_context": 0.0,
+      "rag_wrong": 4,
+      "rag_wrong_oracle_correct": 0
+    },
+    {
+      "category": "EVIDENCE_ABSENT",
+      "n": 40,
+      "note": "No sufficient gold evidence exists by benchmark construction.",
+      "oracle_context_accuracy": 1.0,
+      "oracle_context_correct": 40,
+      "oracle_wrong": 0,
+      "rag_accuracy": 0.975,
+      "rag_correct": 39,
+      "rag_correct_oracle_wrong": 0,
+      "rag_minus_oracle_context": -0.025000000000000022,
+      "rag_wrong": 1,
+      "rag_wrong_oracle_correct": 1
+    }
+  ],
+  "inputs": {
+    "benchmark_test": "data/generated/v0.0/test.json",
+    "bm25_retrieval_results": "artifacts/retrieval/m4/primary_test_bm25_v1/results.json",
+    "comparison_readiness": "artifacts/evaluation/m4/comparison_readiness_v1.json",
+    "oracle_context_results": "artifacts/evaluation/m3/oracle_context/results.json",
+    "prompt_results": "artifacts/evaluation/m3/prompt/results.json",
+    "rag_results": "artifacts/evaluation/m4/rag/results.json"
+  },
+  "partition": {
+    "definition": "Retrieval-eligible primary-test examples only; behavior_only examples are excluded from this partition.",
+    "evidence_absent_n": 40,
+    "exact_oracle_gold_set_n": 0,
+    "no_gold_n": 9,
+    "partial_gold_n": 0,
+    "retrieval_eligible_primary_test_n": 300
+  },
+  "removed": {
+    "n": 30,
+    "oracle_context_accuracy": 0.4666666666666667,
+    "oracle_context_correct": 14,
+    "oracle_wrong": 16,
+    "rag_accuracy": 0.43333333333333335,
+    "rag_correct": 13,
+    "rag_minus_oracle_context": -0.033333333333333326,
+    "rag_wrong": 17,
+    "retrieval_condition_breakdown": {
+      "all_required_gold_plus_extra": {
+        "n": 16,
+        "oracle_context_accuracy": 0.25,
+        "oracle_context_correct": 4,
+        "oracle_wrong": 12,
+        "rag_accuracy": 0.25,
+        "rag_correct": 4,
+        "rag_minus_oracle_context": 0.0,
+        "rag_wrong": 12
+      },
+      "evidence_absent": {
+        "n": 10,
+        "oracle_context_accuracy": 1.0,
+        "oracle_context_correct": 10,
+        "oracle_wrong": 0,
+        "rag_accuracy": 0.9,
+        "rag_correct": 9,
+        "rag_minus_oracle_context": -0.09999999999999998,
+        "rag_wrong": 1
+      },
+      "no_gold": {
+        "n": 4,
+        "oracle_context_accuracy": 0.0,
+        "oracle_context_correct": 0,
+        "oracle_wrong": 4,
+        "rag_accuracy": 0.0,
+        "rag_correct": 0,
+        "rag_minus_oracle_context": 0.0,
+        "rag_wrong": 4
+      }
+    }
+  },
+  "schema_version": "m4-retrieval-conditioned-generation-accuracy-v1",
+  "status": "complete",
+  "updated": {
+    "n": 40,
+    "oracle_context_accuracy": 0.875,
+    "oracle_context_correct": 35,
+    "oracle_wrong": 5,
+    "rag_accuracy": 0.875,
+    "rag_correct": 35,
+    "rag_minus_oracle_context": 0.0,
+    "rag_wrong": 5,
+    "retrieval_condition_breakdown": {
+      "all_required_gold_plus_extra": {
+        "n": 37,
+        "oracle_context_accuracy": 0.8648648648648649,
+        "oracle_context_correct": 32,
+        "oracle_wrong": 5,
+        "rag_accuracy": 0.8648648648648649,
+        "rag_correct": 32,
+        "rag_minus_oracle_context": 0.0,
+        "rag_wrong": 5
+      },
+      "evidence_absent": {
+        "n": 0,
+        "oracle_context_accuracy": null,
+        "oracle_context_correct": 0,
+        "oracle_wrong": 0,
+        "rag_accuracy": null,
+        "rag_correct": 0,
+        "rag_minus_oracle_context": null,
+        "rag_wrong": 0
+      },
+      "no_gold": {
+        "n": 3,
+        "oracle_context_accuracy": 1.0,
+        "oracle_context_correct": 3,
+        "oracle_wrong": 0,
+        "rag_accuracy": 1.0,
+        "rag_correct": 3,
+        "rag_minus_oracle_context": 0.0,
+        "rag_wrong": 0
+      }
+    }
+  },
+  "wrong_version": {
+    "current_gold_absent": {
+      "n": 7,
+      "oracle_context_accuracy": 0.42857142857142855,
+      "oracle_context_correct": 3,
+      "oracle_wrong": 4,
+      "rag_accuracy": 0.42857142857142855,
+      "rag_correct": 3,
+      "rag_minus_oracle_context": 0.0,
+      "rag_wrong": 4
+    },
+    "current_gold_present": {
+      "n": 32,
+      "oracle_context_accuracy": 0.65625,
+      "oracle_context_correct": 21,
+      "oracle_wrong": 11,
+      "rag_accuracy": 0.65625,
+      "rag_correct": 21,
+      "rag_minus_oracle_context": 0.0,
+      "rag_wrong": 11
+    },
+    "current_plus_obsolete": {
+      "n": 32,
+      "oracle_context_accuracy": 0.65625,
+      "oracle_context_correct": 21,
+      "oracle_wrong": 11,
+      "rag_accuracy": 0.65625,
+      "rag_correct": 21,
+      "rag_minus_oracle_context": 0.0,
+      "rag_wrong": 11
+    },
+    "n": 39,
+    "obsolete_only": {
+      "n": 7,
+      "oracle_context_accuracy": 0.42857142857142855,
+      "oracle_context_correct": 3,
+      "oracle_wrong": 4,
+      "rag_accuracy": 0.42857142857142855,
+      "rag_correct": 3,
+      "rag_minus_oracle_context": 0.0,
+      "rag_wrong": 4
+    },
+    "oracle_context_accuracy": 0.6153846153846154,
+    "oracle_context_correct": 24,
+    "oracle_wrong": 15,
+    "rag_accuracy": 0.6153846153846154,
+    "rag_correct": 24,
+    "rag_minus_oracle_context": 0.0,
+    "rag_wrong": 15
+  }
+}

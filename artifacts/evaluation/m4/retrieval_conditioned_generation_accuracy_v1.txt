@@ -1,0 +1,18 @@
+OBSERVATION
+- Retrieval-eligible primary-test examples partition as follows: exact Oracle gold set 0, all-required-gold-plus-extra 251, partial gold 0, no gold 9, evidence absent 40.
+- In the only non-empty all-required-gold bucket, RAG is 206/251 (82.1%) and Oracle is 203/251 (80.9%), so RAG is within 1.2 percentage points of Oracle.
+- The all-required-gold-plus-extra bucket contains 251 examples with exactly 9 extra chunks each; there are no one-extra-chunk cases to stratify separately.
+- Wrong-version cases are 39 total: 21/32 when current gold is also present, 3/7 when current gold is absent; 3/7 are obsolete-only and 21/32 are current+obsolete.
+- UPDATED is 35/40 for both RAG and Oracle; REMOVED is 13/30 for RAG and 14/30 for Oracle.
+- In the evidence-ABSENT slice, RAG is 39/40 and Oracle is 40/40.
+
+INTERPRETATION
+- When BM25 retrieves all required evidence, the canonical RAG run is close to the gold-evidence condition and slightly above Oracle on this frozen bundle, which is consistent with a small remaining generation/reasoning gap rather than a large retrieval gap.
+- The extra-chunk bucket does not show a clear degradation signal relative to Oracle in the aggregate; the frozen artifacts do not establish distractor causality.
+- No-gold retrieval still leaves a meaningful gap: 5/9 correct is materially below the all-required-gold condition, while evidence-ABSENT is mostly correct because that slice has no retrieval target.
+- UPDATED and REMOVED do not separate cleanly into retrieval-only failures; RAG and Oracle track one another closely on the observed retrieval-conditioned subgroups, so the remaining errors are mostly shared residual behavior with a small slice-specific Oracle edge in REMOVED.
+
+LIMITATION
+- This artifact is derived only from frozen PROMPT, RAG, ORACLE_CONTEXT, benchmark, and BM25 retrieval outputs; it does not rerun inference, retrieval, scoring, normalization, or model configuration.
+- The exact Oracle gold set bucket is empty after excluding behavior_only examples, so there is no nontrivial retrieval-eligible exact-match comparison in this canonical primary-test slice.
+- The artifacts do not justify claims about distractor causality, dense retrieval performance, LoRA benefit, or cross-model generality.

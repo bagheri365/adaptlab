@@ -1,0 +1,38 @@
+{
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "benchmark_version": "0.0.0",
+  "completed_count": 150,
+  "corpus_hash": "35433cbaa0ee01352d06f91528e49bdbb81be1638582838d58ca7db18a505f54",
+  "example_count": 150,
+  "git_commit_sha": "UNAVAILABLE_NO_GIT_METADATA",
+  "git_dirty": true,
+  "indexing_policy_hash": "4eaaa937d2fdc6bcb2e1ef945d2a22897b0c000b3f8e3f6467db75d1b44d3c04",
+  "indexing_policy_version": "retrieval-indexing-v1",
+  "metric_hashes": {
+    "k1": "a88f845fd45d28a2788e07ba821aa42cfafe6e08cc96bca91734ca50dbc27620",
+    "k10": "e19333080a5370c856e6573514603b56b5b5c2ecfd202be43746a8f4d0091da6",
+    "k3": "425f44fd2d949a54f7a28fc8dd0a02e3a457711cbd346a9c2977ea855cd8bd2d",
+    "k5": "4026a08fb9bd0752d77be2e0492fdd679d98b629e9f0ac23e0e4274df33e5c2c"
+  },
+  "query_policy_hash": "e66900a5e743bcd9674f05c4e03fc6e6fa759466539fb949dd5ed65913f87216",
+  "query_policy_version": "retrieval-query-v1",
+  "result_hashes": {
+    "k1": "a388ffb867532c051a5f6e8e3f2ce037d73d8477d26ac8b3c87673c26ce8213f",
+    "k10": "c34eb20757c162998c121d332508ab70ee3d2c00e24e83ff4b3a5c7887a29ada",
+    "k3": "116f597d165fa2a5ab78566b65f8ec7b50405d6d18009b14de1e80ce41b21ae8",
+    "k5": "e2e8ea35b13c83809ae041cb528205758b313d12dc5428bf063ab78bb144e0ea"
+  },
+  "retriever_config_hash": "388b21fb66f05b21662388bfe05cd8db42e3c1195184e0e582d2b967f874fd1a",
+  "retriever_name": "BM25",
+  "retriever_version": "bm25-v1",
+  "run_id": "m4-validation-bm25-a0dc02c922ae487f",
+  "schema_version": "1",
+  "tokenization_policy_hash": "e51666ac6c82ccad95121bbb9474baadb87187e659ef632697c8aed5e94c7f03",
+  "tokenization_policy_version": "retrieval-tokenization-v1",
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ]
+}
