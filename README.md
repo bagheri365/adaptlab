@@ -20,6 +20,10 @@ The project rule is simple:
 
 Detailed M5b evidence: [`artifacts/evaluation/m5/M5B_RESULTS.md`](artifacts/evaluation/m5/M5B_RESULTS.md)
 
+<p align="center">
+  <img src="docs/figures/m5b_overall_accuracy.png" width="720" alt="M5b overall primary accuracy">
+</p>
+
 ## Why This Project Exists
 
 LLM systems are often adapted in several places at once:
@@ -48,6 +52,10 @@ The controlled M5b experiment isolates two major mechanisms in a 2x2 design:
 A separate oracle-context condition was used earlier as a diagnostic for missing-information failures.
 
 ## Key Findings
+
+<p align="center">
+  <img src="docs/figures/m5b_family_accuracy.png" width="900" alt="M5b accuracy by task family">
+</p>
 
 ### Controlled M5b Primary Result
 
