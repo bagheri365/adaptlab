@@ -16,7 +16,7 @@ The project rule is simple:
 - **Best M5b system:** LoRA + RAG at **71.0%**
 - **Main pattern:** LoRA is strongest for behavioral compliance; retrieval is critical for external and changed knowledge
 - **Important exception:** on behavior+knowledge, LoRA + RAG does not beat RAG alone
-- **Final robustness split:** 100-example sentinel remains untouched
+- **Additional holdout:** the 100-example sentinel was previously evaluated in M3 and is not a pristine first-look confirmatory set
 
 Detailed M5b evidence: [`artifacts/evaluation/m5/M5B_RESULTS.md`](artifacts/evaluation/m5/M5B_RESULTS.md)
 
@@ -198,7 +198,7 @@ The benchmark also includes:
 
 The benchmark and primary split are frozen.
 
-The sentinel split remains untouched.
+The sentinel split was previously evaluated under the historical M3 PROMPT runtime and is therefore treated as a cross-milestone robustness set rather than an untouched confirmatory set.
 
 ## Research Evolution
 
@@ -374,7 +374,7 @@ M5b is therefore a **post-hoc corrected protocol**, not a pristine preregistered
 
 That limitation is explicit rather than hidden.
 
-The sentinel remains untouched and provides a possible final confirmatory evaluation.
+The sentinel was previously evaluated in M3. A future M5b evaluation may still provide frozen-protocol robustness evidence, but not pristine first-look confirmation.
 
 ## Limitations
 
@@ -406,7 +406,7 @@ A working design hypothesis from AdaptLab is:
 
 ## Future Research
 
-- run the untouched sentinel only under a frozen final protocol
+- evaluate the previously used sentinel only as a frozen-protocol robustness check
 - investigate behavior+knowledge interference
 - compare stronger retrieval methods
 - replicate M5b across additional base models
