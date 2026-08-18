@@ -1,0 +1,2101 @@
+{
+  "allowed_candidate_dimensions": {
+    "learning_rates": [
+      5e-06,
+      1e-05,
+      2e-05
+    ],
+    "ranks": [
+      4,
+      8,
+      16
+    ],
+    "target_policies": [
+      "POLICY_A_QV",
+      "POLICY_B_ATTN",
+      "POLICY_C_ATTN_MLP"
+    ],
+    "training_durations": [
+      250,
+      500,
+      1000
+    ]
+  },
+  "batching_policy": {
+    "applies_to_all_candidates": true,
+    "effective_batch_size": 8,
+    "gradient_accumulation_steps": 8,
+    "micro_batch_size": 1
+  },
+  "candidate_trainable_parameter_tables": {
+    "POLICY_A_QV": [
+      {
+        "adapter_parameter_count": 1916928,
+        "alpha": 8,
+        "dropout": 0.0,
+        "rank": 4,
+        "trainable_percentage_of_total_model_parameters": 0.023403612932746495
+      },
+      {
+        "adapter_parameter_count": 3833856,
+        "alpha": 16,
+        "dropout": 0.0,
+        "rank": 8,
+        "trainable_percentage_of_total_model_parameters": 0.04680722586549299
+      },
+      {
+        "adapter_parameter_count": 7667712,
+        "alpha": 32,
+        "dropout": 0.0,
+        "rank": 16,
+        "trainable_percentage_of_total_model_parameters": 0.09361445173098598
+      }
+    ],
+    "POLICY_B_ATTN": [
+      {
+        "adapter_parameter_count": 3833856,
+        "alpha": 8,
+        "dropout": 0.0,
+        "rank": 4,
+        "trainable_percentage_of_total_model_parameters": 0.04680722586549299
+      },
+      {
+        "adapter_parameter_count": 7667712,
+        "alpha": 16,
+        "dropout": 0.0,
+        "rank": 8,
+        "trainable_percentage_of_total_model_parameters": 0.09361445173098598
+      },
+      {
+        "adapter_parameter_count": 15335424,
+        "alpha": 32,
+        "dropout": 0.0,
+        "rank": 16,
+        "trainable_percentage_of_total_model_parameters": 0.18722890346197196
+      }
+    ],
+    "POLICY_C_ATTN_MLP": [
+      {
+        "adapter_parameter_count": 10911744,
+        "alpha": 8,
+        "dropout": 0.0,
+        "rank": 4,
+        "trainable_percentage_of_total_model_parameters": 0.13322056592486464
+      },
+      {
+        "adapter_parameter_count": 21823488,
+        "alpha": 16,
+        "dropout": 0.0,
+        "rank": 8,
+        "trainable_percentage_of_total_model_parameters": 0.2664411318497293
+      },
+      {
+        "adapter_parameter_count": 43646976,
+        "alpha": 32,
+        "dropout": 0.0,
+        "rank": 16,
+        "trainable_percentage_of_total_model_parameters": 0.5328822636994586
+      }
+    ]
+  },
+  "canonical_training_defaults": {
+    "alpha": 16,
+    "candidate_id": "POLICY_B_ATTN_r8_lr1e-05_iters500",
+    "covered_layer_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "dropout": 0.0,
+    "layer_coverage_mode": "all_36_transformer_blocks",
+    "learning_rate": 1e-05,
+    "num_layers": 36,
+    "rank": 8,
+    "selected_checkpoint_step": 500,
+    "target_modules": [
+      "model.layers.{i}.self_attn.q_proj",
+      "model.layers.{i}.self_attn.k_proj",
+      "model.layers.{i}.self_attn.v_proj",
+      "model.layers.{i}.self_attn.o_proj"
+    ],
+    "target_policy": "POLICY_B_ATTN",
+    "trainable_parameter_count": 7667712,
+    "trainable_percentage_of_total_model_parameters": 0.09361445173098598,
+    "training_duration_iters": 500
+  },
+  "checkpoint_policy": {
+    "adapter_artifact_format": [
+      "adapters.safetensors",
+      "adapter_config.json",
+      "{step:07d}_adapters.safetensors"
+    ],
+    "final_checkpoint_handling": "always_save_final_adapter_and_keep_predeclared_intermediate_checkpoints",
+    "maximum_retained_checkpoints": 10,
+    "predeclared_duration_checkpoint_candidates": [
+      {
+        "eligible_checkpoint_steps": [
+          100,
+          200,
+          250
+        ],
+        "iters": 250
+      },
+      {
+        "eligible_checkpoint_steps": [
+          100,
+          200,
+          300,
+          400,
+          500
+        ],
+        "iters": 500
+      },
+      {
+        "eligible_checkpoint_steps": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000
+        ],
+        "iters": 1000
+      }
+    ],
+    "save_every": 100
+  },
+  "config_hash": "4eaa4e003deb7e7d601934fa8bf8a8689b17292b99c6eb9f545978a38735177d",
+  "default_candidate_provenance": {
+    "alpha": 16,
+    "dropout": 0.0,
+    "learning_rate": 1e-05,
+    "rank": 8,
+    "selected_checkpoint_step": 500,
+    "target_modules": [
+      "model.layers.{i}.self_attn.q_proj",
+      "model.layers.{i}.self_attn.k_proj",
+      "model.layers.{i}.self_attn.v_proj",
+      "model.layers.{i}.self_attn.o_proj"
+    ],
+    "target_policy": "POLICY_B_ATTN",
+    "trainable_parameter_count": 7667712,
+    "trainable_percentage": 0.09361445173098598,
+    "training_duration_iters": 500
+  },
+  "frozen_inputs": {
+    "base_quantization": {
+      "bits": 4,
+      "group_size": 64,
+      "mode": "affine"
+    },
+    "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+    "benchmark_train_split_hash": "c2f49ea90cd171089fb7aa50b503d0d738c5471ea9cd8808d06fd0f02aec908f",
+    "experimental_contract_hash": "c76338ba9b9995d2ad819135fb821fa6b51243fecf0b074deae4180c295c3953",
+    "lora_policy_hash": "04d7f0eac2b9a735cdf5f8276335d9498845f2c68793edcfaac9e6f454cdc552",
+    "module_inspection_hash": "63c3c9995162c077950a0373dff346d5622cb525b68e961933f90f958d19eab0",
+    "runtime_versions": {
+      "machine_architecture": "arm64",
+      "macos_version": "26.5.2",
+      "mlx_lm_version": "0.31.3",
+      "mlx_version": "0.32.0",
+      "python_version": "3.12.13"
+    },
+    "source_lineage": {
+      "canonical_mlx_base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "canonical_mlx_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "canonical_mlx_semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "repository": "Qwen/Qwen3-8B-Base",
+      "revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+      "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397",
+      "tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df"
+    },
+    "tokenizer_identity": {
+      "chat_template_present": true,
+      "chat_template_sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+      "class": "Qwen2Tokenizer"
+    },
+    "training_example_ids_hash": "2e5b3bbb1d8a448e54df2b43d6bb5c5e9bfef2812b94e08c1091950a37e22e8c",
+    "training_formatter_hash": "b7eefc912755d029d59d2b075b757111cd0c4910d15886f9befbac060b2cfb46",
+    "training_isolation_audit_hash": "d189b5aca1d682b951f9997518a3d552b41c6cde80530a5087701a61a6e20878"
+  },
+  "gate": "M5_LORA_TRAINING_CONFIG_READY",
+  "numeric_and_gradient_policy": {
+    "base_representation": {
+      "container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "quantization": {
+        "bits": 4,
+        "group_size": 64,
+        "mode": "affine"
+      },
+      "semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27"
+    },
+    "gradient_checkpointing": false,
+    "gradient_clipping": null,
+    "precision": {
+      "adapter_dtype": "float32",
+      "base_representation": "quantized_q4_affine_g64",
+      "optimizer_state_dtype": "float32"
+    },
+    "seed_policy": {
+      "canonical_seed": 1729,
+      "data_order_seed": 1729,
+      "framework_rng_seed": 1729,
+      "numpy_rng_seed": 1729,
+      "parameter_initialization_seed": 1729
+    }
+  },
+  "optimizer_policy": {
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 1e-08,
+    "family": "adamw",
+    "framework_default_note": "Matches mlx.optimizers.AdamW defaults in the frozen MLX package.",
+    "weight_decay": 0.01
+  },
+  "provenance_drift_examples": {
+    "wrong_dropout": "reject",
+    "wrong_formatter_hash": "reject",
+    "wrong_layer_coverage": "reject",
+    "wrong_mlx_base_hash": "reject",
+    "wrong_optimizer": "reject",
+    "wrong_scheduler": "reject",
+    "wrong_seed": "reject",
+    "wrong_source_revision": "reject",
+    "wrong_target_policy_definition": "reject"
+  },
+  "provenance_validation_policy": {
+    "frozen_fields": {
+      "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+      "benchmark_train_split_hash": "c2f49ea90cd171089fb7aa50b503d0d738c5471ea9cd8808d06fd0f02aec908f",
+      "dropout": 0.0,
+      "effective_batch_size": 8,
+      "experimental_contract_hash": "87dae4d0b51572519f5b82158ef73c2832d8e09c035b0a7e5f1aaa17cb9d5e47",
+      "gradient_accumulation_steps": 8,
+      "gradient_checkpointing": false,
+      "gradient_clipping": null,
+      "layer_coverage": {
+        "covered_layer_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "layer_coverage_mode": "all_36_transformer_blocks",
+        "num_layers": 36
+      },
+      "lora_policy_hash": "e0a7cfe5d402150cb0744a6d638e1d03a592f2fa8390fdee890ec96eda272607",
+      "max_sequence_length": 128,
+      "micro_batch_size": 1,
+      "mlx_base_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "mlx_base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "mlx_base_semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "module_inspection_hash": "63c3c9995162c077950a0373dff346d5622cb525b68e961933f90f958d19eab0",
+      "optimizer": "adamw",
+      "optimizer_hyperparameters": {
+        "beta1": 0.9,
+        "beta2": 0.999,
+        "epsilon": 1e-08
+      },
+      "scheduler": "constant",
+      "seed": 1729,
+      "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397",
+      "source_repository": "Qwen/Qwen3-8B-Base",
+      "source_revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+      "tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df",
+      "training_example_ids_hash": "2e5b3bbb1d8a448e54df2b43d6bb5c5e9bfef2812b94e08c1091950a37e22e8c",
+      "training_formatter_hash": "b7eefc912755d029d59d2b075b757111cd0c4910d15886f9befbac060b2cfb46",
+      "training_isolation_audit_hash": "d189b5aca1d682b951f9997518a3d552b41c6cde80530a5087701a61a6e20878",
+      "warmup": {
+        "ratio": null,
+        "steps": 0
+      },
+      "weight_decay": 0.01
+    },
+    "frozen_layer_coverage": {
+      "covered_layer_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "layer_coverage_mode": "all_36_transformer_blocks",
+      "num_layers": 36
+    },
+    "reject_on_non_search_field_drift": true,
+    "reject_on_unexpected_fields": true,
+    "target_policy_to_modules": {
+      "POLICY_A_QV": [
+        "model.layers.{i}.self_attn.q_proj",
+        "model.layers.{i}.self_attn.v_proj"
+      ],
+      "POLICY_B_ATTN": [
+        "model.layers.{i}.self_attn.q_proj",
+        "model.layers.{i}.self_attn.k_proj",
+        "model.layers.{i}.self_attn.v_proj",
+        "model.layers.{i}.self_attn.o_proj"
+      ],
+      "POLICY_C_ATTN_MLP": [
+        "model.layers.{i}.self_attn.q_proj",
+        "model.layers.{i}.self_attn.k_proj",
+        "model.layers.{i}.self_attn.v_proj",
+        "model.layers.{i}.self_attn.o_proj",
+        "model.layers.{i}.mlp.gate_proj",
+        "model.layers.{i}.mlp.up_proj",
+        "model.layers.{i}.mlp.down_proj"
+      ]
+    },
+    "whitelisted_search_fields": {
+      "learning_rate": [
+        5e-06,
+        1e-05,
+        2e-05
+      ],
+      "rank": [
+        4,
+        8,
+        16
+      ],
+      "selected_checkpoint_step": [
+        100,
+        200,
+        250,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000
+      ],
+      "target_policy": [
+        "POLICY_A_QV",
+        "POLICY_B_ATTN",
+        "POLICY_C_ATTN_MLP"
+      ],
+      "training_duration_iters": [
+        250,
+        500,
+        1000
+      ]
+    }
+  },
+  "scheduler_policy": {
+    "framework_default_note": "mlx_lm.lora uses a constant LR when lr_schedule is omitted.",
+    "minimum_learning_rate_policy": "not_applicable_constant_schedule",
+    "type": "constant",
+    "warmup_policy": "none",
+    "warmup_ratio": null,
+    "warmup_steps": 0
+  },
+  "schema_version": "m5-lora-training-config-artifact-v2",
+  "sequence_length_policy": {
+    "assistant_target_truncations": 0,
+    "chat_template_sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+    "max_sequence_length": 128,
+    "token_length_audit_method": "Frozen tokenizer + frozen chat template over all 300 TRAIN examples",
+    "token_length_distribution": {
+      "assistant_target_maximum": 20,
+      "assistant_target_median": 8.0,
+      "assistant_target_minimum": 7,
+      "max_sequence_length": 128,
+      "maximum": 109,
+      "median": 93.0,
+      "minimum": 81,
+      "p90": 99.1,
+      "p95": 102.0,
+      "p99": 106.01,
+      "truncated_assistant_targets": 0,
+      "truncated_training_records": 0
+    },
+    "tokenizer_identity": {
+      "chat_template_present": true,
+      "chat_template_sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+      "class": "Qwen2Tokenizer"
+    },
+    "training_record_truncations": 0
+  },
+  "training_config_version": "m5-lora-training-config-v2",
+  "training_data_audit": [
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_001",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_002",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_003",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_004",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_005",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_006",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_007",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_008",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_009",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_010",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_011",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_012",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_013",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_014",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_015",
+      "full_length": 98
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_016",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_017",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_BHV_018",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_019",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_020",
+      "full_length": 98
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_021",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_022",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_BHV_023",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_024",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_025",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_026",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_027",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_028",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_029",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_030",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_031",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_032",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_033",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_034",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_035",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_036",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_037",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_038",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_039",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_040",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_041",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_042",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_043",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_044",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_045",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_046",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_047",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_048",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_049",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_050",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_051",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_052",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_053",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_054",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_055",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_056",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_057",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_058",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_059",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_060",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_061",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_062",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_063",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_064",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_065",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_066",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_067",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_068",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_069",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_070",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BHV_071",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_072",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 15,
+      "example_id": "FULL_TR_BHV_073",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BHV_074",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 10,
+      "example_id": "FULL_TR_BHV_075",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_001",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_002",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_003",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 11,
+      "example_id": "FULL_TR_BKN_004",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_005",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BKN_006",
+      "full_length": 106
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_007",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_008",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 20,
+      "example_id": "FULL_TR_BKN_009",
+      "full_length": 104
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BKN_010",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_011",
+      "full_length": 98
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_012",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_013",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 11,
+      "example_id": "FULL_TR_BKN_014",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_015",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_016",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_017",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_018",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_019",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_020",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_021",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_022",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_023",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 11,
+      "example_id": "FULL_TR_BKN_024",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_025",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_026",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_027",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_028",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_029",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_030",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_031",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_032",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_033",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_034",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_035",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_BKN_036",
+      "full_length": 104
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_037",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_038",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 18,
+      "example_id": "FULL_TR_BKN_039",
+      "full_length": 102
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_BKN_040",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BKN_041",
+      "full_length": 106
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_042",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_043",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 20,
+      "example_id": "FULL_TR_BKN_044",
+      "full_length": 104
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BKN_045",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_046",
+      "full_length": 98
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_047",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_048",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 11,
+      "example_id": "FULL_TR_BKN_049",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_050",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_051",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_052",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_053",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_054",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_055",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_056",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_057",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_058",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 11,
+      "example_id": "FULL_TR_BKN_059",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_060",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_061",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_062",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_063",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 11,
+      "example_id": "FULL_TR_BKN_064",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_065",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_066",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_067",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_068",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_069",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_BKN_070",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_071",
+      "full_length": 102
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_072",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_BKN_073",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_BKN_074",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_BKN_075",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_001",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_002",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_003",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_004",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_005",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_006",
+      "full_length": 103
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_007",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_008",
+      "full_length": 103
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_009",
+      "full_length": 109
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_010",
+      "full_length": 101
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_011",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_012",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_013",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_014",
+      "full_length": 101
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_015",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_016",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_017",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_018",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_019",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_020",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_021",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_022",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_023",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_024",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_025",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_026",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_027",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_028",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_029",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_030",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_031",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_032",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_033",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_034",
+      "full_length": 102
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_035",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_CHG_036",
+      "full_length": 101
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_CHG_037",
+      "full_length": 98
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_CHG_038",
+      "full_length": 101
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_CHG_039",
+      "full_length": 107
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_CHG_040",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_041",
+      "full_length": 103
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_042",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_043",
+      "full_length": 103
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_044",
+      "full_length": 109
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_CHG_045",
+      "full_length": 101
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_046",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_047",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_048",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_049",
+      "full_length": 101
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_050",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_051",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_052",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_053",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_054",
+      "full_length": 100
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_055",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_056",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_057",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_058",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_059",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_060",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_061",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_062",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_063",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_064",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_CHG_065",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_066",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_067",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_068",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_069",
+      "full_length": 102
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_CHG_070",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_CHG_071",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_CHG_072",
+      "full_length": 96
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_CHG_073",
+      "full_length": 99
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_CHG_074",
+      "full_length": 105
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_CHG_075",
+      "full_length": 97
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_001",
+      "full_length": 86
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_002",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_003",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_004",
+      "full_length": 83
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_005",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_006",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_007",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_008",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_009",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_010",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_011",
+      "full_length": 87
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_012",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_013",
+      "full_length": 83
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_014",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_015",
+      "full_length": 86
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_016",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_017",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_018",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_019",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_020",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_021",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_022",
+      "full_length": 83
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_023",
+      "full_length": 81
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_024",
+      "full_length": 81
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_025",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_026",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_027",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_028",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_029",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_030",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_031",
+      "full_length": 88
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_032",
+      "full_length": 86
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_033",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_034",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_035",
+      "full_length": 87
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_KNW_036",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_KNW_037",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_KNW_038",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_KNW_039",
+      "full_length": 90
+    },
+    {
+      "assistant_target_length": 14,
+      "example_id": "FULL_TR_KNW_040",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_041",
+      "full_length": 95
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_042",
+      "full_length": 93
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_043",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_044",
+      "full_length": 92
+    },
+    {
+      "assistant_target_length": 16,
+      "example_id": "FULL_TR_KNW_045",
+      "full_length": 94
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_046",
+      "full_length": 87
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_047",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_048",
+      "full_length": 83
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_049",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_050",
+      "full_length": 86
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_051",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_052",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_053",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_054",
+      "full_length": 82
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_055",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_056",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_057",
+      "full_length": 83
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_058",
+      "full_length": 81
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_059",
+      "full_length": 81
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_060",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_061",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_062",
+      "full_length": 83
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_063",
+      "full_length": 81
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_064",
+      "full_length": 81
+    },
+    {
+      "assistant_target_length": 7,
+      "example_id": "FULL_TR_KNW_065",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_066",
+      "full_length": 88
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_067",
+      "full_length": 86
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_068",
+      "full_length": 84
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_069",
+      "full_length": 85
+    },
+    {
+      "assistant_target_length": 8,
+      "example_id": "FULL_TR_KNW_070",
+      "full_length": 87
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_KNW_071",
+      "full_length": 91
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_KNW_072",
+      "full_length": 89
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_KNW_073",
+      "full_length": 87
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_KNW_074",
+      "full_length": 88
+    },
+    {
+      "assistant_target_length": 12,
+      "example_id": "FULL_TR_KNW_075",
+      "full_length": 90
+    }
+  ],
+  "training_data_provenance": {
+    "training_data_hash": "3a7115564d5e49a158b704208b51cf3b1f34b7b130e567eefcc4d9b99e4287f0",
+    "training_example_count": 300,
+    "training_example_ids_hash": "2e5b3bbb1d8a448e54df2b43d6bb5c5e9bfef2812b94e08c1091950a37e22e8c",
+    "training_examples_preview": [
+      "FULL_TR_BHV_001",
+      "FULL_TR_BHV_002",
+      "FULL_TR_BHV_003",
+      "FULL_TR_BHV_004",
+      "FULL_TR_BHV_005"
+    ],
+    "training_examples_source": "frozen TRAIN split only; ordered by example_id"
+  },
+  "training_manifest_schema": {
+    "optional_observational_fields": [
+      "start_runtime_timestamp",
+      "end_runtime_timestamp",
+      "training_duration_seconds",
+      "peak_memory_gb"
+    ],
+    "required_fields": [
+      "run_id",
+      "candidate_id",
+      "starting_git_commit",
+      "experimental_contract_hash",
+      "training_isolation_audit_hash",
+      "training_formatter_hash",
+      "lora_policy_hash",
+      "module_inspection_hash",
+      "benchmark_manifest_hash",
+      "benchmark_train_split_hash",
+      "source_repository",
+      "source_revision",
+      "source_manifest_hash",
+      "mlx_base_identity_hash",
+      "tokenizer_identity",
+      "chat_template_identity",
+      "framework_versions",
+      "python_version",
+      "macos_version",
+      "machine_architecture",
+      "target_policy",
+      "target_modules",
+      "layer_coverage",
+      "rank",
+      "alpha",
+      "dropout",
+      "total_parameter_count",
+      "trainable_parameter_count",
+      "trainable_percentage",
+      "optimizer",
+      "optimizer_hyperparameters",
+      "learning_rate",
+      "weight_decay",
+      "scheduler",
+      "warmup",
+      "seed",
+      "gradient_checkpointing",
+      "gradient_clipping",
+      "micro_batch_size",
+      "gradient_accumulation_steps",
+      "effective_batch_size",
+      "max_sequence_length",
+      "truncation_audit",
+      "training_examples",
+      "training_example_ids_hash",
+      "training_data_hash",
+      "training_duration_iters",
+      "selected_checkpoint_step",
+      "checkpoint_policy",
+      "adapter_output_path",
+      "adapter_file_manifest",
+      "adapter_sha256",
+      "completion_status",
+      "failure_status",
+      "failure_reason"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "m5b-primary-paired-analysis-v1",
+  "primary_example_count": 400,
+  "primary_summary_file_sha256": "a90ffd1fbfd3ee261af1ec008f2de17ef355041ffaa0d28f779dc574ebdb94a0",
+  "overall_comparisons": {
+    "PROMPT_TO_RAG": {
+      "from_accuracy": 0.185,
+      "to_accuracy": 0.5125,
+      "delta": 0.32749999999999996,
+      "a_wrong_b_right": 132,
+      "a_right_b_wrong": 1,
+      "discordant": 133,
+      "p_exact_two_sided": 2.4611912970341645e-38
+    },
+    "PROMPT_TO_LORA": {
+      "from_accuracy": 0.185,
+      "to_accuracy": 0.4125,
+      "delta": 0.22749999999999998,
+      "a_wrong_b_right": 92,
+      "a_right_b_wrong": 1,
+      "discordant": 93,
+      "p_exact_two_sided": 1.8983148823238428e-26
+    },
+    "RAG_TO_LORA_RAG": {
+      "from_accuracy": 0.5125,
+      "to_accuracy": 0.71,
+      "delta": 0.1975,
+      "a_wrong_b_right": 101,
+      "a_right_b_wrong": 22,
+      "discordant": 123,
+      "p_exact_two_sided": 2.7383052309526826e-13
+    },
+    "LORA_TO_LORA_RAG": {
+      "from_accuracy": 0.4125,
+      "to_accuracy": 0.71,
+      "delta": 0.2975,
+      "a_wrong_b_right": 148,
+      "a_right_b_wrong": 29,
+      "discordant": 177,
+      "p_exact_two_sided": 2.0044148326443048e-20
+    },
+    "PROMPT_TO_LORA_RAG": {
+      "from_accuracy": 0.185,
+      "to_accuracy": 0.71,
+      "delta": 0.5249999999999999,
+      "a_wrong_b_right": 213,
+      "a_right_b_wrong": 3,
+      "discordant": 216,
+      "p_exact_two_sided": 3.1901252425248145e-59
+    }
+  },
+  "by_family": {
+    "behavior_knowledge": {
+      "n": 100,
+      "accuracies": {
+        "PROMPT": 0.16,
+        "RAG": 0.53,
+        "LORA": 0.29,
+        "LORA_RAG": 0.51
+      },
+      "deltas": {
+        "RAG_MINUS_PROMPT": 0.37,
+        "LORA_MINUS_PROMPT": 0.12999999999999998,
+        "LORA_RAG_MINUS_RAG": -0.020000000000000018,
+        "LORA_RAG_MINUS_LORA": 0.22000000000000003
+      },
+      "rag_to_lora_rag_mcnemar": {
+        "a_wrong_b_right": 9,
+        "a_right_b_wrong": 11,
+        "discordant": 20,
+        "p_exact_two_sided": 0.8238029479980469
+      }
+    },
+    "behavior_only": {
+      "n": 100,
+      "accuracies": {
+        "PROMPT": 0.58,
+        "RAG": 0.58,
+        "LORA": 0.98,
+        "LORA_RAG": 0.98
+      },
+      "deltas": {
+        "RAG_MINUS_PROMPT": 0.0,
+        "LORA_MINUS_PROMPT": 0.4,
+        "LORA_RAG_MINUS_RAG": 0.4,
+        "LORA_RAG_MINUS_LORA": 0.0
+      },
+      "rag_to_lora_rag_mcnemar": {
+        "a_wrong_b_right": 41,
+        "a_right_b_wrong": 1,
+        "discordant": 42,
+        "p_exact_two_sided": 1.9554136088117957e-11
+      }
+    },
+    "changed_knowledge": {
+      "n": 100,
+      "accuracies": {
+        "PROMPT": 0.0,
+        "RAG": 0.41,
+        "LORA": 0.16,
+        "LORA_RAG": 0.63
+      },
+      "deltas": {
+        "RAG_MINUS_PROMPT": 0.41,
+        "LORA_MINUS_PROMPT": 0.16,
+        "LORA_RAG_MINUS_RAG": 0.22000000000000003,
+        "LORA_RAG_MINUS_LORA": 0.47
+      },
+      "rag_to_lora_rag_mcnemar": {
+        "a_wrong_b_right": 24,
+        "a_right_b_wrong": 2,
+        "discordant": 26,
+        "p_exact_two_sided": 1.049041748046875e-05
+      }
+    },
+    "knowledge_only": {
+      "n": 100,
+      "accuracies": {
+        "PROMPT": 0.0,
+        "RAG": 0.53,
+        "LORA": 0.22,
+        "LORA_RAG": 0.72
+      },
+      "deltas": {
+        "RAG_MINUS_PROMPT": 0.53,
+        "LORA_MINUS_PROMPT": 0.22,
+        "LORA_RAG_MINUS_RAG": 0.18999999999999995,
+        "LORA_RAG_MINUS_LORA": 0.5
+      },
+      "rag_to_lora_rag_mcnemar": {
+        "a_wrong_b_right": 27,
+        "a_right_b_wrong": 8,
+        "discordant": 35,
+        "p_exact_two_sided": 0.001878225477412343
+      }
+    }
+  },
+  "factorial_interaction": -0.02999999999999997,
+  "interpretation_guardrails": {
+    "interaction_definition": "LORA_RAG - RAG - LORA + PROMPT",
+    "test": "exact two-sided McNemar/binomial test on discordant pairs",
+    "multiple_testing_adjustment": "none"
+  },
+  "analysis_hash": "010a30579c99273d43b158282a673105c0ab7e9102d0ed1b11383f226465d7ee"
+}

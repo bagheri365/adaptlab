@@ -1,0 +1,295 @@
+{
+  "candidate_budget": {
+    "candidate_ids": [
+      "S1_POLICY_A_QV_r8_lr1e-05_iters500",
+      "S1_POLICY_B_ATTN_r4_lr1e-05_iters500",
+      "S1_POLICY_B_ATTN_r8_lr1e-05_iters500",
+      "S1_POLICY_C_ATTN_MLP_r4_lr1e-05_iters500",
+      "S2_POLICY_B_ATTN_r8_lr5e-06_iters1000",
+      "S2_POLICY_B_ATTN_r8_lr2e-05_iters250"
+    ],
+    "candidate_records": [
+      {
+        "alpha": 16,
+        "candidate_id": "S1_POLICY_A_QV_r8_lr1e-05_iters500",
+        "eligible_checkpoint_steps": [
+          500
+        ],
+        "learning_rate": 1e-05,
+        "rank": 8,
+        "rationale": "Narrow attention-only adapter baseline; paired against broader policies under the same rank, learning rate, and duration.",
+        "seed": 1729,
+        "stage": "stage1",
+        "target_modules": [
+          "model.layers.{i}.self_attn.q_proj",
+          "model.layers.{i}.self_attn.v_proj"
+        ],
+        "target_policy": "POLICY_A_QV",
+        "trainable_parameter_count": 3833856,
+        "trainable_percentage_of_total_model_parameters": 0.04680722586549299,
+        "training_duration_iters": 500
+      },
+      {
+        "alpha": 8,
+        "candidate_id": "S1_POLICY_B_ATTN_r4_lr1e-05_iters500",
+        "eligible_checkpoint_steps": [
+          500
+        ],
+        "learning_rate": 1e-05,
+        "rank": 4,
+        "rationale": "Lower-rank attention-only control to test whether the broader policy needs extra capacity before any learning-rate or duration variation.",
+        "seed": 1729,
+        "stage": "stage1",
+        "target_modules": [
+          "model.layers.{i}.self_attn.q_proj",
+          "model.layers.{i}.self_attn.k_proj",
+          "model.layers.{i}.self_attn.v_proj",
+          "model.layers.{i}.self_attn.o_proj"
+        ],
+        "target_policy": "POLICY_B_ATTN",
+        "trainable_parameter_count": 3833856,
+        "trainable_percentage_of_total_model_parameters": 0.04680722586549299,
+        "training_duration_iters": 500
+      },
+      {
+        "alpha": 16,
+        "candidate_id": "S1_POLICY_B_ATTN_r8_lr1e-05_iters500",
+        "eligible_checkpoint_steps": [
+          500
+        ],
+        "learning_rate": 1e-05,
+        "rank": 8,
+        "rationale": "Canonical medium-capacity attention-only candidate used as the primary reference point for stage-1 comparisons.",
+        "seed": 1729,
+        "stage": "stage1",
+        "target_modules": [
+          "model.layers.{i}.self_attn.q_proj",
+          "model.layers.{i}.self_attn.k_proj",
+          "model.layers.{i}.self_attn.v_proj",
+          "model.layers.{i}.self_attn.o_proj"
+        ],
+        "target_policy": "POLICY_B_ATTN",
+        "trainable_parameter_count": 7667712,
+        "trainable_percentage_of_total_model_parameters": 0.09361445173098598,
+        "training_duration_iters": 500
+      },
+      {
+        "alpha": 8,
+        "candidate_id": "S1_POLICY_C_ATTN_MLP_r4_lr1e-05_iters500",
+        "eligible_checkpoint_steps": [
+          500
+        ],
+        "learning_rate": 1e-05,
+        "rank": 4,
+        "rationale": "Broader attention-plus-MLP adapter at the lowest rank to probe whether the extra scope is useful without spending budget on heavier ranks.",
+        "seed": 1729,
+        "stage": "stage1",
+        "target_modules": [
+          "model.layers.{i}.self_attn.q_proj",
+          "model.layers.{i}.self_attn.k_proj",
+          "model.layers.{i}.self_attn.v_proj",
+          "model.layers.{i}.self_attn.o_proj",
+          "model.layers.{i}.mlp.gate_proj",
+          "model.layers.{i}.mlp.up_proj",
+          "model.layers.{i}.mlp.down_proj"
+        ],
+        "target_policy": "POLICY_C_ATTN_MLP",
+        "trainable_parameter_count": 10911744,
+        "trainable_percentage_of_total_model_parameters": 0.13322056592486464,
+        "training_duration_iters": 500
+      },
+      {
+        "alpha": 16,
+        "candidate_id": "S2_POLICY_B_ATTN_r8_lr5e-06_iters1000",
+        "eligible_checkpoint_steps": [
+          1000
+        ],
+        "learning_rate": 5e-06,
+        "rank": 8,
+        "rationale": "Predeclared lower-learning-rate and longer-duration variant to test a small optimization change without tuning based on validation outcomes.",
+        "seed": 1729,
+        "stage": "stage2",
+        "target_modules": [
+          "model.layers.{i}.self_attn.q_proj",
+          "model.layers.{i}.self_attn.k_proj",
+          "model.layers.{i}.self_attn.v_proj",
+          "model.layers.{i}.self_attn.o_proj"
+        ],
+        "target_policy": "POLICY_B_ATTN",
+        "trainable_parameter_count": 7667712,
+        "trainable_percentage_of_total_model_parameters": 0.09361445173098598,
+        "training_duration_iters": 1000
+      },
+      {
+        "alpha": 16,
+        "candidate_id": "S2_POLICY_B_ATTN_r8_lr2e-05_iters250",
+        "eligible_checkpoint_steps": [
+          250
+        ],
+        "learning_rate": 2e-05,
+        "rank": 8,
+        "rationale": "Predeclared higher-learning-rate and shorter-duration variant to test a small optimization change without tuning based on validation outcomes.",
+        "seed": 1729,
+        "stage": "stage2",
+        "target_modules": [
+          "model.layers.{i}.self_attn.q_proj",
+          "model.layers.{i}.self_attn.k_proj",
+          "model.layers.{i}.self_attn.v_proj",
+          "model.layers.{i}.self_attn.o_proj"
+        ],
+        "target_policy": "POLICY_B_ATTN",
+        "trainable_parameter_count": 7667712,
+        "trainable_percentage_of_total_model_parameters": 0.09361445173098598,
+        "training_duration_iters": 250
+      }
+    ],
+    "excluded_high_rank_scope": {
+      "POLICY_C_ATTN_MLP_rank16": "excluded",
+      "POLICY_C_ATTN_MLP_rank8": "excluded",
+      "rationale": "The heavier attention-plus-MLP adapter family is represented only at rank 4 to keep the candidate budget hardware-realistic and avoid spending most of the budget on the heaviest adapter configuration."
+    },
+    "stage1_candidate_count": 4,
+    "stage1_stage2_precommitment": "Stage-2 candidates are fixed before any Stage-1 result is observed; no later candidate may be added, removed, or reweighted based on validation scores.",
+    "stage2_candidate_count": 2,
+    "total_candidates": 6
+  },
+  "candidate_manifest_schema": {
+    "optional_observational_fields": [
+      "start_runtime_timestamp",
+      "end_runtime_timestamp",
+      "validation_duration_seconds",
+      "peak_memory_gb"
+    ],
+    "required_fields": [
+      "selection_run_id",
+      "candidate_id",
+      "stage",
+      "target_policy",
+      "rank",
+      "alpha",
+      "learning_rate",
+      "training_duration_iters",
+      "eligible_checkpoint_steps",
+      "seed",
+      "target_modules",
+      "trainable_parameter_count",
+      "trainable_percentage_of_total_model_parameters",
+      "selection_split",
+      "primary_metric_name",
+      "secondary_metric_name",
+      "tie_breakers",
+      "checkpoint_selection_rule",
+      "forbidden_signal_attestation",
+      "training_config_hash",
+      "experimental_contract_hash",
+      "training_isolation_audit_hash",
+      "training_formatter_hash"
+    ]
+  },
+  "config_hash": "9e8cde236f5fdc16babb1d13c4eb5d701d827bf1eca10dbbeb8f8aebe295178b",
+  "frozen_inputs": {
+    "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+    "experimental_contract_hash": "c76338ba9b9995d2ad819135fb821fa6b51243fecf0b074deae4180c295c3953",
+    "runtime_versions": {
+      "machine_architecture": "arm64",
+      "macos_version": "26.5.2",
+      "mlx_lm_version": "0.31.3",
+      "mlx_version": "0.32.0",
+      "python_version": "3.12.13"
+    },
+    "source_lineage": {
+      "canonical_mlx_base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "canonical_mlx_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "canonical_mlx_semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "repository": "Qwen/Qwen3-8B-Base",
+      "revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+      "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397",
+      "tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df"
+    },
+    "training_config_file_hash": "4eaa4e003deb7e7d601934fa8bf8a8689b17292b99c6eb9f545978a38735177d",
+    "training_config_hash": "4eaa4e003deb7e7d601934fa8bf8a8689b17292b99c6eb9f545978a38735177d",
+    "training_config_version": "m5-lora-training-config-v2",
+    "training_formatter_hash": "b7eefc912755d029d59d2b075b757111cd0c4910d15886f9befbac060b2cfb46",
+    "training_isolation_audit_hash": "d189b5aca1d682b951f9997518a3d552b41c6cde80530a5087701a61a6e20878",
+    "validation_example_ids_hash": "e3c07f5f66bf17b8ab77f7c9f31b1255c48a5452ad55a33198e9154d72eb8242",
+    "validation_split_file_hash": "be0acc82a7592c5fccdfc9129dae028832907983e419b6689a2415eb3c92a8da"
+  },
+  "gate": "M5_VALIDATION_SELECTION_POLICY_READY",
+  "policy_version": "m5-validation-selection-policy-v3",
+  "schema_version": "m5-validation-selection-policy-artifact-v2",
+  "validation_selection_policy": {
+    "checkpoint_policy": {
+      "candidate_checkpoint_rule": "one_predeclared_final_checkpoint_per_candidate",
+      "checkpoint_selection_tie_breakers": [
+        "smaller_lora_rank",
+        "narrower_target_policy_by_trainable_parameter_count",
+        "fewer_training_steps",
+        "fewer_trainable_parameters",
+        "lexical_candidate_id_ascending"
+      ],
+      "checkpoint_selection_use": "validation_metric_only"
+    },
+    "forbidden_selection_signals": [
+      "primary_test_accuracy",
+      "primary_test_family_scores",
+      "updated_test_score",
+      "removed_test_score",
+      "structural_holdout_test_score",
+      "primary_test_rag_results",
+      "primary_test_oracle_context_results",
+      "milestone_4_failure_categories",
+      "generalization_sentinel",
+      "qualitative_test_example_inspection",
+      "test_set_hyperparameter_tuning"
+    ],
+    "primary_metric": {
+      "family_weighting": "uniform_over_represented_families",
+      "formula": "mean(exact_match_accuracy for each represented validation task_family)",
+      "name": "macro_average_exact_match_accuracy",
+      "represented_families": [
+        "behavior_only",
+        "behavior_knowledge",
+        "changed_knowledge",
+        "knowledge_only"
+      ],
+      "represented_family_counts": [
+        {
+          "n": 38,
+          "task_family": "behavior_only"
+        },
+        {
+          "n": 37,
+          "task_family": "behavior_knowledge"
+        },
+        {
+          "n": 37,
+          "task_family": "changed_knowledge"
+        },
+        {
+          "n": 38,
+          "task_family": "knowledge_only"
+        }
+      ]
+    },
+    "secondary_metric": {
+      "formula": "validation_correct / validation_n",
+      "name": "overall_validation_exact_match_accuracy"
+    },
+    "selection_metric_guardrails": {
+      "no_primary_test_score_use": true,
+      "no_proxy_for_missing_family": true,
+      "no_qualitative_test_tuning": true,
+      "no_sentinel_access": true,
+      "no_test_set_access": true
+    },
+    "selection_scope": "validation_only",
+    "selection_split": "validation",
+    "tie_breakers": [
+      "smaller_lora_rank",
+      "narrower_target_policy_by_trainable_parameter_count",
+      "fewer_training_steps",
+      "fewer_trainable_parameters",
+      "lexical_candidate_id_ascending"
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "adapter_policy": {
+    "adapter_count": 1,
+    "removed_specific_adapters": false,
+    "separate_rag_adapter": false,
+    "task_family_specific_adapters": false,
+    "updated_specific_adapters": false
+  },
+  "benchmark_policy": {
+    "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+    "benchmark_tag": "v0.0-benchmark",
+    "benchmark_version": "0.0.0"
+  },
+  "canonical_m5_condition_matrix": {
+    "LORA": {
+      "adapter": "ON",
+      "base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "retrieval": "OFF",
+      "runtime": "mlx-lm 0.31.3 / mlx 0.32.0"
+    },
+    "LORA_RAG": {
+      "adapter": "ON",
+      "base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "retrieval": "ON",
+      "runtime": "mlx-lm 0.31.3 / mlx 0.32.0"
+    },
+    "M5_PROMPT": {
+      "adapter": "OFF",
+      "base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "retrieval": "OFF",
+      "runtime": "mlx-lm 0.31.3 / mlx 0.32.0"
+    },
+    "M5_RAG": {
+      "adapter": "OFF",
+      "base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "retrieval": "ON",
+      "runtime": "mlx-lm 0.31.3 / mlx 0.32.0"
+    }
+  },
+  "canonical_runtime": {
+    "canonical_mlx_base_representation": {
+      "base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+      "conversion_command": ".venv/bin/python -m mlx_lm.convert --hf-path /private/tmp/m5_qwen3_base_snapshot --mlx-path /private/tmp/m5_qwen3_base_mlx_q4 -q --q-bits 4 --q-group-size 64",
+      "conversion_configuration": {
+        "q_bits": 4,
+        "q_group_size": 64,
+        "quantize": true
+      },
+      "output_file_hashes": [
+        {
+          "file": "README.md",
+          "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "size_bytes": 81
+        },
+        {
+          "file": "chat_template.jinja",
+          "sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+          "size_bytes": 4153
+        },
+        {
+          "file": "config.json",
+          "sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075",
+          "size_bytes": 991
+        },
+        {
+          "file": "generation_config.json",
+          "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+          "size_bytes": 138
+        },
+        {
+          "file": "model.safetensors",
+          "sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+          "size_bytes": 4607835164
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+          "size_bytes": 64105
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "size_bytes": 11422650
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04",
+          "size_bytes": 732
+        }
+      ],
+      "runtime_path": "/private/tmp/m5_qwen3_base_mlx_q4",
+      "semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+      "semantic_tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df"
+    },
+    "machine_architecture": "arm64",
+    "macos_version": "26.5.2",
+    "mlx_lm_version": "0.31.3",
+    "mlx_version": "0.32.0",
+    "python_version": "3.12.13",
+    "transformers_version": "5.15.0"
+  },
+  "canonical_source_lineage": {
+    "canonical_mlx_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+    "canonical_mlx_semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+    "repository": "Qwen/Qwen3-8B-Base",
+    "revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+    "source_file_hashes": [
+      {
+        "file": ".gitattributes",
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+        "size_bytes": 1519
+      },
+      {
+        "file": "README.md",
+        "sha256": "0eb9f991baa4f92c9ef708d1e9c7a01ae5b19d05516d38f8833549aa8b06a07e",
+        "size_bytes": 2938
+      },
+      {
+        "file": "config.json",
+        "sha256": "3bd01d7ad7a2e203ecbbe84e24087a51c6d2a108ee4bcc42d0016bf49564983a",
+        "size_bytes": 729
+      },
+      {
+        "file": "generation_config.json",
+        "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "size_bytes": 138
+      },
+      {
+        "file": "merges.txt",
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "size_bytes": 1671853
+      },
+      {
+        "file": "model-00001-of-00005.safetensors",
+        "sha256": "9983f1b9ef2f60e7c3730d9bc11ada914e6ec630639b5b020a89bd158cd0446b",
+        "size_bytes": 3996250744
+      },
+      {
+        "file": "model-00002-of-00005.safetensors",
+        "sha256": "9aa12339835bf7a093d3d0b0a0d2d77f8538301cfc7f8e7ec7a585858ebf7a1f",
+        "size_bytes": 3993160032
+      },
+      {
+        "file": "model-00003-of-00005.safetensors",
+        "sha256": "c7dd5a191c8da555def0714550375b3c0117751add408fcdda0c2a79ac0186bc",
+        "size_bytes": 3959604768
+      },
+      {
+        "file": "model-00004-of-00005.safetensors",
+        "sha256": "ad8b708792105133e03fe19e2d56c89c709f677f01285f8b3ede8947d59fd9fe",
+        "size_bytes": 3187841392
+      },
+      {
+        "file": "model-00005-of-00005.safetensors",
+        "sha256": "fbf24915d47ea030bb68ab0b9488f4515a907185baa6dc26837c9c3f2326a550",
+        "size_bytes": 1244659840
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "sha256": "cd39d5e44c5aadfd1954b598883aea1c4a98822a2f7723d214ef2278b7fec2e4",
+        "size_bytes": 32878
+      },
+      {
+        "file": "tokenizer.json",
+        "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "size_bytes": 7031645
+      },
+      {
+        "file": "tokenizer_config.json",
+        "sha256": "f42eccf62260457661cc7d7c3f4171088a37c08dbb5611583b7cb4f465d640fe",
+        "size_bytes": 9719
+      },
+      {
+        "file": "vocab.json",
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "size_bytes": 2776833
+      }
+    ],
+    "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397",
+    "source_revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+    "tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df"
+  },
+  "causal_invariants": {
+    "LORA_vs_LORA_RAG": "only retrieved evidence may differ",
+    "M5_PROMPT_vs_LORA": "only adapter presence may differ",
+    "M5_PROMPT_vs_M5_RAG": "only retrieved evidence may differ",
+    "M5_RAG_vs_LORA_RAG": "only adapter presence may differ",
+    "behavior_only": "M5_PROMPT input == M5_RAG input == LORA input == LORA_RAG input byte-for-byte"
+  },
+  "gate_requirements": {
+    "historical_controls_reusable": false,
+    "same_canonical_base_representation_for_all_four_conditions": true,
+    "same_runtime_for_all_four_conditions": true
+  },
+  "historical_result_policy": {
+    "historical_runtime": {
+      "model_id": "qwen3:8b",
+      "provider": "ollama"
+    },
+    "m3_ollama_oracle_context": "frozen reference result only; do not reinterpret or overwrite",
+    "m3_ollama_prompt": "frozen reference result only; do not reinterpret or overwrite",
+    "m4_ollama_rag": "frozen reference result only; do not reinterpret or overwrite",
+    "mixing_rule": "Do not use historical Milestone 3/4 controls as Milestone 5 causal controls unless a later explicit runtime-equivalence gate passes."
+  },
+  "milestone": "M5",
+  "retrieval_policy": {
+    "frozen_evidence_renderer": true,
+    "frozen_m4_retrieval_reuse": true,
+    "retrieval_artifact_hash": "ae118a673508b33bf19799666ee8d97b958add832721f8b97e5e2f4401349c84",
+    "retrieval_run_id": "m4-primary-test-bm25-2c08bcdf03384d0b"
+  },
+  "runtime_policy": {
+    "canonical_evaluation_generation_policy": "Generation settings for canonical M5 evaluation will be frozen later using validation/infrastructure policy only, not primary-test outcomes.",
+    "smoke_test_output": "The neutral smoke output '!!!!!!!!' is runtime-only evidence and must not tune training or generation configuration."
+  },
+  "schema_version": "canonical-m5-experimental-contract-v2",
+  "status": "frozen",
+  "training_data_policy": {
+    "adapter_training_rule": "Train exactly one canonical LoRA adapter without retrieval context.",
+    "train_hidden_fields": [
+      "BM25 evidence",
+      "Oracle evidence",
+      "gold chunk IDs",
+      "task family",
+      "difficulty",
+      "knowledge state",
+      "evidence status",
+      "split type",
+      "logical fact IDs",
+      "record IDs",
+      "scoring metadata",
+      "test failure labels",
+      "hidden benchmark annotations"
+    ],
+    "train_n": 300,
+    "train_split": "frozen TRAIN only",
+    "train_visible_fields": [
+      "system",
+      "user",
+      "assistant_target"
+    ]
+  },
+  "validation_selection_policy": {
+    "allowed_use": "model selection only",
+    "forbidden_use": [
+      "primary test",
+      "generalization sentinel",
+      "primary-test RAG outputs",
+      "primary-test retrieval metrics",
+      "ORACLE_CONTEXT outputs",
+      "Milestone 4 test failure categories",
+      "primary-test scores"
+    ],
+    "validation_n": 150,
+    "validation_split": "frozen VALIDATION only"
+  }
+}

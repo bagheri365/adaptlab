@@ -1,0 +1,14 @@
+{
+  "schema_version": "m5-invalidated-training-run-v1",
+  "created_at_utc": "2026-08-17T03:41:53.158082+00:00",
+  "candidate_id": "S1_POLICY_A_QV_r8_lr1e-05_iters500",
+  "invalidated_adapter_hash": "b4bbf57413fc40d4a6058546f9d609722ebcd56663c641d18b75eb76795678b7",
+  "reason_class": "IMPLEMENTATION_ERROR",
+  "reasons": [
+    "Training loss inherited mlx-lm default_loss inclusive end masking, which supervised one padded token-0 target after every real sequence.",
+    "Custom training loop applied incomplete final gradient accumulation, unlike native mlx-lm semantics and the intended effective-batch policy."
+  ],
+  "candidate_budget_changed": false,
+  "hyperparameter_search_changed": false,
+  "weights_valid_for_canonical_selection": false
+}

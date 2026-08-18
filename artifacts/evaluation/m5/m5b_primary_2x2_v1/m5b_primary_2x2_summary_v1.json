@@ -1,0 +1,136 @@
+{
+  "schema_version": "m5b-primary-2x2-summary-v1",
+  "m5b_inference_contract_hash": "921bdf65e7e704ab88dac0f9ae25744efdabdb421161fb0187d0c59bd1a05462",
+  "m5b_validation_summary_file_hash": "bd108120b1ab521666e95e1c9bd4defc70612f11b719259a51592e17dac09420",
+  "m5b_selection_decision_hash": "e142898605ef936f6fe698a688b57c40bf1752b34b4499feb212f63942d1e111",
+  "selected_candidate_id": "S2_POLICY_B_ATTN_r8_lr2e-05_iters250",
+  "selected_checkpoint_iteration": 250,
+  "retrieval_artifact_hash": "ae118a673508b33bf19799666ee8d97b958add832721f8b97e5e2f4401349c84",
+  "conditions": {
+    "M5B_PROMPT": {
+      "aggregate": {
+        "n": 400,
+        "correct": 74,
+        "overall_accuracy": 0.185,
+        "macro_family_accuracy": 0.185,
+        "per_family": {
+          "behavior_knowledge": {
+            "n": 100,
+            "correct": 16,
+            "accuracy": 0.16
+          },
+          "behavior_only": {
+            "n": 100,
+            "correct": 58,
+            "accuracy": 0.58
+          },
+          "changed_knowledge": {
+            "n": 100,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          "knowledge_only": {
+            "n": 100,
+            "correct": 0,
+            "accuracy": 0.0
+          }
+        }
+      },
+      "result_hash": "c6e8b75e60ba2a8e3df09dbc2f0fcf98291bf0d96c15262945c74ea2327f969a"
+    },
+    "M5B_RAG": {
+      "aggregate": {
+        "n": 400,
+        "correct": 205,
+        "overall_accuracy": 0.5125,
+        "macro_family_accuracy": 0.5125,
+        "per_family": {
+          "behavior_knowledge": {
+            "n": 100,
+            "correct": 53,
+            "accuracy": 0.53
+          },
+          "behavior_only": {
+            "n": 100,
+            "correct": 58,
+            "accuracy": 0.58
+          },
+          "changed_knowledge": {
+            "n": 100,
+            "correct": 41,
+            "accuracy": 0.41
+          },
+          "knowledge_only": {
+            "n": 100,
+            "correct": 53,
+            "accuracy": 0.53
+          }
+        }
+      },
+      "result_hash": "3ab757538188501a2a36e9959c37d200efc6d83d939898fafff6ba629c56532b"
+    },
+    "LORA": {
+      "aggregate": {
+        "n": 400,
+        "correct": 165,
+        "overall_accuracy": 0.4125,
+        "macro_family_accuracy": 0.4125,
+        "per_family": {
+          "behavior_knowledge": {
+            "n": 100,
+            "correct": 29,
+            "accuracy": 0.29
+          },
+          "behavior_only": {
+            "n": 100,
+            "correct": 98,
+            "accuracy": 0.98
+          },
+          "changed_knowledge": {
+            "n": 100,
+            "correct": 16,
+            "accuracy": 0.16
+          },
+          "knowledge_only": {
+            "n": 100,
+            "correct": 22,
+            "accuracy": 0.22
+          }
+        }
+      },
+      "result_hash": "c91096db32ca41dda4d56388cd50c5bbe8d19653e8b94f9c87314fa27398da30"
+    },
+    "LORA_RAG": {
+      "aggregate": {
+        "n": 400,
+        "correct": 284,
+        "overall_accuracy": 0.71,
+        "macro_family_accuracy": 0.71,
+        "per_family": {
+          "behavior_knowledge": {
+            "n": 100,
+            "correct": 51,
+            "accuracy": 0.51
+          },
+          "behavior_only": {
+            "n": 100,
+            "correct": 98,
+            "accuracy": 0.98
+          },
+          "changed_knowledge": {
+            "n": 100,
+            "correct": 63,
+            "accuracy": 0.63
+          },
+          "knowledge_only": {
+            "n": 100,
+            "correct": 72,
+            "accuracy": 0.72
+          }
+        }
+      },
+      "result_hash": "3c00f7a9bff2fe8e5a9e8a0d324c5ef5c03dcef2894a7fc604cf4c98991030d6"
+    }
+  },
+  "summary_hash": "5f09272fa66a083cfe82d945cd19746125adf10b8e2167496e09e22ea4ebd03e"
+}

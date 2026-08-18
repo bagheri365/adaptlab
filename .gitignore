@@ -14,3 +14,35 @@ build/
 
 # Local evaluation caches
 artifacts/evaluation/**/cache/
+
+# AdaptLab M5 local model artifacts
+artifacts/evaluation/m5/**/adapter/
+artifacts/evaluation/m5/**/*.safetensors
+artifacts/evaluation/m5/.DS_Store
+artifacts/evaluation/m5/**/*.zip
+artifacts/evaluation/m5/**/run_output.txt
+artifacts/evaluation/m5/**/artifact_audit.txt
+artifacts/evaluation/m5/disposable_smoke/
+
+# M5 generated training datasets
+artifacts/evaluation/m5/**/dataset/
+
+# Superseded / invalid local M5 run payloads
+artifacts/evaluation/m5/invalidated_pre_*/**/
+!artifacts/evaluation/m5/invalidated_pre_*/invalidation_manifest.json
+
+# Original invalidated M5 primary run; summarized by M5_INVALIDATION.md
+artifacts/evaluation/m5/primary_2x2_v1/
+
+# Superseded M5 provenance/config drafts
+artifacts/evaluation/m5/local_lora_runtime_provenance_v1.json
+artifacts/evaluation/m5/local_lora_runtime_provenance_v2.json
+artifacts/evaluation/m5/local_lora_runtime_provenance_v3.json
+artifacts/evaluation/m5/local_lora_runtime_provenance_v3.json.sha256
+artifacts/evaluation/m5/m5_experimental_contract_v1.json*
+artifacts/evaluation/m5/m5_lora_trainable_policy_v1.json*
+artifacts/evaluation/m5/m5_lora_training_config_v1.json*
+artifacts/evaluation/m5/m5_lora_training_smoke_v1.json
+artifacts/evaluation/m5/m5_mlx_rebase_summary_v1.json*
+artifacts/evaluation/m5/m5_validation_selection_policy_v1.json*
+artifacts/evaluation/m5/m5_validation_selection_policy_v2.json*

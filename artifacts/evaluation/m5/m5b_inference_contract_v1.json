@@ -1,0 +1,27 @@
+{
+  "schema_version": "m5b-inference-contract-v1",
+  "status": "FROZEN_BEFORE_CORRECTED_VALIDATION",
+  "reason": "Corrects the Qwen3-8B-Base inference-interface mismatch discovered during M5 primary diagnostics.",
+  "input_format": {
+    "type": "plain_continuation",
+    "template": "{system}\\n\\n{user}\\n\\nAnswer:"
+  },
+  "decoding": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "max_tokens": 64
+  },
+  "answer_extraction": {
+    "rule": "first_nonempty_line",
+    "strip_whitespace": true,
+    "remove_one_trailing_period": true
+  },
+  "scoring": "existing_score_output_on_extracted_answer",
+  "development_scope": [
+    "train",
+    "validation"
+  ],
+  "primary_test_status": "do_not_inspect_or_rerun_until_corrected_validation_selection_is_frozen",
+  "sentinel_status": "untouched"
+}

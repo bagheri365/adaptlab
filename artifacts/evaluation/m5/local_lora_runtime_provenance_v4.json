@@ -1,0 +1,347 @@
+{
+  "canonical_identity": {
+    "mlx_base_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+    "mlx_base_identity_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+    "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397",
+    "source_repository": "Qwen/Qwen3-8B-Base",
+    "source_revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94"
+  },
+  "conversion": {
+    "api": "python -m mlx_lm.convert",
+    "command": "./.venv/bin/python -m mlx_lm.convert --hf-path /Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base --mlx-path /Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4 --q-bits 4 --q-group-size 64 -q",
+    "q_bits": 4,
+    "q_group_size": 64,
+    "quantization_mode": "affine"
+  },
+  "determinism_check": {
+    "repeat_conversion_output_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4-det2",
+    "repeat_matches_expected_canonical": false,
+    "repeat_matches_first_rebuild": true,
+    "repeat_model_safetensors_sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+    "repeat_non_weight_file_comparison": {
+      "config_json_match": true,
+      "model_safetensors_index_json_match": true,
+      "tokenizer_config_json_match": true,
+      "tokenizer_json_match": true
+    }
+  },
+  "diagnosis": {
+    "final_tensor_identity_classification": "ORIGINAL_TENSOR_IDENTITY_UNAVAILABLE",
+    "status": "MLX_FILE_HASH_MISMATCH",
+    "summary": "The rebuilt MLX base is deterministic across repeated conversions, but the canonical MLX model.safetensors is not retained anywhere accessible and no tensor-level digest manifest was frozen. That prevents proving semantic tensor identity, so the mismatch must be preserved as provenance."
+  },
+  "expected_canonical_mlx_identity": {
+    "base_identity_hash": "d07ae738ad42baadb62b16115f6b2d90c32fbaa859acc81a4a0a95195e833c80",
+    "expected_model_safetensors_index_sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+    "expected_model_safetensors_sha256": "3d6ce920340638251a932b20236c8692a191c414fb055c22d93f43a978306f54"
+  },
+  "gate": "M5_LOCAL_LORA_RUNTIME_REBASED",
+  "non_weight_file_comparison": [
+    {
+      "expected_sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+      "filename": "README.md",
+      "match": true,
+      "rebuilt_sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6"
+    },
+    {
+      "expected_sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075",
+      "filename": "config.json",
+      "match": true,
+      "quantization_fields": {
+        "bits": 4,
+        "group_size": 64,
+        "mode": "affine"
+      },
+      "rebuilt_sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075"
+    },
+    {
+      "expected_sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+      "filename": "generation_config.json",
+      "match": true,
+      "rebuilt_sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8"
+    },
+    {
+      "expected_sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+      "filename": "model.safetensors.index.json",
+      "match": true,
+      "metadata": {
+        "total_parameters": 8190735360,
+        "total_size": 4607731712
+      },
+      "rebuilt_sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+      "tensor_count": 907
+    },
+    {
+      "expected_sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "filename": "tokenizer.json",
+      "match": true,
+      "rebuilt_sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+    },
+    {
+      "expected_sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04",
+      "filename": "tokenizer_config.json",
+      "match": true,
+      "rebuilt_sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04"
+    },
+    {
+      "expected_sha256": null,
+      "filename": "chat_template.jinja",
+      "match": false,
+      "note": "Extra rebuilt file; not listed in the frozen canonical MLX output.",
+      "rebuilt_sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074"
+    }
+  ],
+  "notes": [
+    "This successor records the rebased MLX base as operational provenance.",
+    "The canonical source revision, source manifest hash, and MLX base semantic tensor identity are frozen and path-independent.",
+    "The chat_template.jinja file is runtime-relevant because tokenizer loading uses chat-template material at runtime."
+  ],
+  "original_header_summary": {
+    "available": false,
+    "reason": "The original canonical MLX model.safetensors is no longer available in any retained frozen artifact or local path."
+  },
+  "policy_implication": {
+    "do_not_change_canonical_identity_yet": true,
+    "do_not_reconvert_hoping_for_a_match": true,
+    "do_not_rerun_smoke_yet": true,
+    "do_not_retrain": true
+  },
+  "rebased_identity": {
+    "container_file_hashes": [
+      {
+        "file": "README.md",
+        "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+        "size_bytes": 81
+      },
+      {
+        "file": "chat_template.jinja",
+        "sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+        "size_bytes": 4153
+      },
+      {
+        "file": "config.json",
+        "sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075",
+        "size_bytes": 991
+      },
+      {
+        "file": "generation_config.json",
+        "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "size_bytes": 138
+      },
+      {
+        "file": "model.safetensors",
+        "sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+        "size_bytes": 4607835164
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+        "size_bytes": 64105
+      },
+      {
+        "file": "tokenizer.json",
+        "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+        "size_bytes": 11422650
+      },
+      {
+        "file": "tokenizer_config.json",
+        "sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04",
+        "size_bytes": 732
+      }
+    ],
+    "new_canonical_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+    "new_canonical_semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+    "old_canonical_mlx_identity": "d07ae738ad42baadb62b16115f6b2d90c32fbaa859acc81a4a0a95195e833c80",
+    "old_identity_status": "UNRECOVERABLE_EPHEMERAL_CONTAINER_IDENTITY",
+    "semantic_tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df",
+    "semantic_tensor_identity_path": "artifacts/evaluation/m5/m5_mlx_tensor_identity_v1.json",
+    "tensor_count": 907
+  },
+  "rebuilt_header_summary": {
+    "available": true,
+    "first_tensor_keys": [
+      "lm_head.biases",
+      "lm_head.scales",
+      "lm_head.weight",
+      "model.embed_tokens.biases",
+      "model.embed_tokens.scales",
+      "model.embed_tokens.weight"
+    ],
+    "key_ordering": "lexicographic by tensor key",
+    "metadata": {
+      "format": "mlx"
+    },
+    "tensor_count": 907
+  },
+  "rebuilt_mlx_identity": {
+    "mlx_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4",
+    "model_safetensors_index_sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+    "model_safetensors_sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714"
+  },
+  "rebuilt_mlx_manifest": {
+    "chat_template_classification": "runtime-relevant",
+    "container_manifest_hash": "d95cd372dbcdbcb72151390f66de0ac2c668f81f2114dc79fac5bc0ec032eb68",
+    "output_file_hashes": [
+      {
+        "file": "README.md",
+        "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+        "size_bytes": 81
+      },
+      {
+        "file": "chat_template.jinja",
+        "sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+        "size_bytes": 4153
+      },
+      {
+        "file": "config.json",
+        "sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075",
+        "size_bytes": 991
+      },
+      {
+        "file": "generation_config.json",
+        "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "size_bytes": 138
+      },
+      {
+        "file": "model.safetensors",
+        "sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+        "size_bytes": 4607835164
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+        "size_bytes": 64105
+      },
+      {
+        "file": "tokenizer.json",
+        "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+        "size_bytes": 11422650
+      },
+      {
+        "file": "tokenizer_config.json",
+        "sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04",
+        "size_bytes": 732
+      }
+    ],
+    "rebuilt_mlx_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4",
+    "semantic_tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df"
+  },
+  "runtime_environment": {
+    "machine_architecture": "arm64",
+    "macos_version": "26.5.2",
+    "mlx_lm_version": "0.31.3",
+    "mlx_version": "0.32.0",
+    "python_version": "3.12.13",
+    "safetensors_version": "0.8.0",
+    "sentencepiece_version": "0.2.2",
+    "tokenizers_version": "0.22.2",
+    "transformers_version": "5.15.0"
+  },
+  "runtime_locations": {
+    "resolved_mlx_base_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4",
+    "resolved_source_snapshot_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base"
+  },
+  "schema_version": "canonical-m5-local-lora-runtime-v4",
+  "source_lineage": {
+    "file_hashes": [
+      {
+        "file": ".gitattributes",
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+        "size_bytes": 1519
+      },
+      {
+        "file": "README.md",
+        "sha256": "0eb9f991baa4f92c9ef708d1e9c7a01ae5b19d05516d38f8833549aa8b06a07e",
+        "size_bytes": 2938
+      },
+      {
+        "file": "config.json",
+        "sha256": "3bd01d7ad7a2e203ecbbe84e24087a51c6d2a108ee4bcc42d0016bf49564983a",
+        "size_bytes": 729
+      },
+      {
+        "file": "generation_config.json",
+        "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "size_bytes": 138
+      },
+      {
+        "file": "merges.txt",
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "size_bytes": 1671853
+      },
+      {
+        "file": "model-00001-of-00005.safetensors",
+        "sha256": "9983f1b9ef2f60e7c3730d9bc11ada914e6ec630639b5b020a89bd158cd0446b",
+        "size_bytes": 3996250744
+      },
+      {
+        "file": "model-00002-of-00005.safetensors",
+        "sha256": "9aa12339835bf7a093d3d0b0a0d2d77f8538301cfc7f8e7ec7a585858ebf7a1f",
+        "size_bytes": 3993160032
+      },
+      {
+        "file": "model-00003-of-00005.safetensors",
+        "sha256": "c7dd5a191c8da555def0714550375b3c0117751add408fcdda0c2a79ac0186bc",
+        "size_bytes": 3959604768
+      },
+      {
+        "file": "model-00004-of-00005.safetensors",
+        "sha256": "ad8b708792105133e03fe19e2d56c89c709f677f01285f8b3ede8947d59fd9fe",
+        "size_bytes": 3187841392
+      },
+      {
+        "file": "model-00005-of-00005.safetensors",
+        "sha256": "fbf24915d47ea030bb68ab0b9488f4515a907185baa6dc26837c9c3f2326a550",
+        "size_bytes": 1244659840
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "sha256": "cd39d5e44c5aadfd1954b598883aea1c4a98822a2f7723d214ef2278b7fec2e4",
+        "size_bytes": 32878
+      },
+      {
+        "file": "tokenizer.json",
+        "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+        "size_bytes": 7031645
+      },
+      {
+        "file": "tokenizer_config.json",
+        "sha256": "f42eccf62260457661cc7d7c3f4171088a37c08dbb5611583b7cb4f465d640fe",
+        "size_bytes": 9719
+      },
+      {
+        "file": "vocab.json",
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "size_bytes": 2776833
+      }
+    ],
+    "local_snapshot_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base",
+    "repository": "Qwen/Qwen3-8B-Base",
+    "revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+    "source_file_hashes_verified": true,
+    "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397"
+  },
+  "supersedes": {
+    "artifact_path": "artifacts/evaluation/m5/local_lora_runtime_provenance_v3.json",
+    "artifact_sha256": "308bdb6d27bd6f7d1640e312a7ad2b25749dd1226b05ff7b9dc0bddbde6eb441"
+  },
+  "tensor_identity_analysis": {
+    "classification": "ORIGINAL_TENSOR_IDENTITY_UNAVAILABLE",
+    "frozen_tensor_level_manifest_available": false,
+    "header_only_mismatch_cannot_be_confirmed": false,
+    "notes": [
+      "The rebuilt tensor container is structurally consistent with the frozen index metadata, but the original canonical tensor bytes are not available for comparison.",
+      "No frozen per-tensor digest manifest was found in the retained M5 artifacts.",
+      "Because the original canonical weight file is unavailable, BYTE_SERIALIZATION_ONLY_MISMATCH cannot be asserted."
+    ],
+    "original_tensor_file_available": false,
+    "semantic_equivalence_proven": false
+  },
+  "verified_source_snapshot_identity": {
+    "local_snapshot_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base",
+    "repository": "Qwen/Qwen3-8B-Base",
+    "revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+    "source_file_hashes_verified": true,
+    "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397"
+  }
+}

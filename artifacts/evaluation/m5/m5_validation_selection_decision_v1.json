@@ -1,0 +1,479 @@
+{
+  "candidate_budget_hash": "2a2bdddfb3747e16c6c98530e584fc939300a0a3a69a918755abb73232582ea0",
+  "candidate_count": 6,
+  "candidate_rankings": [
+    {
+      "candidate_id": "S1_POLICY_B_ATTN_r4_lr1e-05_iters500",
+      "candidate_manifest_hash": "798f5f9fdb3df2824d3ef30b2e88be31f49519de7822eb98e79489533d0aa437",
+      "candidate_result_hash": "7896c040eccef7391188d5456c7ff0f254ac72860c1f5891606ca569fa1fd26c",
+      "checkpoint_id": "ckpt-0000500",
+      "checkpoint_iteration": 500,
+      "macro_family_accuracy": 0.0,
+      "macro_family_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "n_total": 150,
+      "overall_accuracy": 0.0,
+      "overall_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "overall_correct": 0,
+      "per_family": {
+        "behavior_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "behavior_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        },
+        "changed_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "knowledge_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        }
+      },
+      "provider_runtime_failure_count": 0,
+      "rank": 4,
+      "status": "VALID",
+      "target_policy": "POLICY_B_ATTN",
+      "trainable_parameter_count": 3833856,
+      "training_steps": 500,
+      "valid_for_selection": true
+    },
+    {
+      "candidate_id": "S1_POLICY_C_ATTN_MLP_r4_lr1e-05_iters500",
+      "candidate_manifest_hash": "fd08c7c2b12ed2d2d0c26f1f139790c83409ccda11cc0c6f86b4797150a1e1d1",
+      "candidate_result_hash": "96874c1179cfe7ad645bafe480db5054f7cd7418feafaeb6be10e98fb704bb5d",
+      "checkpoint_id": "ckpt-0000500",
+      "checkpoint_iteration": 500,
+      "macro_family_accuracy": 0.0,
+      "macro_family_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "n_total": 150,
+      "overall_accuracy": 0.0,
+      "overall_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "overall_correct": 0,
+      "per_family": {
+        "behavior_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "behavior_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        },
+        "changed_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "knowledge_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        }
+      },
+      "provider_runtime_failure_count": 0,
+      "rank": 4,
+      "status": "VALID",
+      "target_policy": "POLICY_C_ATTN_MLP",
+      "trainable_parameter_count": 10911744,
+      "training_steps": 500,
+      "valid_for_selection": true
+    },
+    {
+      "candidate_id": "S1_POLICY_A_QV_r8_lr1e-05_iters500",
+      "candidate_manifest_hash": "ab1e388517ccc45359b3df29c1667b0c3a0438ce14db9cf65fb8e1dc3c1e3b20",
+      "candidate_result_hash": "758e6c3f4207e15c6fb4a7acc295dfb39a26a1361095836d8fd060105abcedf3",
+      "checkpoint_id": "ckpt-0000500",
+      "checkpoint_iteration": 500,
+      "macro_family_accuracy": 0.0,
+      "macro_family_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "n_total": 150,
+      "overall_accuracy": 0.0,
+      "overall_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "overall_correct": 0,
+      "per_family": {
+        "behavior_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "behavior_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        },
+        "changed_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "knowledge_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        }
+      },
+      "provider_runtime_failure_count": 0,
+      "rank": 8,
+      "status": "VALID",
+      "target_policy": "POLICY_A_QV",
+      "trainable_parameter_count": 3833856,
+      "training_steps": 500,
+      "valid_for_selection": true
+    },
+    {
+      "candidate_id": "S2_POLICY_B_ATTN_r8_lr2e-05_iters250",
+      "candidate_manifest_hash": "8cb5b865c951ecd3a49810172f57fb1304d456174e5608d11910ce26673a6f42",
+      "candidate_result_hash": "c77914bd9c3e3c494102c14a39a70568ec832372c77efe676b3f27c4a9cb5b2e",
+      "checkpoint_id": "ckpt-0000250",
+      "checkpoint_iteration": 250,
+      "macro_family_accuracy": 0.0,
+      "macro_family_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "n_total": 150,
+      "overall_accuracy": 0.0,
+      "overall_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "overall_correct": 0,
+      "per_family": {
+        "behavior_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "behavior_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        },
+        "changed_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "knowledge_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        }
+      },
+      "provider_runtime_failure_count": 0,
+      "rank": 8,
+      "status": "VALID",
+      "target_policy": "POLICY_B_ATTN",
+      "trainable_parameter_count": 7667712,
+      "training_steps": 250,
+      "valid_for_selection": true
+    },
+    {
+      "candidate_id": "S1_POLICY_B_ATTN_r8_lr1e-05_iters500",
+      "candidate_manifest_hash": "99ef2bf860246988b8f0e86cf614cc4ad21ebc38e1654961f49d7b78d7938e0a",
+      "candidate_result_hash": "8ab32700896b2d2fb8e1f29e5f15770530dddd6532e9bc391b32c72b7146656d",
+      "checkpoint_id": "ckpt-0000500",
+      "checkpoint_iteration": 500,
+      "macro_family_accuracy": 0.0,
+      "macro_family_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "n_total": 150,
+      "overall_accuracy": 0.0,
+      "overall_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "overall_correct": 0,
+      "per_family": {
+        "behavior_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "behavior_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        },
+        "changed_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "knowledge_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        }
+      },
+      "provider_runtime_failure_count": 0,
+      "rank": 8,
+      "status": "VALID",
+      "target_policy": "POLICY_B_ATTN",
+      "trainable_parameter_count": 7667712,
+      "training_steps": 500,
+      "valid_for_selection": true
+    },
+    {
+      "candidate_id": "S2_POLICY_B_ATTN_r8_lr5e-06_iters1000",
+      "candidate_manifest_hash": "5a6ec2663eac155e74acf448a071ab810ff21e2f68472351ea0f8d8d0c67651c",
+      "candidate_result_hash": "206d260c4c6d7fc3bd1b744c0848b870653aeed7cde6f29d6d26ec54ebb812a5",
+      "checkpoint_id": "ckpt-0001000",
+      "checkpoint_iteration": 1000,
+      "macro_family_accuracy": 0.0,
+      "macro_family_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "n_total": 150,
+      "overall_accuracy": 0.0,
+      "overall_accuracy_fraction": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "overall_correct": 0,
+      "per_family": {
+        "behavior_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "behavior_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        },
+        "changed_knowledge": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 37
+        },
+        "knowledge_only": {
+          "accuracy": 0.0,
+          "accuracy_fraction": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "correct": 0,
+          "n": 38
+        }
+      },
+      "provider_runtime_failure_count": 0,
+      "rank": 8,
+      "status": "VALID",
+      "target_policy": "POLICY_B_ATTN",
+      "trainable_parameter_count": 7667712,
+      "training_steps": 1000,
+      "valid_for_selection": true
+    }
+  ],
+  "candidate_result_hashes": {
+    "S1_POLICY_A_QV_r8_lr1e-05_iters500": "758e6c3f4207e15c6fb4a7acc295dfb39a26a1361095836d8fd060105abcedf3",
+    "S1_POLICY_B_ATTN_r4_lr1e-05_iters500": "7896c040eccef7391188d5456c7ff0f254ac72860c1f5891606ca569fa1fd26c",
+    "S1_POLICY_B_ATTN_r8_lr1e-05_iters500": "8ab32700896b2d2fb8e1f29e5f15770530dddd6532e9bc391b32c72b7146656d",
+    "S1_POLICY_C_ATTN_MLP_r4_lr1e-05_iters500": "96874c1179cfe7ad645bafe480db5054f7cd7418feafaeb6be10e98fb704bb5d",
+    "S2_POLICY_B_ATTN_r8_lr2e-05_iters250": "c77914bd9c3e3c494102c14a39a70568ec832372c77efe676b3f27c4a9cb5b2e",
+    "S2_POLICY_B_ATTN_r8_lr5e-06_iters1000": "206d260c4c6d7fc3bd1b744c0848b870653aeed7cde6f29d6d26ec54ebb812a5"
+  },
+  "candidate_search_hash": "2a2bdddfb3747e16c6c98530e584fc939300a0a3a69a918755abb73232582ea0",
+  "ineligible_candidate_count": 0,
+  "runner_version": "m5-validation-selection-runner-v1",
+  "schema_version": "m5-validation-selection-decision-v1",
+  "selected_candidate_id": "S1_POLICY_B_ATTN_r4_lr1e-05_iters500",
+  "selected_candidate_manifest_hash": "798f5f9fdb3df2824d3ef30b2e88be31f49519de7822eb98e79489533d0aa437",
+  "selected_candidate_result_hash": "7896c040eccef7391188d5456c7ff0f254ac72860c1f5891606ca569fa1fd26c",
+  "selected_candidate_summary": {
+    "candidate_id": "S1_POLICY_B_ATTN_r4_lr1e-05_iters500",
+    "candidate_manifest_hash": "798f5f9fdb3df2824d3ef30b2e88be31f49519de7822eb98e79489533d0aa437",
+    "candidate_result_hash": "7896c040eccef7391188d5456c7ff0f254ac72860c1f5891606ca569fa1fd26c",
+    "checkpoint_id": "ckpt-0000500",
+    "checkpoint_iteration": 500,
+    "macro_family_accuracy": 0.0,
+    "macro_family_accuracy_fraction": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "n_total": 150,
+    "overall_accuracy": 0.0,
+    "overall_accuracy_fraction": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "overall_correct": 0,
+    "per_family": {
+      "behavior_knowledge": {
+        "accuracy": 0.0,
+        "accuracy_fraction": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "correct": 0,
+        "n": 37
+      },
+      "behavior_only": {
+        "accuracy": 0.0,
+        "accuracy_fraction": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "correct": 0,
+        "n": 38
+      },
+      "changed_knowledge": {
+        "accuracy": 0.0,
+        "accuracy_fraction": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "correct": 0,
+        "n": 37
+      },
+      "knowledge_only": {
+        "accuracy": 0.0,
+        "accuracy_fraction": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "correct": 0,
+        "n": 38
+      }
+    },
+    "provider_runtime_failure_count": 0,
+    "rank": 4,
+    "status": "VALID",
+    "target_policy": "POLICY_B_ATTN",
+    "trainable_parameter_count": 3833856,
+    "training_steps": 500,
+    "valid_for_selection": true
+  },
+  "selected_checkpoint_id": "ckpt-0000500",
+  "selected_checkpoint_iteration": 500,
+  "selection_policy_hash": "9e8cde236f5fdc16babb1d13c4eb5d701d827bf1eca10dbbeb8f8aebe295178b",
+  "selection_run_id": "m5-validation-selection-3b8de84c6479f323",
+  "status_counts": {
+    "VALID": 6
+  },
+  "valid_candidate_count": 6,
+  "validation_example_ids_hash": "7d22bc053ecc382be2beb14eedebbc84c5a1ef8313c397e9a4c13ccca1a2380b",
+  "validation_split_hash": "be0acc82a7592c5fccdfc9129dae028832907983e419b6689a2415eb3c92a8da"
+}

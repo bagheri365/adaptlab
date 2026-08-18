@@ -1,0 +1,170 @@
+{
+  "schema_version": "m5-training-contamination-audit-v1",
+  "audit_status": "READY",
+  "gate_result": "M5_TRAINING_ISOLATION_READY",
+  "contract_hash": "87dae4d0b51572519f5b82158ef73c2832d8e09c035b0a7e5f1aaa17cb9d5e47",
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "benchmark_freeze_hash": "bbefa0815145d4359e5226151505a300a3f3a9f23658b5be3028b76163a282b0",
+  "split_counts": {
+    "train": 300,
+    "validation": 150,
+    "test": 400,
+    "generalization_sentinel": 100
+  },
+  "split_file_hashes": {
+    "train": "c2f49ea90cd171089fb7aa50b503d0d738c5471ea9cd8808d06fd0f02aec908f",
+    "validation": "be0acc82a7592c5fccdfc9129dae028832907983e419b6689a2415eb3c92a8da",
+    "test": "4b2eeab21498b8fa05c4d0c66f4559b266b162e009a20bbb3021c501e5ee01e9",
+    "generalization_sentinel": "e8ad9190525b5cce9119d7bcefc916d342ac04648f449449ddfad650d29a13b2"
+  },
+  "example_id_set_hashes": {
+    "train": "2e5b3bbb1d8a448e54df2b43d6bb5c5e9bfef2812b94e08c1091950a37e22e8c",
+    "validation": "e3c07f5f66bf17b8ab77f7c9f31b1255c48a5452ad55a33198e9154d72eb8242",
+    "test": "d3ffaba03d540e1419a60f7b4ff70f11acc0e0f4f5fcca777f633349c9755edc",
+    "generalization_sentinel": "6c009804ad4ec7b29877790c1e00f38bf5dc66f89a271e33ceba82ddec05511b"
+  },
+  "pairwise_membership_overlap_counts": {
+    "train_validation": 0,
+    "train_test": 0,
+    "train_generalization_sentinel": 0,
+    "validation_test": 0,
+    "validation_generalization_sentinel": 0,
+    "test_generalization_sentinel": 0
+  },
+  "semantic_leakage_audit": {
+    "audit_file": "data/generated/v0.0/audits/leakage.json",
+    "audit_file_hash": "38f345c8c00e0729d8b9c1afb86acc712746f9e2fd51309a8242f130cfcfe1a0",
+    "semantic_fingerprint_collisions": 0,
+    "cross_split_collisions": 0,
+    "exact_duplicate_questions": 0,
+    "normalized_duplicate_questions": 0,
+    "within_split_duplicate_reviews": 0,
+    "structural_violations": 0,
+    "metadata_answer_leakage": 0,
+    "highest_risk_train_validation": 10,
+    "highest_risk_train_test": 10,
+    "note": "High-similarity pairs are retained as warnings only; they are not split-overlap collisions."
+  },
+  "training_source_isolation": {
+    "training_subset_selector": {
+      "file": "src/adaptlab/benchmark/training_subsets.py",
+      "behavior": [
+        "selects only examples where split is Split.train",
+        "requires configured train size of 300",
+        "rejects any train example with split_type structural_holdout",
+        "rejects duplicated training example_id values",
+        "verifies train_300 equals the full configured training set"
+      ]
+    },
+    "mlx_training_loader": {
+      "file": ".venv/lib/python3.12/site-packages/mlx_lm/tuner/datasets.py",
+      "behavior": [
+        "load_local_dataset materializes train.jsonl, valid.jsonl, and test.jsonl as separate datasets",
+        "create_dataset supports generic prompt/completion, messages, or text records only",
+        "no benchmark labels, retrieval artifacts, or oracle evidence are injected by the loader"
+      ]
+    },
+    "mlx_training_loop": {
+      "file": ".venv/lib/python3.12/site-packages/mlx_lm/lora.py",
+      "behavior": [
+        "train_model receives train_set and valid_set as separate arguments",
+        "optimizer updates use train_dataset=CacheDataset(train_set)",
+        "validation is passed separately as val_dataset=CacheDataset(valid_set)",
+        "test_set is not part of the gradient-update path",
+        "resume_adapter_file loads weights only and does not alter training membership"
+      ]
+    }
+  },
+  "validation_isolation_audit": {
+    "validation_only_selection": [
+      "generate_training_subsets ignores validation and test examples when constructing training subsets",
+      "run_validation_candidates consumes validation split only and records selection_input=validation_retrieval_metrics_only",
+      "validation retrieval selection is explicitly top_k / retrieval-metric driven, not training-driven"
+    ],
+    "negative_test": {
+      "case": "validation example mutated to Split.train",
+      "observed_failure": "ValueError: expected 300 train examples, found 301"
+    }
+  },
+  "primary_test_isolation_audit": {
+    "benchmark_paths_reviewed": [
+      "src/adaptlab/evaluation/rag_primary_run.py",
+      "src/adaptlab/evaluation/rag_config.py",
+      "src/adaptlab/evaluation/inputs.py"
+    ],
+    "guarantees": [
+      "canonical RAG consumes a frozen retrieval artifact only",
+      "primary-test examples are loaded for evaluation only, not optimization",
+      "test outcomes, expected outputs, and failure categories do not feed the LoRA training path"
+    ],
+    "primary_test_selection_guardrails": [
+      "evaluation policy forbids test-set access during selection",
+      "evaluation policy forbids sentinel access during selection",
+      "canonical RAG config requires consume_frozen_artifact_only"
+    ]
+  },
+  "sentinel_isolation_audit": {
+    "guarantees": [
+      "generalization sentinel is a frozen post-freeze diagnostic split only",
+      "training_subset_selector never reads sentinel examples",
+      "the MLX training loader consumes only explicit train/valid/test JSONL files, not sentinel artifacts"
+    ],
+    "negative_test": {
+      "case": "train example mutated to structural_holdout",
+      "observed_failure": "ValueError: training subsets cannot contain structural-holdout examples"
+    }
+  },
+  "forbidden_context_isolation": {
+    "materialized_training_records_scanned": [
+      "artifacts/evaluation/m5/disposable_smoke/train.jsonl"
+    ],
+    "materialized_training_records_scan_result": {
+      "record_count": 3,
+      "forbidden_field_matches": 0,
+      "forbidden_terms_checked": [
+        "BM25",
+        "Oracle",
+        "gold_chunk",
+        "evidence_status",
+        "knowledge_state",
+        "expected_output",
+        "logical_fact_id",
+        "retrieval_score",
+        "retrieved_context"
+      ],
+      "note": "The disposable smoke training file contains only prompt/completion pairs and no benchmark-evidence or retrieval metadata."
+    },
+    "code_review_result": {
+      "training_example_construction": [
+        "training_subsets selects BenchmarkExample objects by split only",
+        "mlx_lm loader builds generic supervised datasets from prompt/completion, messages, or text records",
+        "no reviewed training path injects BM25 evidence, Oracle evidence, gold chunk IDs, retrieval ranks, or scoring metadata"
+      ]
+    }
+  },
+  "executed_checks": [
+    {
+      "command": "./.venv/bin/pytest -q tests/test_generate_tasks.py tests/test_leakage.py tests/test_retrieval_validation_run.py tests/test_evaluation_policy.py tests/test_full_build.py -q",
+      "result": "passed"
+    },
+    {
+      "command": "ad hoc Python negative check: append one validation example to the train split and call generate_training_subsets",
+      "result": "failed_closed_as_expected",
+      "failure": "ValueError: expected 300 train examples, found 301"
+    },
+    {
+      "command": "ad hoc Python negative check: mark one train example structural_holdout and call generate_training_subsets",
+      "result": "failed_closed_as_expected",
+      "failure": "ValueError: training subsets cannot contain structural-holdout examples"
+    }
+  ],
+  "conclusion": {
+    "split_membership_disjoint": true,
+    "train_is_only_gradient_source": true,
+    "validation_is_selection_only": true,
+    "test_isolation_intact": true,
+    "sentinel_isolation_intact": true,
+    "rag_oracle_evidence_excluded_from_canonical_training": true,
+    "no_new_semantic_leakage_introduced": true
+  }
+}

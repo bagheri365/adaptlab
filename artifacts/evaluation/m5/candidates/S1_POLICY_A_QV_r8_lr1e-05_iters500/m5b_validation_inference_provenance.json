@@ -1,0 +1,6 @@
+{
+  "candidate_id": "S1_POLICY_A_QV_r8_lr1e-05_iters500",
+  "candidate_manifest_hash": "2476eaec5682c467d2652d207b4c31c9e7c40434a4b341ad25fbe6308e65f377",
+  "m5b_inference_contract_hash": "921bdf65e7e704ab88dac0f9ae25744efdabdb421161fb0187d0c59bd1a05462",
+  "schema_version": "m5b-validation-inference-provenance-v1"
+}

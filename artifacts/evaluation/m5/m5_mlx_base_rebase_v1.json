@@ -1,0 +1,138 @@
+{
+  "candidate_training_started": false,
+  "conversion": {
+    "api": "python -m mlx_lm.convert",
+    "command": "./.venv/bin/python -m mlx_lm.convert --hf-path /Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base --mlx-path /Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4 --q-bits 4 --q-group-size 64 -q",
+    "q_bits": 4,
+    "q_group_size": 64,
+    "quantization_mode": "affine",
+    "repeat_conversion_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4-det2",
+    "repeated_conversion_is_deterministic": true
+  },
+  "conversion_policy_unchanged": true,
+  "gate": "M5_MLX_IDENTITY_REBASE_READY",
+  "primary_test_evaluation_started": false,
+  "protocol_correction_not_result_tuning": true,
+  "quantization_policy_unchanged": true,
+  "rebased_identity": {
+    "container_file_hashes": [
+      {
+        "file": "README.md",
+        "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+        "size_bytes": 81
+      },
+      {
+        "file": "chat_template.jinja",
+        "sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+        "size_bytes": 4153
+      },
+      {
+        "file": "config.json",
+        "sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075",
+        "size_bytes": 991
+      },
+      {
+        "file": "generation_config.json",
+        "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "size_bytes": 138
+      },
+      {
+        "file": "model.safetensors",
+        "sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+        "size_bytes": 4607835164
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+        "size_bytes": 64105
+      },
+      {
+        "file": "tokenizer.json",
+        "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+        "size_bytes": 11422650
+      },
+      {
+        "file": "tokenizer_config.json",
+        "sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04",
+        "size_bytes": 732
+      }
+    ],
+    "new_canonical_container_hash": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+    "new_canonical_semantic_tensor_hash": "3732cb9f906cb18f8c9d2844191270fb12d95c6e89ea9295f540b3a8126cac27",
+    "old_canonical_mlx_identity": "d07ae738ad42baadb62b16115f6b2d90c32fbaa859acc81a4a0a95195e833c80",
+    "old_identity_status": "UNRECOVERABLE_EPHEMERAL_CONTAINER_IDENTITY",
+    "reason": "original model.safetensors unavailable and no tensor-level digest existed",
+    "semantic_tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df",
+    "semantic_tensor_identity_manifest_path": "/Users/alireza/research_ideas/09_adaptlab/adaptlab_m3_audit/artifacts/evaluation/m5/m5_mlx_tensor_identity_v1.json",
+    "tensor_count": 907
+  },
+  "rebuilt_mlx_manifest": {
+    "chat_template_classification": "runtime-relevant",
+    "chat_template_reason": "mlx_lm/transformers tokenizer loading consumes tokenizer chat templates at runtime.",
+    "container_manifest_hash": "d95cd372dbcdbcb72151390f66de0ac2c668f81f2114dc79fac5bc0ec032eb68",
+    "output_file_hashes": [
+      {
+        "file": "README.md",
+        "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+        "size_bytes": 81
+      },
+      {
+        "file": "chat_template.jinja",
+        "sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+        "size_bytes": 4153
+      },
+      {
+        "file": "config.json",
+        "sha256": "39c8b11d9c961788e4a1ddab4b9ed0408fb4858dac50088169ec1072e6fc8075",
+        "size_bytes": 991
+      },
+      {
+        "file": "generation_config.json",
+        "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+        "size_bytes": 138
+      },
+      {
+        "file": "model.safetensors",
+        "sha256": "12292b1c28ee6beca7888d596f8b6129c966256c43c9500dc576902830173714",
+        "size_bytes": 4607835164
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "sha256": "846476a9b9fa9e801467338e37635ab6557596c289b9ec9eff4d48effe5f5dcf",
+        "size_bytes": 64105
+      },
+      {
+        "file": "tokenizer.json",
+        "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+        "size_bytes": 11422650
+      },
+      {
+        "file": "tokenizer_config.json",
+        "sha256": "0ef40ad4946b9af6b4faec11f4551a32c6595fbee6ee67788e3e79ede3838a04",
+        "size_bytes": 732
+      }
+    ],
+    "rebuilt_mlx_path": "/Users/alireza/.cache/adaptlab/m5/Qwen3-8B-Base-mlx-q4",
+    "semantic_tensor_identity_manifest_hash": "8c9ec1009fb1b7ff593fb85b18ef54155a3783f4c5ddffe04a4e8ce33636b3df"
+  },
+  "runtime_environment": {
+    "machine_architecture": "arm64",
+    "macos_version": "26.5.2",
+    "mlx_lm_version": "0.31.3",
+    "mlx_version": "0.32.0",
+    "python_version": "3.12.13",
+    "safetensors_version": "0.8.0",
+    "sentencepiece_version": "0.2.2",
+    "tokenizers_version": "0.22.2",
+    "transformers_version": "5.15.0"
+  },
+  "schema_version": "m5-mlx-base-rebase-v1",
+  "source_lineage": {
+    "repository": "Qwen/Qwen3-8B-Base",
+    "revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+    "source_file_hashes_verified": true,
+    "source_manifest_hash": "507f79d4086e495f0852327e79ea6a4daa53afe2beb591a0fd8489dc16fe8397"
+  },
+  "source_lineage_unchanged": true,
+  "source_revision_unchanged": true
+}

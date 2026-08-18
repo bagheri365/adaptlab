@@ -1,0 +1,58 @@
+{
+  "schema_version": "m5-invalidated-training-runs-v1",
+  "created_at_utc": "2026-08-17T02:51:58.555809+00:00",
+  "reason_class": "IMPLEMENTATION_ERROR",
+  "candidate_budget_changed": false,
+  "hyperparameter_search_changed": false,
+  "requires_retraining": true,
+  "invalidated_runs": [
+    {
+      "candidate_id": "S1_POLICY_A_QV_r8_lr1e-05_iters500",
+      "invalidated_adapter_hash": "4f2ec007b6f5d70835a65af649d71851a6e4139be37a95969348787de7c2afd9",
+      "declared_alpha": 16,
+      "rank": 8,
+      "reason": "Canonical alpha=2r was passed to MLX-LM as scale=alpha. MLX-LM applies scale directly to the low-rank update, so the required mapping is scale=alpha/rank=2.0.",
+      "weights_valid_for_canonical_selection": false
+    },
+    {
+      "candidate_id": "S1_POLICY_B_ATTN_r4_lr1e-05_iters500",
+      "invalidated_adapter_hash": "db9fd80979f01ce69bfc6681cee33cfa0b67ccf1f77c9b7dbcbf7a5774c7a5dd",
+      "declared_alpha": 8,
+      "rank": 4,
+      "reason": "Canonical alpha=2r was passed to MLX-LM as scale=alpha. MLX-LM applies scale directly to the low-rank update, so the required mapping is scale=alpha/rank=2.0.",
+      "weights_valid_for_canonical_selection": false
+    },
+    {
+      "candidate_id": "S1_POLICY_B_ATTN_r8_lr1e-05_iters500",
+      "invalidated_adapter_hash": "293d0f19857d19d627e8377d366fcc82511fa355ec6fda3dde8ea700f808302a",
+      "declared_alpha": 16,
+      "rank": 8,
+      "reason": "Canonical alpha=2r was passed to MLX-LM as scale=alpha. MLX-LM applies scale directly to the low-rank update, so the required mapping is scale=alpha/rank=2.0.",
+      "weights_valid_for_canonical_selection": false
+    },
+    {
+      "candidate_id": "S1_POLICY_C_ATTN_MLP_r4_lr1e-05_iters500",
+      "invalidated_adapter_hash": "bffe6f2f6d90e7c3a1443345abd97859b511e80dda889b18b1745fe15414e340",
+      "declared_alpha": 8,
+      "rank": 4,
+      "reason": "Canonical alpha=2r was passed to MLX-LM as scale=alpha. MLX-LM applies scale directly to the low-rank update, so the required mapping is scale=alpha/rank=2.0.",
+      "weights_valid_for_canonical_selection": false
+    },
+    {
+      "candidate_id": "S2_POLICY_B_ATTN_r8_lr5e-06_iters1000",
+      "invalidated_adapter_hash": "aaac145d8af87cf79926b37fcf394f05b5c3ae84fdd18f8277eede8fe3e05be7",
+      "declared_alpha": 16,
+      "rank": 8,
+      "reason": "Canonical alpha=2r was passed to MLX-LM as scale=alpha. MLX-LM applies scale directly to the low-rank update, so the required mapping is scale=alpha/rank=2.0.",
+      "weights_valid_for_canonical_selection": false
+    },
+    {
+      "candidate_id": "S2_POLICY_B_ATTN_r8_lr2e-05_iters250",
+      "invalidated_adapter_hash": "c757b5509a1aa49499ddcfeb801d841288889441895584cb08062cc708b5412f",
+      "declared_alpha": 16,
+      "rank": 8,
+      "reason": "Canonical alpha=2r was passed to MLX-LM as scale=alpha. MLX-LM applies scale directly to the low-rank update, so the required mapping is scale=alpha/rank=2.0.",
+      "weights_valid_for_canonical_selection": false
+    }
+  ]
+}

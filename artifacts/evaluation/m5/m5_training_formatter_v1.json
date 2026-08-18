@@ -1,0 +1,1857 @@
+{
+  "aggregate_record_manifest_hash": "3a7115564d5e49a158b704208b51cf3b1f34b7b130e567eefcc4d9b99e4287f0",
+  "assistant_target_policy": "frozen expected_output exactly; strings unchanged; non-strings compact JSON with sorted keys; no rationale or citations",
+  "benchmark_manifest_hash": "f3933caa5ba4432b9631b989a584d999022a102fe1cbb6b113b51da63ff22b85",
+  "contamination_audit_hash": "67f3b5a3b599c80cb7f04bce18e6a96944ffb6b2eb584f049f6070c8a6c7a25d",
+  "experimental_contract_hash": "87dae4d0b51572519f5b82158ef73c2832d8e09c035b0a7e5f1aaa17cb9d5e47",
+  "formatter_hash": "1d04beb66c4f5d81fdcba9f3a9d9e3cfdb243251766784a4f58dee1a4ce9ca60",
+  "formatter_policy": {
+    "assistant_source": "frozen benchmark expected_output exactly",
+    "assistant_target_serialization": "strings unchanged; non-strings compact JSON with sorted keys and no extra whitespace",
+    "chat_template_path": "tokenizer.apply_chat_template with one shared structured-message path",
+    "loss_masking": {
+      "assistant_target": "unmasked",
+      "mlx_lm_path": "mlx_lm.tuner.datasets.ChatDataset(mask_prompt=True)",
+      "padding": "masked",
+      "system": "masked",
+      "user": "masked"
+    },
+    "message_roles": [
+      "system",
+      "user",
+      "assistant"
+    ],
+    "newline_policy": "no trailing newline added to assistant target",
+    "representation": "structured_messages",
+    "system_prompt_source": "canonical M5 PROMPT system prompt",
+    "user_source": "benchmark question only"
+  },
+  "formatter_version": "m5-training-formatter-v1",
+  "negative_test_results": {
+    "forbidden_metadata_checks_passed": true,
+    "loss_masking_checks_passed": true,
+    "m5_prompt_alignment_checks_passed": true,
+    "train_family_coverage_checks_passed": true
+  },
+  "prompt_hash": "e509292bdbbd7cd1ef56e601858bde22312ac4f4b8317663742e177e6e654b60",
+  "prompt_version": "prompt_v1",
+  "record_count": 300,
+  "records": [
+    {
+      "example_id": "FULL_TR_BHV_001",
+      "input_message_hash": "0036c351c9c8fb53fd9cd60fcfd61d987b0238762cc9ae1f95c991d0eb50dba3",
+      "serialized_record_hash": "427c05ac06af3f8be6aa2fcce6669262abcb1d4fd2b827360d7d8af8c6aea19a",
+      "target_hash": "bacccb0c8c0f9da9302c689b37fc1e05753711338861224672ae74de409f89e2"
+    },
+    {
+      "example_id": "FULL_TR_BHV_002",
+      "input_message_hash": "c4d799186c77c80d585486bf78df1464e33f67f866ba71322b7af92d5cc79cb9",
+      "serialized_record_hash": "783a0a0294ce08923dbe1e89f16bd71526548ea02adc7808915578a00908ea89",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_003",
+      "input_message_hash": "321a74c2ca6e7b2e479473c9c7cb3a0cda5dd5acf68c96923863b7fe740fed74",
+      "serialized_record_hash": "b7c24e469444d42f476e5aa221ed821b688f4c36b724ce1803205c83b4278cd5",
+      "target_hash": "9cf1ef6473223171abdc2fa47198ad966be17a98441b286a8bc44bb695f6eb3a"
+    },
+    {
+      "example_id": "FULL_TR_BHV_004",
+      "input_message_hash": "f37d54b209d704f53c8fec5cf5d66927bbf9d83f07a2089d994f33cebcc9e448",
+      "serialized_record_hash": "25689c361db2106916621382e839a267755692e96256c4a03d92f5decd46d6b6",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_005",
+      "input_message_hash": "862a64c3dac9e09d45082273a3c48858a24306974cce790424cc287590e1dd27",
+      "serialized_record_hash": "72932cba38fce36b012146a80759f1ad2ccde28cda3825720ad3b588c9c0bbeb",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_006",
+      "input_message_hash": "129055e924db5a470c12e6c98a1404c93c2b627b41332fe612a3af7d4c700f32",
+      "serialized_record_hash": "64dfed1dae0600666ab085bc36136c818fea5e3e9900521c6298edd76fa097fc",
+      "target_hash": "47d870f11dd0c9a00a66e6ddebe47d15ce809fda9cb72e98a3a0f782de76a162"
+    },
+    {
+      "example_id": "FULL_TR_BHV_007",
+      "input_message_hash": "1f450b9b4975cfde3ce52d51dcdadedd78ab45fadb2bd62d6af4928ef86a17e9",
+      "serialized_record_hash": "ec4ba490070c80fb6f3a59460e6a60758d7870fa4832b335bba87fe1a4992215",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_008",
+      "input_message_hash": "754b8313b93ba51a2e64dfdd6ecfbbc8d30176ecb1c40a7e3b13295033a90e36",
+      "serialized_record_hash": "c20ab5527871cdec93222391c14fd5f75b2c636ee8971b9068ae5ac411472963",
+      "target_hash": "4f2603d9dd7f1d08b5bcad94f974cbc6738b3721da9d1b7d922ae59ba4121394"
+    },
+    {
+      "example_id": "FULL_TR_BHV_009",
+      "input_message_hash": "e4ec7a8a638ad59998138763e3025eddf767d02fa1ba3779154b59e95ba9b332",
+      "serialized_record_hash": "810c08855f656c5cd4b34625c7545c613a934be86c013ce806be329e50bbe543",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_010",
+      "input_message_hash": "37a4e715b361c30f7b9b2ec3fcbe1ae9872e79d8bf306ca48620d8fcd1923313",
+      "serialized_record_hash": "a963b75002ecedb64dfc854df2ffae1681458807ea32a20ca0b2cc3ef70f221b",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_011",
+      "input_message_hash": "edbe8098a88cb18f9faeb1187ce1cd9619250c01cdcc9dd93d39f44344df0456",
+      "serialized_record_hash": "d3dabca4b2b11f7355d38980beeee6fa55f0b51c3a624aeb6259f6d49cd92a3b",
+      "target_hash": "4da073ff65e61b1bc2698aa3844ca4e252d48612e79c79e60716da555e17202a"
+    },
+    {
+      "example_id": "FULL_TR_BHV_012",
+      "input_message_hash": "92760c2e857964381bf67b86c3aa4cd13401f7523433255d4fc27ca5cf6b4857",
+      "serialized_record_hash": "c824b2c2093bbcadea600866a27dfee1b30faa46d833c2164cd415a9f8934369",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_013",
+      "input_message_hash": "984ba3e8cacf432f394e88bb1525a6750a549c171a4a90a17efad64454a5fbf6",
+      "serialized_record_hash": "add73f905251b284c1fa26f8f2ddbb226e5f9d5abcfb1d01861ecba9084b1fa7",
+      "target_hash": "83d80023bc1c6bc167927fe3e07d98f3ada0d7b2f3064af1cc3555b875d70f52"
+    },
+    {
+      "example_id": "FULL_TR_BHV_014",
+      "input_message_hash": "ed6282f258e48db93bc5fe4370cc154caf959c5c7d0914b78ed8284289779e36",
+      "serialized_record_hash": "ef1aef62ff0fa2a86767fe40c1f4e9c27e860a8bcc19d728ec525df72ee4fc26",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_015",
+      "input_message_hash": "56e75131249dcec8a09a39d986ece2d7339690c6f4e8b0b0334fbb1c360ba948",
+      "serialized_record_hash": "8daff73a2d1ef738c460731fe3b0c40ac04bf3537432752962103a79fa5889ed",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_016",
+      "input_message_hash": "7f6ff3360f2063c21c0b6b449c9e5647bd621c346f922d308d99946f9285ac98",
+      "serialized_record_hash": "a7ba571a8b8c1122d6fa2435b7d4ecc9f5c4085ff44e512e0feee41977337a28",
+      "target_hash": "743108921d799361035dbd238a6e1c6efb0802937583392e21dfb547fce57727"
+    },
+    {
+      "example_id": "FULL_TR_BHV_017",
+      "input_message_hash": "069563b438f9c99832e60f4c0110c5c0485f16cc3fbc4b6cce35af617405fedf",
+      "serialized_record_hash": "adbdf460b98b40ab779baf7eb4d06cb9b848dbdd8da3cee84ce3c44bbe9d695b",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_018",
+      "input_message_hash": "b00dac10ee4761179beeb244b6bff36e3713192453ae9d57059c9e03ace34183",
+      "serialized_record_hash": "7728ee25c5b477b81916a661c18adb848caa8755ed233c5827225021a0160f3c",
+      "target_hash": "2f9e31841e267f1bc3d55fc42006d27bbeffca5853a7979ae792f74a6fdd3082"
+    },
+    {
+      "example_id": "FULL_TR_BHV_019",
+      "input_message_hash": "7e803dee28c4efa96b89ea4371d17f52b511853d795c296fcf65f48863ffb5a2",
+      "serialized_record_hash": "af2d4d499d77e1b3f4e0fc038b7d91ab1cf7c872d33c5b73a784e18ff33250d2",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_020",
+      "input_message_hash": "a1c819416c8353cecc923454fa05af1e5660040809b7fd5aa07addfd21119b4f",
+      "serialized_record_hash": "d8d9d4a240e026d98b5ea5305db106ed959c6b404d2e169aa1de684f41d62462",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_021",
+      "input_message_hash": "f6566b2104be32146318d77ef19f78cff6b4769c69bb0c82e293bfe675894907",
+      "serialized_record_hash": "135718ec4b02dce485d7f700af557a8947229fae3965eae392f739570a3e8dfe",
+      "target_hash": "db6439cdbbfbcaff344805f76d548d5181a0d3a5f668f3479296a8665eb58f11"
+    },
+    {
+      "example_id": "FULL_TR_BHV_022",
+      "input_message_hash": "7cd2671914672db3bf95ea08388ec3feb346d2682e82d99548175064ac98cdcf",
+      "serialized_record_hash": "14817d74035aa7e5b22cbed1999c830e7ce2c080826063b4998502b17a865254",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_023",
+      "input_message_hash": "70eba5702b74d1bc2ec97b9814c6beee6a8b00bc82249f6d94ca93c0afa9a1da",
+      "serialized_record_hash": "90992b9fad081fbee81f48545b1574c162453b5ea2ffb1387bd7e710b28a366a",
+      "target_hash": "25464d2f8265eb8aa7b3b380072618c3eb1226ff6746a8d423fd933b97143f08"
+    },
+    {
+      "example_id": "FULL_TR_BHV_024",
+      "input_message_hash": "4338e14d52242489ebc93303451042179edd83be8626b11b7068a9ad4066311c",
+      "serialized_record_hash": "a24b1be069099c10346c9fc72b49c80262825cadf100992ee3f8b86175ac57e6",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_025",
+      "input_message_hash": "1e6562aef14ef5cae225b95daa921df68de18391a714232a1fecb04f1f87d236",
+      "serialized_record_hash": "cc484fa0adba691a1925b70065383ab837963f9baf58bd5cbadf55b8ca664acd",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_026",
+      "input_message_hash": "a14311fafdc38bf8f7b0e2dad06d8173ec36d7cab6b34ed1a2bd7785e70d141b",
+      "serialized_record_hash": "378a67fd07d2a5e6315fe1a3546f5fdf3bb30d0fd21b2c143d9ede5424c21642",
+      "target_hash": "61fe1f7f63f88337733b732e58b6404337110b16582fb4d78aee50d1902ded31"
+    },
+    {
+      "example_id": "FULL_TR_BHV_027",
+      "input_message_hash": "8be0a4eca90252e770f3bc157f144a8fd919a4975f0c121cf3f76b70f7dcca9f",
+      "serialized_record_hash": "6e115a1a3ba7c7d84711b3947c5d3e18c83135754f6355b8a71c8ffe31d40b66",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_028",
+      "input_message_hash": "fcf946db924b1ee8dfcb7520d23e1405ed29c3e5ff1de855691e7c086afcc1f5",
+      "serialized_record_hash": "7ab47b8126e2226c2e68f9444f06d8866c14b7a5c2975055a88af032919f76c1",
+      "target_hash": "c0e7e25d890eacab9ccd79731687dc12788d202e2885b8a5a48783803a97da6f"
+    },
+    {
+      "example_id": "FULL_TR_BHV_029",
+      "input_message_hash": "5f2529cbe53249a5e2871180a08c186fba41380a3ab4497b54cda4f5c0aeaa78",
+      "serialized_record_hash": "a7c4a7aa950dae09fe4dcdfc8b9971c6b2f22d1173733e45553b081c738d8743",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_030",
+      "input_message_hash": "c15109fa738dcdb1969e7d997706223b54b57b3474b48e9cd028a3044ebf2448",
+      "serialized_record_hash": "27ffc5d7e7d1c7cacd9c1bbf32d7a1009a3b98c1d8cc99670737e953db4366b9",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_031",
+      "input_message_hash": "4335770f541b8529d5379e751f9a5f3c4296b315489d35424dbbfd5688fdded1",
+      "serialized_record_hash": "104789be8709aa9e7f811086f8f50d8572ba60f2fa66761e5d42182dfe002df9",
+      "target_hash": "8875e412bc3bf8cd163e199d8edf416423a25bc5cce5a536eabfb859e0289b87"
+    },
+    {
+      "example_id": "FULL_TR_BHV_032",
+      "input_message_hash": "a4afe2cfe08a5391248cb9c13ef7917548971ad512692141db64335c77732ead",
+      "serialized_record_hash": "bfd829e3c49285f56b6faadbed7ed96fe809fe724777b0480fc9c8a8491b21b3",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_033",
+      "input_message_hash": "80905b305cf1b885da6b0924f0cf0d5c264e6110e7d33081a13fff776fd9c2a9",
+      "serialized_record_hash": "4f57539329e7ecb3720b159065d95ee72d1864afc787d01901bd76343414fca0",
+      "target_hash": "713563de6813b4e904dc43237d4fc81abda4787bec8e03be51bb3a862928b5bb"
+    },
+    {
+      "example_id": "FULL_TR_BHV_034",
+      "input_message_hash": "7ab6659dda71215a58ebfeba77aff7d934f1ad1319ac13b093b4d691a7ca3b8e",
+      "serialized_record_hash": "bee0db3b1dfdf4ff99e6937013e9ce1f395da75423857344a8fa254da3f2d1f6",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_035",
+      "input_message_hash": "e6848e47901bc1e1c428f992e4d53c303168687afb1871ae90ab5170d905ba9d",
+      "serialized_record_hash": "43ba5e9c2ba5b1db4807609c1eda91c1a1741cfe5082b6c96f42da1fb3c8ee3b",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_036",
+      "input_message_hash": "f5e64d0052db3e305154aeb108f6759c3679945af70d55101e6f7bc5bd220fd6",
+      "serialized_record_hash": "f79e31eed3b4112a9b2fe4899cb887dec4aa04e42dcf039b95a993abe3a2d796",
+      "target_hash": "ad386f303df0850da97c6b2e374f123236d1a232996ef7b0fa3045fa6195c552"
+    },
+    {
+      "example_id": "FULL_TR_BHV_037",
+      "input_message_hash": "bedbba1da4946f2a7c23354bd30902bfc7a0101e56ed2d076568cfb685bffb33",
+      "serialized_record_hash": "6687984a79ce2d72fd6539a8702eeab5634c522e56adc99bb60c386290745db3",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_038",
+      "input_message_hash": "205f831f003e190e2d1c3e18c2691a68804ca6a0e918488df6ea1a2ce79129da",
+      "serialized_record_hash": "a5546ca00e5d69c47f38c4a985d3bd8fd9fbb588d5b5eb298e51cf8449e72207",
+      "target_hash": "84f939605c0baa77ddb6e144bec4f335a980c07b8b67c17f530462cf09d5555f"
+    },
+    {
+      "example_id": "FULL_TR_BHV_039",
+      "input_message_hash": "8c6439c07d64316fa4723f0dd9032bd062102d51a29907ebb9d1818dc1f17e2f",
+      "serialized_record_hash": "a1e6a8d62188e5027e71767906fb2dd7bb5e6ce21da04557cf03a4a8fb0551ec",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_040",
+      "input_message_hash": "2c0871cfb8f9983481641b6e4f113551e64a02907711571f8f13b55eedcf72c4",
+      "serialized_record_hash": "5982e0912cbe60d14363851b76eef3a88ff431e5450f57935c99580ffb3857d6",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_041",
+      "input_message_hash": "0772e41db7ffa8cd5eb319bdc8a12fd9dab8aba5bad7091cdda51b23422e9b29",
+      "serialized_record_hash": "607ba1011306b57ebbb48a93bbe89d5346b2bee951bfcfe5af59d21b528eac16",
+      "target_hash": "c8a4c2c3c624e08c91795ea56fe5a078816b18f684aaec13590306162a4e9b4e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_042",
+      "input_message_hash": "7614a0731145e48eac107890db4ba0a1b84f8f883a8c69f9a03692a6a9f644d2",
+      "serialized_record_hash": "4f4257af69ca43349cbd6e3e968619193e4cf1a68035ef41e5fd7ae4e31b0464",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_043",
+      "input_message_hash": "0f96cd5ac168e5dba6f2020a4027226a1e0e5c6a1b514c3a367b778f5561b05a",
+      "serialized_record_hash": "25821d3a1eb1566416765784983db5371584f7c24c3e5072a96335a166fda38d",
+      "target_hash": "9d3c2d7fe347f68e33b7af65aad0866a8a314a88bd9b9e8b6037e0330e008d1c"
+    },
+    {
+      "example_id": "FULL_TR_BHV_044",
+      "input_message_hash": "18fa6dea3d91c99c3d54f05d9e4da92e8d82fe45cbcf49fa338056d5bd215851",
+      "serialized_record_hash": "5483b19dfe81fb8dbdcfa78faca4e435a8b266f957c87d35c48a6a0d102c7357",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_045",
+      "input_message_hash": "94fd64b19db5a1c09803fb1db237959b9746ad203e87d35d8b7aa9c083ed99a7",
+      "serialized_record_hash": "200babba6878ca6ccbea0e9fa643f57271340d7f2a907990c978271dbe96b21b",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_046",
+      "input_message_hash": "c78d9ad7939bf16229f46505991587b992981e995e7a641d4696817405ee40a0",
+      "serialized_record_hash": "67216b2c18f273666e867dc1e0fe42b82c9ba486925ac144c2ff74e847ddb690",
+      "target_hash": "288dc46252dbe173e6a3a02646553b730b8d212471f006788afa88d4151262ac"
+    },
+    {
+      "example_id": "FULL_TR_BHV_047",
+      "input_message_hash": "b51be3d8ca39c7d86f17edf0b3d0b94dc7821a70081c1edb18b7787b41d4234e",
+      "serialized_record_hash": "2d5ecf4c61d969345fe972d0265fd9e646bbb8a4b7ccdce7965e9cb84287c180",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_048",
+      "input_message_hash": "d7727c8bf0388510b3d5647b172fdfda704c4a88149c08858c5afbab1b9104d5",
+      "serialized_record_hash": "e6ae2215508199e5007d4017982c26cf03a1f8acff1bd03c4f32b8b0f569d886",
+      "target_hash": "40d22408ecf7664eeb80bee8ef1f7074b425219292808aecc1a17b8d2876907d"
+    },
+    {
+      "example_id": "FULL_TR_BHV_049",
+      "input_message_hash": "6b6bcd89b86b314b725acee80e43145a80965702ac4644cf42e1971342ad57fb",
+      "serialized_record_hash": "ea8d1ea21b9ce07ba06890d4f78eab3c19506c9964432e158c61886db6f2e9e4",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_050",
+      "input_message_hash": "f4517fc92da02aba71dc551e5c87f195acfc45a2e5d80f233bbf085fefcdb16b",
+      "serialized_record_hash": "c54c361315b90db99bedf5541245639e450c6ea420bb55002523aa7ba80d18ae",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_051",
+      "input_message_hash": "579dd9cc4769885120d405341ebd5272bcaf7b246d17f77cb5910be2f182a715",
+      "serialized_record_hash": "3a325d07f91b6fd1e5d1bc2ecfa1ca1d830a0aacb885e7c4bd552ba3f5c6586a",
+      "target_hash": "4b9b037dc0b8df188a1e476b2e081017601c895aa483f1fa317fd7b37dc55e81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_052",
+      "input_message_hash": "677ef04fcc3541b680e261679e6b7f0ae920eff9879b34864255ba92093d398f",
+      "serialized_record_hash": "2848ef66234c309d9ffde46384b41eb0f9902e6e780b168f33a7a94a3eb1f851",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_053",
+      "input_message_hash": "211bd7c90abb6478808094391956b47f7e7fc5c452a6341848f5832dd2c188aa",
+      "serialized_record_hash": "b42fad9d183ff3870deb24a684d1fa305d6ad8f7e87a2fc5474c8addde31c656",
+      "target_hash": "986ba490327287cfc8417da56cd36e8a7153924a94ba37576785872a9b491ad8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_054",
+      "input_message_hash": "b18b988486a14c768d5649d3d76e213fea20155a8a04107d10285eb4c897c792",
+      "serialized_record_hash": "551124f82a68e7aed52d2b28fcd9acd1b5f554c87f0fbcdc6c5a86914261e594",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_055",
+      "input_message_hash": "1630da4b932fced44d4004d2efcaa96aeffeef521fd0563a3d6a7632df9b9489",
+      "serialized_record_hash": "e3b919309e9b5d4db15bdf9387e665d3d608350937bdbb616431f4594b6847b1",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_056",
+      "input_message_hash": "fcec5a4675ab786ea1df5be426b39a39bf774ec897f931ae2a2372d71e8d6c36",
+      "serialized_record_hash": "8d6fce1933243e247505de84075a7837ec0750745846222c0fa67cc49df8495d",
+      "target_hash": "b9c692ed2825eb5060c6b981ba8a2aa0309f2b48d4a61f938a24aac241c136c8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_057",
+      "input_message_hash": "074fc79786f6622b7945de57ea4831368e257c65621e0d56cdc07ec3df9f0bfd",
+      "serialized_record_hash": "52c9115d650aa4a352abed6a678866a2a5a00d0a2d73ffd9a333e17cd03fff67",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_058",
+      "input_message_hash": "b868406cfba2d56bd5d9a53d206dbf8905d011bcbc87fe1b3b23f88d75e85a21",
+      "serialized_record_hash": "9ea2c202f1e8add816663341bede3d646e5bdd7d6c5b4ab4821d9f9d4cadf9dc",
+      "target_hash": "b64624d5339687c4b76c0f722e66bbdad8252f92f9d8904e86782da36676939a"
+    },
+    {
+      "example_id": "FULL_TR_BHV_059",
+      "input_message_hash": "5c98aabd33d380967b8a3d7be1170e6b5ebd06ffae84b4d2ce5c057827ea524c",
+      "serialized_record_hash": "1625b6cde0df34b9deed92c3e23162284818df15ff3dc028aa247879acccdc93",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_060",
+      "input_message_hash": "fe5081d23ede193b114ca4c2096f7ecb9c06f54245259b1e2aff93986db1a4ee",
+      "serialized_record_hash": "1ceb3032cb890fe30b53b758c9ade7caecbab60e74374e525fb6bc8699d32cf2",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_061",
+      "input_message_hash": "7a10c8fd5a24899cdb25733a4dfca15d955386c1ff759b869e02419725d4a7e3",
+      "serialized_record_hash": "d73269b1038b51ea1f2dfcef5bbb4fe6fc2535e7fc451e581644cb951a2cacee",
+      "target_hash": "3b93a1384841e6753e1192b5fa64e44e8d8bf7be94800a2df536a1b9bd828acf"
+    },
+    {
+      "example_id": "FULL_TR_BHV_062",
+      "input_message_hash": "26278594b498069be480e1e718455aaad555a306eda98715554b0372023dbcd2",
+      "serialized_record_hash": "d79f02e80ee9ee0388c414262a4b146e332ea7241478ca0e531478805ce21e3d",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_063",
+      "input_message_hash": "d777df3745ac188976aa3a2a49cd2f64b98e4343206449b65f414ec6e5e6a929",
+      "serialized_record_hash": "ed2eebda787bac208f97a8b1b6e91db37b99370d8ab50466dd4488c8b7ab6706",
+      "target_hash": "463b3700a9b9eb14a5dd29f1d0a738011ecbe14cf1894daae34c3c53b7689955"
+    },
+    {
+      "example_id": "FULL_TR_BHV_064",
+      "input_message_hash": "57a4a2bd7d9d5f864c39bd794e30413e9c3050643a442aefdc4c791deef0a044",
+      "serialized_record_hash": "57eeda4f685cd1537577c1c24c14be8a5a900c73dc9257c854ea0a6a9b75cd2c",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_065",
+      "input_message_hash": "ca1348f08176afbde354b89f78cf4a3bc6f4ea3c80c29688ce99681b742d671f",
+      "serialized_record_hash": "a61c77c310ba1ccf7c2f02c3984e0141583cbdba30744645d18064d86d0d26f5",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_066",
+      "input_message_hash": "892b8f39ebd962d839175949c9fbac1abd142e5056c6991e00c5df0a8e2a4218",
+      "serialized_record_hash": "0f6ff9944f64cd58742e5342bb9ebe50c6535fa15256d35ed20632d2a780b028",
+      "target_hash": "70c317cd302e33729baa33d057bfca4597902596b70862ca688597c5b63fdb1f"
+    },
+    {
+      "example_id": "FULL_TR_BHV_067",
+      "input_message_hash": "db0e24fb601dde3c24075c82ac61215bd2a625ba5f2ea8a512c015de35edac25",
+      "serialized_record_hash": "8b29deb086c3886bb514451956c309d628903c22ca1d4bafe2cf38924a24a116",
+      "target_hash": "2f9acb02faa121bb2a3621951f57b4c690655337edee2e5ac350be2b3be88ea8"
+    },
+    {
+      "example_id": "FULL_TR_BHV_068",
+      "input_message_hash": "4446e4335961d33cd291632a6cef2c501afcc340585618d352ad29cd6427774d",
+      "serialized_record_hash": "018842cb56a18b6a8427551aeddada3654cb38ab7bcbe07d63d6872a08bbb458",
+      "target_hash": "5dd91002aab05322b6e1c9cfc743af86980f188d96b25f365a569921755c1b3d"
+    },
+    {
+      "example_id": "FULL_TR_BHV_069",
+      "input_message_hash": "fe0dc2382d88f98432fb640b19af875609ac3c563bb04380157b482e45b49da2",
+      "serialized_record_hash": "26ab862caa64c48d67799a11ef9e6fa6d2cced4dde9811479e69541d49425db9",
+      "target_hash": "5fbdda1b8c72e849493a8534652682ed35b5bde51896cd1f457278883b0c5cf4"
+    },
+    {
+      "example_id": "FULL_TR_BHV_070",
+      "input_message_hash": "4c43d409ca05154f06e0c605cb0f4f17aa83166cf4e5dfeb07b8a5cc948b9e59",
+      "serialized_record_hash": "9ccd787b9a9487b6adcc1d7bbd0c630de0e50f6056b97a27e7a7e73803a25da1",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BHV_071",
+      "input_message_hash": "d84f6b91ec551ed3dbeecb31892d8975340e317e2b82373834ab41f27b18a413",
+      "serialized_record_hash": "cd533ddbb23da7583e96d1ea00a161d7bc47ef9b0654b340788d2b929e90e21a",
+      "target_hash": "ecb282de4975ad6a596d5499219941b5cde3121709ea95c2000a760bbffec0fd"
+    },
+    {
+      "example_id": "FULL_TR_BHV_072",
+      "input_message_hash": "1cc9071d07bc63db28475fa4ca24f44c86d0a2bbefa5ecdc5887905381ca2201",
+      "serialized_record_hash": "dc928613bdefafb9abb66f0240150a596f6d350ad58b6803a14eee512f2ffc66",
+      "target_hash": "425305e25df9df108e011164f7ca97522276cf1bc67b8aec3a7139cd60fb9a81"
+    },
+    {
+      "example_id": "FULL_TR_BHV_073",
+      "input_message_hash": "54875f8fd8bcffc6aedc39e7feedcc4e74f137872207a82c326ac9da5a02a378",
+      "serialized_record_hash": "1608e7237e1f1848e436a27d65098414188b42778a1a94e552ec90a386157805",
+      "target_hash": "55fb74af0f63c0fa92facb378d1d02f80cb228812f9634e7efc7b51e8fd1e0f6"
+    },
+    {
+      "example_id": "FULL_TR_BHV_074",
+      "input_message_hash": "572cf44a05b7bb817206f3e6f97592dfae9c51a2b80e96b496470199bbeb9403",
+      "serialized_record_hash": "e58dc778bb8afe155ff958f74e627d64840732c994bbfeee1859b989997d4e85",
+      "target_hash": "b43e72eed0488d784f1e3092b48320e2355e9d6313f7ac401542018eec20d8a3"
+    },
+    {
+      "example_id": "FULL_TR_BHV_075",
+      "input_message_hash": "2eba0aa99ad5bbab066b5a51074d8aff0f48b42c30834f3cdba9d9a6fd1f4cc4",
+      "serialized_record_hash": "a87c103321e7fe4e926873eaccb15a4cb6412d9bcce4ce368942fedc33564a82",
+      "target_hash": "da669ff6f979b3ba8a0271f64ecb0fd3ab7b2b9b2966b4e19be1bbd142fcee1e"
+    },
+    {
+      "example_id": "FULL_TR_BKN_001",
+      "input_message_hash": "b30fc4f1d9eded8685b6e29c0f986ecc70105bc32b45037c04be737481c5dfb2",
+      "serialized_record_hash": "deda2cc1ca5436e08cd7210b865a4c763a81e50f8391965f8fbc227446741f7c",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_BKN_002",
+      "input_message_hash": "58c1ef95d7b1768ea2e67da5454ccb843120e6c4cb2c884735869b76c629342d",
+      "serialized_record_hash": "5fa68232d74a97c540e9988a3905dba8ee24189ae4fa3f8c32188a1230e21e65",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_003",
+      "input_message_hash": "c447b3262efdec61290fad2a42d5cd3e9250e9e264e2648573c3107b167154be",
+      "serialized_record_hash": "3c5a960dfff07886f965384d0bbe9c484b0170ff446ddfda3d76c691dd9804cc",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_004",
+      "input_message_hash": "fc9452006f67acc62cd4e04b8f224b810be853fd00bba69996cd56a5eacfac2b",
+      "serialized_record_hash": "f5f30284993a208e935f1dc838d594445cf50e7b4cb8f855933cd5a69c7ddb76",
+      "target_hash": "dc6c5a064fbf28c2014a22a194c386c1796a3bec7dcb1fbf7c8d3a6833abab77"
+    },
+    {
+      "example_id": "FULL_TR_BKN_005",
+      "input_message_hash": "83465f027b7b0a3052c9e0e0147212924637410dad9d741e6d228fef053f27f8",
+      "serialized_record_hash": "b0d75986b75a951972db55f99f57cf60eabfbf7d838cb31855d4da8f8ea1d314",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_BKN_006",
+      "input_message_hash": "61aa77fee66ea46d7f00a5d6245ba1c2cb44d015881852b59d045e9893df9abe",
+      "serialized_record_hash": "1b5b498ebf20acc16100ac763ae8fb0f87a57653d2dc2b80c31d26667d7ad327",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_BKN_007",
+      "input_message_hash": "5c372c997f88540f398cb7d866a54000e976c47b229ee3134dc3653d7822b28a",
+      "serialized_record_hash": "1fe4721f1e1f127c14d1adc6fe47486dc1e916fe9d842eec0970583a516d394b",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_008",
+      "input_message_hash": "125c81dece1467c30bce3da03ee4199d70c53438850801f6c3ad1aad51c086a8",
+      "serialized_record_hash": "5dc93363c06713af0388f7a6514ec5fd6355300b2b8018c3df008915897ea0e1",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_009",
+      "input_message_hash": "838115daeb1bdec733838cf7b78a73666877ddc3e3f86ec0ab53ab3cb15294ce",
+      "serialized_record_hash": "15b6ceea5c967d96b9932bfcd785e9aa71f6e1431e30016e8225e15224c8bf18",
+      "target_hash": "d0889dcf67231cf99e0cd4cfbbfc36a3d5295ae19c23376f9f9671690615d7fa"
+    },
+    {
+      "example_id": "FULL_TR_BKN_010",
+      "input_message_hash": "8f05d730eeb81afd55cd64f4a530308b2b6428ef27356dc4d771cd41b2199540",
+      "serialized_record_hash": "8343a55144e263304769fdd2c6e643f7517eb4e0c4ab26bb02ea791de9e96f8c",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_BKN_011",
+      "input_message_hash": "c133d67bd3a73fc118460faf5f93bafde78f8cdd84068919f669a709cdb8b02d",
+      "serialized_record_hash": "bbd5e0191c576bdd9f3e2b79c035764b5fbb0f23b101412f8d85cc70ad8ffdce",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_BKN_012",
+      "input_message_hash": "cda773f6f00efa21456d528b95d093730c48a57d733257fc6cc43e8c439c6044",
+      "serialized_record_hash": "1ba2ff7c74f78f77bfee9460c17deb65edd86d7057a4882a0d21d1fd3e9d4a1b",
+      "target_hash": "e3fd990a8b3088f37113b1e31178c3746b8ef2dc9bd8d05479ee8ab5c23974c7"
+    },
+    {
+      "example_id": "FULL_TR_BKN_013",
+      "input_message_hash": "3b9d513c2ea048abebbb5c848c54bb8554789be54327c5d117be5a2e8ffdd3e4",
+      "serialized_record_hash": "b09e959892c50c8ffa9f68f1c7ff4c61db4389616f79f9ed5b1b4339f0d598a3",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_014",
+      "input_message_hash": "c1498efd33be231df0fbdf76981afba7928ca25c49d2b62a76b95d2c0b5c3c0f",
+      "serialized_record_hash": "832b225cf8e995ea84bfabb5abff2f9d06cc8af1962b4385b72c6d122a92aeaf",
+      "target_hash": "8c5aaab6e1efdec7f7f9f65cc0de77461c36a46e6b7c9ee7a35299dd6e8449ee"
+    },
+    {
+      "example_id": "FULL_TR_BKN_015",
+      "input_message_hash": "e19b20471248e3dffac8c371cadc6aff92f773736c522d110236706262ebcc27",
+      "serialized_record_hash": "766dcc92facca1d2712d92ec4a8428fe77e7ffabe9ab1f24385862913bb9b068",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_BKN_016",
+      "input_message_hash": "e2caaa5fbd783b714a99c7578d2cea6ac9104835402e0d93f67591f08c36b807",
+      "serialized_record_hash": "3f042a340973fcbbcbcfb6e6d231d67b24f7b36383579008578056dd3c204e6c",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_BKN_017",
+      "input_message_hash": "46cd284e258e32bc2dfb9b24a8f892732056e6d2e7de321aaf32365da587d6f4",
+      "serialized_record_hash": "a7acc5c80155f1e0deb8338413cd1aa3807db0768e986f357426062a5300ecd4",
+      "target_hash": "e3fd990a8b3088f37113b1e31178c3746b8ef2dc9bd8d05479ee8ab5c23974c7"
+    },
+    {
+      "example_id": "FULL_TR_BKN_018",
+      "input_message_hash": "978f61aa2b83103a64bae97adc6777b6a0b0be5e95d34a4253c5983c9093021c",
+      "serialized_record_hash": "aae52ac3c705a0cbeed43cdcfc68311c1d020c3c8ef7a0af370839a33dd1eaf4",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_019",
+      "input_message_hash": "3e83f0012aa38a282a958659ded0bd77fda6e4f32f8febd77013cd29f4c2fd5a",
+      "serialized_record_hash": "e1c163fced07d08b64794e329e589f7deabafacdc46062cca8274c3bb6d326d8",
+      "target_hash": "e4728a2b2b588a9435865e82c528ab9e8055c03faff232c1f536fe0264a5b7f0"
+    },
+    {
+      "example_id": "FULL_TR_BKN_020",
+      "input_message_hash": "68740f75fe2ed2b8497d5684731087a91a24e799241afc0a3336cd54129b611d",
+      "serialized_record_hash": "3f7c9583e48e4882f30c4a9b0b651b17403bf219293e89118105ed57b321af26",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_BKN_021",
+      "input_message_hash": "ff4f5444f096434519adf32e1a89aea349e3dfd9c0cd8064f15c0a219aa58b2e",
+      "serialized_record_hash": "cd05450d6ffec6ecdedec0be0fc47947cf93382ae3f16e0752af37780e9f22e7",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_BKN_022",
+      "input_message_hash": "864cce5f578092287d9c642fc6a887691f0153d4778ba836e98c9cbf170b3a81",
+      "serialized_record_hash": "6dbce698683bc8984dfd30b119829e2f5e4a8c6eda8765d4d15a6da6107a83e2",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_023",
+      "input_message_hash": "ac1ed3f1fb1a75fd9b08d38b10fed1ad595642d5fb4eff41513409e636d64d1b",
+      "serialized_record_hash": "2448b0cc8893188cbe40c60103ea3355c366945facf65bbdacfe54f5e5723917",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_024",
+      "input_message_hash": "4bca1f11070232b1897152ffa98c2b22f29d791220db02c9c6bc1c0421a6c111",
+      "serialized_record_hash": "f9b46ad1f9d2b132de69b2f3032c4ef08900024b2a2d9759b0fd0317f5798282",
+      "target_hash": "5654fa3a0a13d0e66b1eeadc7b2cb9a1d244c6726c2e9ec3a531e6d1a2953dab"
+    },
+    {
+      "example_id": "FULL_TR_BKN_025",
+      "input_message_hash": "aecf2ca01e5d57ee21ac807753862e16ccde7bb56c1fe12a8d9417c24d507525",
+      "serialized_record_hash": "f1858fb4ab8b8ef5dec943ec442024c0b9f68fa09af33ebbb3b46f04d13d82fd",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_BKN_026",
+      "input_message_hash": "63b56272a1e15927dd2d1c0b8158af1a3d142eead8377af8c21383e6459cfc6c",
+      "serialized_record_hash": "d365f795cb829c31c1ec22bfe416816d87be049cc1dd74abc4f031b1cad93440",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_BKN_027",
+      "input_message_hash": "b0c70a3f4335dc52387991bd972a5506705d889d1b962b2718c221bdb4cd1e3d",
+      "serialized_record_hash": "5605badadcbfa7b096a4c041be8651a7f0d32e52f52607f5aa01019711de2e1c",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_028",
+      "input_message_hash": "6dff417c37d2781bf05f644679a42ed88d870a0e5ba3b799b72a1c28440b333d",
+      "serialized_record_hash": "2ef7e3727d3b07cdf5f82c3714a3b2190666c736162a6c0cd3a94cae78f8ff2e",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_029",
+      "input_message_hash": "34316073dc8d6edfec9611a267a454e869eae3b543c9114766e3be601913124a",
+      "serialized_record_hash": "b5047e01a0146de2d6e8cf00dbbac4e8bf2d66f73ef68c1bde785d85e282bab2",
+      "target_hash": "f722d937a9ca504eb5fe8bb7cb41e1b2ceb6aa595449ca58bb1e0312590c9526"
+    },
+    {
+      "example_id": "FULL_TR_BKN_030",
+      "input_message_hash": "1cfac32b3e592142416962ad2b92ad2101859aa05b3db645dfeee876213c5a70",
+      "serialized_record_hash": "4493ace1313791c58019118f91971aec5ec8cf5f962488b11ff5dd94eb9a376e",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_BKN_031",
+      "input_message_hash": "ffd8803a2fce1fa342d800c4adde17fe76bd5a9526cd4211486eaea09643d2cf",
+      "serialized_record_hash": "08155e40b480c0acaca22c07e470c4221f65afeb85dd188a8156612bf8dde4c8",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_BKN_032",
+      "input_message_hash": "21da6d1fdddbfd289f68e35a6f989a9951b67a4055ffc5ad26e78cf12d6101cb",
+      "serialized_record_hash": "6b73dbf472e1e71eaa0516f575b1332fd6976ac97d67732e99ce8fb6e123d9ef",
+      "target_hash": "e3fd990a8b3088f37113b1e31178c3746b8ef2dc9bd8d05479ee8ab5c23974c7"
+    },
+    {
+      "example_id": "FULL_TR_BKN_033",
+      "input_message_hash": "3512892eeba6bbfe73535c703ece403bda718432496db08f95558688dd5e9586",
+      "serialized_record_hash": "0f0559374e7c41b7c619d75158f5e6dcd1f9fa4fe65096d2864cc593c6ee21b0",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_034",
+      "input_message_hash": "eb1d852b14189d21a767436fdda31bec746d4c6fcc1f5cefb2343ec8bbd99bd6",
+      "serialized_record_hash": "89db2bbdf03e318716b1d51eb234d5ebd07d7abf7d5b30d591cf183a85f5a4b4",
+      "target_hash": "b505c2ffe02f11fa24916c7c94fa505194be61a698f9d6755a5d8e6dc46aa637"
+    },
+    {
+      "example_id": "FULL_TR_BKN_035",
+      "input_message_hash": "78965739a39fcc99d194109949809b3c4c326e8174a8ca02c158866bab40abe0",
+      "serialized_record_hash": "294c571bad146ba8f0846f10c67e8de424e5c36c947054d674d12034237b172b",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_BKN_036",
+      "input_message_hash": "27c7bec2e64a9e5f1b324353825d3634e277420ed1703faa041ce639119e96bd",
+      "serialized_record_hash": "ff67789ac3754b3bd1365b265769977d1c6c42bfb181e4e2713de4ee6c7e91de",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_BKN_037",
+      "input_message_hash": "9c4f3b8abd0bda020f2781521139f5e515df4e2e9f628189ef716f560a5d0bce",
+      "serialized_record_hash": "e8aa16799827e022ac6b0773f48f4c9983807f91ea3b9a1e433d46063e75181c",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_038",
+      "input_message_hash": "38d595266f94f7e4f0a0924915b0e54e6137e55685667c789cbd9d3d2863f511",
+      "serialized_record_hash": "2df46aeac3d38240b11cf4da98d3f20a1bd1f95a7aa1574cc3447a89f52eecdd",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_039",
+      "input_message_hash": "db8695073f11ae7e72df6e9608a6fb9cb408f15dc164359a0143dbfcd9a94cff",
+      "serialized_record_hash": "016e844fdcae233e05e953dd301b78bfb11f818fca22206ffbc09ee0fde6ecc0",
+      "target_hash": "6a2d8665a5c476331c813dc63dbd4725962ba71d6f81fbf752798caaba22f5ba"
+    },
+    {
+      "example_id": "FULL_TR_BKN_040",
+      "input_message_hash": "f17b488d2512c4c7bf581d06074a49980c705be014fe72dcd2dd42c6196dc3fb",
+      "serialized_record_hash": "49353b420273fbb0811e590ddf232a154c630ac72424e05d4f72792941da2fbf",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_BKN_041",
+      "input_message_hash": "371d5956957cb4dd2ca1af1fbb22cc09538ea3b51cb32a476b676d8cf7e01d2d",
+      "serialized_record_hash": "95ff9c8c934dd972842f9bf60fbe37e7c3ac58e5af348a6084813de0d432721d",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_BKN_042",
+      "input_message_hash": "b2d461e3831e17e7826fba20309d3819fc5fab01ac4e297d15b62f29919b896d",
+      "serialized_record_hash": "3406a48841536cbe43607429dba18d096a02ecbd83ab523147dfb767040ec8a0",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_043",
+      "input_message_hash": "334fb03812d49e76719097946bc3a5ac3ff0c458c4d24c107b9791698cfddc14",
+      "serialized_record_hash": "19213438232092bb3890fb8910b3736fd34563bf8aa4b9010b371a0f1de25835",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_044",
+      "input_message_hash": "296417e401390207c3dcec758e83707a706e3518b8a1ab58404a9350bf4d2541",
+      "serialized_record_hash": "cd34b4dc84a7e59c20291975b70838d3c5b57c4b6ed8aa010c97ee23319b0d10",
+      "target_hash": "ff4d90f2a809cac4b40dcfd74b2df7bbe4fd57a0e5810fb7ff72f142dfd2614b"
+    },
+    {
+      "example_id": "FULL_TR_BKN_045",
+      "input_message_hash": "2b93643560a4049230fcbe4aeeb5e64a11fdd44586c2bae13557734968e0c0d7",
+      "serialized_record_hash": "933ea05529f020393487efb2a3d47f6f4ebe6535031bacb92aa4bea1612b6492",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_BKN_046",
+      "input_message_hash": "bdfb8d16a4aeac1bec7c67cd664af4eee0ae6fb72e171f459a9d1edcc83bc376",
+      "serialized_record_hash": "52756e91cc695c103c595d85c5209179c0fbfd42588d9c8db4bd7d03c3fe1027",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_BKN_047",
+      "input_message_hash": "bccbf811d2acaa03171aba3e76e8ccb31a84dab41eee61e3670ee54f76d99ddd",
+      "serialized_record_hash": "e2261c1b438164b64c802d6cf8465399b3dba45b30a33c7783a621d05bf73fd7",
+      "target_hash": "e3fd990a8b3088f37113b1e31178c3746b8ef2dc9bd8d05479ee8ab5c23974c7"
+    },
+    {
+      "example_id": "FULL_TR_BKN_048",
+      "input_message_hash": "d48c417029a55658774873fb9aeb472f6314c46ead9c1a189f5da8627d6b4ae3",
+      "serialized_record_hash": "f64db108ed136c3eb5fda4845cef17e927d6afc0649c1c80415fcf1a599f2631",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_049",
+      "input_message_hash": "639474113a11a60dc23ec755d73e5755a307bf13de3aacc2296d385eaa11f572",
+      "serialized_record_hash": "cb0a95265deb1228600044b8fa5d7e961215329f05d55baef0fc9ca6e9d098dc",
+      "target_hash": "1e544d43b574a8e36402bd746d6a6260b4e1169718052ad5354a5b58c6ad01c5"
+    },
+    {
+      "example_id": "FULL_TR_BKN_050",
+      "input_message_hash": "f14bdfdca38398a1e4e47a340d103ac299f894b7807214333f121b2f32eb7bd0",
+      "serialized_record_hash": "8502ce15761b084d4a53cca5748604262d40b370910e8dfa62dd63f4aea19074",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_BKN_051",
+      "input_message_hash": "49b553a4143def165657a8e977c2f46d3515e5a9c383ee4ded8e2abd641dde8a",
+      "serialized_record_hash": "9f3b16a5e9ec2281766764877d02978f2be5137502de8f610566df3ac7960966",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_BKN_052",
+      "input_message_hash": "baf6ab88263847db4f85361b999ae5895478479fe809efc8946ed1a3cc0b6e07",
+      "serialized_record_hash": "15eed2e957a59d2bdc8bafa088a0e228873ddd507e9f784d2adc9fa0010e75c0",
+      "target_hash": "e3fd990a8b3088f37113b1e31178c3746b8ef2dc9bd8d05479ee8ab5c23974c7"
+    },
+    {
+      "example_id": "FULL_TR_BKN_053",
+      "input_message_hash": "fc3b39ea9ebe3c22197c360493e7c84b3b747b32646380907ffa655885c77f0a",
+      "serialized_record_hash": "1b2bf7b80f61634bcbeb647f5bbfe0f8a8fd94203dc08e8956ec0bc8abc04b6b",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_054",
+      "input_message_hash": "5ef6bc770f4cac6ec449eb535a082640a0c9ceaf3ff388f53f96706515dfb9f2",
+      "serialized_record_hash": "1083a61ce4dbcea59ffc33858817a0a5d5973c40236c4c99e39628794b385f22",
+      "target_hash": "0c5d0c8321d8d526225c27b147ff6723c42854c00be6a7c9c5dd6a7cec93721d"
+    },
+    {
+      "example_id": "FULL_TR_BKN_055",
+      "input_message_hash": "60bf153b4cbb44c17a0ae13b73ecccda53e6db1ff8abeae8e19f2478a6e4704f",
+      "serialized_record_hash": "5d32af51b14398d514b272c2488b67c722446869e2d7cf5f56bcaa9006d4d200",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_BKN_056",
+      "input_message_hash": "6d6b6c7210768c6f4e78483b4ecb76d864e2dcfb6733a4e68574d434b1077610",
+      "serialized_record_hash": "f5c363867fb6d7a713d226d12452927d25b778cde2f4b13691f498d2a5768f3e",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_BKN_057",
+      "input_message_hash": "3f01ea2e53f67949aa5c5f5bf953512977b82c1ed209b129fb9ebc62302a42b6",
+      "serialized_record_hash": "a4c99afc59951d792ae548adb391e279a45970fb4115157d5ad0a69e27611ba6",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_058",
+      "input_message_hash": "baf4a238a2b7c499a79a5a879287e5ee3d1f0fa0f58ec35991d4d46d9335a63b",
+      "serialized_record_hash": "f6ef8a4ee4796aa90b63ec8014d4848b4666698887ed3be3c7a19ce826858b78",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_059",
+      "input_message_hash": "07fa1f319a6324e3daa14eaed975ce1bab65458050cef675544dc0c3bd2e767f",
+      "serialized_record_hash": "9492f52fe1e0d3b2885ababbed4993ab486f36de5577ba668b5db13bfbc2aff8",
+      "target_hash": "5654fa3a0a13d0e66b1eeadc7b2cb9a1d244c6726c2e9ec3a531e6d1a2953dab"
+    },
+    {
+      "example_id": "FULL_TR_BKN_060",
+      "input_message_hash": "f0317af386787ac0b4b249677bb7440472039d63d334bc4cb98d99592bb9033b",
+      "serialized_record_hash": "22b5a18edde78eb147b8a39eefd13865152feaebde3d4a3d3166b85f629259f7",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_BKN_061",
+      "input_message_hash": "b52e537e03d400b6d9d03ef3407e9432e6a57a0297f4be420b984359b5e29da9",
+      "serialized_record_hash": "12f05d88baf569049d702b7a487d822b8616ffb93e3996d09d93e365c17c7674",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_BKN_062",
+      "input_message_hash": "c4e77ff14c374b065496302afd4b27ed0ca1a990d565a16d8c23712567d508fd",
+      "serialized_record_hash": "74ed387e813752f000abefe2ca9964c64380d6cc315b49474608f84d0937b26f",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_063",
+      "input_message_hash": "a3ab275b524ac536ad70d38ed9fe7b5eb62de93e77b1bfd6c0eaf38aae549882",
+      "serialized_record_hash": "f75633e4fa9115ef9e4568b16187ad34bd2c95c42e064d59ee627b4092ab1270",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_064",
+      "input_message_hash": "407ef11785c7cde06ece2627a94c4505a00b53d358587b62cf9c40cee69b9044",
+      "serialized_record_hash": "eda507c3b5003dcbc3b26868afc5c93db165fbcef00d11c615a6308d848861d0",
+      "target_hash": "37d38b1c7e9dedaf75f8986bb2c5e999e1744530a9533b1857fc0e9aca7bfd4f"
+    },
+    {
+      "example_id": "FULL_TR_BKN_065",
+      "input_message_hash": "4c8cc2172d7bd212fb4948515b3d6a0bb667878571226442911300b5b24d363f",
+      "serialized_record_hash": "8fd6d1d77f2a4cbfa81f63bbce7fe57bbdf57829f8723b30ad2813b800ce9de1",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_BKN_066",
+      "input_message_hash": "10eda8978c5687650a28a631e3b1d685eafa2911cb75a521f4db85804ba67965",
+      "serialized_record_hash": "50d13e9e3990012547abbd72f48eb095fc70363b579716afd3ff338df7b14494",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_BKN_067",
+      "input_message_hash": "4dc689abc41485a3b573416bbbf9d9e5f065751d0e10d7e79689fff897f10eaf",
+      "serialized_record_hash": "cb46feb5a304b7dd71bf01a5267d5fa93896e64d5342946a95600db58afb2d6c",
+      "target_hash": "e3fd990a8b3088f37113b1e31178c3746b8ef2dc9bd8d05479ee8ab5c23974c7"
+    },
+    {
+      "example_id": "FULL_TR_BKN_068",
+      "input_message_hash": "a01384023b46d5e24b2975b32b9f02303bb9c978d13d7fa4fd121058977ba211",
+      "serialized_record_hash": "cd1e67055588b9f74d5812c001d997997b450173bdb6430254d88fe4aef0bf69",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_069",
+      "input_message_hash": "6bf8452859595f6eb7e993360df5b6f2cfa831dbb79aabed93cecdd3af09620b",
+      "serialized_record_hash": "1a8e5ebda22cf247ce558680dbf4a36b136d9a1e488c4ab084c1b530df407659",
+      "target_hash": "2db045f4a5d07c2d64b01b1d5ef9e1a07e6ff5cae31d9050eadc18977c1b7784"
+    },
+    {
+      "example_id": "FULL_TR_BKN_070",
+      "input_message_hash": "f0ca7df9bb6efcb894837d2eb2ac86d9e5451afeb3280bb0625cd4e3c4f0ffad",
+      "serialized_record_hash": "577537537cf958695ab7a57f5fb357f471a6d4a2eeac0cc3902a6d5d7a44ce47",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_BKN_071",
+      "input_message_hash": "671df881946f5539f49f68028bd5b1210a025c67ba0be3f44917192d2dc099f9",
+      "serialized_record_hash": "e497f0c5c417c55a5def27b535f32aebbf9fbfc3c866a455721335817d37867e",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_BKN_072",
+      "input_message_hash": "55b14b6977eec0d9e5348a67134169a73631e3b4a58f3883593b717d9c093ba9",
+      "serialized_record_hash": "5e39537f620ad679abcdff004a23b76fc2a20e0df9b9bd4f5a7bc63474de36bc",
+      "target_hash": "e4ba216b53e675d3ce45a8584de79ecc013718ef83ebd53f29d47d97af594386"
+    },
+    {
+      "example_id": "FULL_TR_BKN_073",
+      "input_message_hash": "24b8b060334e834e8c1e0b639eb368ebfb238ef1390c9e62cb50940c9c21d0a5",
+      "serialized_record_hash": "4b127bde97187382fd81c98b09f5be1334a35facb76b0ceb038c8d6f1509d4ef",
+      "target_hash": "1c55d9b826e8dfa994370e306ae8dc2e849f3e003381dc848a0b95f782c0c0e3"
+    },
+    {
+      "example_id": "FULL_TR_BKN_074",
+      "input_message_hash": "6d8e0a7089d5b59d985021fe811c8491b8fd8cf48477ab8c9ade84c14e6610ae",
+      "serialized_record_hash": "ae028cff5fb3159bd1316eca1c246a8103d5f4922413375546533aa93c8fa8f5",
+      "target_hash": "e4129f707c078d603969ec3ff79d02925fa1cf6b8dd22ee9ee531b844442abfb"
+    },
+    {
+      "example_id": "FULL_TR_BKN_075",
+      "input_message_hash": "a492458363df1922fa6224737f21481166d1e00b26f230998517801f6a33dfdc",
+      "serialized_record_hash": "d5ba3d9a0bab7b2875a724952a668a6a6d7aba0331701cc407741b8ca3fe1c76",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_CHG_001",
+      "input_message_hash": "2ab8ccddef81c613859d048da3746721e2c36ea9a70700caab8c65fffb99712f",
+      "serialized_record_hash": "b91e42c6a8c4072cc6b6b5c9707e24c41f1a3850653d4437040acc47924f3a93",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_002",
+      "input_message_hash": "50d04ef6a1ddc5a8ed49af4ce800bdde2ed241614927182d5dbb1bb890533532",
+      "serialized_record_hash": "7b7f3264bf314c9264f7b0532fd42eda0d8258e1c58e41e9fd90843e667816e2",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_003",
+      "input_message_hash": "2634dc48fb27d7bf54ec758e8796d4156322265386fc0c7ad5fa56f194187943",
+      "serialized_record_hash": "bd909ad7443360790dc4e229c633cb0979354dea95904bda771124b3d8bb5c2f",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_004",
+      "input_message_hash": "6eaf5e3f628ee202b0812ea06ff4a8d97a32f554727fb077f3ec27bc40fc8457",
+      "serialized_record_hash": "7b99101f5f38c267fce11a748942894466d74fbdda851f5ce885d9eea3d76eab",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_005",
+      "input_message_hash": "94f0f4c9eda49154134533963f16bb9b13cf239f8877d0e2bdf9572e401448a4",
+      "serialized_record_hash": "b98331f73122d6a976b1b1937fb26abc21cb330f41f02a167c0e251a16955b44",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_006",
+      "input_message_hash": "97067973ffc1354050b776f442926fdae871d02424e55292c9f3aa7abd7a368f",
+      "serialized_record_hash": "d48b7396a29a1948802425b73a95c302258149115aa5e124fd1804de0aada304",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_CHG_007",
+      "input_message_hash": "f55f9146b6b4daa5afb43426dab67dd5996e66dab26b7ebe4588088addc4619d",
+      "serialized_record_hash": "0234f03d99b45e5b31d1d9ebb5335933d812cee983fa1dd78c3608e818aad614",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_CHG_008",
+      "input_message_hash": "553d9c10ebd22dbfe6a060bf13ae2d53156ceda482e8c196c7f8983271738b17",
+      "serialized_record_hash": "170001251306dcc8ceea8bab426ade2dc28f03a03ba7657e1e3cd6f7a4648095",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_CHG_009",
+      "input_message_hash": "b6bc3ac8916eedda31120563274e84cd2656a2a5a72554fa21c1317defb7c0c5",
+      "serialized_record_hash": "3282927ac73689406594d91a58f66ed153d8eef8fbb5310626cfff9b5bcfd054",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_CHG_010",
+      "input_message_hash": "92a081c9a61d15964527651c1b1eea8bcb77bdc81e8cfbc7d98e1c841d814edb",
+      "serialized_record_hash": "e37fb749029dbacf0935bfc1b0c7c46a91545fa7904a8d271b4e5430b43d4943",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_CHG_011",
+      "input_message_hash": "18bff645613475de5915312c0bae1d2a6315888e42119d7d513afa2eda591241",
+      "serialized_record_hash": "15359ba95fc9f84a79727dfc97d430859abcc9ffebbcf05afcccf05c93b40027",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_CHG_012",
+      "input_message_hash": "b15c77fde24239d6137de6042e4718757149d96a9d17254c6166fc0781ce473d",
+      "serialized_record_hash": "25a886115bc6ced168b56560e6216f0df1b5399c85c6b410165b9c4a0aea1f62",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_CHG_013",
+      "input_message_hash": "9914c7ceae2d339300c6b85faa5c9f4917ca03298b6cd97728996a9811a510ad",
+      "serialized_record_hash": "0fe697334751c8bf7c7bb06ebef99db69f1ec3f1861136146ad0553c0cca8eb4",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_CHG_014",
+      "input_message_hash": "cb7aaaddb34cb988aaacd4eb8dd41e4811cd0134e069a5e1ee88dfcbfd0ab3be",
+      "serialized_record_hash": "24184b7d892d4eb73f9c024d135d888b94481a1b659fe29194ffef5b4275d57b",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_CHG_015",
+      "input_message_hash": "919cc6c2a3fcfaff15f2f18b5fd6b8ffc861b2c994ad79cdd8e62b5f26e33cc8",
+      "serialized_record_hash": "b74e676ddcc89b56bf62065bf7c521882ae5b39b51f3ffdab90be64932723cd0",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_CHG_016",
+      "input_message_hash": "2a7f0f8fc094c96a91f6deed73ddfc9c1e39c78204c559a8c0678a07b0fc4d78",
+      "serialized_record_hash": "b608a5e5d132d098413088e4945e9807163a0d98248d02cc958ebe6033edc8fc",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_CHG_017",
+      "input_message_hash": "345891ccfb001c454c2c1728014905cef8dc758353c33ad9d8a1f713899c2783",
+      "serialized_record_hash": "4c212ae9716cf493b0a97d8528b03aa1f26dc5e414003fe24a38c1f7e9fc8170",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_CHG_018",
+      "input_message_hash": "63c9db04b3abee931b01b3f4c21e4987f87a3211f21dd99e9a17a6439ac4a181",
+      "serialized_record_hash": "f622c7d62aecc5be98f2b495848f8e6f2dd683d385d13f5fd8e5d0a1aab491da",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_CHG_019",
+      "input_message_hash": "3321fce45cf9d76ac27d2b54a8d01475691b19e904b8a892439b722ef30fc81d",
+      "serialized_record_hash": "37906b3c6025be598629b9179b60fb78e7a7c139623842cccac280e277e4ad2f",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_CHG_020",
+      "input_message_hash": "5592998e856e2169f4a02ea7ff865ed1b96bbd14e1910399780e22b4cf373937",
+      "serialized_record_hash": "09090e5b892c1b3da8a850b19f53e149c0531e90bc7493a3320e7b5a83b9b92b",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_CHG_021",
+      "input_message_hash": "bd525fcbaa1671b3308a3ca300eb5be1776434f505309803eeacb7821d673bbf",
+      "serialized_record_hash": "1b19a6262b39f5cccc73c9e3614741c68e6a4ad66b3ed3a908f84f6e3492fd26",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_022",
+      "input_message_hash": "f22913b587b8d9b1c98c241e4b57b21483fce9dd2bde01400daffac2f84ef507",
+      "serialized_record_hash": "8c9ad48c2d89817bb1ebc935b241d724ee177fd0b34314a0030ea3792cd58270",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_023",
+      "input_message_hash": "caf3e9604c0a14d892d125eead3272d40fdb1d8d1d2f465cd6cba1b83ddc50b4",
+      "serialized_record_hash": "a61e2625794bc4fce863d06ffe6186674ed5e0191e8cf87f37b0c2d19170bf43",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_024",
+      "input_message_hash": "4cc67f1347e6d88471d5a66e164c0004b992e7bdba6a4b623ce0953cd8f6ace5",
+      "serialized_record_hash": "187953dba9f8d620479439d36bc8ce6e99c3cefd9f3e8e1fd0bbfd33abade166",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_025",
+      "input_message_hash": "5e3fb14986bee22323bca04f64351f61ada1efaae3d034a6ea32eb0156eab76c",
+      "serialized_record_hash": "1e15309188ae6a264e1125df416a635f75aa9bb2977f1726bd55c727ebaed384",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_026",
+      "input_message_hash": "827b11b0e0770dcc5aa2236539f7cef0f525226e0c182d988b9785f0c5534d5c",
+      "serialized_record_hash": "bf60b98f3e4c9ab515ecd783415613b09209087b0e89fcb3dd3a08397e4222ab",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_CHG_027",
+      "input_message_hash": "bb0c86f781343ba50229f1ca96cfb372a784fe82ea46d411da214541d888e118",
+      "serialized_record_hash": "226b2e36a2373a0b0f8188defd914ccf2a5f6bc0a449ff9bb0d24a5614fe4368",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_CHG_028",
+      "input_message_hash": "163031ed36c4918a5dea58462ec355621c1cc33bb9ee2a1229331ce4604667b9",
+      "serialized_record_hash": "9567c3d73707218645b9cf857ef09e11f7f1cff4fdf70fbb9800fa25d96897f0",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_CHG_029",
+      "input_message_hash": "0d535e1b1ad79a453830eb2f4ad1fb35de6ffa03e2f231fa6d2499d8a8490293",
+      "serialized_record_hash": "d05cd1ec80f94feda59bb6b8e4e23e056b0709245ea028cee72746507e00ec9c",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_CHG_030",
+      "input_message_hash": "4259afbbace92574652cf55c5cb850324ae956e4c8289aa1fd10c99527c1a88b",
+      "serialized_record_hash": "fcadf4732bcf0c0422f5ef4a2d140f38cc4b7e4e6c353cfc16abe08b8352424f",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_CHG_031",
+      "input_message_hash": "24e71ed5918a8e419185f1604656e78734ebce2b96e9a62e40fb4b69ee351dd1",
+      "serialized_record_hash": "4f2b5db3f7e515b14818a59bdbff03b8c6c3fd22aeaec062996ec04f7a347bc8",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_CHG_032",
+      "input_message_hash": "1b870b674e4a0319eb58c1cf3eb18ced9fd8025c5025e7dd5f54456f3a840ffa",
+      "serialized_record_hash": "724884a6bb29d9f3857731831dd13a0799da77fac9db7eaf68e6b6ceebd32da0",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_CHG_033",
+      "input_message_hash": "b30225aead30bc0d1f1c5a54b4dbc8b09dbc1867b1217f2e313078335b8c0cc0",
+      "serialized_record_hash": "7ee3fdf9395dc62a2f84ab5356e68df6045f601c0b0e5a80855033a4af7845c1",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_CHG_034",
+      "input_message_hash": "28e5b209daa2ed1b9f9e539cd06b9b91e07366f872aff4628d9e293bdcebce2d",
+      "serialized_record_hash": "efbef7e1429adb53db68b3a8386d9276a197c53ca1f3dd86b72e61bae5a76df4",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_CHG_035",
+      "input_message_hash": "612a275379992d9d2fd96ccac77d396cf9eb9d71fdef03d77cf4bd2385bbf83e",
+      "serialized_record_hash": "1163b816d90440cca956e19477ea3cdac68c84cac7120d41938c69a63141e0df",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_CHG_036",
+      "input_message_hash": "bf8cce10d6a483a08237117f52fab5835b5a2405f604b4fd85d5ea534767b567",
+      "serialized_record_hash": "ea5601a669e195057ce660cb5fb0f8e95ba5529201a49a1f5e1ff9ddf4738953",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_037",
+      "input_message_hash": "f1a1f3d277ad2ffa16d371a99fc8add5e45e56748ae9cb3e6f486c471e3e8f77",
+      "serialized_record_hash": "297a5eb452ef27657c43bf6191c7c86be15fd2817358652563a73a8d8de78d4e",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_038",
+      "input_message_hash": "080a5d2fa6b81f4dfeb548088f62eb59a2fd1710c1e1fb42c5833581a48fd8bf",
+      "serialized_record_hash": "f90781efd9a8fef32c2a18784b3fcaf36fb3219812c0ba4b15d5b665c6491858",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_039",
+      "input_message_hash": "7f4d2b2d2862315f7e09bc468255377adc88cac708f77d364d8b18f9c7d5b925",
+      "serialized_record_hash": "785a82beca765fab27ff58d6c8856c377db6e06f9ac7a7382931d7b1e8edf520",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_040",
+      "input_message_hash": "de65fd3e026aba3dc99e7f16d7a282318fc505777de1b21e2d14a9ba8c278d48",
+      "serialized_record_hash": "ce72e1620a7085b005429897dc33dcc14faf02f48db8053b7b0d9f7cbd406f4e",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_CHG_041",
+      "input_message_hash": "dc61730db8abcbc930fe5c1cb35d4b1a117102554f22196c94603fc603cef979",
+      "serialized_record_hash": "df1d9f64a67b20498cc7d4b98e121e8caf2ab3997bd6d7a1f7c9226821af8214",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_CHG_042",
+      "input_message_hash": "49643a4a3e0d2fa159e5e57a0336155dc04aa0710bc6856530416f50440c9fd5",
+      "serialized_record_hash": "1847154ec4c64945629bd99c8124399e2a42f08c4c6d6d0cf9afc91aa2f7355e",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_CHG_043",
+      "input_message_hash": "548455f08cb04e9202c56a01494a75a0ad705e10794054c841b28f54f740c9a7",
+      "serialized_record_hash": "40a2dffe0aba5d9a899f5fd47f94309fa2f13370931db9adefdb0e4bf22ae8f4",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_CHG_044",
+      "input_message_hash": "d6da5e4f35720b29ef48d4e9168022e2b4e02cb70603296f19ef928c6cf584eb",
+      "serialized_record_hash": "b2618cda097cab521229c63dc15e63fb5976ca555b88b1fa7238f60a6f5e8f7c",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_CHG_045",
+      "input_message_hash": "c5fe6fbccf4d307d05bb532b2e15832039170894f2459a22aec6563610c36250",
+      "serialized_record_hash": "2e1315b728ab0ec3312bd031a6910b9f8d79062375e1a2ca7e9fb3cea420805e",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_CHG_046",
+      "input_message_hash": "1811ee3bc9f690a1689715b29688d99061e749645ca5a8416c62137a5db6dea4",
+      "serialized_record_hash": "587e17e417d0aefe88d13244e5485c71fd02b34f52c5c55b95e6f363fec91c46",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_CHG_047",
+      "input_message_hash": "296c326046e61e637c6754c475325b133e6870b773aabe385f642cfd1a6b7e49",
+      "serialized_record_hash": "462751853b79231c8e1c82572c66093e90bd8c96a7b48c0ba1da17aa18be62a9",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_CHG_048",
+      "input_message_hash": "00b8b2ef97d29270becdbf472a7cd06e2f8200180bf2ced787979f10888f3c86",
+      "serialized_record_hash": "5cb981d87ff8d89b0490b3e53ff34eec11c2b49a2b13a921d458e6d44d9f0399",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_CHG_049",
+      "input_message_hash": "1e0bfe206bd8c5b78bc6ca2882d6c051863c807ad48d1ad702d2ef1cf5b9d4bb",
+      "serialized_record_hash": "25f6953710ba6cbb2da0dfa74334d92c4256bcafba5a0139ac8fa11a59e77431",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_CHG_050",
+      "input_message_hash": "9b3ad616c5c48d7d1484b1d17e019499c398358ba53c0d4448dc2a46a30f14e1",
+      "serialized_record_hash": "a40a762e0d1d1022642fb27e4792bccb853ff157da41e9314d096fbb89a2c9d3",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_CHG_051",
+      "input_message_hash": "be2ee2b46d4f2f238c3216588fc172bc9d2943489b8ecec9a6af9bd802ed09f6",
+      "serialized_record_hash": "c865c23e69213c2a1374109b40e32597f1b3be9df5afddff9f34e3ac68a2eb36",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_CHG_052",
+      "input_message_hash": "29587998eacfa4c1cad69036c4c36771d8100c6d6b6f78ae5edf2ef44d1148d8",
+      "serialized_record_hash": "322e96a867dbcc4e847a95bcb80c000091744027b1783170e78441bff4711d0b",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_CHG_053",
+      "input_message_hash": "53219fd21ff284af0bb6ced6d932a6becf0ce1a2bf2d44d9d959da7f23764d95",
+      "serialized_record_hash": "45498782056cab70db422d6afa86bec98f40a7d85492d378686f52223da1f54a",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_CHG_054",
+      "input_message_hash": "337ff892c6d63f56945c1ca8a6ddd19721fee1dfabe55a9d3e4e72550ebc0ceb",
+      "serialized_record_hash": "ecc0c7303b30e50e7246224c78760a593fed68b0a95fc6b5c08e58c88513b701",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_CHG_055",
+      "input_message_hash": "39ce71ec498f6121ffd3362bc8fcd7e8dae5e2d00b8dd0bda0842c1f745b8354",
+      "serialized_record_hash": "6a4f8463935bfb8e568c5e8b77749cae24168ec478eba6f1d8751a73241cf70c",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_CHG_056",
+      "input_message_hash": "e91824a1f12fdcb21382879748cb570b4c8a7cdb9ef1340062868a903db6d322",
+      "serialized_record_hash": "28635fc6d65621fba25d7c64172b131c5138d86140cea731740637f26136fb21",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_057",
+      "input_message_hash": "d40eb79b87e76fac35f3efe49d1ef948c7e7a22c84909aaf4a96d5283e3d5c66",
+      "serialized_record_hash": "2ac5d73e6e34ffd77bf3b22fdf11b0f35da4fcf4c8df265fcf61e4e4ba0fc36a",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_058",
+      "input_message_hash": "4052563d0d4c8a1776970cb1420456f30c511d7f209727769d3b6c5faa75c223",
+      "serialized_record_hash": "1f5b2b36cdd55c087df34634adfbf0374d8c79e404ca082c98749f1eee2187df",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_059",
+      "input_message_hash": "c448eb590479531ac3e212c8e721ab534ad07985cb22ed9ba3836560566b227f",
+      "serialized_record_hash": "ea29acf861a2728b01e92ef54b4efddea9b93e9b99d549212051baec68b0b7b1",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_060",
+      "input_message_hash": "15ebcd3001b267f37587bbda7ba7333443b1983f5f6fdc61d8a0ba17b8b9a449",
+      "serialized_record_hash": "f15d64a7b999c9e25146419c6d50c7eb5e2d5055acc213d59476d69fd9509bd2",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_CHG_061",
+      "input_message_hash": "e6c23f0ee9dd5c44d1239825294d998efa6f66532e046e0778bb6c7178cf52eb",
+      "serialized_record_hash": "57820c6b2fa1ac12e58e9bb3c36538060108a969388b0b62f8794ee14b94bfaf",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_CHG_062",
+      "input_message_hash": "870c89ec126c6eeacb2af0b75ab896062cc39ed5d67a7aac93b4a30838172b7d",
+      "serialized_record_hash": "fe5d5f05f1b1d4da41e14822d80dd1619b0fb4b11440cf68698866078b004939",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_CHG_063",
+      "input_message_hash": "cf642d2447d2e412e7d6594ae3299f05af330df224f0447a6c7d85f6e1fcbc53",
+      "serialized_record_hash": "4d879e21f047bb7451d593dce157ff30212fd8df228f92e4fc9612a9f67844f3",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_CHG_064",
+      "input_message_hash": "06b6fa28e742bebdbf5b6d333a19b96edcf273026fb673ad62220e26815922e7",
+      "serialized_record_hash": "ddf36e8a750d9e250f22d82b630e4ea79a8059b040cc5fdd26148718efe043a0",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_CHG_065",
+      "input_message_hash": "62c27bd804347bacf00657d556290b2fb7b0bc55cefa22bb963cdd98cbe873c5",
+      "serialized_record_hash": "2dc99a5590f79ee255fc8f0482184d0433263b17ca9869d77e89435b75228275",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_CHG_066",
+      "input_message_hash": "252eac4eaeb18ceb37b3285dd0d16bc7479bcbc4308b30ca29aa59f761aba37c",
+      "serialized_record_hash": "edb539aec376599f6ee11c683e75197e42c3bab2f14ff7acc5b3634eeb383f81",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_CHG_067",
+      "input_message_hash": "7f950ed1771a1702c70160ad4b084b308072e490e116faaf6c0ff3e8b151b1e5",
+      "serialized_record_hash": "488c5cbd3682146e1fc16a88db66c46c2e8bb0b39def19e899a733861435d706",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_CHG_068",
+      "input_message_hash": "b4a6ce68876b5364a8dfc44bf33a48985f74c19530ccfe266d5a6d3be1417077",
+      "serialized_record_hash": "79e8abed18f3623207f80583d4b6d13749536058cf00e190c6dbc79b00ee15b4",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_CHG_069",
+      "input_message_hash": "f1cc303538f9e06f7121e047bfa263e96457317844fb7d6b002041267cc02b2d",
+      "serialized_record_hash": "5a48ab42ec2c0a0d354fb8a729153e86f67aa137cd51eeab48cea8dbf41aa697",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_CHG_070",
+      "input_message_hash": "08fc35d2aafeaaa7df4d8bdca722efb0ffed14e36bbf55d78521a3fde5b40f15",
+      "serialized_record_hash": "141cfde827a620f36084d85bd67bc4d83445a871f8615ca2a509e3d5935ca6ec",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_CHG_071",
+      "input_message_hash": "523947a59005b4d711eaad6b34171c9add0b2c4c47f9096c888925668836eed3",
+      "serialized_record_hash": "e5e7d1261d54e865ed75690542b013f08b34f957069fe36bb473d27c2cd8540b",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_CHG_072",
+      "input_message_hash": "863357906380dc21deb4babd30b3c3effe2bf3e0d6c8b65fd3214071828a2166",
+      "serialized_record_hash": "943a9a64a3123c47dbc9305176402ba909762766b86eeb219f803715730c834a",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_CHG_073",
+      "input_message_hash": "b46addaf7afa7c2e0050adc1980c38597005cd3864d1a939054986c3095b5784",
+      "serialized_record_hash": "422a17435fc67b1ed8056285c480636dae2941fe2ef9793e72fad293fd995d9d",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_CHG_074",
+      "input_message_hash": "ed56fd2eb10d2d3ed0380de0fdc084cc1d5d224489f7b8ea6e95c68bb4f8d671",
+      "serialized_record_hash": "598d1144b64f7d37acd4418ead235868d2c19d9748f9215658d3f512f8e5f1c8",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_CHG_075",
+      "input_message_hash": "b431705460a40a77784b39c0d70a804b1a0b1d94a9e6eeb3d9bc7a036b26182e",
+      "serialized_record_hash": "fc01ad1919a505c078527ab4503e18ea39b93919f09f7728045379cc0636707c",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_KNW_001",
+      "input_message_hash": "978c0b5cca49a43d3b5500b4aa747cb0ee441447c2fe632370b0f276906198c3",
+      "serialized_record_hash": "202021af6276278b180666a61332ac4c9a57a9b7b40a0335ac552429ef028e66",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_002",
+      "input_message_hash": "b3257f2e2c8f13c2e97c29726d764ae1a07f9746323e9656904d855b84f2500e",
+      "serialized_record_hash": "07f9e41bfb23b9fe0fe300ce8fbf2c53da06b337ccc70cd30e7e4498ebe014dd",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_003",
+      "input_message_hash": "46f65a32ff8d0ab2cc50d535ec7d59a8c71a60015e836cae3b004d34a7bfb6c8",
+      "serialized_record_hash": "9cf5bc833a1502642f9913e52e040998b3b7f56442d7934241c453e6afb485d1",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_004",
+      "input_message_hash": "d362e646e8a6fbc3ca15265b7cb647c45db92f58ce9fff46b0b2c9d0c6f2f8a9",
+      "serialized_record_hash": "9347d643ce9b211ed23ef64f2710ee762d99a2f9375aac8a33b7d61b999417ba",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_005",
+      "input_message_hash": "979f49aa0729e8e8465ed3a93084575ba69e721a0dd13918e8cc6e89bd6de972",
+      "serialized_record_hash": "5b6b2868fb11ccd4f320df94f5e06b0d40d764ca73f830d2986324463ac6b75a",
+      "target_hash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_006",
+      "input_message_hash": "9425a6d1e6fc489aef874b7bba25fbf3b46b869c5a05023ec2b6ca189fc6c549",
+      "serialized_record_hash": "e21e95edece477db176c8d549ae7fa6ca753e03fd68213e15a432d41284cc524",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_KNW_007",
+      "input_message_hash": "ec2735e91e81f502f5019d6fdab243b4c273230f090a6647a8856014de4819e7",
+      "serialized_record_hash": "43057d248ff192682de86ae4af087e07da58e016ca9499a2fc57ef3a634acc39",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_KNW_008",
+      "input_message_hash": "80147cfc25e627e00cfd3effcfda6d39040badcd38a02d506ec11c4501971aa4",
+      "serialized_record_hash": "356e813590fca6c904771745ce7745525f3b4bf10f8b2d6b980fc50be7d0d752",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_KNW_009",
+      "input_message_hash": "6dd9aad042d0cc103e0047854128677ce3020169060054348173b6feda4a69dc",
+      "serialized_record_hash": "229b1bb88b4c22f724eb5a870202a036feb384f76f2bad5975d7de60031ce426",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_KNW_010",
+      "input_message_hash": "24aa9ec9bef81079a25da65e6db5d9537402ff9b0d9464f79fc235117d99a12f",
+      "serialized_record_hash": "be0a89757e20975422babb0917e09834d9003d5313be240d1de8ae375ab042ef",
+      "target_hash": "e0b59b0a8dedbc9295d582e88b7c0fa21c6223e1c24031e0a08ec4c4e86b82ac"
+    },
+    {
+      "example_id": "FULL_TR_KNW_011",
+      "input_message_hash": "663903c7700309d2c95d0ad336366c0c247c14a460fdc91565db290166c223b1",
+      "serialized_record_hash": "2324474efe63e4fdfd91e8bf1de5774b7a759a61661bc87f52c137a08b7562cd",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_KNW_012",
+      "input_message_hash": "47fec83d1efb3eee37553a0a6fbe4f15686f623dc5e4eee9aef10df69faa8268",
+      "serialized_record_hash": "08cc4f75b5cecc08107b7013dfe2c0cc4725c0b235c24a8cc72212c73ce996c3",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_KNW_013",
+      "input_message_hash": "cea84d03ba0b71a26e42308c29ade5a8f782d5484f1a32014de24847d7ca6edb",
+      "serialized_record_hash": "cba038054a22f966093c2aeae60d20e39e887d4b19f0e4d584b4eac0b2b8c1db",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_KNW_014",
+      "input_message_hash": "cf187658e0f80eeb4a71df9ca5c0e111672c892160a3ae47fa6c84e7e11e8ab4",
+      "serialized_record_hash": "3b0ed4d7788610d7a8f1671718661db4dd10e78c7a9f46695510cef09a7b8853",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_KNW_015",
+      "input_message_hash": "e0cda9600360f393ed02d1c5c06eed31dba61c779f324bf37245246ae29a9cf3",
+      "serialized_record_hash": "c4b4ea78b2e9a2942f54a270dd60c5f8b67f601dc28ccd152d1788af500867fc",
+      "target_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "example_id": "FULL_TR_KNW_016",
+      "input_message_hash": "28af5cc57541d6f457d4bb38c89d6f26276a7cb342b6a053cf5fc01a599abd99",
+      "serialized_record_hash": "259ba547bdec8f8bc93d3432d06374ca24a04de1bd7ea264e41f5ed202ea85b6",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_KNW_017",
+      "input_message_hash": "3345dbdc49f9194be4a5d890ba3701d362a69aef926d5866fbd614cf31fda553",
+      "serialized_record_hash": "8c1b6a616cff09e698449399db3b944c24db1d04cad60efc9b58a495d6e4076a",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_KNW_018",
+      "input_message_hash": "6a854e832cba5b462ab84e7f3e3fa757d0a97eb4ff6255624e1e780cf3f50697",
+      "serialized_record_hash": "c69d96ed35ee2173523c329b5e9c0dfa2b232c04f168d8be7b8928a9c4b700c7",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_KNW_019",
+      "input_message_hash": "a72dde40e40f17680d64d2acb15d61668e409df37369d382baf3af77cda3ee21",
+      "serialized_record_hash": "6e1946c65d5791aa9c1b8b1799e76057fc60c4711259e2d9749ac079dba3f3de",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_KNW_020",
+      "input_message_hash": "ee776b9b64124ec8cbd6ad2481569f6d6af84893af130425f9dd40f6928da0c8",
+      "serialized_record_hash": "c36767f76fb6d92b3594394db4921117e5f266579a674a3c789afd2956b53e00",
+      "target_hash": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+    },
+    {
+      "example_id": "FULL_TR_KNW_021",
+      "input_message_hash": "5d01a0123d43a9b0b8021c919b0932f6a1b26f958c41c53a95f5834d3db9ee84",
+      "serialized_record_hash": "999732181b9effc1d1efec928a6e5ede92a2ef5a860103fad5e35735d44101dc",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_022",
+      "input_message_hash": "3f2de30d0edc723a73b0a8592fac51f7d4dee94abf25cfb653ce60787f7e08aa",
+      "serialized_record_hash": "1daf69915bedf401590a513f7346cf6bb8be83dde1d4a5808df51bf9f65032ff",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_023",
+      "input_message_hash": "15ecc42ba8fbf78509066dd88472868bedc134f825a992dea3681ae8069160a2",
+      "serialized_record_hash": "79a50646a5ff95e7953d51f06b780fe56c533537b5ba96e436acedaeee029f9b",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_024",
+      "input_message_hash": "cc136500f279eec37bac63ddc4ad6256c3657da66d36bc6d3f58b1175dbf1f92",
+      "serialized_record_hash": "c0a159edbb81d85c5ed2a052fe54a958cefcf4272e9398c212000078820d589d",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_025",
+      "input_message_hash": "24d51a43ad560850ead2a7b6e963d2395e65937aa2a4335ccf50c89da88e3cad",
+      "serialized_record_hash": "00ce90ad1d66a189f7f183154977cb41c0ade5337b4440dbaf76e1530a2962e3",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_026",
+      "input_message_hash": "6c3e8c8402fe980a8f072c7cb99d532abe078fe36e354613445bc745c9c1599d",
+      "serialized_record_hash": "e5bb8801ee034bc0afddba26a62735cb1b83d6d073439edd96fd9e72043d7d6f",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_KNW_027",
+      "input_message_hash": "63c0bbeee28bf4b55b631307894bd17197d977affb65accd8f6218032c12376e",
+      "serialized_record_hash": "650e566a49e35bdef3a4423ab8b1b95c9273f41951bd2d7e6dd7debae36dd128",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_KNW_028",
+      "input_message_hash": "ad6886a17a165a51bc472ec958d27634535293db92dd33c5e71560725a20c7e1",
+      "serialized_record_hash": "bfcbd5934cfd53a504038c2003373ff3d270a526cd324d5a5f5be5e1cfcad90c",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_KNW_029",
+      "input_message_hash": "ba6014d01ede364d17c1356a31376fe61b0d63a587114434f5d0dbd2b2b8fa03",
+      "serialized_record_hash": "05317033fe40a4fbd54031245d8ad6ce1edafb1938ae95552514a86f86fab4c8",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_KNW_030",
+      "input_message_hash": "84bc7d784c06bd67cacbcc7243c9f44c6ceb18987bbc768af07bbd2d5f3e0941",
+      "serialized_record_hash": "7eece4e4787a4a328623d55b702aa5860ab2855ab859de0bb0e8f2430cbc7d1d",
+      "target_hash": "e062f905dfdd415c1cca456a0041c42e28744cda4ade410423bf2e1a6d46cc78"
+    },
+    {
+      "example_id": "FULL_TR_KNW_031",
+      "input_message_hash": "badf13bc38dba8ddab4e3aeac392608aa8b4bf4e3a3e93cbd03b771fa427171d",
+      "serialized_record_hash": "629e67dff6caf96e95e9c74311c05233776e9c6cb36dfe88df928921e513164a",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_KNW_032",
+      "input_message_hash": "5e74d167781de3de1010c888b3520cf44f2a0eebcb719570619782d76362c504",
+      "serialized_record_hash": "d7d0d0181f4230c73948d9fdd98afdf8beeb1c9b252e81abccb2910e3d6d6e10",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_KNW_033",
+      "input_message_hash": "332c9f884a5d5023eeae247a7f77626a53a0f05ffe7349491ec52d5d73f209de",
+      "serialized_record_hash": "cbce2b1106462a55ab23f377e783152958326efa381d04c420b6651ab13e5f58",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_KNW_034",
+      "input_message_hash": "b3fde97833ee12598b9261363851cd589450dff878ac5631cb83ae351142c0b1",
+      "serialized_record_hash": "dcc188707a3973085af4e3c810b54f8ae52bf7329be7a38159a2dda64df5b457",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_KNW_035",
+      "input_message_hash": "568d16df37b198a667993c811d7f36e63b94e444bae8eb80be51b1c3f2f1454b",
+      "serialized_record_hash": "f23c1a9b5ddde00772e6abe61053932e9b1906218d9767d625edf634a04741c6",
+      "target_hash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+    },
+    {
+      "example_id": "FULL_TR_KNW_036",
+      "input_message_hash": "c34a9fe8ea92b3181495d319913a227be99d769f3637d18748da81835e2c6298",
+      "serialized_record_hash": "5ac7891133e579ac608e91463dfb0145a0b1aac5e2aa9ebb554aa742c6433794",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_037",
+      "input_message_hash": "2d03f81208a3e58f109baa67d4c1cdc3eb77cea914137cfa167651baa758fc44",
+      "serialized_record_hash": "7eb6afd43408bc5ad6615a843a2fb711d9ff490f211a4fcb11e996d02525e2c4",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_038",
+      "input_message_hash": "8090d2eea23f80ffbd82ea9178e9aca5f041162451c954742b726e58f573b740",
+      "serialized_record_hash": "2a2cd2375e8c491fff59b3ce5e2a5b9dcb802d76d32a8fdf1b0c08dcbdc1b8d3",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_039",
+      "input_message_hash": "c4c907e61a70094ccdbdad45face8ff426b8ff2efe8e5e67fac4361bf46cfcb0",
+      "serialized_record_hash": "8c8afd7440f4945329a6b1cb9cf8e3487373ff5866dfbe68df13ae6128968d41",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_040",
+      "input_message_hash": "9e83e41c066e04a74f1eb6e5a0c014223fcf022b1f203f5abdac4e0fd9a2bc91",
+      "serialized_record_hash": "9834be403712007ab103b2b975234d36a174ae511d20cddce99eac0d8db26617",
+      "target_hash": "feabe5c897238c0256e3922112fa2ebd471761a3606a1515af084cc6bf74509f"
+    },
+    {
+      "example_id": "FULL_TR_KNW_041",
+      "input_message_hash": "3557f280129ec7b5fb37b6f70a4a89d542ba7ff03cad2f08c49dbc96d6c68145",
+      "serialized_record_hash": "0fdf46022597705b5ae9d48d21265df3e3ef187556f99e3a30dc2efe58d0c91c",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_KNW_042",
+      "input_message_hash": "e9f66328a634e1bb434c5bddb94c54775f4962c9e3313ff10b78690acb5c2b23",
+      "serialized_record_hash": "0e189eea8f9ff81983182c42ea6051c6380bd87462853262c44eb62e92b8ef63",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_KNW_043",
+      "input_message_hash": "9cfaa2e63da7f79dbc35a3f745a34267daece8d876caed8df05aa6514d195bde",
+      "serialized_record_hash": "19c9d9a49d37e6cf028df1a77b61b6fe5887570f80bb3215c78bbe2658a6fe60",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_KNW_044",
+      "input_message_hash": "083cff1e0d38eec77d780809716013d4d1ad3070918a57f2438a7eb9b48880ea",
+      "serialized_record_hash": "bb0dfc27944e22bb325913662d79d6ddde3b90879905ef43992c601dd84ecb31",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_KNW_045",
+      "input_message_hash": "0b78aaaf95f7434624269625a577dbb78ec425d4ebed2bdc587e02e67bb81537",
+      "serialized_record_hash": "231115e2d635ec8e0042234ae25def51b0d5a39a669da00e8737dcf8cd1f26d0",
+      "target_hash": "2c5d5167d779607f65664fd53e48e286dcecb86d15fb7247fc9b2de2e077dd89"
+    },
+    {
+      "example_id": "FULL_TR_KNW_046",
+      "input_message_hash": "37b8aaf2c6ca646f3c905e9f3f2df907a77065c1d0aa22e473465e1e3f608dad",
+      "serialized_record_hash": "8c09c146a91f52a4c17d04494c3c1c98696f99c71ccbf24779bd2d190c606067",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_KNW_047",
+      "input_message_hash": "013fe7479b7d7fd8aca680d37a383fa292fc7afcd298a8acb199867723e1d3e2",
+      "serialized_record_hash": "aeea27de01b5b9e52aa3e0d6a7f7a402024b6127d2eab37b0b511a41bb4d80f0",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_KNW_048",
+      "input_message_hash": "f754206a673e4bc0ae907f9f71c06fd95090e6e41e3c8c7e1a579d4768792ada",
+      "serialized_record_hash": "631bb8770c0c64b240731ea1f4ab5feb915d81138655ed12eb6d925c2ad6ad10",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_KNW_049",
+      "input_message_hash": "4b3473917b3d738ab5ec52e0b3d310c3ab8407acd40bdcd15f155dc64dec9f66",
+      "serialized_record_hash": "22af3ca784574eaf73e6f04f5d911b1cff6559f02892abc78cd905546634b1b1",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_KNW_050",
+      "input_message_hash": "997bef7b9122d00b437cf7999768397cbbc87dae4c0ae43a3cb9f5a850063022",
+      "serialized_record_hash": "204df8b8b9aecc0bb9e9d700a0857c2a7676cb9a47e2785f7e224fb8341c1e24",
+      "target_hash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "example_id": "FULL_TR_KNW_051",
+      "input_message_hash": "b4d4a5b7054daa7bac00c01516df4933c0b9ebf630060d7a27c485cc0e7ff8fc",
+      "serialized_record_hash": "c77b04e3d838d8aefc7a7415559c9ab9a4dead1917f5697c586dae409fe70cf1",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_KNW_052",
+      "input_message_hash": "3e340b049b08f26941c2ea114b10e031529b8c6446510cd811accd508efd2d14",
+      "serialized_record_hash": "3a46acfdb53d44f3883aae808f15dee94f75d71170c993de007b1d0b147b0480",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_KNW_053",
+      "input_message_hash": "f3311de8688f5fccfdc82d7e3c11a67464dfb26ed9d25c5695c76cd350a0d3cc",
+      "serialized_record_hash": "fdd2e18424d35bc6bf626e9c62e21f5358e0f924b6ca71176ed03feafc649974",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_KNW_054",
+      "input_message_hash": "5974d75a02d00b8cfa8a5e2eaec5a8df40445236c01232fdcc029512859b0610",
+      "serialized_record_hash": "622b02e67101f485541cee38c451b0b857dca6b24b8906e93e6b8d0ee548da1b",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_KNW_055",
+      "input_message_hash": "4f14a260a2ff1aede3a2ad1885d723a0c9edc20e4eb9906d39396f4926ce77f1",
+      "serialized_record_hash": "5d38f501934b4abb27a0ac1d0912a170c26196437aa1f762ec614a84d3ae5f99",
+      "target_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+    },
+    {
+      "example_id": "FULL_TR_KNW_056",
+      "input_message_hash": "f81b39d955803903e6f78ba451ad09ce2ebbb2bcfb41cabb48daee48f3705aca",
+      "serialized_record_hash": "40bc8e4c46a4777792820e459493b4ebe7323cecb269068cf0070f84150b867e",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_057",
+      "input_message_hash": "44f41c33e45299a5d001c0f61a09e374c5579acc9c9cce219265f3f0537d7ebb",
+      "serialized_record_hash": "002771438dd5d2d484a1d0c17192aad05551e874f3ad5ee0cd89239c51bb69e4",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_058",
+      "input_message_hash": "916a254b7ba85d4d881ddc7f86dcd1964004932ca01b923cc6373232d1854907",
+      "serialized_record_hash": "54aa15ed656a645422638398f784ad6a888b164944e1479ce39af42abad9358a",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_059",
+      "input_message_hash": "40696cb0283cddd2aff66c0dba60b102974c48244c831773dc0de2c19f40b72f",
+      "serialized_record_hash": "d5929bec2abb6398618ca5fc5ee6fdb67303bf00e99cfc669cd84117e494c02f",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_060",
+      "input_message_hash": "584ef330394758ea4fdbcb897d9e9650d01791e7b8637e50432d32aea3370355",
+      "serialized_record_hash": "0dcc8596875cb274904d91990bfced8ab41f66273dac5e95f71552613db21da3",
+      "target_hash": "4c1029697ee358715d3a14a2add817c4b01651440de808371f78165ac90dc581"
+    },
+    {
+      "example_id": "FULL_TR_KNW_061",
+      "input_message_hash": "035556be74eed5cd21336d4f35e7b9a7aa51c8b8ea13cf04dc9de5c4d784a33e",
+      "serialized_record_hash": "cfa707568a7aabb7f5085d0f8056a455bfe8127af9169995ca0e364eda1f880f",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_KNW_062",
+      "input_message_hash": "2c0152942a624221c831ccf8952c30ffb8e0b2bbf9a1a3f6851e0c8e3c271909",
+      "serialized_record_hash": "ea6d84c8648acd810e18d73a8d4a74649c811ea4a59a5f64d802a5da0cb14185",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_KNW_063",
+      "input_message_hash": "508c0d8eb662d2453538ea1e64ff2de5afc87f8e6d6b12da2b3ffd7abb38c71d",
+      "serialized_record_hash": "2926dc8b94fc9a6adc62f92e2c7d41031b57e54533b4b83f8937ba44bcc67061",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_KNW_064",
+      "input_message_hash": "1198c34f8bd97c728c5fc7135a4ffd27da74095e3a87ead00f8a3544470377c1",
+      "serialized_record_hash": "0c87c91b9542ae60f4611dd4cadf8f78a8a47c323d6b17cbaea4e22db2025ecc",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_KNW_065",
+      "input_message_hash": "1a1c0ffcc659d11ef2c10c13f13f917ac31de74556080a05f28fe13dcd80b345",
+      "serialized_record_hash": "495a628735d3e59b8856d683cc3a51d507b86c4aa8656f405e76fe4af63ca4a8",
+      "target_hash": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "example_id": "FULL_TR_KNW_066",
+      "input_message_hash": "f196d4346bc80f1d6c045f8d0469eaa4a28b13513bca8cfa3f8c936010639229",
+      "serialized_record_hash": "030348ec07d3fec9bc21d10d60bdaa33a02a751a61da0aa9f712b7d09e0aa5d7",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_KNW_067",
+      "input_message_hash": "240e5cfe025f3ca2295a9508a70e668f49095c3b8b2282667b2d3eec899d4947",
+      "serialized_record_hash": "4f2eb73145ea3dd07955bf18aba2c7679a1e327a677e8ac55c2ca879a2655e84",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_KNW_068",
+      "input_message_hash": "ad983665588f8956a4d4fb7ca1c2ecb6b8b3b48049cecb51617a0e9a4ba206a2",
+      "serialized_record_hash": "c29e1d0e8c65f9d0956426ac119057a25db238475678335fe3aec6177951ae3d",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_KNW_069",
+      "input_message_hash": "4b0191e1b49c604585b077b165f6f3f80d15740781268492d1c48bbbe15faa0e",
+      "serialized_record_hash": "499052f6030e2f149a2b51af15fd7573c85b824803de7c7bb86a9a85030c1206",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_KNW_070",
+      "input_message_hash": "cb692c7c0122803c15459e125e609b85a13d4c68a6b80da9185c64d57a30bb35",
+      "serialized_record_hash": "102a544a770c9252b7dd2c2d2161d3b654a0ed5c5b3f829db260d158a15b9407",
+      "target_hash": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+    },
+    {
+      "example_id": "FULL_TR_KNW_071",
+      "input_message_hash": "9c79150d7cd16bfbe7217c895f10b71cf93b9ad01658ec92ba57a5454fcec8dc",
+      "serialized_record_hash": "733e12c2441c4b1a47c135074c75cc69978ea723b945894876055b7e6a4b773a",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_KNW_072",
+      "input_message_hash": "7d8186553b37a6288db27002e617350bf962f1b6a06569d1e2e49ddebcd13bca",
+      "serialized_record_hash": "4f3123a4805a9d25f1c50f8d43ff01376d7bbf9254e3818d5ee74d09fe6970fc",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_KNW_073",
+      "input_message_hash": "f981a9c36626f26d612321d77ff5125a6887a797292cd440f63e48ae9be6caa6",
+      "serialized_record_hash": "8fdec830315601a4fd50df1e39b44ae492da125ede2c077b0023b98679b2f04a",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_KNW_074",
+      "input_message_hash": "2590707c68de0dbfb0a8a77ab179a717fe432a21d119e1bb33a6538b86f8e666",
+      "serialized_record_hash": "549aea6371db88880fa7b4db2a39e9ddd40a14caa0f4ef8f682e81c777e2928e",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    },
+    {
+      "example_id": "FULL_TR_KNW_075",
+      "input_message_hash": "738c673c0c643390801c986506de9ebb0a414392ec9a3e51187d7a57ce1f00d6",
+      "serialized_record_hash": "cd2f0e10a49a307cbfaeccd8f6057b82b82ca668db6923bcec18e7c25c6b10c2",
+      "target_hash": "cd2a9569f15684202809d0d2b774e0bccf679f0fb9b2ee0e35f807da2c3ed0b0"
+    }
+  ],
+  "runtime_environment": {
+    "machine_architecture": "arm64",
+    "macos_version": "26.5.2",
+    "mlx_lm_version": "0.31.3",
+    "mlx_version": "0.32.0",
+    "python_version": "3.12.13"
+  },
+  "schema_version": "m5-training-formatter-artifact-v1",
+  "system_prompt_hash": "2bd1e28fbfa40740ad2f3e6fa4c801332c48c489e25cef759b19d9319195e0d8",
+  "tokenizer_identity": {
+    "chat_template_present": true,
+    "chat_template_sha256": "b2d3c4d81cc138ef3b0c1b8f9c3ac54f15f1ca38ada2eef4c3a8690baece0074",
+    "class": "Qwen2Tokenizer"
+  },
+  "training_formatter_version": "m5-training-formatter-v1",
+  "user_format_policy": "benchmark question only; no rewrite; no metadata; no retrieval or oracle context"
+}

@@ -1,0 +1,6 @@
+{
+  "candidate_id": "S2_POLICY_B_ATTN_r8_lr2e-05_iters250",
+  "candidate_manifest_hash": "7345217b043a91b7468a624e37f9ee41a0c4a50a9ecb1bbea76196cc8cbf19b4",
+  "m5b_inference_contract_hash": "921bdf65e7e704ab88dac0f9ae25744efdabdb421161fb0187d0c59bd1a05462",
+  "schema_version": "m5b-validation-inference-provenance-v1"
+}
