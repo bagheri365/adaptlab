@@ -1,0 +1,132 @@
+{
+  "schema_version": "m5b-sentinel-protocol-v1",
+  "purpose": "Confirm whether the frozen M5b primary conclusions replicate on the previously untouched 100-example sentinel split.",
+  "status_at_freeze": {
+    "sentinel_accessed": false,
+    "sentinel_outputs_generated": false,
+    "sentinel_metrics_computed": false
+  },
+  "confirmatory_question": "Do the primary M5b conclusions replicate on the untouched sentinel set under the already-selected model, retrieval method, inference contract, answer extraction, and scoring procedure?",
+  "conditions": {
+    "M5B_PROMPT": {
+      "lora": false,
+      "retrieval": false
+    },
+    "M5B_RAG": {
+      "lora": false,
+      "retrieval": true
+    },
+    "LORA": {
+      "lora": true,
+      "retrieval": false
+    },
+    "LORA_RAG": {
+      "lora": true,
+      "retrieval": true
+    }
+  },
+  "selected_lora": {
+    "candidate_id": "S2_POLICY_B_ATTN_r8_lr2e-05_iters250",
+    "checkpoint_iteration": 250,
+    "candidate_manifest_hash": "7345217b043a91b7468a624e37f9ee41a0c4a50a9ecb1bbea76196cc8cbf19b4",
+    "selection_decision_file": "artifacts/evaluation/m5/m5b_validation_selection_decision_v1.json",
+    "selection_decision_file_sha256": "2c1728105baebb0b7dbec6927d7a6958183c72af4686ff033fecda4a48735c80",
+    "selection_rule": "Reuse the already-frozen M5b validation-selected candidate. No sentinel-based candidate selection is permitted."
+  },
+  "runtime": {
+    "model": "Qwen/Qwen3-8B-Base",
+    "model_revision": "7b8a267e13df1a9427e7dfa2691f69a417c58d94",
+    "mlx_lm_version": "0.31.3",
+    "mlx_version": "0.32.0"
+  },
+  "inference": {
+    "contract_file": "artifacts/evaluation/m5/m5b_inference_contract_v1.json",
+    "contract_file_sha256": "921bdf65e7e704ab88dac0f9ae25744efdabdb421161fb0187d0c59bd1a05462",
+    "prompt_template": "{system}\\n\\n{user}\\n\\nAnswer:",
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 0,
+    "max_new_tokens": 64,
+    "answer_extraction": "Take the first non-empty generated line, strip surrounding whitespace, then remove at most one trailing period.",
+    "scoring": "Use the existing AdaptLab score_output implementation."
+  },
+  "retrieval": {
+    "method": "BM25",
+    "policy": "Use the same frozen retrieval implementation and retrieval settings as corrected M5b validation/primary evaluation. No retriever tuning or k-selection may use sentinel outcomes.",
+    "important_note": "The sentinel retrieval artifact must be generated or loaded using only the already-frozen BM25 configuration. Its identity/hash must be recorded before model outputs are scored."
+  },
+  "evaluation": {
+    "split": "sentinel",
+    "expected_n": 100,
+    "run_policy": "Evaluate each of the four frozen conditions once. Do not inspect partial condition-level accuracy and then modify configuration.",
+    "primary_metrics": [
+      "overall exact-match accuracy for each condition",
+      "family-level exact-match accuracy for each condition",
+      "paired accuracy differences on identical sentinel examples"
+    ],
+    "paired_comparisons": [
+      [
+        "M5B_PROMPT",
+        "M5B_RAG"
+      ],
+      [
+        "M5B_PROMPT",
+        "LORA"
+      ],
+      [
+        "M5B_RAG",
+        "LORA_RAG"
+      ],
+      [
+        "LORA",
+        "LORA_RAG"
+      ],
+      [
+        "M5B_PROMPT",
+        "LORA_RAG"
+      ]
+    ],
+    "paired_test": "Exact two-sided McNemar/binomial test on discordant pairs, reported descriptively with no multiple-testing adjustment.",
+    "factorial_interaction": "LORA_RAG - M5B_RAG - LORA + M5B_PROMPT"
+  },
+  "frozen_hypotheses": {
+    "H1": "Retrieval will outperform PROMPT overall, driven primarily by knowledge-bearing task families.",
+    "H2": "LoRA will outperform PROMPT overall, driven primarily by behavior-only performance.",
+    "H3": "LoRA+RAG will outperform RAG overall, indicating useful marginal contribution from weight adaptation given retrieval.",
+    "H4": "LoRA+RAG will outperform LoRA overall, indicating useful marginal contribution from retrieval given weight adaptation.",
+    "H5": "LoRA+RAG will achieve the highest overall accuracy of the four conditions.",
+    "family_expectations": {
+      "behavior_only": "LoRA-containing conditions should outperform non-LoRA conditions.",
+      "knowledge_only": "Retrieval-containing conditions should outperform corresponding non-retrieval conditions.",
+      "changed_knowledge": "Retrieval-containing conditions should outperform corresponding non-retrieval conditions.",
+      "behavior_knowledge": "No directional claim that LoRA+RAG must exceed RAG, because primary M5b showed mild interference on this family."
+    }
+  },
+  "prohibited_after_sentinel_access": [
+    "retraining any LoRA candidate",
+    "changing the selected LoRA candidate",
+    "changing LoRA rank, policy, learning rate, or checkpoint",
+    "changing retrieval method or retrieval hyperparameters",
+    "changing prompt template",
+    "changing generation parameters",
+    "changing answer extraction",
+    "changing score_output behavior",
+    "adding sentinel-derived heuristics or normalization rules",
+    "rerunning after observing results for the purpose of improving scores"
+  ],
+  "allowed_after_sentinel_access": [
+    "Correct a demonstrable implementation failure only if the failure prevents execution of the already-frozen protocol; preserve the failed run and document the correction explicitly.",
+    "Compute predeclared aggregate and paired statistics from frozen outputs.",
+    "Write results, limitations, and interpretation without altering outputs."
+  ],
+  "provenance_bindings": {
+    "m5b_validation_summary_file_sha256": "bd108120b1ab521666e95e1c9bd4defc70612f11b719259a51592e17dac09420",
+    "m5b_primary_summary_file_sha256": "a90ffd1fbfd3ee261af1ec008f2de17ef355041ffaa0d28f779dc574ebdb94a0",
+    "m5b_primary_paired_analysis_file_sha256": "21849906630be8670b2bfe7d6c13a553b2883c7189c14d8be8eb89c6c013f8e5",
+    "m5b_primary_paired_analysis_logical_hash": "010a30579c99273d43b158282a673105c0ab7e9102d0ed1b11383f226465d7ee",
+    "m5b_milestone_commit": "1bed76f",
+    "m5b_milestone_tag": "v0.3-lora-rag"
+  },
+  "interpretation_rule": "Treat the sentinel as confirmatory evidence about replication of the already-observed M5b pattern, not as a new model-selection or tuning set.",
+  "protocol_hash": "05cb7582aa548dfe9e55bf66b060f3183203470492bbf215af3921d8feaf85f3"
+}
